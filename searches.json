@@ -1,0 +1,16 @@
+{
+  "searches": [
+    {
+      "id": "search-001",
+      "query": "office chair with mesh seat",
+      "active": true,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "search-002",
+      "query": "stainless steel cooking pan",
+      "active": true,
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  ]
+}
