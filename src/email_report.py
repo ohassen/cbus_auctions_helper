@@ -27,12 +27,14 @@ class EmailConfig:
     @classmethod
     def from_env(cls) -> "EmailConfig":
         """Load configuration from environment variables."""
+        # Handle empty strings by using 'or' to fall back to defaults
+        smtp_port_str = os.getenv("EMAIL_SMTP_PORT") or "587"
         return cls(
-            smtp_host=os.getenv("EMAIL_SMTP_HOST", "smtp.gmail.com"),
-            smtp_port=int(os.getenv("EMAIL_SMTP_PORT", "587")),
-            username=os.getenv("EMAIL_USER", ""),
-            password=os.getenv("EMAIL_PASSWORD", ""),
-            recipient=os.getenv("EMAIL_RECIPIENT", ""),
+            smtp_host=os.getenv("EMAIL_SMTP_HOST") or "smtp.gmail.com",
+            smtp_port=int(smtp_port_str),
+            username=os.getenv("EMAIL_USER") or "",
+            password=os.getenv("EMAIL_PASSWORD") or "",
+            recipient=os.getenv("EMAIL_RECIPIENT") or "",
             sender=os.getenv("EMAIL_SENDER")
         )
 
