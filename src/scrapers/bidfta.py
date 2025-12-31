@@ -13,8 +13,8 @@ from ..database import AuctionItem
 
 logger = logging.getLogger(__name__)
 
-# Columbus-area location identifiers
-COLUMBUS_LOCATIONS = [
+# Columbus-area location identifiers (city names)
+COLUMBUS_CITIES = [
     "columbus",
     "westerville",
     "grove city",
@@ -37,8 +37,10 @@ COLUMBUS_LOCATIONS = [
     "circleville",
     "marysville",
     "mount vernon",
-    "43",  # Columbus ZIP codes start with 43
 ]
+
+# Columbus-area ZIP code prefixes (432xx, 430xx ranges)
+COLUMBUS_ZIP_PREFIXES = ["432", "430", "431"]
 
 
 class BidFTAScraper(BaseScraper):
@@ -55,7 +57,19 @@ class BidFTAScraper(BaseScraper):
         if not location_text:
             return False
         location_lower = location_text.lower()
-        return any(loc in location_lower for loc in COLUMBUS_LOCATIONS)
+
+        # Check city names
+        if any(city in location_lower for city in COLUMBUS_CITIES):
+            return True
+
+        # Check ZIP code prefixes (e.g., 432xx, 430xx)
+        zip_match = re.search(r'\b(\d{5})\b', location_text)
+        if zip_match:
+            zip_code = zip_match.group(1)
+            if any(zip_code.startswith(prefix) for prefix in COLUMBUS_ZIP_PREFIXES):
+                return True
+
+        return False
 
     async def search(self, query: str) -> AsyncIterator[str]:
         """Search for items and yield listing URLs (Columbus locations only)."""

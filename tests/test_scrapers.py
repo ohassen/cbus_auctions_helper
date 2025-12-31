@@ -5,7 +5,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 from src.scrapers.base import BaseScraper, ScraperConfig
 from src.scrapers.capital_city import CapitalCityScraper
-from src.scrapers.bidfta import BidFTAScraper, COLUMBUS_LOCATIONS
+from src.scrapers.bidfta import BidFTAScraper, COLUMBUS_CITIES, COLUMBUS_ZIP_PREFIXES
 
 
 class TestScraperConfig:
@@ -124,10 +124,10 @@ class TestBidFTAScraper:
 
     def test_columbus_locations_list(self):
         """Test that Columbus locations list contains expected values."""
-        assert "columbus" in COLUMBUS_LOCATIONS
-        assert "westerville" in COLUMBUS_LOCATIONS
-        assert "dublin" in COLUMBUS_LOCATIONS
-        assert "43" in COLUMBUS_LOCATIONS  # ZIP code prefix
+        assert "columbus" in COLUMBUS_CITIES
+        assert "westerville" in COLUMBUS_CITIES
+        assert "dublin" in COLUMBUS_CITIES
+        assert "432" in COLUMBUS_ZIP_PREFIXES  # Columbus ZIP prefix
 
 
 class TestScraperIntegration:
