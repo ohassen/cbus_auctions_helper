@@ -61,7 +61,7 @@ jobs:
       - name: Install Playwright browsers
         run: |
           playwright install chromium
-          sudo $(which playwright) install-deps chromium
+          sudo env "PATH=$PATH" playwright install-deps chromium
 
       - name: Restore database cache
         uses: actions/cache@v4
