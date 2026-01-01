@@ -74,8 +74,7 @@ jobs:
       - name: Run auction monitor
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          EMAIL_SMTP_HOST: ${{ secrets.EMAIL_SMTP_HOST }}
-          EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT }}
+          # EMAIL_SMTP_HOST and EMAIL_SMTP_PORT use defaults (smtp.gmail.com:587)
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -139,8 +138,6 @@ jobs:
     steps:
       - name: Send failure notification
         env:
-          EMAIL_SMTP_HOST: ${{ secrets.EMAIL_SMTP_HOST }}
-          EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT }}
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
@@ -151,8 +148,8 @@ jobs:
           import os
           from email.mime.text import MIMEText
 
-          smtp_host = os.environ.get('EMAIL_SMTP_HOST', 'smtp.gmail.com')
-          smtp_port = int(os.environ.get('EMAIL_SMTP_PORT', '587'))
+          smtp_host = 'smtp.gmail.com'
+          smtp_port = 587
           username = os.environ.get('EMAIL_USER', '')
           password = os.environ.get('EMAIL_PASSWORD', '')
           recipient = os.environ.get('EMAIL_RECIPIENT', '')
