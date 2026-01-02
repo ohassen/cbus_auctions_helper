@@ -81,69 +81,142 @@ class CapitalCityScraper(BaseScraper):
             await self._rate_limit()
 
     async def _search_term(self, search_term: str) -> AsyncIterator[str]:
-        """Search for a single term and yield listing URLs."""
-        # Try multiple URL patterns that auction sites commonly use
-        search_urls = [
-            f"{self.base_url}/Public/Search?query={quote(search_term)}",
-            f"{self.base_url}/Public/Auction/Search?query={quote(search_term)}",
-            f"{self.base_url}/search?q={quote(search_term)}",
-            f"{self.base_url}/?s={quote(search_term)}",
-        ]
+        """Search for a single term and yield listing URLs using the site's search form."""
+        try:
+            # Navigate to the main page
+            logger.info(f"Navigating to {self.base_url} to search for '{search_term}'")
+            await self._page.goto(self.base_url, wait_until="networkidle")
+            await asyncio.sleep(1)
 
-        for search_url in search_urls:
-            found_any = False
+            # Find and use the search form - try multiple approaches
+            search_input = None
+            search_selectors = [
+                "input[type='search']",
+                "input[name='searchText']",
+                "input[name='search']",
+                "input[name='q']",
+                "input[placeholder*='search' i]",
+                "input[placeholder*='Search' i]",
+                "#searchText",
+                "#search",
+                ".search-input",
+                "[class*='search'] input[type='text']",
+                "input.form-control[type='text']",
+            ]
+
+            for selector in search_selectors:
+                try:
+                    search_input = await self._page.query_selector(selector)
+                    if search_input:
+                        is_visible = await search_input.is_visible()
+                        if is_visible:
+                            logger.info(f"Found search input with selector: {selector}")
+                            break
+                        search_input = None
+                except Exception:
+                    continue
+
+            if not search_input:
+                # Try to find any visible text input
+                inputs = await self._page.query_selector_all("input[type='text']")
+                for inp in inputs:
+                    try:
+                        if await inp.is_visible():
+                            search_input = inp
+                            logger.info("Found visible text input as fallback")
+                            break
+                    except Exception:
+                        continue
+
+            if not search_input:
+                logger.warning("Could not find search input on Capital City page")
+                return
+
+            # Clear and type the search term
+            await search_input.click()
+            await search_input.fill("")
+            await search_input.type(search_term, delay=50)
+            await asyncio.sleep(0.5)
+
+            # Submit the search - try pressing Enter or clicking a search button
+            await search_input.press("Enter")
+
+            # Wait for navigation/results
+            try:
+                await self._page.wait_for_load_state("networkidle", timeout=15000)
+            except PlaywrightTimeout:
+                logger.warning("Timeout waiting for search results")
+
+            await asyncio.sleep(2)  # Extra time for JS rendering
+
+            # Now scrape the results
             page_num = 1
             max_pages = 5
 
             while page_num <= max_pages:
-                try:
-                    current_url = search_url if page_num == 1 else f"{search_url}&page={page_num}"
-                    logger.info(f"Trying search URL: {current_url}")
+                logger.info(f"Scraping search results page {page_num}")
 
-                    response = await self._page.goto(current_url, wait_until="networkidle")
+                # Find listing links
+                listing_links = await self._find_listing_links()
 
-                    # Check if we got redirected to a 404 or error page
-                    if response and response.status >= 400:
-                        logger.debug(f"Got status {response.status} for {current_url}")
-                        break
-
-                    await asyncio.sleep(1.5)  # Allow JS to render
-
-                    # Try multiple selector strategies to find listing links
-                    listing_links = await self._find_listing_links()
-
-                    if not listing_links:
-                        if page_num == 1:
-                            logger.debug(f"No listings found with URL pattern: {search_url}")
-                            break  # Try next URL pattern
-                        else:
-                            logger.info(f"No more listings on page {page_num}")
-                            break
-
-                    found_any = True
-                    logger.info(f"Found {len(listing_links)} listings on page {page_num}")
-
-                    for url in listing_links:
-                        yield url
-
-                    # Check for next page
-                    has_next = await self._has_next_page()
-                    if not has_next:
-                        break
-
-                    page_num += 1
-                    await self._rate_limit()
-
-                except PlaywrightTimeout:
-                    logger.warning(f"Timeout on search page {page_num}")
-                    break
-                except Exception as e:
-                    logger.error(f"Error on search: {e}")
+                if not listing_links:
+                    if page_num == 1:
+                        logger.info(f"No listings found for search term '{search_term}'")
                     break
 
-            # If we found items with this URL pattern, don't try others
-            if found_any:
-                break
+                logger.info(f"Found {len(listing_links)} listings on page {page_num}")
+
+                for url in listing_links:
+                    yield url
+
+                # Check for next page
+                has_next = await self._has_next_page()
+                if not has_next:
+                    break
+
+                # Click next page
+                next_clicked = await self._click_next_page()
+                if not next_clicked:
+                    break
+
+                page_num += 1
+                await asyncio.sleep(1.5)
+
+        except PlaywrightTimeout:
+            logger.warning(f"Timeout during search for '{search_term}'")
+        except Exception as e:
+            logger.error(f"Error during search for '{search_term}': {e}")
+
+    async def _click_next_page(self) -> bool:
+        """Click the next page button and wait for navigation."""
+        next_selectors = [
+            "a:has-text('Next')",
+            "a:has-text('>')",
+            "a:has-text('›')",
+            ".pagination-next",
+            "a.next",
+            "[aria-label='Next']",
+            ".page-link:has-text('Next')",
+            "li.next a",
+        ]
+
+        for selector in next_selectors:
+            try:
+                next_button = await self._page.query_selector(selector)
+                if next_button:
+                    is_disabled = await next_button.get_attribute("disabled")
+                    aria_disabled = await next_button.get_attribute("aria-disabled")
+                    classes = await next_button.get_attribute("class") or ""
+
+                    if not is_disabled and aria_disabled != "true" and "disabled" not in classes:
+                        await next_button.click()
+                        await self._page.wait_for_load_state("networkidle", timeout=10000)
+                        await asyncio.sleep(1)
+                        return True
+            except Exception:
+                continue
+
+        return False
 
     async def _find_listing_links(self) -> list[str]:
         """Find all listing links on the current page."""

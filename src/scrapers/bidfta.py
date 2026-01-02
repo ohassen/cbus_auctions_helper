@@ -43,6 +43,10 @@ COLUMBUS_CITIES = [
 # Columbus-area ZIP code prefixes (432xx, 430xx ranges)
 COLUMBUS_ZIP_PREFIXES = ["432", "430", "431"]
 
+# BidFTA Columbus-area location IDs (from the URL pattern)
+# These are the location IDs that correspond to Columbus area warehouses
+COLUMBUS_LOCATION_IDS = ["5", "510", "10"]
+
 
 class BidFTAScraper(BaseScraper):
     """Scraper for BidFTA.com, filtering for Columbus-area locations."""
@@ -96,136 +100,83 @@ class BidFTAScraper(BaseScraper):
 
     async def _search_term(self, search_term: str) -> AsyncIterator[str]:
         """Search for a single term and yield listing URLs (Columbus locations only)."""
-        # BidFTA search URL pattern - try multiple patterns
-        search_urls = [
-            f"{self.base_url}/search?{urlencode({'q': search_term})}",
-            f"{self.base_url}/auctions?search={quote_plus(search_term)}",
-            f"{self.base_url}/lots?q={quote_plus(search_term)}",
-        ]
+        # Build the correct BidFTA search URL with Columbus location IDs
+        # Format: /items?pageId=1&itemSearchKeywords=office+chair&locations=5&locations=510&locations=10
+        location_params = "&".join([f"locations={loc_id}" for loc_id in COLUMBUS_LOCATION_IDS])
 
-        for search_url in search_urls:
-            found_any = False
-            page_num = 1
-            max_pages = 10  # Safety limit
+        page_num = 1
+        max_pages = 10  # Safety limit
 
-            while page_num <= max_pages:
+        while page_num <= max_pages:
+            try:
+                search_url = f"{self.base_url}/items?pageId={page_num}&itemSearchKeywords={quote_plus(search_term)}&{location_params}"
+                logger.info(f"Searching BidFTA: {search_url}")
+
+                await self._page.goto(search_url, wait_until="networkidle")
+                await asyncio.sleep(2)  # Allow JS to render (React site)
+
+                # BidFTA uses React/dynamic content, wait for listings
                 try:
-                    current_url = search_url if page_num == 1 else f"{search_url}&page={page_num}"
-                    logger.info(f"Trying search URL: {current_url}")
-
-                    await self._page.goto(current_url, wait_until="networkidle")
-                    await asyncio.sleep(1.5)  # Allow JS to render
-
-                    # BidFTA uses React/dynamic content, wait for listings
-                    try:
-                        await self._page.wait_for_selector(
-                            ".auction-item, .lot-item, .product-card, [class*='item-card'], [class*='auction']",
-                            timeout=10000
-                        )
-                    except PlaywrightTimeout:
-                        if page_num == 1:
-                            logger.debug(f"No items found with URL pattern: {search_url}")
-                            break  # Try next URL pattern
-                        else:
-                            logger.info("No more items on page")
-                            break
-
-                    # Find all listing items with location info
-                    items_found = 0
-                    columbus_items = 0
-
-                    # Try multiple selector strategies
-                    item_selectors = [
-                        ".auction-item",
-                        ".lot-item",
-                        ".product-card",
-                        "[class*='item-card']",
-                        "[class*='lot-card']",
-                        ".search-result-item",
-                        "[data-lot-id]",
-                    ]
-
-                    for selector in item_selectors:
-                        items = await self._page.query_selector_all(selector)
-                        if items:
-                            logger.info(f"Found {len(items)} items with selector: {selector}")
-                            items_found = len(items)
-                            found_any = True
-
-                            for item in items:
-                                # Get location text
-                                location_text = ""
-                                location_selectors = [
-                                    ".location",
-                                    ".pickup-location",
-                                    "[class*='location']",
-                                    ".facility",
-                                    ".warehouse",
-                                ]
-                                for loc_sel in location_selectors:
-                                    loc_el = await item.query_selector(loc_sel)
-                                    if loc_el:
-                                        location_text = await loc_el.inner_text()
-                                        break
-
-                                # If no specific location element, search in item text
-                                if not location_text:
-                                    item_text = await item.inner_text()
-                                    # Look for location patterns
-                                    location_match = re.search(
-                                        r"(?:Location|Pickup|Facility)[:\s]*([^\n]+)",
-                                        item_text,
-                                        re.IGNORECASE
-                                    )
-                                    if location_match:
-                                        location_text = location_match.group(1)
-
-                                # Check if Columbus area
-                                if self._is_columbus_location(location_text):
-                                    # Get item URL
-                                    link = await item.query_selector("a[href*='lot'], a[href*='item'], a[href*='details']")
-                                    if not link:
-                                        link = await item.query_selector("a")
-                                    if link:
-                                        href = await link.get_attribute("href")
-                                        if href:
-                                            full_url = urljoin(self.base_url, href)
-                                            columbus_items += 1
-                                            yield full_url
-                            break  # Found items with this selector
-
-                    logger.info(f"Page {page_num}: {items_found} total items, {columbus_items} in Columbus area")
-
-                    if items_found == 0:
-                        break
-
-                    # Check for next page
-                    next_button = await self._page.query_selector(
-                        "a:has-text('Next'), button:has-text('Next'), .pagination-next, [class*='next-page'], a[rel='next']"
+                    await self._page.wait_for_selector(
+                        ".auction-item, .lot-item, .product-card, [class*='item-card'], [class*='ItemCard'], .item-grid-item, [class*='auction']",
+                        timeout=10000
                     )
-                    if not next_button:
-                        logger.info("No more pages")
-                        break
-
-                    # Check if next button is disabled
-                    is_disabled = await next_button.get_attribute("disabled")
-                    aria_disabled = await next_button.get_attribute("aria-disabled")
-                    classes = await next_button.get_attribute("class") or ""
-                    if is_disabled or aria_disabled == "true" or "disabled" in classes:
-                        break
-
-                    page_num += 1
-                    await self._rate_limit()
-
                 except PlaywrightTimeout:
-                    logger.warning(f"Timeout on search page {page_num}")
-                    break
-                except Exception as e:
-                    logger.error(f"Error on search page {page_num}: {e}")
+                    if page_num == 1:
+                        logger.info(f"No items found for search term '{search_term}'")
+                    else:
+                        logger.info("No more items on page")
                     break
 
-            # If we found items with this URL pattern, don't try others
-            if found_any:
+                # Find all listing items - the API already filters for Columbus locations
+                items_found = 0
+
+                # Try multiple selector strategies for BidFTA's React components
+                item_selectors = [
+                    "[class*='ItemCard']",
+                    "[class*='item-card']",
+                    ".auction-item",
+                    ".lot-item",
+                    ".product-card",
+                    "[class*='lot-card']",
+                    ".item-grid-item",
+                    "[data-lot-id]",
+                    ".search-result-item",
+                ]
+
+                for selector in item_selectors:
+                    items = await self._page.query_selector_all(selector)
+                    if items:
+                        logger.info(f"Found {len(items)} items with selector: {selector}")
+                        items_found = len(items)
+
+                        for item in items:
+                            # Get item URL - since we're already filtering by Columbus locations
+                            # in the URL, we just need to extract the links
+                            link = await item.query_selector("a[href*='itemDetails'], a[href*='item'], a[href*='lot']")
+                            if not link:
+                                link = await item.query_selector("a")
+                            if link:
+                                href = await link.get_attribute("href")
+                                if href:
+                                    full_url = urljoin(self.base_url, href)
+                                    yield full_url
+                        break  # Found items with this selector
+
+                logger.info(f"Page {page_num}: {items_found} items found")
+
+                if items_found == 0:
+                    break
+
+                # Check for next page - just increment pageId since we control it
+                page_num += 1
+                await self._rate_limit()
+
+            except PlaywrightTimeout:
+                logger.warning(f"Timeout on search page {page_num}")
+                break
+            except Exception as e:
+                logger.error(f"Error on search page {page_num}: {e}")
                 break
 
     async def scrape_listing(self, url: str, search_id: str) -> Optional[AuctionItem]:
