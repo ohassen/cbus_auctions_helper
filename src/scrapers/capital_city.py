@@ -4,7 +4,7 @@ import asyncio
 import logging
 import re
 from typing import Optional, AsyncIterator
-from urllib.parse import urljoin, urlencode
+from urllib.parse import urljoin, urlencode, quote
 
 from playwright.async_api import TimeoutError as PlaywrightTimeout
 
@@ -12,6 +12,41 @@ from .base import BaseScraper, ScraperConfig
 from ..database import AuctionItem
 
 logger = logging.getLogger(__name__)
+
+
+def extract_search_terms(query: str) -> list[str]:
+    """
+    Extract simple search terms from a complex query.
+
+    For "office chair with mesh seat" -> ["office chair", "chair"]
+    For "stainless steel cooking pan" -> ["stainless steel pan", "pan", "cookware"]
+
+    Returns multiple search terms to try, from most specific to least.
+    """
+    # Remove common filler words
+    stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of'}
+    words = [w.lower() for w in query.split() if w.lower() not in stop_words]
+
+    search_terms = []
+
+    # Try the first two words together
+    if len(words) >= 2:
+        search_terms.append(f"{words[0]} {words[1]}")
+
+    # Try just the main noun (usually last significant word or second word)
+    if len(words) >= 2:
+        search_terms.append(words[1])  # e.g., "chair" from "office chair"
+
+    if len(words) >= 1:
+        search_terms.append(words[0])  # e.g., "office"
+
+    # If query contains specific item types, add them
+    item_types = ['chair', 'desk', 'table', 'pan', 'pot', 'cookware', 'furniture', 'electronics']
+    for item_type in item_types:
+        if item_type in query.lower() and item_type not in search_terms:
+            search_terms.append(item_type)
+
+    return search_terms[:3]  # Return top 3 search terms
 
 
 class CapitalCityScraper(BaseScraper):
@@ -22,103 +57,203 @@ class CapitalCityScraper(BaseScraper):
 
     def __init__(self, config: Optional[ScraperConfig] = None):
         super().__init__(config)
+        self._found_urls = set()  # Track URLs across search terms to avoid duplicates
 
     async def search(self, query: str) -> AsyncIterator[str]:
         """Search for items and yield listing URLs."""
-        # Capital City uses a search page with pagination
-        search_url = f"{self.base_url}/cgi-bin/mnlist.cgi?{urlencode({'search': query})}"
+        self._found_urls = set()
 
-        page_num = 1
-        max_pages = 10  # Safety limit
+        # Extract simple search terms from the complex query
+        search_terms = extract_search_terms(query)
+        logger.info(f"Query '{query}' -> search terms: {search_terms}")
 
-        while page_num <= max_pages:
-            try:
-                current_url = search_url if page_num == 1 else f"{search_url}&page={page_num}"
-                logger.info(f"Searching page {page_num}: {current_url}")
-
-                await self._page.goto(current_url, wait_until="networkidle")
-                await asyncio.sleep(1)  # Allow JS to render
-
-                # Look for listing links - common patterns for auction sites
-                # Try multiple selector strategies
-                listing_links = []
-
-                # Strategy 1: Links in table rows
-                links = await self._page.query_selector_all("table tr td a[href*='mndetails']")
-                for link in links:
-                    href = await link.get_attribute("href")
-                    if href:
-                        listing_links.append(urljoin(self.base_url, href))
-
-                # Strategy 2: Links with lot/item in URL
-                if not listing_links:
-                    links = await self._page.query_selector_all("a[href*='lot'], a[href*='item'], a[href*='details']")
-                    for link in links:
-                        href = await link.get_attribute("href")
-                        if href and ("lot" in href.lower() or "item" in href.lower() or "details" in href.lower()):
-                            listing_links.append(urljoin(self.base_url, href))
-
-                # Strategy 3: Product cards/tiles
-                if not listing_links:
-                    cards = await self._page.query_selector_all(".product-card a, .auction-item a, .lot-card a, .item-card a")
-                    for card in cards:
-                        href = await card.get_attribute("href")
-                        if href:
-                            listing_links.append(urljoin(self.base_url, href))
-
-                # Deduplicate
-                listing_links = list(dict.fromkeys(listing_links))
-
-                if not listing_links:
-                    logger.info(f"No listings found on page {page_num}")
-                    break
-
-                logger.info(f"Found {len(listing_links)} listings on page {page_num}")
-                for url in listing_links:
+        for search_term in search_terms:
+            async for url in self._search_term(search_term):
+                if url not in self._found_urls:
+                    self._found_urls.add(url)
                     yield url
 
-                # Check for next page
-                next_button = await self._page.query_selector(
-                    "a:has-text('Next'), a:has-text('›'), a.next-page, .pagination a:has-text('Next')"
-                )
-                if not next_button:
-                    logger.info("No more pages")
+            # If we found items with a term, don't try less specific terms
+            if self._found_urls:
+                logger.info(f"Found {len(self._found_urls)} items with term '{search_term}'")
+                break
+
+            await self._rate_limit()
+
+    async def _search_term(self, search_term: str) -> AsyncIterator[str]:
+        """Search for a single term and yield listing URLs."""
+        # Try multiple URL patterns that auction sites commonly use
+        search_urls = [
+            f"{self.base_url}/Public/Search?query={quote(search_term)}",
+            f"{self.base_url}/Public/Auction/Search?query={quote(search_term)}",
+            f"{self.base_url}/search?q={quote(search_term)}",
+            f"{self.base_url}/?s={quote(search_term)}",
+        ]
+
+        for search_url in search_urls:
+            found_any = False
+            page_num = 1
+            max_pages = 5
+
+            while page_num <= max_pages:
+                try:
+                    current_url = search_url if page_num == 1 else f"{search_url}&page={page_num}"
+                    logger.info(f"Trying search URL: {current_url}")
+
+                    response = await self._page.goto(current_url, wait_until="networkidle")
+
+                    # Check if we got redirected to a 404 or error page
+                    if response and response.status >= 400:
+                        logger.debug(f"Got status {response.status} for {current_url}")
+                        break
+
+                    await asyncio.sleep(1.5)  # Allow JS to render
+
+                    # Try multiple selector strategies to find listing links
+                    listing_links = await self._find_listing_links()
+
+                    if not listing_links:
+                        if page_num == 1:
+                            logger.debug(f"No listings found with URL pattern: {search_url}")
+                            break  # Try next URL pattern
+                        else:
+                            logger.info(f"No more listings on page {page_num}")
+                            break
+
+                    found_any = True
+                    logger.info(f"Found {len(listing_links)} listings on page {page_num}")
+
+                    for url in listing_links:
+                        yield url
+
+                    # Check for next page
+                    has_next = await self._has_next_page()
+                    if not has_next:
+                        break
+
+                    page_num += 1
+                    await self._rate_limit()
+
+                except PlaywrightTimeout:
+                    logger.warning(f"Timeout on search page {page_num}")
+                    break
+                except Exception as e:
+                    logger.error(f"Error on search: {e}")
                     break
 
-                # Check if next button is disabled
-                is_disabled = await next_button.get_attribute("disabled")
-                classes = await next_button.get_attribute("class") or ""
-                if is_disabled or "disabled" in classes:
-                    break
-
-                page_num += 1
-                await self._rate_limit()
-
-            except PlaywrightTimeout:
-                logger.warning(f"Timeout on search page {page_num}")
+            # If we found items with this URL pattern, don't try others
+            if found_any:
                 break
-            except Exception as e:
-                logger.error(f"Error on search page {page_num}: {e}")
-                break
+
+    async def _find_listing_links(self) -> list[str]:
+        """Find all listing links on the current page."""
+        listing_links = []
+
+        # Strategy 1: Links to AuctionItemDetail pages
+        links = await self._page.query_selector_all("a[href*='AuctionItemDetail'], a[href*='ItemDetail'], a[href*='item-detail']")
+        for link in links:
+            href = await link.get_attribute("href")
+            if href:
+                listing_links.append(urljoin(self.base_url, href))
+
+        # Strategy 2: Links with lot/item/auction in URL
+        if not listing_links:
+            links = await self._page.query_selector_all("a[href*='lot'], a[href*='item'], a[href*='auction']")
+            for link in links:
+                href = await link.get_attribute("href")
+                if href and any(x in href.lower() for x in ['detail', 'view', 'lot', 'item']):
+                    full_url = urljoin(self.base_url, href)
+                    if full_url not in listing_links:
+                        listing_links.append(full_url)
+
+        # Strategy 3: Product cards/tiles with links
+        if not listing_links:
+            selectors = [
+                ".auction-item a",
+                ".lot-item a",
+                ".product-card a",
+                ".item-card a",
+                ".listing-item a",
+                "[class*='auction'] a[href]",
+                "[class*='item'] a[href]",
+                ".card a[href]",
+            ]
+            for selector in selectors:
+                try:
+                    cards = await self._page.query_selector_all(selector)
+                    for card in cards:
+                        href = await card.get_attribute("href")
+                        if href and href != "#":
+                            full_url = urljoin(self.base_url, href)
+                            if full_url not in listing_links:
+                                listing_links.append(full_url)
+                except:
+                    continue
+
+        # Strategy 4: Any link that looks like a product detail page
+        if not listing_links:
+            all_links = await self._page.query_selector_all("a[href]")
+            for link in all_links:
+                href = await link.get_attribute("href")
+                if href and any(x in href.lower() for x in ['detail', 'product', 'lot', 'item']) \
+                   and not any(x in href.lower() for x in ['login', 'register', 'cart', 'account']):
+                    full_url = urljoin(self.base_url, href)
+                    if full_url not in listing_links and full_url != self.base_url:
+                        listing_links.append(full_url)
+
+        # Deduplicate while preserving order
+        seen = set()
+        unique_links = []
+        for link in listing_links:
+            if link not in seen:
+                seen.add(link)
+                unique_links.append(link)
+
+        return unique_links[:50]  # Limit to first 50 items
+
+    async def _has_next_page(self) -> bool:
+        """Check if there's a next page."""
+        next_selectors = [
+            "a:has-text('Next')",
+            "a:has-text('>')",
+            "a:has-text('›')",
+            ".pagination-next",
+            "a.next",
+            "[aria-label='Next']",
+        ]
+
+        for selector in next_selectors:
+            try:
+                next_button = await self._page.query_selector(selector)
+                if next_button:
+                    is_disabled = await next_button.get_attribute("disabled")
+                    aria_disabled = await next_button.get_attribute("aria-disabled")
+                    classes = await next_button.get_attribute("class") or ""
+
+                    if not is_disabled and aria_disabled != "true" and "disabled" not in classes:
+                        return True
+            except:
+                continue
+
+        return False
 
     async def scrape_listing(self, url: str, search_id: str) -> Optional[AuctionItem]:
         """Scrape a single listing page."""
         try:
+            logger.debug(f"Scraping listing: {url}")
             await self._page.goto(url, wait_until="networkidle")
-            await asyncio.sleep(0.5)  # Allow JS to render
+            await asyncio.sleep(1)  # Allow JS to render
 
             # Extract external ID from URL
             external_id = self._extract_id_from_url(url)
 
             # Title - try multiple selectors
-            title = await self._safe_get_text("h1, .item-title, .lot-title, .product-title")
-            if not title:
-                title = await self._safe_get_text("title")
-                title = title.split("|")[0].strip() if title else ""
-
+            title = await self._get_title()
             if not title:
                 logger.warning(f"Could not find title for {url}")
                 return None
+
+            logger.info(f"Found item: {title[:50]}...")
 
             # Description
             description = await self._get_description()
@@ -169,20 +304,46 @@ class CapitalCityScraper(BaseScraper):
 
     def _extract_id_from_url(self, url: str) -> str:
         """Extract item ID from URL."""
-        # Try common patterns
         patterns = [
-            r"id=(\d+)",
+            r"AuctionItemId=([^&]+)",
+            r"ItemId=([^&]+)",
+            r"id=([^&]+)",
             r"lot[_-]?(\d+)",
             r"item[_-]?(\d+)",
             r"/(\d+)/?$",
-            r"details[/_](\d+)",
         ]
         for pattern in patterns:
             match = re.search(pattern, url, re.IGNORECASE)
             if match:
                 return match.group(1)
-        # Fallback: use URL hash
         return str(hash(url))
+
+    async def _get_title(self) -> str:
+        """Extract item title."""
+        selectors = [
+            "h1",
+            ".item-title",
+            ".lot-title",
+            ".product-title",
+            ".auction-title",
+            "[class*='title'] h1",
+            "[class*='title'] h2",
+            ".detail-title",
+        ]
+        for selector in selectors:
+            title = await self._safe_get_text(selector)
+            if title and len(title) > 3 and len(title) < 500:
+                return title.strip()
+
+        # Fallback: try page title
+        page_title = await self._page.title()
+        if page_title:
+            # Remove site name from title
+            title = page_title.split("|")[0].split("-")[0].strip()
+            if len(title) > 3:
+                return title
+
+        return ""
 
     async def _get_description(self) -> str:
         """Extract item description."""
@@ -193,19 +354,12 @@ class CapitalCityScraper(BaseScraper):
             "#description",
             "[class*='description']",
             ".details-text",
+            ".detail-description",
         ]
         for selector in selectors:
             text = await self._safe_get_text(selector)
             if text and len(text) > 20:
-                return text
-
-        # Try getting text from a description table
-        rows = await self._page.query_selector_all("table tr")
-        for row in rows:
-            text = await row.inner_text()
-            if "description" in text.lower():
-                return text.replace("Description", "").replace("description", "").strip()
-
+                return text[:2000]  # Limit length
         return ""
 
     async def _get_current_price(self) -> Optional[float]:
@@ -215,14 +369,15 @@ class CapitalCityScraper(BaseScraper):
             ".current-price",
             ".high-bid",
             ".winning-bid",
-            "[class*='bid'] [class*='price']",
-            "[class*='current']",
+            ".bid-amount",
+            "[class*='current'][class*='bid']",
+            "[class*='price']",
         ]
 
         for selector in selectors:
             text = await self._safe_get_text(selector)
             price = self._parse_price(text)
-            if price is not None:
+            if price is not None and price > 0:
                 return price
 
         # Look for price patterns in page text
@@ -231,11 +386,14 @@ class CapitalCityScraper(BaseScraper):
             r"Current\s*Bid[:\s]*\$?([\d,]+\.?\d*)",
             r"High\s*Bid[:\s]*\$?([\d,]+\.?\d*)",
             r"Winning\s*Bid[:\s]*\$?([\d,]+\.?\d*)",
+            r"Price[:\s]*\$?([\d,]+\.?\d*)",
         ]
         for pattern in patterns:
             match = re.search(pattern, page_text, re.IGNORECASE)
             if match:
-                return self._parse_price(match.group(1))
+                price = self._parse_price(match.group(1))
+                if price and price > 0:
+                    return price
 
         return None
 
@@ -255,13 +413,11 @@ class CapitalCityScraper(BaseScraper):
             if price is not None:
                 return price
 
-        # Look for MSRP patterns in page text
         page_text = await self._page.inner_text("body")
         patterns = [
             r"MSRP[:\s]*\$?([\d,]+\.?\d*)",
             r"Retail[:\s]*\$?([\d,]+\.?\d*)",
             r"Original\s*Price[:\s]*\$?([\d,]+\.?\d*)",
-            r"List\s*Price[:\s]*\$?([\d,]+\.?\d*)",
         ]
         for pattern in patterns:
             match = re.search(pattern, page_text, re.IGNORECASE)
@@ -272,53 +428,32 @@ class CapitalCityScraper(BaseScraper):
 
     async def _get_condition(self) -> str:
         """Extract item condition."""
-        selectors = [
-            ".condition",
-            ".item-condition",
-            "[class*='condition']",
-        ]
-
+        selectors = [".condition", ".item-condition", "[class*='condition']"]
         for selector in selectors:
             text = await self._safe_get_text(selector)
             if text:
                 return text
 
-        # Look for condition in page text
         page_text = await self._page.inner_text("body")
-        patterns = [
-            r"Condition[:\s]*([^\n]+)",
-            r"Item\s*Condition[:\s]*([^\n]+)",
-        ]
-        for pattern in patterns:
-            match = re.search(pattern, page_text, re.IGNORECASE)
-            if match:
-                return match.group(1).strip()
+        match = re.search(r"Condition[:\s]*([^\n]+)", page_text, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()[:100]
 
         return ""
 
     async def _get_auction_end(self) -> Optional[str]:
         """Extract auction end datetime."""
-        selectors = [
-            ".end-time",
-            ".auction-end",
-            ".closing-time",
-            ".time-left",
-            "[class*='end']",
-            "[class*='closing']",
-        ]
-
+        selectors = [".end-time", ".auction-end", ".closing-time", "[class*='end']", "[class*='closing']"]
         for selector in selectors:
             text = await self._safe_get_text(selector)
             dt = self._parse_datetime(text)
             if dt:
                 return dt
 
-        # Look for end time patterns
         page_text = await self._page.inner_text("body")
         patterns = [
             r"Ends?[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
             r"Closing[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
-            r"Auction\s*End[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
         ]
         for pattern in patterns:
             match = re.search(pattern, page_text, re.IGNORECASE)
@@ -332,39 +467,15 @@ class CapitalCityScraper(BaseScraper):
         location = ""
         dates = ""
 
-        # Try to find pickup section
-        selectors = [
-            ".pickup-info",
-            ".pickup-location",
-            ".pickup-details",
-            "[class*='pickup']",
-            "#pickup",
-        ]
+        page_text = await self._page.inner_text("body")
 
-        for selector in selectors:
-            text = await self._safe_get_text(selector)
-            if text:
-                # Try to parse location and dates from combined text
-                if "location" in text.lower() or any(c.isdigit() for c in text):
-                    lines = text.split("\n")
-                    for line in lines:
-                        if any(word in line.lower() for word in ["address", "location", "street", "ave", "road", "blvd"]):
-                            location = line.strip()
-                        elif any(word in line.lower() for word in ["date", "time", "am", "pm", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]):
-                            dates = line.strip() if not dates else f"{dates}; {line.strip()}"
+        loc_match = re.search(r"Pickup\s*Location[:\s]*([^\n]+)", page_text, re.IGNORECASE)
+        if loc_match:
+            location = loc_match.group(1).strip()
 
-        # Fallback: search in page text
-        if not location:
-            page_text = await self._page.inner_text("body")
-            match = re.search(r"Pickup\s*Location[:\s]*([^\n]+)", page_text, re.IGNORECASE)
-            if match:
-                location = match.group(1).strip()
-
-        if not dates:
-            page_text = await self._page.inner_text("body")
-            match = re.search(r"Pickup\s*(?:Date|Time)s?[:\s]*([^\n]+)", page_text, re.IGNORECASE)
-            if match:
-                dates = match.group(1).strip()
+        date_match = re.search(r"Pickup\s*(?:Date|Time)s?[:\s]*([^\n]+)", page_text, re.IGNORECASE)
+        if date_match:
+            dates = date_match.group(1).strip()
 
         return location, dates
 
@@ -372,38 +483,25 @@ class CapitalCityScraper(BaseScraper):
         """Extract all image URLs for the item."""
         image_urls = []
 
-        # Common image selectors
         selectors = [
             ".item-images img",
             ".product-images img",
             ".gallery img",
-            ".item-gallery img",
-            ".photo-gallery img",
             "[class*='gallery'] img",
             "[class*='image'] img",
             ".carousel img",
-            "#images img",
+            ".slider img",
+            "img[class*='product']",
+            "img[class*='item']",
         ]
 
         for selector in selectors:
-            urls = await self._get_all_attributes(selector, "src")
-            for url in urls:
-                if url and not url.startswith("data:") and url not in image_urls:
-                    # Handle relative URLs
-                    full_url = urljoin(self.base_url, url)
-                    image_urls.append(full_url)
+            for attr in ["src", "data-src", "data-lazy"]:
+                urls = await self._get_all_attributes(selector, attr)
+                for url in urls:
+                    if url and not url.startswith("data:") and "placeholder" not in url.lower():
+                        full_url = urljoin(self.base_url, url)
+                        if full_url not in image_urls:
+                            image_urls.append(full_url)
 
-            # Also check data-src for lazy-loaded images
-            urls = await self._get_all_attributes(selector, "data-src")
-            for url in urls:
-                if url and not url.startswith("data:") and url not in image_urls:
-                    full_url = urljoin(self.base_url, url)
-                    image_urls.append(full_url)
-
-        # If no images found in galleries, look for main product image
-        if not image_urls:
-            main_img = await self._safe_get_attribute("img.main-image, img.product-image, img#main-image", "src")
-            if main_img and not main_img.startswith("data:"):
-                image_urls.append(urljoin(self.base_url, main_img))
-
-        return image_urls[:10]  # Limit to 10 images
+        return image_urls[:10]
