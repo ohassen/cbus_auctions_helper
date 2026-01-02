@@ -287,6 +287,11 @@ async def run_monitor(
 
             email_config = EmailConfig.from_env()
 
+            # Debug logging for email config
+            logger.info(f"Email config - Host: {email_config.smtp_host}, Port: {email_config.smtp_port}")
+            logger.info(f"Email config - User set: {bool(email_config.username)}, Password set: {bool(email_config.password)}")
+            logger.info(f"Email config - Recipient: {email_config.recipient[:20] + '...' if email_config.recipient else 'NOT SET'}")
+
             if email_config.username and email_config.password and email_config.recipient:
                 # Get today's matches
                 matches = await db.get_todays_matches(min_score=relevance_threshold)
