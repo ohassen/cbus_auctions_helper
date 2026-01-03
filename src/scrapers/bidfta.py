@@ -113,13 +113,14 @@ class BidFTAScraper(BaseScraper):
                 logger.info(f"Searching BidFTA: {search_url}")
 
                 await self._page.goto(search_url, wait_until="networkidle")
-                await asyncio.sleep(2)  # Allow JS to render (React site)
+                await asyncio.sleep(3)  # Allow React to render
 
-                # BidFTA uses React/dynamic content, wait for listings
+                # BidFTA uses React - wait for any content to appear
                 try:
+                    # Wait for any common item container or grid
                     await self._page.wait_for_selector(
-                        ".auction-item, .lot-item, .product-card, [class*='item-card'], [class*='ItemCard'], .item-grid-item, [class*='auction']",
-                        timeout=10000
+                        ".MuiGrid-item, .MuiCard-root, [class*='item'], [class*='Item'], [class*='card'], [class*='Card'], .col, .grid-item, a[href*='itemDetails']",
+                        timeout=15000
                     )
                 except PlaywrightTimeout:
                     if page_num == 1:
@@ -131,37 +132,56 @@ class BidFTAScraper(BaseScraper):
                 # Find all listing items - the API already filters for Columbus locations
                 items_found = 0
 
-                # Try multiple selector strategies for BidFTA's React components
-                item_selectors = [
-                    "[class*='ItemCard']",
-                    "[class*='item-card']",
-                    ".auction-item",
-                    ".lot-item",
-                    ".product-card",
-                    "[class*='lot-card']",
-                    ".item-grid-item",
-                    "[data-lot-id]",
-                    ".search-result-item",
-                ]
+                # First, try to find links directly to item details
+                item_links = await self._page.query_selector_all("a[href*='itemDetails']")
+                if item_links:
+                    logger.info(f"Found {len(item_links)} item links via href pattern")
+                    items_found = len(item_links)
+                    for link in item_links:
+                        href = await link.get_attribute("href")
+                        if href:
+                            full_url = urljoin(self.base_url, href)
+                            yield full_url
+                else:
+                    # Try multiple selector strategies for BidFTA's React/MUI components
+                    item_selectors = [
+                        ".MuiCard-root",
+                        ".MuiGrid-item",
+                        "[class*='ItemCard']",
+                        "[class*='item-card']",
+                        "[class*='itemCard']",
+                        ".auction-item",
+                        ".lot-item",
+                        ".product-card",
+                        "[class*='lot-card']",
+                        ".item-grid-item",
+                        "[data-lot-id]",
+                        ".search-result-item",
+                        ".col-md-3",
+                        ".col-lg-3",
+                        "[class*='col-']",
+                    ]
 
-                for selector in item_selectors:
-                    items = await self._page.query_selector_all(selector)
-                    if items:
-                        logger.info(f"Found {len(items)} items with selector: {selector}")
-                        items_found = len(items)
+                    for selector in item_selectors:
+                        items = await self._page.query_selector_all(selector)
+                        if items and len(items) > 0:
+                            # Filter to only items that have links
+                            valid_items = []
+                            for item in items:
+                                link = await item.query_selector("a[href*='itemDetails'], a[href*='item'], a[href]")
+                                if link:
+                                    valid_items.append((item, link))
 
-                        for item in items:
-                            # Get item URL - since we're already filtering by Columbus locations
-                            # in the URL, we just need to extract the links
-                            link = await item.query_selector("a[href*='itemDetails'], a[href*='item'], a[href*='lot']")
-                            if not link:
-                                link = await item.query_selector("a")
-                            if link:
-                                href = await link.get_attribute("href")
-                                if href:
-                                    full_url = urljoin(self.base_url, href)
-                                    yield full_url
-                        break  # Found items with this selector
+                            if valid_items:
+                                logger.info(f"Found {len(valid_items)} items with selector: {selector}")
+                                items_found = len(valid_items)
+
+                                for item, link in valid_items:
+                                    href = await link.get_attribute("href")
+                                    if href and ('item' in href.lower() or 'lot' in href.lower() or 'details' in href.lower()):
+                                        full_url = urljoin(self.base_url, href)
+                                        yield full_url
+                                break  # Found items with this selector
 
                 logger.info(f"Page {page_num}: {items_found} items found")
 

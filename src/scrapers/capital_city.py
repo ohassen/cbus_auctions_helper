@@ -315,7 +315,13 @@ class CapitalCityScraper(BaseScraper):
         try:
             logger.debug(f"Scraping listing: {url}")
             await self._page.goto(url, wait_until="networkidle")
-            await asyncio.sleep(1)  # Allow JS to render
+            await asyncio.sleep(3)  # Capital City needs more time for JS rendering
+
+            # Wait for page content to be ready
+            try:
+                await self._page.wait_for_selector("body", timeout=5000)
+            except PlaywrightTimeout:
+                pass
 
             # Extract external ID from URL
             external_id = self._extract_id_from_url(url)
@@ -393,28 +399,58 @@ class CapitalCityScraper(BaseScraper):
 
     async def _get_title(self) -> str:
         """Extract item title."""
+        # Try many different selectors that Capital City might use
         selectors = [
             "h1",
+            "h2",
             ".item-title",
             ".lot-title",
             ".product-title",
             ".auction-title",
+            ".item-name",
+            ".product-name",
+            ".lot-name",
             "[class*='title'] h1",
             "[class*='title'] h2",
+            "[class*='Title']",
+            "[class*='name']",
             ".detail-title",
+            ".details h1",
+            ".details h2",
+            "#itemTitle",
+            "#lotTitle",
+            ".card-title",
+            ".listing-title",
         ]
         for selector in selectors:
             title = await self._safe_get_text(selector)
             if title and len(title) > 3 and len(title) < 500:
-                return title.strip()
+                # Clean up title
+                title = title.strip()
+                # Skip if it's just navigation or generic text
+                if title.lower() not in ['home', 'back', 'search', 'login', 'register']:
+                    return title
 
         # Fallback: try page title
         page_title = await self._page.title()
         if page_title:
             # Remove site name from title
             title = page_title.split("|")[0].split("-")[0].strip()
-            if len(title) > 3:
+            if len(title) > 3 and title.lower() not in ['capital city online auction', 'auction']:
                 return title
+
+        # Last resort: look for any prominent text in the main content area
+        try:
+            main_content = await self._page.query_selector("main, .main-content, .content, #content, .container")
+            if main_content:
+                # Get the first significant heading
+                heading = await main_content.query_selector("h1, h2, h3")
+                if heading:
+                    text = await heading.inner_text()
+                    if text and len(text) > 3 and len(text) < 500:
+                        return text.strip()
+        except Exception:
+            pass
 
         return ""
 
