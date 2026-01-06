@@ -141,6 +141,7 @@ class BidFTAScraper(BaseScraper):
                         href = await link.get_attribute("href")
                         if href:
                             full_url = urljoin(self.base_url, href)
+                            logger.debug(f"Yielding BidFTA listing URL: {full_url}")
                             yield full_url
                 else:
                     # Try multiple selector strategies for BidFTA's React/MUI components
@@ -180,6 +181,7 @@ class BidFTAScraper(BaseScraper):
                                     href = await link.get_attribute("href")
                                     if href and ('item' in href.lower() or 'lot' in href.lower() or 'details' in href.lower()):
                                         full_url = urljoin(self.base_url, href)
+                                        logger.debug(f"Yielding BidFTA listing URL: {full_url}")
                                         yield full_url
                                 break  # Found items with this selector
 
@@ -240,8 +242,9 @@ class BidFTAScraper(BaseScraper):
     async def scrape_listing(self, url: str, search_id: str) -> Optional[AuctionItem]:
         """Scrape a single listing page."""
         try:
-            await self._page.goto(url, wait_until="networkidle")
-            await asyncio.sleep(1)  # Allow JS to render
+            # BidFTA can be slow to load, use longer timeout
+            await self._page.goto(url, wait_until="networkidle", timeout=60000)
+            await asyncio.sleep(2)  # Extra time for React to render
 
             # Check if item is sold/closed - skip if so
             if await self._is_item_sold_or_closed():
