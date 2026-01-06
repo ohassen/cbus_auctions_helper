@@ -310,6 +310,43 @@ class CapitalCityScraper(BaseScraper):
 
         return False
 
+    async def _is_item_sold_or_closed(self) -> bool:
+        """Check if the item is sold, closed, or no longer available."""
+        page_text = await self._page.inner_text("body")
+        page_text_lower = page_text.lower()
+
+        # Common indicators that an auction is sold/closed/ended
+        sold_indicators = [
+            "sold",
+            "closed",
+            "auction ended",
+            "auction closed",
+            "no longer available",
+            "has ended",
+            "bidding closed",
+            "winning bidder",
+            "sold out"
+        ]
+
+        # Check if any sold indicator appears in the page
+        if any(indicator in page_text_lower for indicator in sold_indicators):
+            # Look for these terms in prominent locations (status, badges, etc.)
+            status_selectors = [
+                ".status", ".auction-status", ".item-status",
+                ".badge", ".label", "[class*='status']",
+                "[class*='badge']", "[class*='label']"
+            ]
+
+            for selector in status_selectors:
+                status_text = await self._safe_get_text(selector)
+                if status_text:
+                    status_lower = status_text.lower()
+                    if any(indicator in status_lower for indicator in sold_indicators):
+                        logger.info(f"Item is sold/closed (status: {status_text})")
+                        return True
+
+        return False
+
     async def scrape_listing(self, url: str, search_id: str) -> Optional[AuctionItem]:
         """Scrape a single listing page."""
         try:
@@ -322,6 +359,11 @@ class CapitalCityScraper(BaseScraper):
                 await self._page.wait_for_selector("body", timeout=5000)
             except PlaywrightTimeout:
                 pass
+
+            # Check if item is sold/closed - skip if so
+            if await self._is_item_sold_or_closed():
+                logger.info(f"Skipping sold/closed item: {url}")
+                return None
 
             # Extract external ID from URL
             external_id = self._extract_id_from_url(url)
