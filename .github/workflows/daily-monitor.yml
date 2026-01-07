@@ -130,6 +130,15 @@ jobs:
             git push
           fi
 
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: false
+          commit_message: "Update auction report - $(date -u +%Y-%m-%d)"
+
   notify-failure:
     runs-on: ubuntu-latest
     needs: run-monitor

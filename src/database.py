@@ -263,6 +263,44 @@ class Database:
 
         return results
 
+    async def get_matches_for_report(self, min_score: int = 70) -> list[dict]:
+        """Get all active items with matches for HTML report."""
+        # Get all searches to build a lookup
+        searches = load_searches()
+        search_lookup = {s.id: s.query for s in searches}
+
+        cursor = await self._connection.execute("""
+            SELECT
+                i.*,
+                m.relevance_score,
+                m.reasoning,
+                m.confidence,
+                i.first_seen = i.last_seen as is_new
+            FROM items i
+            JOIN match_metadata m ON i.id = m.item_id
+            WHERE i.is_active = 1
+              AND m.relevance_score >= ?
+            ORDER BY i.last_seen DESC, m.relevance_score DESC
+        """, (min_score,))
+
+        rows = await cursor.fetchall()
+        results = []
+        for row in rows:
+            item_dict = dict(row)
+            # Get images
+            img_cursor = await self._connection.execute(
+                "SELECT url FROM images WHERE item_id = ?", (row["id"],)
+            )
+            images = await img_cursor.fetchall()
+            item_dict["image_urls"] = [img["url"] for img in images]
+
+            # Add search query
+            item_dict["search_query"] = search_lookup.get(row["search_id"], "Unknown")
+
+            results.append(item_dict)
+
+        return results
+
     async def mark_ended_auctions(self) -> int:
         """Mark auctions that have ended as inactive. Returns count of updated items."""
         now = datetime.utcnow().isoformat()
