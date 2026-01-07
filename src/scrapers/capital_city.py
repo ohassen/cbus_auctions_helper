@@ -149,6 +149,23 @@ class CapitalCityScraper(BaseScraper):
 
             await asyncio.sleep(2)  # Extra time for JS rendering
 
+            # Verify search worked by checking URL or page content
+            current_url = self._page.url
+            logger.info(f"After search, URL is: {current_url}")
+
+            # Check if we got a "no results" message
+            page_text = await self._page.inner_text("body")
+            no_results_indicators = [
+                "no results found",
+                "0 results",
+                "no items found",
+                "no matches",
+                "try a different search"
+            ]
+            if any(indicator in page_text.lower() for indicator in no_results_indicators):
+                logger.info(f"Search returned no results for '{search_term}'")
+                return
+
             # Now scrape the results
             page_num = 1
             max_pages = 5
@@ -397,13 +414,31 @@ class CapitalCityScraper(BaseScraper):
                 'untitled'
             ]
 
+            # Also reject titles that are just generic text or fragments
+            invalid_prefixes = [
+                'about this item',
+                'product details',
+                'item details',
+                'description',
+                'features'
+            ]
+
             if any(invalid in title_lower for invalid in invalid_titles):
                 logger.info(f"Skipping item with invalid title: {title}")
+                return None
+
+            if any(title_lower.startswith(prefix) for prefix in invalid_prefixes):
+                logger.info(f"Skipping item with generic title prefix: {title}")
                 return None
 
             # Skip if title is too short (likely not a real item)
             if len(title) < 10:
                 logger.info(f"Skipping item with too-short title: {title}")
+                return None
+
+            # Skip titles that start with special characters or markers
+            if title.startswith(('***', '---', '===', '>>>', '<<<')):
+                logger.info(f"Skipping item with marker prefix: {title}")
                 return None
 
             logger.info(f"Found item: {title[:50]}...")
