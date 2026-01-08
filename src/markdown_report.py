@@ -3,6 +3,7 @@
 import logging
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from .database import Database
 
@@ -50,7 +51,9 @@ async def generate_markdown_report(
 def _build_markdown(matches: list, stats: dict, search_stats: dict, threshold: int) -> str:
     """Build the Markdown report."""
 
-    now = datetime.now().strftime("%Y-%m-%d %I:%M %p")
+    # Use Eastern timezone
+    eastern = ZoneInfo("America/New_York")
+    now = datetime.now(eastern).strftime("%Y-%m-%d %I:%M %p %Z")
 
     # Group matches by search query
     grouped = {}
