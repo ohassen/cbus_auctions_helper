@@ -333,23 +333,6 @@ class Database:
         item_dict["image_urls"] = [img["url"] for img in images]
         return item_dict
 
-    async def get_items_needing_msrp(self) -> list[dict]:
-        """Get items that have no MSRP for price lookup."""
-        today = date.today().isoformat()
-        cursor = await self._connection.execute("""
-            SELECT * FROM items
-            WHERE last_seen = ? AND is_active = 1 AND msrp IS NULL
-        """, (today,))
-        rows = await cursor.fetchall()
-        return [dict(row) for row in rows]
-
-    async def update_item_msrp(self, item_id: int, msrp: float, discount_pct: float) -> None:
-        """Update MSRP and discount percentage for an item."""
-        await self._connection.execute("""
-            UPDATE items SET msrp = ?, discount_pct = ? WHERE id = ?
-        """, (msrp, discount_pct, item_id))
-        await self._connection.commit()
-
     async def get_stats(self) -> dict:
         """Get database statistics."""
         cursor = await self._connection.execute(

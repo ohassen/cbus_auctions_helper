@@ -38,7 +38,7 @@ class SemanticMatcher:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "claude-sonnet-4-20250514",
+        model: str = "claude-3-5-haiku-20241022",
         relevance_threshold: int = 70
     ):
         self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
