@@ -37,7 +37,6 @@ ENV/
 auction_data.db
 logs/*.log
 .env.local
-docs/  # Generated HTML report (published to gh-pages branch)
 
 # Test artifacts
 .pytest_cache/
