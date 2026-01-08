@@ -372,6 +372,37 @@ class Database:
             "items_seen_today": seen_today
         }
 
+    async def get_search_statistics(self, min_score: int = 70) -> dict:
+        """Get statistics for each search query."""
+        searches = load_searches()
+        stats = {}
+
+        for search in searches:
+            # Count total items scraped for this search
+            cursor = await self._connection.execute("""
+                SELECT COUNT(*) as total FROM items
+                WHERE search_id = ? AND is_active = 1
+            """, (search.id,))
+            total = (await cursor.fetchone())["total"]
+
+            # Count items that passed semantic matching
+            cursor = await self._connection.execute("""
+                SELECT COUNT(*) as matched FROM items i
+                JOIN match_metadata m ON i.id = m.item_id
+                WHERE i.search_id = ?
+                  AND i.is_active = 1
+                  AND m.relevance_score >= ?
+            """, (search.id, min_score))
+            matched = (await cursor.fetchone())["matched"]
+
+            stats[search.query] = {
+                "total_scraped": total,
+                "matched": matched,
+                "search_id": search.id
+            }
+
+        return stats
+
 
 def load_searches(config_path: str = "searches.json") -> list[Search]:
     """Load active searches from configuration file."""

@@ -17,11 +17,6 @@ on:
         required: false
         type: boolean
         default: false
-      skip_email:
-        description: 'Skip sending email report'
-        required: false
-        type: boolean
-        default: false
       log_level:
         description: 'Logging level'
         required: false
@@ -39,6 +34,8 @@ jobs:
   run-monitor:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write  # Required to push commits
 
     steps:
       - name: Checkout repository
@@ -74,14 +71,10 @@ jobs:
       - name: Run auction monitor
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # EMAIL_SMTP_HOST and EMAIL_SMTP_PORT use defaults (smtp.gmail.com:587)
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
           LOG_LEVEL: ${{ inputs.log_level || 'INFO' }}
         run: |
           # Build command with optional flags
-          CMD="python -m src.main"
+          CMD="python -m src.main --skip-email"
 
           if [ "${{ inputs.skip_scraping }}" = "true" ]; then
             CMD="$CMD --skip-scraping"
@@ -89,10 +82,6 @@ jobs:
 
           if [ "${{ inputs.skip_matching }}" = "true" ]; then
             CMD="$CMD --skip-matching"
-          fi
-
-          if [ "${{ inputs.skip_email }}" = "true" ]; then
-            CMD="$CMD --skip-email"
           fi
 
           CMD="$CMD --log-level ${{ inputs.log_level || 'INFO' }}"
@@ -115,20 +104,23 @@ jobs:
           path: auction_data.db
           key: auction-db-${{ github.run_number }}
 
-      - name: Commit database changes
+      - name: Commit results
         if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Add docs and database if they exist
-          git add docs/ auction_data.db || true
+          # Add markdown report and database if they exist
+          git add LATEST_RESULTS.md auction_data.db || true
 
           # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update auction report and database - $(date -u +%Y-%m-%d)"
+            git commit -m "Update auction results - $(date -u +%Y-%m-%d)"
+
+            # Pull latest changes and rebase, then push
+            git pull --rebase origin ${{ github.ref_name }}
             git push
           fi
 
