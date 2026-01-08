@@ -118,6 +118,9 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update auction results - $(date -u +%Y-%m-%d)"
+
+            # Pull latest changes and rebase, then push
+            git pull --rebase origin ${{ github.ref_name }}
             git push
           fi
 
