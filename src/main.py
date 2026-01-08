@@ -159,44 +159,6 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
     return total_matches
 
 
-async def lookup_missing_msrp(db: Database, matcher: SemanticMatcher) -> int:
-    """Look up MSRP for items that don't have it."""
-    items = await db.get_items_needing_msrp()
-
-    if not items:
-        return 0
-
-    logger.info(f"Looking up MSRP for {len(items)} items")
-    updated = 0
-
-    for item_dict in items:
-        item = AuctionItem(
-            id=item_dict["id"],
-            title=item_dict["title"],
-            description=item_dict.get("description", ""),
-            current_price=item_dict.get("current_price")
-        )
-
-        try:
-            result = await matcher.lookup_msrp(item)
-            if result.msrp:
-                # Calculate discount
-                discount_pct = None
-                if item.current_price and result.msrp > 0:
-                    discount_pct = round((result.msrp - item.current_price) / result.msrp * 100, 1)
-
-                await db.update_item_msrp(item.id, result.msrp, discount_pct or 0)
-                updated += 1
-                logger.info(f"Updated MSRP for {item.title[:50]}: ${result.msrp:.2f}")
-
-            await asyncio.sleep(0.5)  # Rate limiting
-
-        except Exception as e:
-            logger.error(f"Error looking up MSRP for {item.title[:50]}: {e}")
-
-    return updated
-
-
 async def run_monitor(
     searches_path: str = "searches.json",
     db_path: str = "auction_data.db",
@@ -265,10 +227,6 @@ async def run_monitor(
 
                 results["matches_found"] = await run_semantic_matching(db, matcher, searches)
                 logger.info(f"Total matches found: {results['matches_found']}")
-
-                # Look up MSRP for items without it
-                updated = await lookup_missing_msrp(db, matcher)
-                logger.info(f"Updated MSRP for {updated} items")
 
             except Exception as e:
                 error_msg = f"Semantic matching failed: {str(e)}"
