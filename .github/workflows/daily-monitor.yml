@@ -17,11 +17,6 @@ on:
         required: false
         type: boolean
         default: false
-      skip_email:
-        description: 'Skip sending email report'
-        required: false
-        type: boolean
-        default: false
       log_level:
         description: 'Logging level'
         required: false
@@ -76,14 +71,10 @@ jobs:
       - name: Run auction monitor
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # EMAIL_SMTP_HOST and EMAIL_SMTP_PORT use defaults (smtp.gmail.com:587)
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
           LOG_LEVEL: ${{ inputs.log_level || 'INFO' }}
         run: |
           # Build command with optional flags
-          CMD="python -m src.main"
+          CMD="python -m src.main --skip-email"
 
           if [ "${{ inputs.skip_scraping }}" = "true" ]; then
             CMD="$CMD --skip-scraping"
@@ -91,10 +82,6 @@ jobs:
 
           if [ "${{ inputs.skip_matching }}" = "true" ]; then
             CMD="$CMD --skip-matching"
-          fi
-
-          if [ "${{ inputs.skip_email }}" = "true" ]; then
-            CMD="$CMD --skip-email"
           fi
 
           CMD="$CMD --log-level ${{ inputs.log_level || 'INFO' }}"
