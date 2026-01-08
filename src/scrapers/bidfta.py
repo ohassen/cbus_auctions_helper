@@ -83,20 +83,29 @@ class BidFTAScraper(BaseScraper):
 
         # Extract simple search terms from the complex query
         search_terms = extract_search_terms(query)
-        logger.info(f"Query '{query}' -> search terms: {search_terms}")
+        logger.info(f"BidFTA: Query '{query}' -> search terms: {search_terms}")
 
+        urls_before = 0
         for search_term in search_terms:
             async for url in self._search_term(search_term):
                 if url not in self._found_urls:
                     self._found_urls.add(url)
                     yield url
 
-            # If we found items with a term, don't try less specific terms
-            if self._found_urls:
-                logger.info(f"Found {len(self._found_urls)} items with term '{search_term}'")
-                break
+            urls_found_this_term = len(self._found_urls) - urls_before
 
+            # If we found items with a term, don't try less specific terms
+            if urls_found_this_term > 0:
+                logger.info(f"BidFTA: Found {urls_found_this_term} items with term '{search_term}' (total: {len(self._found_urls)})")
+                break
+            else:
+                logger.info(f"BidFTA: No items found for term '{search_term}', trying next term")
+
+            urls_before = len(self._found_urls)
             await self._rate_limit()
+
+        if len(self._found_urls) == 0:
+            logger.warning(f"BidFTA: No items found for any search term in query '{query}'")
 
     async def _search_term(self, search_term: str) -> AsyncIterator[str]:
         """Search for a single term and yield listing URLs (Columbus locations only)."""
@@ -285,7 +294,7 @@ class BidFTAScraper(BaseScraper):
 
             # Verify this is a Columbus location
             if not self._is_columbus_location(pickup_location):
-                logger.info(f"Skipping non-Columbus item: {pickup_location}")
+                logger.info(f"BidFTA: Skipping non-Columbus item at '{pickup_location}' - {title[:50]}")
                 return None
 
             # Images

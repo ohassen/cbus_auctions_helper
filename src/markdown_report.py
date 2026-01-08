@@ -23,8 +23,11 @@ async def generate_markdown_report(
         # Get database stats
         stats = await db.get_stats()
 
+        # Get per-search statistics
+        search_stats = await db.get_search_statistics(threshold)
+
         # Generate Markdown
-        markdown = _build_markdown(matches, stats, threshold)
+        markdown = _build_markdown(matches, stats, search_stats, threshold)
 
         # Write to file
         output_file = Path(output_path)
@@ -38,7 +41,7 @@ async def generate_markdown_report(
         return False
 
 
-def _build_markdown(matches: list, stats: dict, threshold: int) -> str:
+def _build_markdown(matches: list, stats: dict, search_stats: dict, threshold: int) -> str:
     """Build the Markdown report."""
 
     now = datetime.now().strftime("%Y-%m-%d %I:%M %p")
@@ -56,27 +59,38 @@ def _build_markdown(matches: list, stats: dict, threshold: int) -> str:
 
 **Last Updated:** {now}
 
-## 📊 Statistics
+## 📊 Overall Statistics
 
-- **Matches Found:** {len(matches)} (Score ≥ {threshold})
+- **Total Matches Found:** {len(matches)} (Score ≥ {threshold})
 - **Total Items Scraped:** {stats.get('total_items', 0)}
 - **Items Seen Today:** {stats.get('items_seen_today', 0)}
 
 ---
 
+## 🔍 Search Results
+
 """
 
-    # Build match sections
-    if grouped:
-        for query, items in grouped.items():
-            md += f"## 🔍 {query}\n\n"
-            md += f"*{len(items)} match{'es' if len(items) != 1 else ''} found*\n\n"
+    # Build sections for ALL searches (even with 0 matches)
+    if search_stats:
+        for query, query_stats in search_stats.items():
+            total_scraped = query_stats.get('total_scraped', 0)
+            matched = query_stats.get('matched', 0)
 
-            for item in items:
-                md += _build_item_section(item)
-                md += "\n---\n\n"
+            md += f"### {query}\n\n"
+            md += f"📥 **Items Scraped:** {total_scraped} | ✅ **Matched:** {matched}\n\n"
+
+            # Show matches for this query if any exist
+            if query in grouped and grouped[query]:
+                for item in grouped[query]:
+                    md += _build_item_section(item)
+                    md += "\n---\n\n"
+            else:
+                md += "*No matches found for this search*\n\n"
+
+            md += "---\n\n"
     else:
-        md += "## 😴 No Matches Found\n\nCheck back tomorrow for new results!\n"
+        md += "No active searches configured.\n\n"
 
     md += f"\n*Powered by Claude AI semantic matching*\n"
 
