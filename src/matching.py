@@ -80,6 +80,9 @@ class SemanticMatcher:
 
     def _build_match_prompt(self, query: str, item: AuctionItem) -> str:
         """Build the matching prompt."""
+        # Format price properly
+        price_str = f"${item.current_price:.2f}" if item.current_price is not None else "Unknown"
+
         return f"""You are evaluating whether an auction item matches a user's search query.
 
 SEARCH QUERY: "{query}"
@@ -88,7 +91,7 @@ ITEM DETAILS:
 - Title: {item.title}
 - Description: {item.description or 'No description available'}
 - Condition: {item.condition or 'Unknown'}
-- Current Price: ${item.current_price:.2f if item.current_price else 'Unknown'}
+- Current Price: {price_str}
 
 IMPORTANT MATCHING RULES:
 1. Focus on the PRIMARY PURPOSE of the item matching the query intent

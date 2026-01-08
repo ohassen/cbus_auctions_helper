@@ -121,12 +121,14 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
+          # Add docs and database if they exist
+          git add docs/ auction_data.db || true
+
           # Only commit if there are changes
-          if git diff --quiet auction_data.db 2>/dev/null || [ ! -f auction_data.db ]; then
-            echo "No database changes to commit"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
           else
-            git add auction_data.db
-            git commit -m "Update auction database - $(date -u +%Y-%m-%d)"
+            git commit -m "Update auction report and database - $(date -u +%Y-%m-%d)"
             git push
           fi
 

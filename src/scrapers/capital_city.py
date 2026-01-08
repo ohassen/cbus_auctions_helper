@@ -149,6 +149,23 @@ class CapitalCityScraper(BaseScraper):
 
             await asyncio.sleep(2)  # Extra time for JS rendering
 
+            # Verify search worked by checking URL or page content
+            current_url = self._page.url
+            logger.info(f"After search, URL is: {current_url}")
+
+            # Check if we got a "no results" message
+            page_text = await self._page.inner_text("body")
+            no_results_indicators = [
+                "no results found",
+                "0 results",
+                "no items found",
+                "no matches",
+                "try a different search"
+            ]
+            if any(indicator in page_text.lower() for indicator in no_results_indicators):
+                logger.info(f"Search returned no results for '{search_term}'")
+                return
+
             # Now scrape the results
             page_num = 1
             max_pages = 5
@@ -166,7 +183,12 @@ class CapitalCityScraper(BaseScraper):
 
                 logger.info(f"Found {len(listing_links)} listings on page {page_num}")
 
+                # Log first few URLs for debugging
+                if listing_links:
+                    logger.debug(f"Sample URLs: {listing_links[:3]}")
+
                 for url in listing_links:
+                    logger.debug(f"Yielding listing URL: {url}")
                     yield url
 
                 # Check for next page
@@ -218,28 +240,47 @@ class CapitalCityScraper(BaseScraper):
 
         return False
 
+    def _is_valid_listing_url(self, url: str) -> bool:
+        """Check if URL is a valid listing page (not navigation, footer, etc)."""
+        url_lower = url.lower()
+
+        # Must contain item/lot/auction detail patterns
+        if not any(pattern in url_lower for pattern in ['auctionitemdetail', 'itemdetail', 'item-detail', 'lotdetail', 'lot-detail']):
+            return False
+
+        # Exclude navigation and other non-listing pages
+        exclude_patterns = [
+            'login', 'register', 'signup', 'signin',
+            'cart', 'checkout', 'account', 'profile',
+            'about', 'contact', 'help', 'faq',
+            'terms', 'privacy', 'policy',
+            'search', 'browse', 'category',
+            '/home', '/index'
+        ]
+
+        if any(pattern in url_lower for pattern in exclude_patterns):
+            return False
+
+        # Must have query parameters or path segments (real item IDs)
+        if '?' not in url and url.count('/') < 4:
+            return False
+
+        return True
+
     async def _find_listing_links(self) -> list[str]:
         """Find all listing links on the current page."""
         listing_links = []
 
-        # Strategy 1: Links to AuctionItemDetail pages
+        # Strategy 1: Links to AuctionItemDetail pages (most specific)
         links = await self._page.query_selector_all("a[href*='AuctionItemDetail'], a[href*='ItemDetail'], a[href*='item-detail']")
         for link in links:
             href = await link.get_attribute("href")
             if href:
-                listing_links.append(urljoin(self.base_url, href))
+                full_url = urljoin(self.base_url, href)
+                if self._is_valid_listing_url(full_url):
+                    listing_links.append(full_url)
 
-        # Strategy 2: Links with lot/item/auction in URL
-        if not listing_links:
-            links = await self._page.query_selector_all("a[href*='lot'], a[href*='item'], a[href*='auction']")
-            for link in links:
-                href = await link.get_attribute("href")
-                if href and any(x in href.lower() for x in ['detail', 'view', 'lot', 'item']):
-                    full_url = urljoin(self.base_url, href)
-                    if full_url not in listing_links:
-                        listing_links.append(full_url)
-
-        # Strategy 3: Product cards/tiles with links
+        # Strategy 2: Product cards/tiles with links
         if not listing_links:
             selectors = [
                 ".auction-item a",
@@ -247,9 +288,6 @@ class CapitalCityScraper(BaseScraper):
                 ".product-card a",
                 ".item-card a",
                 ".listing-item a",
-                "[class*='auction'] a[href]",
-                "[class*='item'] a[href]",
-                ".card a[href]",
             ]
             for selector in selectors:
                 try:
@@ -258,21 +296,10 @@ class CapitalCityScraper(BaseScraper):
                         href = await card.get_attribute("href")
                         if href and href != "#":
                             full_url = urljoin(self.base_url, href)
-                            if full_url not in listing_links:
+                            if self._is_valid_listing_url(full_url) and full_url not in listing_links:
                                 listing_links.append(full_url)
                 except:
                     continue
-
-        # Strategy 4: Any link that looks like a product detail page
-        if not listing_links:
-            all_links = await self._page.query_selector_all("a[href]")
-            for link in all_links:
-                href = await link.get_attribute("href")
-                if href and any(x in href.lower() for x in ['detail', 'product', 'lot', 'item']) \
-                   and not any(x in href.lower() for x in ['login', 'register', 'cart', 'account']):
-                    full_url = urljoin(self.base_url, href)
-                    if full_url not in listing_links and full_url != self.base_url:
-                        listing_links.append(full_url)
 
         # Deduplicate while preserving order
         seen = set()
@@ -282,6 +309,7 @@ class CapitalCityScraper(BaseScraper):
                 seen.add(link)
                 unique_links.append(link)
 
+        logger.debug(f"Found {len(unique_links)} valid listing URLs")
         return unique_links[:50]  # Limit to first 50 items
 
     async def _has_next_page(self) -> bool:
@@ -310,6 +338,43 @@ class CapitalCityScraper(BaseScraper):
 
         return False
 
+    async def _is_item_sold_or_closed(self) -> bool:
+        """Check if the item is sold, closed, or no longer available."""
+        page_text = await self._page.inner_text("body")
+        page_text_lower = page_text.lower()
+
+        # Common indicators that an auction is sold/closed/ended
+        sold_indicators = [
+            "sold",
+            "closed",
+            "auction ended",
+            "auction closed",
+            "no longer available",
+            "has ended",
+            "bidding closed",
+            "winning bidder",
+            "sold out"
+        ]
+
+        # Check if any sold indicator appears in the page
+        if any(indicator in page_text_lower for indicator in sold_indicators):
+            # Look for these terms in prominent locations (status, badges, etc.)
+            status_selectors = [
+                ".status", ".auction-status", ".item-status",
+                ".badge", ".label", "[class*='status']",
+                "[class*='badge']", "[class*='label']"
+            ]
+
+            for selector in status_selectors:
+                status_text = await self._safe_get_text(selector)
+                if status_text:
+                    status_lower = status_text.lower()
+                    if any(indicator in status_lower for indicator in sold_indicators):
+                        logger.info(f"Item is sold/closed (status: {status_text})")
+                        return True
+
+        return False
+
     async def scrape_listing(self, url: str, search_id: str) -> Optional[AuctionItem]:
         """Scrape a single listing page."""
         try:
@@ -323,6 +388,11 @@ class CapitalCityScraper(BaseScraper):
             except PlaywrightTimeout:
                 pass
 
+            # Check if item is sold/closed - skip if so
+            if await self._is_item_sold_or_closed():
+                logger.info(f"Skipping sold/closed item: {url}")
+                return None
+
             # Extract external ID from URL
             external_id = self._extract_id_from_url(url)
 
@@ -330,6 +400,45 @@ class CapitalCityScraper(BaseScraper):
             title = await self._get_title()
             if not title:
                 logger.warning(f"Could not find title for {url}")
+                return None
+
+            # Validate title - reject generic/invalid titles
+            title_lower = title.lower()
+            invalid_titles = [
+                'capital city online auction',
+                'capital city auction',
+                'online auction',
+                'home',
+                'search results',
+                'no title',
+                'untitled'
+            ]
+
+            # Also reject titles that are just generic text or fragments
+            invalid_prefixes = [
+                'about this item',
+                'product details',
+                'item details',
+                'description',
+                'features'
+            ]
+
+            if any(invalid in title_lower for invalid in invalid_titles):
+                logger.info(f"Skipping item with invalid title: {title}")
+                return None
+
+            if any(title_lower.startswith(prefix) for prefix in invalid_prefixes):
+                logger.info(f"Skipping item with generic title prefix: {title}")
+                return None
+
+            # Skip if title is too short (likely not a real item)
+            if len(title) < 10:
+                logger.info(f"Skipping item with too-short title: {title}")
+                return None
+
+            # Skip titles that start with special characters or markers
+            if title.startswith(('***', '---', '===', '>>>', '<<<')):
+                logger.info(f"Skipping item with marker prefix: {title}")
                 return None
 
             logger.info(f"Found item: {title[:50]}...")
