@@ -317,21 +317,21 @@ async def run_monitor(
             else:
                 logger.warning("Email not configured, skipping email report")
 
-        # Phase 4: Generate HTML Report for GitHub Pages
+        # Phase 4: Generate Markdown Report
         logger.info("=" * 50)
-        logger.info("PHASE 4: GitHub Pages Report")
+        logger.info("PHASE 4: Markdown Report")
         logger.info("=" * 50)
 
         try:
-            from .html_report import generate_html_report
-            html_generated = await generate_html_report(db, threshold=relevance_threshold)
-            if html_generated:
-                logger.info("HTML report generated successfully")
+            from .markdown_report import generate_markdown_report
+            md_generated = await generate_markdown_report(db, threshold=relevance_threshold)
+            if md_generated:
+                logger.info("Markdown report generated successfully")
             else:
-                logger.warning("Failed to generate HTML report")
+                logger.warning("Failed to generate Markdown report")
         except Exception as e:
-            logger.error(f"Error generating HTML report: {e}")
-            results["errors"].append(f"HTML report generation failed: {str(e)}")
+            logger.error(f"Error generating Markdown report: {e}")
+            results["errors"].append(f"Markdown report generation failed: {str(e)}")
 
         # Log stats
         stats = await db.get_stats()

@@ -115,20 +115,20 @@ jobs:
           path: auction_data.db
           key: auction-db-${{ github.run_number }}
 
-      - name: Commit database changes
+      - name: Commit results
         if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Add docs and database if they exist
-          git add docs/ auction_data.db || true
+          # Add markdown report and database if they exist
+          git add LATEST_RESULTS.md auction_data.db || true
 
           # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update auction report and database - $(date -u +%Y-%m-%d)"
+            git commit -m "Update auction results - $(date -u +%Y-%m-%d)"
             git push
           fi
 
