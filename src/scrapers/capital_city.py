@@ -661,23 +661,47 @@ class CapitalCityScraper(BaseScraper):
 
     async def _get_auction_end(self) -> Optional[str]:
         """Extract auction end datetime."""
-        selectors = [".end-time", ".auction-end", ".closing-time", "[class*='end']", "[class*='closing']"]
+        # Try specific selectors first
+        selectors = [
+            ".end-time",
+            ".auction-end",
+            ".closing-time",
+            ".countdown",
+            "[class*='end-time']",
+            "[class*='EndTime']",
+            "[class*='auction-end']",
+            "[class*='closing']",
+            "[class*='Closing']",
+            ".time-remaining",
+            "[class*='TimeRemaining']"
+        ]
         for selector in selectors:
             text = await self._safe_get_text(selector)
-            dt = self._parse_datetime(text)
-            if dt:
-                return dt
+            if text:
+                dt = self._parse_datetime(text)
+                if dt:
+                    logger.debug(f"Capital City: Found auction end via selector '{selector}': {dt}")
+                    return dt
 
+        # Look for text patterns in the page
         page_text = await self._page.inner_text("body")
         patterns = [
+            r"Auction\s*Ends?[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
             r"Ends?[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
             r"Closing[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
+            r"Closes[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
+            r"End\s*Date[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
+            r"Bidding\s*Ends?[:\s]*(\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)",
         ]
         for pattern in patterns:
             match = re.search(pattern, page_text, re.IGNORECASE)
             if match:
-                return self._parse_datetime(match.group(1))
+                dt = self._parse_datetime(match.group(1))
+                if dt:
+                    logger.debug(f"Capital City: Found auction end via pattern: {dt}")
+                    return dt
 
+        logger.debug("Capital City: Could not find auction end time")
         return None
 
     async def _get_pickup_info(self) -> tuple[str, str]:
