@@ -60,6 +60,7 @@ async def scrape_site(scraper_class, config: ScraperConfig, searches: list, db: 
                 logger.info(f"Searching {scraper.name} for: {search.query}")
                 try:
                     items = await scraper.scrape_all(search.query, search.id)
+                    logger.info(f"{scraper.name}: Found {len(items)} items for '{search.query}'")
                     results["items_scraped"] += len(items)
 
                     # Save items to database

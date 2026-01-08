@@ -17,7 +17,7 @@ async def generate_markdown_report(
     """Generate a Markdown report of all matches."""
 
     try:
-        # Get all matches
+        # Get all matches (only unreported items)
         matches = await db.get_matches_for_report(threshold)
 
         # Get database stats
@@ -32,6 +32,12 @@ async def generate_markdown_report(
         # Write to file
         output_file = Path(output_path)
         output_file.write_text(markdown, encoding='utf-8')
+
+        # Mark all displayed items as reported
+        if matches:
+            item_ids = [m['id'] for m in matches]
+            await db.mark_items_as_reported(item_ids)
+            logger.info(f"Marked {len(item_ids)} items as reported")
 
         logger.info(f"Markdown report generated: {output_path} ({len(matches)} matches)")
         return True

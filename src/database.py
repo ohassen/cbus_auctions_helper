@@ -105,6 +105,7 @@ class Database:
                 first_seen DATE NOT NULL,
                 last_seen DATE NOT NULL,
                 is_active BOOLEAN DEFAULT 1,
+                reported_at TIMESTAMP,
                 UNIQUE(source_site, external_id, search_id)
             );
 
@@ -264,7 +265,7 @@ class Database:
         return results
 
     async def get_matches_for_report(self, min_score: int = 70) -> list[dict]:
-        """Get all active items with matches for HTML report."""
+        """Get all active items with matches for report (only unreported items)."""
         # Get all searches to build a lookup
         searches = load_searches()
         search_lookup = {s.id: s.query for s in searches}
@@ -280,6 +281,7 @@ class Database:
             JOIN match_metadata m ON i.id = m.item_id
             WHERE i.is_active = 1
               AND m.relevance_score >= ?
+              AND i.reported_at IS NULL
             ORDER BY i.last_seen DESC, m.relevance_score DESC
         """, (min_score,))
 
@@ -402,6 +404,23 @@ class Database:
             }
 
         return stats
+
+    async def mark_items_as_reported(self, item_ids: list[int]) -> int:
+        """Mark items as reported so they don't appear in future reports."""
+        if not item_ids:
+            return 0
+
+        now = datetime.utcnow().isoformat()
+        placeholders = ','.join(['?'] * len(item_ids))
+        cursor = await self._connection.execute(f"""
+            UPDATE items SET reported_at = ?
+            WHERE id IN ({placeholders})
+        """, [now] + item_ids)
+        await self._connection.commit()
+        count = cursor.rowcount
+        if count > 0:
+            logger.info(f"Marked {count} items as reported")
+        return count
 
 
 def load_searches(config_path: str = "searches.json") -> list[Search]:

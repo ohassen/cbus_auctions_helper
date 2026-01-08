@@ -251,13 +251,14 @@ class BidFTAScraper(BaseScraper):
     async def scrape_listing(self, url: str, search_id: str) -> Optional[AuctionItem]:
         """Scrape a single listing page."""
         try:
+            logger.debug(f"BidFTA: Scraping listing {url}")
             # BidFTA can be slow to load, use longer timeout
             await self._page.goto(url, wait_until="networkidle", timeout=60000)
             await asyncio.sleep(2)  # Extra time for React to render
 
             # Check if item is sold/closed - skip if so
             if await self._is_item_sold_or_closed():
-                logger.info(f"Skipping sold/closed item: {url}")
+                logger.info(f"BidFTA: Skipping sold/closed item: {url}")
                 return None
 
             # Extract external ID from URL
@@ -266,8 +267,10 @@ class BidFTAScraper(BaseScraper):
             # Title
             title = await self._get_title()
             if not title:
-                logger.warning(f"Could not find title for {url}")
+                logger.warning(f"BidFTA: Could not find title for {url}")
                 return None
+
+            logger.debug(f"BidFTA: Title found: {title[:50]}")
 
             # Description
             description = await self._get_description()
@@ -300,6 +303,7 @@ class BidFTAScraper(BaseScraper):
             # Images
             image_urls = await self._get_images()
 
+            logger.info(f"BidFTA: Successfully scraped item: {title[:50]} at {pickup_location}")
             return AuctionItem(
                 search_id=search_id,
                 source_site=self.name,
@@ -318,7 +322,7 @@ class BidFTAScraper(BaseScraper):
             )
 
         except Exception as e:
-            logger.error(f"Error scraping listing {url}: {e}")
+            logger.error(f"BidFTA: Error scraping listing {url}: {e}", exc_info=True)
             return None
 
     def _extract_id_from_url(self, url: str) -> str:
