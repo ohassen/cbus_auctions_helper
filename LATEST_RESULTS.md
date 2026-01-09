@@ -1,12 +1,12 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-08 09:03 PM EST
+**Last Updated:** 2026-01-09 06:00 AM EST
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Total Items Scraped:** 109
-- **Items Seen Today:** 109
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Total Items Scraped:** 205
+- **Items Seen Today:** 205
 
 ---
 
@@ -14,7 +14,7 @@
 
 ### office chair
 
-📥 **Items Scraped:** 34 | ✅ **Matched:** 0
+📥 **Items Scraped:** 76 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
@@ -22,7 +22,7 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 27 | ✅ **Matched:** 0
+📥 **Items Scraped:** 30 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
@@ -30,17 +30,28 @@
 
 ### stainless steel cookware
 
-📥 **Items Scraped:** 48 | ✅ **Matched:** 1
+📥 **Items Scraped:** 99 | ✅ **Matched:** 4
 
-### (38). LANBO 24 in. 4 Burner Elements Freestanding Electric Range in Stainless Steel with Air Fry, Rotisserie and True Convection
+### Cuisinart 4.5qt Matte Black Stainless with Blush Bronze Dutch Oven with Cover
 
-🆕 NEW ⭐ 85% Match 🔥 70% OFF
+🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=p3lznB4%2bGoqUmMAYcZpamQ%3d%3d&AuctionId=X414dwKPlzruKdlgPzHSAQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xPO1yvFot3D%2bzJg%2b4m9gIQ%3d%3d&AuctionId=eMsBV29RwySmQPudl0MlOg%3d%3d)**
 
-**Current Price:** $221.00
+**Current Price:** $9.00
 
-**Retail Price:** ~~$738.00~~ (Save 70%)
+**Source:** capital_city
+
+
+---
+
+### 4pc Silicone/Stainless Steel Kitchen Utensil Set - Figmint
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pGKyuL9Z20LayXiEw4X%2b7w%3d%3d&AuctionId=eMsBV29RwySmQPudl0MlOg%3d%3d)**
+
+**Current Price:** $3.00
 
 **Source:** capital_city
 
