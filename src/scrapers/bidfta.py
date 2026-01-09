@@ -353,19 +353,56 @@ class BidFTAScraper(BaseScraper):
 
     async def _get_title(self) -> str:
         """Extract item title."""
+        # Try standard selectors first
         selectors = [
             "h1.lot-title",
             "h1.item-title",
             "h1.product-title",
             "h1[class*='title']",
+            "h1[class*='Title']",
             ".lot-details h1",
             ".item-details h1",
+            ".MuiTypography-h1",
+            ".MuiTypography-h2",
             "h1",
+            "h2",
         ]
         for selector in selectors:
             title = await self._safe_get_text(selector)
             if title and len(title) > 3:
+                logger.debug(f"BidFTA: Found title via selector '{selector}': {title[:50]}")
                 return title
+
+        # Fallback: use JavaScript to find any prominent heading
+        try:
+            title = await self._page.evaluate('''
+                () => {
+                    // Try various heading elements
+                    const h1 = document.querySelector('h1');
+                    if (h1 && h1.innerText.trim()) return h1.innerText.trim();
+
+                    const h2 = document.querySelector('h2');
+                    if (h2 && h2.innerText.trim()) return h2.innerText.trim();
+
+                    // Try to find any element with "title" in class or id
+                    const titleEls = document.querySelectorAll('[class*="title" i], [class*="Title"], [id*="title" i]');
+                    for (const el of titleEls) {
+                        const text = el.innerText?.trim();
+                        if (text && text.length > 3 && text.length < 200) {
+                            return text;
+                        }
+                    }
+
+                    return null;
+                }
+            ''')
+            if title and len(title) > 3:
+                logger.debug(f"BidFTA: Found title via JavaScript: {title[:50]}")
+                return title
+        except Exception as e:
+            logger.debug(f"BidFTA: JavaScript title extraction failed: {e}")
+
+        logger.warning(f"BidFTA: Could not find title after trying all methods")
         return ""
 
     async def _get_description(self) -> str:
