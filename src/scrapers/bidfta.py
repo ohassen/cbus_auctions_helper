@@ -146,12 +146,17 @@ class BidFTAScraper(BaseScraper):
                 if item_links:
                     logger.info(f"Found {len(item_links)} item links via href pattern")
                     items_found = len(item_links)
+                    # Extract all hrefs at once to avoid context destruction
                     for link in item_links:
-                        href = await link.get_attribute("href")
-                        if href:
-                            full_url = urljoin(self.base_url, href)
-                            logger.debug(f"Yielding BidFTA listing URL: {full_url}")
-                            yield full_url
+                        try:
+                            href = await link.get_attribute("href")
+                            if href:
+                                full_url = urljoin(self.base_url, href)
+                                logger.debug(f"Yielding BidFTA listing URL: {full_url}")
+                                yield full_url
+                        except Exception as e:
+                            logger.debug(f"Failed to get href from link: {e}")
+                            continue
                 else:
                     # Try multiple selector strategies for BidFTA's React/MUI components
                     item_selectors = [
@@ -175,23 +180,29 @@ class BidFTAScraper(BaseScraper):
                     for selector in item_selectors:
                         items = await self._page.query_selector_all(selector)
                         if items and len(items) > 0:
-                            # Filter to only items that have links
-                            valid_items = []
-                            for item in items:
-                                link = await item.query_selector("a[href*='itemDetails'], a[href*='item'], a[href]")
-                                if link:
-                                    valid_items.append((item, link))
+                            # Collect all URLs at once using JavaScript to avoid context issues
+                            urls = await self._page.evaluate(f'''
+                                () => {{
+                                    const items = document.querySelectorAll("{selector}");
+                                    const urls = [];
+                                    items.forEach(item => {{
+                                        const link = item.querySelector('a[href*="itemDetails"], a[href*="item"], a[href]');
+                                        if (link && link.href) {{
+                                            urls.push(link.href);
+                                        }}
+                                    }});
+                                    return urls;
+                                }}
+                            ''')
 
-                            if valid_items:
-                                logger.info(f"Found {len(valid_items)} items with selector: {selector}")
-                                items_found = len(valid_items)
+                            if urls:
+                                logger.info(f"Found {len(urls)} items with selector: {selector}")
+                                items_found = len(urls)
 
-                                for item, link in valid_items:
-                                    href = await link.get_attribute("href")
-                                    if href and ('item' in href.lower() or 'lot' in href.lower() or 'details' in href.lower()):
-                                        full_url = urljoin(self.base_url, href)
-                                        logger.debug(f"Yielding BidFTA listing URL: {full_url}")
-                                        yield full_url
+                                for url in urls:
+                                    if url and ('item' in url.lower() or 'lot' in url.lower() or 'details' in url.lower()):
+                                        logger.debug(f"Yielding BidFTA listing URL: {url}")
+                                        yield url
                                 break  # Found items with this selector
 
                 logger.info(f"Page {page_num}: {items_found} items found")
