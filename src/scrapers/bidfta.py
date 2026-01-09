@@ -265,7 +265,13 @@ class BidFTAScraper(BaseScraper):
             logger.debug(f"BidFTA: Scraping listing {url}")
             # BidFTA can be slow to load, use longer timeout
             await self._page.goto(url, wait_until="networkidle", timeout=60000)
-            await asyncio.sleep(2)  # Extra time for React to render
+
+            # Wait longer for React/dynamic content to fully render
+            await asyncio.sleep(5)  # Increased from 2 to 5 seconds
+
+            # Log page title for debugging
+            page_title = await self._page.title()
+            logger.debug(f"BidFTA: Page title from browser: {page_title}")
 
             # Check if item is sold/closed - skip if so
             if await self._is_item_sold_or_closed():
@@ -279,7 +285,12 @@ class BidFTAScraper(BaseScraper):
             title = await self._get_title()
             if not title:
                 logger.warning(f"BidFTA: Could not find title for {url}")
-                return None
+                # Try getting it from page title as last resort
+                if page_title and len(page_title) > 3 and "bidfta" not in page_title.lower():
+                    title = page_title
+                    logger.info(f"BidFTA: Using page title as fallback: {title[:50]}")
+                else:
+                    return None
 
             logger.debug(f"BidFTA: Title found: {title[:50]}")
 
@@ -307,9 +318,14 @@ class BidFTAScraper(BaseScraper):
             pickup_location, pickup_dates = await self._get_pickup_info()
 
             # Verify this is a Columbus location
-            if not self._is_columbus_location(pickup_location):
+            logger.debug(f"BidFTA: Checking location for {title[:50]}: '{pickup_location}'")
+            if pickup_location and not self._is_columbus_location(pickup_location):
                 logger.info(f"BidFTA: Skipping non-Columbus item at '{pickup_location}' - {title[:50]}")
                 return None
+            elif not pickup_location:
+                # If no location found, keep the item (Columbus-filtered by search URL anyway)
+                logger.info(f"BidFTA: No location found, keeping item (URL was Columbus-filtered): {title[:50]}")
+                pickup_location = "Columbus area (location not specified)"
 
             # Images
             image_urls = await self._get_images()
@@ -384,11 +400,29 @@ class BidFTAScraper(BaseScraper):
                     const h2 = document.querySelector('h2');
                     if (h2 && h2.innerText.trim()) return h2.innerText.trim();
 
+                    // Try meta tags (OpenGraph, etc)
+                    const ogTitle = document.querySelector('meta[property="og:title"]');
+                    if (ogTitle && ogTitle.content) return ogTitle.content.trim();
+
+                    const metaTitle = document.querySelector('meta[name="title"]');
+                    if (metaTitle && metaTitle.content) return metaTitle.content.trim();
+
                     // Try to find any element with "title" in class or id
                     const titleEls = document.querySelectorAll('[class*="title" i], [class*="Title"], [id*="title" i]');
                     for (const el of titleEls) {
                         const text = el.innerText?.trim();
                         if (text && text.length > 3 && text.length < 200) {
+                            return text;
+                        }
+                    }
+
+                    // Last resort: look for any large text near the top
+                    const allText = document.querySelectorAll('div, span, p');
+                    for (const el of allText) {
+                        const text = el.innerText?.trim();
+                        // Look for text that's not too long, not too short
+                        if (text && text.length > 10 && text.length < 150 &&
+                            !text.includes('\\n') && el.offsetTop < 500) {
                             return text;
                         }
                     }
