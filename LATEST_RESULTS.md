@@ -1,12 +1,12 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-09 06:00 AM EST
+**Last Updated:** 2026-01-10 05:56 AM EST
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Total Items Scraped:** 205
-- **Items Seen Today:** 205
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Total Items Scraped:** 280
+- **Items Seen Today:** 147
 
 ---
 
@@ -14,7 +14,7 @@
 
 ### office chair
 
-📥 **Items Scraped:** 76 | ✅ **Matched:** 0
+📥 **Items Scraped:** 83 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
@@ -22,41 +22,25 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 30 | ✅ **Matched:** 0
+📥 **Items Scraped:** 44 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
 ---
 
-### stainless steel cookware
+### stainless steel pots and pans
 
-📥 **Items Scraped:** 99 | ✅ **Matched:** 4
+📥 **Items Scraped:** 118 | ✅ **Matched:** 4
 
-### Cuisinart 4.5qt Matte Black Stainless with Blush Bronze Dutch Oven with Cover
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xPO1yvFot3D%2bzJg%2b4m9gIQ%3d%3d&AuctionId=eMsBV29RwySmQPudl0MlOg%3d%3d)**
-
-**Current Price:** $9.00
-
-**Source:** capital_city
-
+*No matches found for this search*
 
 ---
 
-### 4pc Silicone/Stainless Steel Kitchen Utensil Set - Figmint
+### manual coffee grinder
 
-🆕 NEW ⭐ 85% Match
+📥 **Items Scraped:** 35 | ✅ **Matched:** 0
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pGKyuL9Z20LayXiEw4X%2b7w%3d%3d&AuctionId=eMsBV29RwySmQPudl0MlOg%3d%3d)**
-
-**Current Price:** $3.00
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
