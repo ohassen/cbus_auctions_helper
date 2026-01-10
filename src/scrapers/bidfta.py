@@ -266,8 +266,27 @@ class BidFTAScraper(BaseScraper):
             # BidFTA can be slow to load, use longer timeout
             await self._page.goto(url, wait_until="networkidle", timeout=60000)
 
-            # Wait longer for React/dynamic content to fully render
-            await asyncio.sleep(5)  # Increased from 2 to 5 seconds
+            # FIX #3: Wait for actual content to appear, not just network idle
+            try:
+                await self._page.wait_for_function('''
+                    () => {
+                        // Wait for any heading or substantial text to exist
+                        const h1 = document.querySelector('h1');
+                        const h2 = document.querySelector('h2');
+                        const hasHeading = (h1 && h1.innerText.trim()) || (h2 && h2.innerText.trim());
+
+                        // Also check if page has loaded enough content
+                        const bodyText = document.body.innerText || '';
+                        const hasContent = bodyText.length > 100;
+
+                        return hasHeading || hasContent;
+                    }
+                ''', timeout=15000)
+                logger.debug(f"BidFTA: Content fully loaded")
+            except Exception as e:
+                logger.warning(f"BidFTA: Timeout waiting for content, proceeding anyway: {e}")
+                # Continue anyway with extra wait
+                await asyncio.sleep(5)
 
             # Log page title for debugging
             page_title = await self._page.title()
@@ -284,13 +303,44 @@ class BidFTAScraper(BaseScraper):
             # Title
             title = await self._get_title()
             if not title:
-                logger.warning(f"BidFTA: Could not find title for {url}")
-                # Try getting it from page title as last resort
+                logger.warning(f"BidFTA: Could not find title with standard methods for {url}")
+
+                # FIX #1: Save HTML for debugging
+                try:
+                    html = await self._page.content()
+                    logger.debug(f"BidFTA: Page HTML snippet: {html[:1000]}")
+                except Exception as e:
+                    logger.debug(f"BidFTA: Could not get HTML: {e}")
+
+                # Try getting it from page title as fallback
                 if page_title and len(page_title) > 3 and "bidfta" not in page_title.lower():
                     title = page_title
                     logger.info(f"BidFTA: Using page title as fallback: {title[:50]}")
                 else:
-                    return None
+                    # FIX #2: Ultra-permissive - get ANY text from the page
+                    try:
+                        title = await self._page.evaluate('''
+                            () => {
+                                // Get ALL text content
+                                const allText = document.body.innerText || document.body.textContent || '';
+                                const lines = allText.split('\\n')
+                                    .map(l => l.trim())
+                                    .filter(l => l.length > 10 && l.length < 200)
+                                    .filter(l => !l.toLowerCase().includes('cookie'))
+                                    .filter(l => !l.toLowerCase().includes('javascript'));
+
+                                // Return the first substantial line
+                                return lines[0] || null;
+                            }
+                        ''')
+                        if title:
+                            logger.info(f"BidFTA: Using ultra-permissive extraction: {title[:50]}")
+                    except Exception as e:
+                        logger.error(f"BidFTA: Ultra-permissive extraction failed: {e}")
+
+                    if not title:
+                        logger.error(f"BidFTA: All title extraction methods failed for {url}")
+                        return None
 
             logger.debug(f"BidFTA: Title found: {title[:50]}")
 
