@@ -57,6 +57,7 @@ class BidFTAScraper(BaseScraper):
     def __init__(self, config: Optional[ScraperConfig] = None):
         super().__init__(config)
         self._found_urls = set()  # Track URLs across search terms to avoid duplicates
+        self._search_page_data = {}  # Store data extracted from search page
 
     def _is_columbus_location(self, location_text: str) -> bool:
         """Check if a location is in the Columbus area."""
@@ -180,28 +181,36 @@ class BidFTAScraper(BaseScraper):
                     for selector in item_selectors:
                         items = await self._page.query_selector_all(selector)
                         if items and len(items) > 0:
-                            # Collect all URLs at once using JavaScript to avoid context issues
-                            urls = await self._page.evaluate(f'''
+                            # FIX: Extract ALL data from search page using JavaScript
+                            items_data = await self._page.evaluate(f'''
                                 () => {{
                                     const items = document.querySelectorAll("{selector}");
-                                    const urls = [];
-                                    items.forEach(item => {{
+                                    return Array.from(items).map(item => {{
                                         const link = item.querySelector('a[href*="itemDetails"], a[href*="item"], a[href]');
-                                        if (link && link.href) {{
-                                            urls.push(link.href);
-                                        }}
-                                    }});
-                                    return urls;
+                                        const titleEl = item.querySelector('h1, h2, h3, h4, [class*="title"], [class*="Title"]');
+                                        const priceEl = item.querySelector('[class*="price"], [class*="Price"]');
+
+                                        return {{
+                                            url: link?.href || null,
+                                            title: titleEl?.innerText?.trim() || null,
+                                            price: priceEl?.innerText?.trim() || null,
+                                            html: item.innerHTML?.substring(0, 500) || null
+                                        }};
+                                    }}).filter(item => item.url && item.title);
                                 }}
                             ''')
 
-                            if urls:
-                                logger.info(f"Found {len(urls)} items with selector: {selector}")
-                                items_found = len(urls)
+                            if items_data:
+                                logger.info(f"Found {len(items_data)} items with data from search page using selector: {selector}")
+                                items_found = len(items_data)
 
-                                for url in urls:
+                                # Store items_data for later use in scrape_listing
+                                self._search_page_data = {item['url']: item for item in items_data}
+
+                                for item_data in items_data:
+                                    url = item_data['url']
                                     if url and ('item' in url.lower() or 'lot' in url.lower() or 'details' in url.lower()):
-                                        logger.debug(f"Yielding BidFTA listing URL: {url}")
+                                        logger.info(f"BidFTA: Found item on search page: {item_data['title'][:50]} at {url}")
                                         yield url
                                 break  # Found items with this selector
 
@@ -263,6 +272,27 @@ class BidFTAScraper(BaseScraper):
         """Scrape a single listing page."""
         try:
             logger.debug(f"BidFTA: Scraping listing {url}")
+
+            # FIX: Check if we already have data from search page
+            search_page_data = getattr(self, '_search_page_data', {}).get(url)
+            if search_page_data and search_page_data.get('title'):
+                logger.info(f"BidFTA: Using data from search page for {url}")
+                title = search_page_data['title']
+                # Use search page data, skip visiting the listing page
+                external_id = self._extract_id_from_url(url)
+
+                return AuctionItem(
+                    search_id=search_id,
+                    source_site=self.name,
+                    external_id=external_id,
+                    title=title,
+                    description="",
+                    current_price=None,
+                    listing_url=url,
+                    pickup_location="Columbus area (from search results)",
+                    image_urls=[]
+                )
+
             # BidFTA can be slow to load, use longer timeout
             await self._page.goto(url, wait_until="networkidle", timeout=60000)
 
