@@ -1,12 +1,12 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-10 03:32 PM EST
+**Last Updated:** 2026-01-10 05:20 PM EST
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 253
-- **Items Seen Today:** 119
+- **Total Matches Found:** 1 (Score ≥ 70)
+- **Total Items Scraped:** 268
+- **Items Seen Today:** 134
 
 ---
 
@@ -14,19 +14,32 @@
 
 ### office chair
 
-📥 **Items Scraped:** 84 | ✅ **Matched:** 0
+📥 **Items Scraped:** 88 | ✅ **Matched:** 1
 
-*Sources: capital_city: 84*
+*Sources: bidfta: 4 | capital_city: 84*
 
-*No matches found for this search*
+### La-Z-Boy Westley Big & Tall Executive Office Chair With Active Lumbar Support
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/571763/item-detail/50224863)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 45 | ✅ **Matched:** 0
+📥 **Items Scraped:** 46 | ✅ **Matched:** 0
 
-*Sources: capital_city: 45*
+*Sources: bidfta: 1 | capital_city: 45*
 
 *No matches found for this search*
 
@@ -34,9 +47,9 @@
 
 ### stainless steel cookware
 
-📥 **Items Scraped:** 124 | ✅ **Matched:** 8
+📥 **Items Scraped:** 134 | ✅ **Matched:** 8
 
-*Sources: capital_city: 124*
+*Sources: bidfta: 10 | capital_city: 124*
 
 *No matches found for this search*
 
