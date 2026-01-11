@@ -14,7 +14,13 @@
     },
 {
       "id": "search-003",
-      "query": "stainless steel cookware",
+      "query": "stainless steel cooking pan",
+      "active": true,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+{
+      "id": "search-004",
+      "query": "manual coffee grinder",
       "active": true,
       "created_at": "2025-01-01T00:00:00Z"
     }
