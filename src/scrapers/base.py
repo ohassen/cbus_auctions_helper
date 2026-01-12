@@ -167,17 +167,31 @@ class BaseScraper(ABC):
         """Scrape a single listing page."""
         pass
 
-    async def scrape_all(self, query: str, search_id: str) -> list[AuctionItem]:
+    async def scrape_all(self, query: str, search_id: str, max_items: int = 30) -> list[AuctionItem]:
         """Scrape all listings for a search query."""
         items = []
+        items_attempted = 0
         try:
             async for listing_url in self.search(query):
+                # Stop if we've hit the limit
+                if items_attempted >= max_items:
+                    logger.info(f"{self.name}: Reached max_items limit ({max_items}), stopping scrape")
+                    break
+
+                items_attempted += 1
                 await self._rate_limit()
                 try:
-                    item = await self.scrape_listing(listing_url, search_id)
+                    # Add per-item timeout to prevent any single item from hanging
+                    item = await asyncio.wait_for(
+                        self.scrape_listing(listing_url, search_id),
+                        timeout=45.0  # Max 45 seconds per item
+                    )
                     if item:
                         items.append(item)
                         logger.info(f"Scraped: {item.title[:50]}...")
+                except asyncio.TimeoutError:
+                    logger.warning(f"{self.name}: Timeout scraping {listing_url}, skipping")
+                    continue
                 except Exception as e:
                     logger.error(f"Error scraping {listing_url}: {e}")
                     continue
