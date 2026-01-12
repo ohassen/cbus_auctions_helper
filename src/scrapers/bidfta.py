@@ -294,7 +294,7 @@ class BidFTAScraper(BaseScraper):
                 )
 
             # BidFTA can be slow to load, but reduce timeout to fit 30-min workflow limit
-            await self._page.goto(url, wait_until="networkidle", timeout=30000)  # Reduced from 60s
+            await self._page.goto(url, wait_until="networkidle", timeout=20000)  # Further reduced to 20s
 
             # FIX #3: Wait for actual content to appear, not just network idle
             try:
@@ -311,12 +311,12 @@ class BidFTAScraper(BaseScraper):
 
                         return hasHeading || hasContent;
                     }
-                ''', timeout=5000)  # Reduced from 15s
+                ''', timeout=3000)  # Further reduced to 3s
                 logger.debug(f"BidFTA: Content fully loaded")
             except Exception as e:
                 logger.warning(f"BidFTA: Timeout waiting for content, proceeding anyway: {e}")
                 # Continue anyway with extra wait
-                await asyncio.sleep(2)  # Reduced from 5s
+                await asyncio.sleep(1)  # Further reduced to 1s
 
             # Log page title for debugging
             page_title = await self._page.title()

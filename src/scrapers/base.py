@@ -167,13 +167,13 @@ class BaseScraper(ABC):
         """Scrape a single listing page."""
         pass
 
-    async def scrape_all(self, query: str, search_id: str, max_items: int = 10) -> list[AuctionItem]:
+    async def scrape_all(self, query: str, search_id: str, max_items: int = 12) -> list[AuctionItem]:
         """Scrape all listings for a search query.
 
         Args:
             query: Search query string
             search_id: ID of the search from searches.json
-            max_items: Maximum items to scrape per search (default: 10 to fit 30-min timeout)
+            max_items: Maximum items to scrape per search (default: 12 to find new items beyond reported ones)
         """
         items = []
         items_attempted = 0
