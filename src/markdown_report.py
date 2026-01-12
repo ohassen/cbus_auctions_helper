@@ -85,9 +85,15 @@ def _build_markdown(matches: list, stats: dict, search_stats: dict, threshold: i
         for query, query_stats in search_stats.items():
             total_scraped = query_stats.get('total_scraped', 0)
             matched = query_stats.get('matched', 0)
+            by_source = query_stats.get('by_source', {})
 
             md += f"### {query}\n\n"
             md += f"📥 **Items Scraped:** {total_scraped} | ✅ **Matched:** {matched}\n\n"
+
+            # Show source breakdown if multiple sources
+            if by_source:
+                sources_str = " | ".join([f"{source}: {count}" for source, count in sorted(by_source.items())])
+                md += f"*Sources: {sources_str}*\n\n"
 
             # Show matches for this query if any exist
             if query in grouped and grouped[query]:

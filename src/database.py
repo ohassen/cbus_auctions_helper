@@ -380,10 +380,20 @@ class Database:
             """, (search.id, min_score))
             matched = (await cursor.fetchone())["matched"]
 
+            # Count by source
+            cursor = await self._connection.execute("""
+                SELECT source_site, COUNT(*) as count FROM items
+                WHERE search_id = ? AND is_active = 1
+                GROUP BY source_site
+            """, (search.id,))
+            source_rows = await cursor.fetchall()
+            by_source = {row["source_site"]: row["count"] for row in source_rows}
+
             stats[search.query] = {
                 "total_scraped": total,
                 "matched": matched,
-                "search_id": search.id
+                "search_id": search.id,
+                "by_source": by_source
             }
 
         return stats
