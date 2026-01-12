@@ -379,8 +379,8 @@ class CapitalCityScraper(BaseScraper):
         """Scrape a single listing page."""
         try:
             logger.debug(f"Scraping listing: {url}")
-            await self._page.goto(url, wait_until="networkidle")
-            await asyncio.sleep(3)  # Capital City needs more time for JS rendering
+            await self._page.goto(url, wait_until="networkidle", timeout=15000)  # Reduced timeout
+            await asyncio.sleep(1.5)  # Reduced wait for JS rendering
 
             # Wait for page content to be ready
             try:
