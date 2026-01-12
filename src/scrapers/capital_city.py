@@ -167,10 +167,12 @@ class CapitalCityScraper(BaseScraper):
                 logger.info(f"Search returned no results for '{search_term}'")
                 return
 
-            # Collect all items across pages with their end times
+            # Collect items from first 2 pages for sorting by end time
+            # Only need ~60 items to get the top 30 by end time (max_items limit)
             all_items = []  # List of (url, end_time_timestamp) tuples
             page_num = 1
-            max_pages = 5
+            max_pages = 2  # Reduced from 5 to prevent timeout
+            target_items = 60  # Stop early if we have enough
 
             while page_num <= max_pages:
                 logger.info(f"Scraping search results page {page_num}")
@@ -185,6 +187,11 @@ class CapitalCityScraper(BaseScraper):
 
                 logger.info(f"Found {len(listing_data)} listings on page {page_num}")
                 all_items.extend(listing_data)
+
+                # Stop early if we have enough items to choose from
+                if len(all_items) >= target_items:
+                    logger.info(f"Collected {len(all_items)} items, stopping page scan")
+                    break
 
                 # Check for next page
                 has_next = await self._has_next_page()
