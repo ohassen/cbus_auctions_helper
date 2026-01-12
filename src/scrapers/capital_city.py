@@ -5,7 +5,6 @@ import logging
 import re
 from typing import Optional, AsyncIterator
 from urllib.parse import urljoin, urlencode, quote
-from datetime import datetime
 
 from playwright.async_api import TimeoutError as PlaywrightTimeout
 
@@ -167,31 +166,30 @@ class CapitalCityScraper(BaseScraper):
                 logger.info(f"Search returned no results for '{search_term}'")
                 return
 
-            # Collect items from first page only for sorting by end time
-            # Scan just 1 page (~50 items) to get top 8 soonest-ending
-            all_items = []  # List of (url, end_time_timestamp) tuples
+            # Now scrape the results
             page_num = 1
-            max_pages = 1  # Only scan first page to stay under 30-min timeout
-            target_items = 50  # Stop if we have enough
+            max_pages = 5
 
             while page_num <= max_pages:
                 logger.info(f"Scraping search results page {page_num}")
 
-                # Find listing data (URLs + end times)
-                listing_data = await self._find_listing_data()
+                # Find listing links
+                listing_links = await self._find_listing_links()
 
-                if not listing_data:
+                if not listing_links:
                     if page_num == 1:
                         logger.info(f"No listings found for search term '{search_term}'")
                     break
 
-                logger.info(f"Found {len(listing_data)} listings on page {page_num}")
-                all_items.extend(listing_data)
+                logger.info(f"Found {len(listing_links)} listings on page {page_num}")
 
-                # Stop early if we have enough items to choose from
-                if len(all_items) >= target_items:
-                    logger.info(f"Collected {len(all_items)} items, stopping page scan")
-                    break
+                # Log first few URLs for debugging
+                if listing_links:
+                    logger.debug(f"Sample URLs: {listing_links[:3]}")
+
+                for url in listing_links:
+                    logger.debug(f"Yielding listing URL: {url}")
+                    yield url
 
                 # Check for next page
                 has_next = await self._has_next_page()
@@ -205,15 +203,6 @@ class CapitalCityScraper(BaseScraper):
 
                 page_num += 1
                 await asyncio.sleep(1.5)
-
-            # Sort by end time (earliest first) - items without end times go last
-            logger.info(f"Sorting {len(all_items)} items by auction end time")
-            all_items.sort(key=lambda x: x[1] if x[1] is not None else float('inf'))
-
-            # Yield URLs in sorted order
-            for url, end_time in all_items:
-                logger.debug(f"Yielding listing URL (ends {end_time}): {url}")
-                yield url
 
         except PlaywrightTimeout:
             logger.warning(f"Timeout during search for '{search_term}'")
@@ -278,111 +267,50 @@ class CapitalCityScraper(BaseScraper):
 
         return True
 
-    async def _find_listing_data(self) -> list[tuple[str, Optional[float]]]:
-        """Find all listing links with their end times on the current page.
-
-        Returns:
-            List of (url, end_time_timestamp) tuples. end_time_timestamp is None if not found.
-        """
-        # Use JavaScript to extract data from all listing cards at once
-        listing_data = await self._page.evaluate('''
-            () => {
-                const results = [];
-
-                // Find all links that look like auction item details
-                const links = document.querySelectorAll('a[href*="AuctionItemDetail"], a[href*="ItemDetail"], a[href*="item-detail"]');
-
-                links.forEach(link => {
-                    const href = link.href;
-                    if (!href) return;
-
-                    // Find the parent card/container for this link
-                    let card = link.closest('.auction-item, .lot-item, .product-card, .item-card, .listing-item, .card, [class*="item"]');
-                    if (!card) card = link.parentElement;
-
-                    // Look for end time text in the card
-                    let endTimeText = null;
-                    if (card) {
-                        // Try specific selectors first
-                        const timeSelectors = [
-                            '.end-time', '.auction-end', '.closing-time', '.countdown',
-                            '[class*="end-time"]', '[class*="EndTime"]',
-                            '[class*="auction-end"]', '[class*="closing"]',
-                            '.time-remaining', '[class*="TimeRemaining"]'
-                        ];
-
-                        for (const selector of timeSelectors) {
-                            const timeEl = card.querySelector(selector);
-                            if (timeEl) {
-                                endTimeText = timeEl.innerText.trim();
-                                break;
-                            }
-                        }
-
-                        // If not found, look for text patterns in the card
-                        if (!endTimeText) {
-                            const cardText = card.innerText || '';
-                            const patterns = [
-                                /Ends?:?\s*(\d{1,2}\/\d{1,2}\/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)/i,
-                                /Closing:?\s*(\d{1,2}\/\d{1,2}\/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)/i,
-                                /(\d{1,2}\/\d{1,2}\/\d{2,4}\s+\d{1,2}:\d{2}\s*[AP]M?)/
-                            ];
-
-                            for (const pattern of patterns) {
-                                const match = cardText.match(pattern);
-                                if (match) {
-                                    endTimeText = match[1] || match[0];
-                                    break;
-                                }
-                            }
-                        }
-                    }
-
-                    results.push({
-                        url: href,
-                        endTimeText: endTimeText
-                    });
-                });
-
-                return results;
-            }
-        ''')
-
-        # Process the data: validate URLs and parse end times
-        processed_data = []
-        seen_urls = set()
-
-        for item in listing_data:
-            url = item['url']
-            end_time_text = item.get('endTimeText')
-
-            # Validate URL
-            if not self._is_valid_listing_url(url) or url in seen_urls:
-                continue
-
-            seen_urls.add(url)
-
-            # Parse end time to timestamp
-            end_time_timestamp = None
-            if end_time_text:
-                parsed_dt = self._parse_datetime(end_time_text)
-                if parsed_dt:
-                    # Convert to timestamp for sorting
-                    try:
-                        dt_obj = datetime.fromisoformat(parsed_dt.replace('Z', '+00:00'))
-                        end_time_timestamp = dt_obj.timestamp()
-                    except Exception as e:
-                        logger.debug(f"Could not convert datetime to timestamp: {parsed_dt} - {e}")
-
-            processed_data.append((url, end_time_timestamp))
-
-        logger.debug(f"Found {len(processed_data)} valid listing URLs with end time data")
-        return processed_data[:50]  # Limit to first 50 items per page
-
     async def _find_listing_links(self) -> list[str]:
-        """Find all listing links on the current page (legacy method for compatibility)."""
-        listing_data = await self._find_listing_data()
-        return [url for url, _ in listing_data]
+        """Find all listing links on the current page."""
+        listing_links = []
+
+        # Strategy 1: Links to AuctionItemDetail pages (most specific)
+        links = await self._page.query_selector_all("a[href*='AuctionItemDetail'], a[href*='ItemDetail'], a[href*='item-detail']")
+        for link in links:
+            href = await link.get_attribute("href")
+            if href:
+                full_url = urljoin(self.base_url, href)
+                if self._is_valid_listing_url(full_url):
+                    listing_links.append(full_url)
+
+        # Strategy 2: Product cards/tiles with links
+        if not listing_links:
+            selectors = [
+                ".auction-item a",
+                ".lot-item a",
+                ".product-card a",
+                ".item-card a",
+                ".listing-item a",
+            ]
+            for selector in selectors:
+                try:
+                    cards = await self._page.query_selector_all(selector)
+                    for card in cards:
+                        href = await card.get_attribute("href")
+                        if href and href != "#":
+                            full_url = urljoin(self.base_url, href)
+                            if self._is_valid_listing_url(full_url) and full_url not in listing_links:
+                                listing_links.append(full_url)
+                except:
+                    continue
+
+        # Deduplicate while preserving order
+        seen = set()
+        unique_links = []
+        for link in listing_links:
+            if link not in seen:
+                seen.add(link)
+                unique_links.append(link)
+
+        logger.debug(f"Found {len(unique_links)} valid listing URLs")
+        return unique_links[:50]  # Limit to first 50 items
 
     async def _has_next_page(self) -> bool:
         """Check if there's a next page."""
@@ -451,8 +379,8 @@ class CapitalCityScraper(BaseScraper):
         """Scrape a single listing page."""
         try:
             logger.debug(f"Scraping listing: {url}")
-            await self._page.goto(url, wait_until="networkidle", timeout=15000)  # 15s timeout
-            await asyncio.sleep(1.5)  # Reduced wait time for JS rendering
+            await self._page.goto(url, wait_until="networkidle")
+            await asyncio.sleep(3)  # Capital City needs more time for JS rendering
 
             # Wait for page content to be ready
             try:

@@ -128,9 +128,8 @@ class BidFTAScraper(BaseScraper):
                 # BidFTA uses React - wait for any content to appear
                 try:
                     # Wait for any common item container or grid
-                    # Note: BidFTA uses /item-detail/ (with hyphen) in URLs
                     await self._page.wait_for_selector(
-                        ".MuiGrid-item, .MuiCard-root, [class*='item'], [class*='Item'], [class*='card'], [class*='Card'], .col, .grid-item, a[href*='item-detail']",
+                        ".MuiGrid-item, .MuiCard-root, [class*='item'], [class*='Item'], [class*='card'], [class*='Card'], .col, .grid-item, a[href*='itemDetails']",
                         timeout=15000
                     )
                 except PlaywrightTimeout:
@@ -144,24 +143,21 @@ class BidFTAScraper(BaseScraper):
                 items_found = 0
 
                 # First, try to find links directly to item details
-                # Note: BidFTA uses /item-detail/ (with hyphen) in URLs
-                item_links = await self._page.query_selector_all("a[href*='item-detail']")
+                item_links = await self._page.query_selector_all("a[href*='itemDetails']")
                 if item_links:
                     logger.info(f"Found {len(item_links)} item links via href pattern")
-                    # Deduplicate - the page often has multiple links to the same item
-                    seen_hrefs = set()
+                    items_found = len(item_links)
+                    # Extract all hrefs at once to avoid context destruction
                     for link in item_links:
                         try:
                             href = await link.get_attribute("href")
-                            if href and href not in seen_hrefs:
-                                seen_hrefs.add(href)
+                            if href:
                                 full_url = urljoin(self.base_url, href)
                                 logger.debug(f"Yielding BidFTA listing URL: {full_url}")
                                 yield full_url
                         except Exception as e:
                             logger.debug(f"Failed to get href from link: {e}")
                             continue
-                    items_found = len(seen_hrefs)
                 else:
                     # Try multiple selector strategies for BidFTA's React/MUI components
                     item_selectors = [
@@ -298,7 +294,7 @@ class BidFTAScraper(BaseScraper):
                 )
 
             # BidFTA can be slow to load, use longer timeout
-            await self._page.goto(url, wait_until="networkidle", timeout=30000)  # Reduced from 60s to 30s
+            await self._page.goto(url, wait_until="networkidle", timeout=60000)
 
             # FIX #3: Wait for actual content to appear, not just network idle
             try:
@@ -315,12 +311,12 @@ class BidFTAScraper(BaseScraper):
 
                         return hasHeading || hasContent;
                     }
-                ''', timeout=5000)  # Reduced from 15s to 5s
+                ''', timeout=15000)
                 logger.debug(f"BidFTA: Content fully loaded")
             except Exception as e:
                 logger.warning(f"BidFTA: Timeout waiting for content, proceeding anyway: {e}")
-                # Reduced extra wait from 5s to 2s
-                await asyncio.sleep(2)
+                # Continue anyway with extra wait
+                await asyncio.sleep(5)
 
             # Log page title for debugging
             page_title = await self._page.title()
