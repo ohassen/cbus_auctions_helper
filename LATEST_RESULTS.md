@@ -45,7 +45,7 @@
 
 ---
 
-### stainless steel cookware
+### stainless steel pots and pans
 
 📥 **Items Scraped:** 134 | ✅ **Matched:** 8
 

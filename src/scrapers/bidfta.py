@@ -128,8 +128,9 @@ class BidFTAScraper(BaseScraper):
                 # BidFTA uses React - wait for any content to appear
                 try:
                     # Wait for any common item container or grid
+                    # Note: BidFTA uses /item-detail/ (with hyphen) in URLs
                     await self._page.wait_for_selector(
-                        ".MuiGrid-item, .MuiCard-root, [class*='item'], [class*='Item'], [class*='card'], [class*='Card'], .col, .grid-item, a[href*='itemDetails']",
+                        ".MuiGrid-item, .MuiCard-root, [class*='item'], [class*='Item'], [class*='card'], [class*='Card'], .col, .grid-item, a[href*='item-detail']",
                         timeout=15000
                     )
                 except PlaywrightTimeout:
@@ -143,21 +144,24 @@ class BidFTAScraper(BaseScraper):
                 items_found = 0
 
                 # First, try to find links directly to item details
-                item_links = await self._page.query_selector_all("a[href*='itemDetails']")
+                # Note: BidFTA uses /item-detail/ (with hyphen) in URLs
+                item_links = await self._page.query_selector_all("a[href*='item-detail']")
                 if item_links:
                     logger.info(f"Found {len(item_links)} item links via href pattern")
-                    items_found = len(item_links)
-                    # Extract all hrefs at once to avoid context destruction
+                    # Deduplicate - the page often has multiple links to the same item
+                    seen_hrefs = set()
                     for link in item_links:
                         try:
                             href = await link.get_attribute("href")
-                            if href:
+                            if href and href not in seen_hrefs:
+                                seen_hrefs.add(href)
                                 full_url = urljoin(self.base_url, href)
                                 logger.debug(f"Yielding BidFTA listing URL: {full_url}")
                                 yield full_url
                         except Exception as e:
                             logger.debug(f"Failed to get href from link: {e}")
                             continue
+                    items_found = len(seen_hrefs)
                 else:
                     # Try multiple selector strategies for BidFTA's React/MUI components
                     item_selectors = [
