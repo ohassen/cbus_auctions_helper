@@ -167,7 +167,7 @@ class BaseScraper(ABC):
         """Scrape a single listing page."""
         pass
 
-    async def scrape_all(self, query: str, search_id: str, max_items: int = 30) -> list[AuctionItem]:
+    async def scrape_all(self, query: str, search_id: str, max_items: int = 8) -> list[AuctionItem]:
         """Scrape all listings for a search query."""
         items = []
         items_attempted = 0
@@ -184,7 +184,7 @@ class BaseScraper(ABC):
                     # Add per-item timeout to prevent any single item from hanging
                     item = await asyncio.wait_for(
                         self.scrape_listing(listing_url, search_id),
-                        timeout=45.0  # Max 45 seconds per item
+                        timeout=20.0  # Max 20 seconds per item
                     )
                     if item:
                         items.append(item)

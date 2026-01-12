@@ -167,12 +167,12 @@ class CapitalCityScraper(BaseScraper):
                 logger.info(f"Search returned no results for '{search_term}'")
                 return
 
-            # Collect items from first 2 pages for sorting by end time
-            # Only need ~60 items to get the top 30 by end time (max_items limit)
+            # Collect items from first page only for sorting by end time
+            # Scan just 1 page (~50 items) to get top 8 soonest-ending
             all_items = []  # List of (url, end_time_timestamp) tuples
             page_num = 1
-            max_pages = 2  # Reduced from 5 to prevent timeout
-            target_items = 60  # Stop early if we have enough
+            max_pages = 1  # Only scan first page to stay under 30-min timeout
+            target_items = 50  # Stop if we have enough
 
             while page_num <= max_pages:
                 logger.info(f"Scraping search results page {page_num}")
@@ -451,8 +451,8 @@ class CapitalCityScraper(BaseScraper):
         """Scrape a single listing page."""
         try:
             logger.debug(f"Scraping listing: {url}")
-            await self._page.goto(url, wait_until="networkidle")
-            await asyncio.sleep(3)  # Capital City needs more time for JS rendering
+            await self._page.goto(url, wait_until="networkidle", timeout=15000)  # 15s timeout
+            await asyncio.sleep(1.5)  # Reduced wait time for JS rendering
 
             # Wait for page content to be ready
             try:
