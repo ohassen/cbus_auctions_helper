@@ -277,15 +277,35 @@ async def run_monitor(
                 else:
                     logger.warning("Email not configured, skipping email report")
 
+        except Exception as e:
+            # Catch any unexpected errors in the main workflow
+            error_msg = f"Workflow error: {str(e)}"
+            logger.error(error_msg)
+            results["errors"].append(error_msg)
         finally:
             # Phase 4: Generate Markdown Report (ALWAYS runs, even if earlier phases fail)
             logger.info("=" * 50)
             logger.info("PHASE 4: Markdown Report")
             logger.info("=" * 50)
 
+            # Determine workflow status
+            workflow_status = "completed"
+            if results["errors"]:
+                if any("timeout" in err.lower() for err in results["errors"]):
+                    workflow_status = "timeout"
+                elif results["items_scraped"] == 0:
+                    workflow_status = "failed"
+                else:
+                    workflow_status = "partial"
+
             try:
                 from .markdown_report import generate_markdown_report
-                md_generated = await generate_markdown_report(db, threshold=relevance_threshold)
+                md_generated = await generate_markdown_report(
+                    db,
+                    threshold=relevance_threshold,
+                    workflow_errors=results["errors"],
+                    workflow_status=workflow_status
+                )
                 if md_generated:
                     logger.info("Markdown report generated successfully")
                 else:
