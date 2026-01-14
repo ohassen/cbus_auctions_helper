@@ -165,9 +165,14 @@ async def run_monitor(
     skip_scraping: bool = False,
     skip_matching: bool = False,
     skip_email: bool = False,
-    relevance_threshold: int = 70
+    relevance_threshold: int = 70,
+    max_runtime_minutes: int = 28
 ) -> dict:
-    """Run the complete monitoring pipeline."""
+    """Run the complete monitoring pipeline.
+
+    Args:
+        max_runtime_minutes: Maximum runtime before forcing stop (default 28 min to beat GitHub Actions 30 min timeout)
+    """
 
     results = {
         "start_time": datetime.now(),
@@ -175,7 +180,8 @@ async def run_monitor(
         "items_scraped": 0,
         "matches_found": 0,
         "email_sent": False,
-        "errors": []
+        "errors": [],
+        "timed_out": False
     }
 
     # Load searches
@@ -186,6 +192,11 @@ async def run_monitor(
 
     results["searches"] = len(searches)
     logger.info(f"Loaded {len(searches)} active searches")
+
+    # Helper function to check if we're approaching timeout
+    def is_approaching_timeout() -> bool:
+        elapsed = (datetime.now() - results["start_time"]).total_seconds() / 60
+        return elapsed >= max_runtime_minutes
 
     # Initialize database
     async with Database(db_path) as db:
@@ -207,16 +218,22 @@ async def run_monitor(
                 results["items_scraped"] += cc_results["items_scraped"]
                 results["errors"].extend(cc_results["errors"])
 
-                # Scrape BidFTA
-                logger.info("Scraping BidFTA (Columbus locations)...")
-                bidfta_results = await scrape_site(BidFTAScraper, scraper_config, searches, db)
-                results["items_scraped"] += bidfta_results["items_scraped"]
-                results["errors"].extend(bidfta_results["errors"])
+                # Check timeout before BidFTA
+                if is_approaching_timeout():
+                    logger.warning(f"Approaching {max_runtime_minutes}-minute timeout, skipping BidFTA to ensure report generation")
+                    results["timed_out"] = True
+                    results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
+                else:
+                    # Scrape BidFTA
+                    logger.info("Scraping BidFTA (Columbus locations)...")
+                    bidfta_results = await scrape_site(BidFTAScraper, scraper_config, searches, db)
+                    results["items_scraped"] += bidfta_results["items_scraped"]
+                    results["errors"].extend(bidfta_results["errors"])
 
                 logger.info(f"Total items scraped: {results['items_scraped']}")
 
             # Phase 2: Semantic Matching
-            if not skip_matching and os.getenv("ANTHROPIC_API_KEY"):
+            if not skip_matching and os.getenv("ANTHROPIC_API_KEY") and not is_approaching_timeout():
                 logger.info("=" * 50)
                 logger.info("PHASE 2: Semantic Matching")
                 logger.info("=" * 50)
@@ -233,6 +250,11 @@ async def run_monitor(
                     error_msg = f"Semantic matching failed: {str(e)}"
                     logger.error(error_msg)
                     results["errors"].append(error_msg)
+            elif is_approaching_timeout():
+                logger.warning(f"Approaching {max_runtime_minutes}-minute timeout, skipping semantic matching to ensure report generation")
+                if not results["timed_out"]:
+                    results["timed_out"] = True
+                    results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
             elif not os.getenv("ANTHROPIC_API_KEY"):
                 logger.warning("ANTHROPIC_API_KEY not set, skipping semantic matching")
 
@@ -290,10 +312,10 @@ async def run_monitor(
 
             # Determine workflow status
             workflow_status = "completed"
-            if results["errors"]:
-                if any("timeout" in err.lower() for err in results["errors"]):
-                    workflow_status = "timeout"
-                elif results["items_scraped"] == 0:
+            if results["timed_out"]:
+                workflow_status = "timeout"
+            elif results["errors"]:
+                if results["items_scraped"] == 0:
                     workflow_status = "failed"
                 else:
                     workflow_status = "partial"
