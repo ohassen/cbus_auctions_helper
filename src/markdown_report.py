@@ -13,9 +13,19 @@ logger = logging.getLogger(__name__)
 async def generate_markdown_report(
     db: Database,
     output_path: str = "LATEST_RESULTS.md",
-    threshold: int = 70
+    threshold: int = 70,
+    workflow_errors: list[str] = None,
+    workflow_status: str = "completed"
 ) -> bool:
-    """Generate a Markdown report of all matches."""
+    """Generate a Markdown report of all matches.
+
+    Args:
+        db: Database instance
+        output_path: Path to write report to
+        threshold: Minimum relevance score
+        workflow_errors: List of error messages from workflow (if any)
+        workflow_status: Status of workflow ("completed", "partial", "failed", "timeout")
+    """
 
     try:
         # Get all matches (only unreported items)
@@ -28,7 +38,14 @@ async def generate_markdown_report(
         search_stats = await db.get_search_statistics(threshold)
 
         # Generate Markdown
-        markdown = _build_markdown(matches, stats, search_stats, threshold)
+        markdown = _build_markdown(
+            matches,
+            stats,
+            search_stats,
+            threshold,
+            workflow_errors or [],
+            workflow_status
+        )
 
         # Write to file
         output_file = Path(output_path)
@@ -48,7 +65,14 @@ async def generate_markdown_report(
         return False
 
 
-def _build_markdown(matches: list, stats: dict, search_stats: dict, threshold: int) -> str:
+def _build_markdown(
+    matches: list,
+    stats: dict,
+    search_stats: dict,
+    threshold: int,
+    errors: list[str],
+    status: str
+) -> str:
     """Build the Markdown report."""
 
     # Use Eastern timezone
@@ -68,7 +92,40 @@ def _build_markdown(matches: list, stats: dict, search_stats: dict, threshold: i
 
 **Last Updated:** {now}
 
-## 📊 Overall Statistics
+"""
+
+    # Workflow Status Section
+    md += "## 📋 Workflow Status\n\n"
+
+    if status == "completed" and not errors:
+        md += "✅ **Status:** Completed successfully\n\n"
+    elif status == "partial" or (status == "completed" and errors):
+        md += "⚠️ **Status:** Completed with errors\n\n"
+        if errors:
+            md += "**Errors encountered:**\n"
+            for error in errors:
+                md += f"- {error}\n"
+            md += "\n"
+    elif status == "timeout":
+        md += "⏱️ **Status:** Workflow timed out (30-minute limit)\n\n"
+        md += "*Report shows partial results from before timeout.*\n\n"
+        if errors:
+            md += "**Errors before timeout:**\n"
+            for error in errors:
+                md += f"- {error}\n"
+            md += "\n"
+    elif status == "failed":
+        md += "❌ **Status:** Workflow failed\n\n"
+        if errors:
+            md += "**Errors:**\n"
+            for error in errors:
+                md += f"- {error}\n"
+            md += "\n"
+
+    md += "---\n\n"
+
+    # Statistics Section
+    md += f"""## 📊 Overall Statistics
 
 - **Total Matches Found:** {len(matches)} (Score ≥ {threshold})
 - **Total Items Scraped:** {stats.get('total_items', 0)}

@@ -165,9 +165,14 @@ async def run_monitor(
     skip_scraping: bool = False,
     skip_matching: bool = False,
     skip_email: bool = False,
-    relevance_threshold: int = 70
+    relevance_threshold: int = 70,
+    max_runtime_minutes: int = 28
 ) -> dict:
-    """Run the complete monitoring pipeline."""
+    """Run the complete monitoring pipeline.
+
+    Args:
+        max_runtime_minutes: Maximum runtime before forcing stop (default 28 min to beat GitHub Actions 30 min timeout)
+    """
 
     results = {
         "start_time": datetime.now(),
@@ -175,7 +180,8 @@ async def run_monitor(
         "items_scraped": 0,
         "matches_found": 0,
         "email_sent": False,
-        "errors": []
+        "errors": [],
+        "timed_out": False
     }
 
     # Load searches
@@ -187,114 +193,155 @@ async def run_monitor(
     results["searches"] = len(searches)
     logger.info(f"Loaded {len(searches)} active searches")
 
+    # Helper function to check if we're approaching timeout
+    def is_approaching_timeout() -> bool:
+        elapsed = (datetime.now() - results["start_time"]).total_seconds() / 60
+        return elapsed >= max_runtime_minutes
+
     # Initialize database
     async with Database(db_path) as db:
-        # Phase 1: Scraping
-        if not skip_scraping:
+        try:
+            # Phase 1: Scraping
+            if not skip_scraping:
+                logger.info("=" * 50)
+                logger.info("PHASE 1: Web Scraping")
+                logger.info("=" * 50)
+
+                scraper_config = ScraperConfig(
+                    rate_limit_delay=float(os.getenv("RATE_LIMIT_DELAY", "0.5")),
+                    headless=True
+                )
+
+                # Scrape Capital City Online Auction
+                logger.info("Scraping Capital City Online Auction...")
+                cc_results = await scrape_site(CapitalCityScraper, scraper_config, searches, db)
+                results["items_scraped"] += cc_results["items_scraped"]
+                results["errors"].extend(cc_results["errors"])
+
+                # Check timeout before BidFTA
+                if is_approaching_timeout():
+                    logger.warning(f"Approaching {max_runtime_minutes}-minute timeout, skipping BidFTA to ensure report generation")
+                    results["timed_out"] = True
+                    results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
+                else:
+                    # Scrape BidFTA
+                    logger.info("Scraping BidFTA (Columbus locations)...")
+                    bidfta_results = await scrape_site(BidFTAScraper, scraper_config, searches, db)
+                    results["items_scraped"] += bidfta_results["items_scraped"]
+                    results["errors"].extend(bidfta_results["errors"])
+
+                logger.info(f"Total items scraped: {results['items_scraped']}")
+
+            # Phase 2: Semantic Matching
+            if not skip_matching and os.getenv("ANTHROPIC_API_KEY") and not is_approaching_timeout():
+                logger.info("=" * 50)
+                logger.info("PHASE 2: Semantic Matching")
+                logger.info("=" * 50)
+
+                try:
+                    matcher = SemanticMatcher(
+                        relevance_threshold=relevance_threshold
+                    )
+
+                    results["matches_found"] = await run_semantic_matching(db, matcher, searches)
+                    logger.info(f"Total matches found: {results['matches_found']}")
+
+                except Exception as e:
+                    error_msg = f"Semantic matching failed: {str(e)}"
+                    logger.error(error_msg)
+                    results["errors"].append(error_msg)
+            elif is_approaching_timeout():
+                logger.warning(f"Approaching {max_runtime_minutes}-minute timeout, skipping semantic matching to ensure report generation")
+                if not results["timed_out"]:
+                    results["timed_out"] = True
+                    results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
+            elif not os.getenv("ANTHROPIC_API_KEY"):
+                logger.warning("ANTHROPIC_API_KEY not set, skipping semantic matching")
+
+            # Mark ended auctions
+            await db.mark_ended_auctions()
+
+            # Phase 3: Email Report
+            if not skip_email:
+                logger.info("=" * 50)
+                logger.info("PHASE 3: Email Report")
+                logger.info("=" * 50)
+
+                email_config = EmailConfig.from_env()
+
+                # Debug logging for email config
+                logger.info(f"Email config - Host: {email_config.smtp_host}, Port: {email_config.smtp_port}")
+                logger.info(f"Email config - User set: {bool(email_config.username)}, Password set: {bool(email_config.password)}")
+                logger.info(f"Email config - Recipient: {email_config.recipient[:20] + '...' if email_config.recipient else 'NOT SET'}")
+
+                if email_config.username and email_config.password and email_config.recipient:
+                    # Get today's matches
+                    matches = await db.get_todays_matches(min_score=relevance_threshold)
+                    logger.info(f"Generating report for {len(matches)} matches")
+
+                    # Generate HTML report
+                    html = generate_report_html(matches)
+
+                    # Send email
+                    results["email_sent"] = send_email_report(
+                        email_config,
+                        html,
+                        match_count=len(matches)
+                    )
+
+                    # Send error notifications if any
+                    if results["errors"]:
+                        send_error_report(
+                            email_config,
+                            "\n".join(results["errors"]),
+                            "Multiple Sites"
+                        )
+                else:
+                    logger.warning("Email not configured, skipping email report")
+
+        except Exception as e:
+            # Catch any unexpected errors in the main workflow
+            error_msg = f"Workflow error: {str(e)}"
+            logger.error(error_msg)
+            results["errors"].append(error_msg)
+        finally:
+            # Phase 4: Generate Markdown Report (ALWAYS runs, even if earlier phases fail)
             logger.info("=" * 50)
-            logger.info("PHASE 1: Web Scraping")
+            logger.info("PHASE 4: Markdown Report")
             logger.info("=" * 50)
 
-            scraper_config = ScraperConfig(
-                rate_limit_delay=float(os.getenv("RATE_LIMIT_DELAY", "0.5")),
-                headless=True
-            )
-
-            # Scrape Capital City Online Auction
-            logger.info("Scraping Capital City Online Auction...")
-            cc_results = await scrape_site(CapitalCityScraper, scraper_config, searches, db)
-            results["items_scraped"] += cc_results["items_scraped"]
-            results["errors"].extend(cc_results["errors"])
-
-            # Scrape BidFTA
-            logger.info("Scraping BidFTA (Columbus locations)...")
-            bidfta_results = await scrape_site(BidFTAScraper, scraper_config, searches, db)
-            results["items_scraped"] += bidfta_results["items_scraped"]
-            results["errors"].extend(bidfta_results["errors"])
-
-            logger.info(f"Total items scraped: {results['items_scraped']}")
-
-        # Phase 2: Semantic Matching
-        if not skip_matching and os.getenv("ANTHROPIC_API_KEY"):
-            logger.info("=" * 50)
-            logger.info("PHASE 2: Semantic Matching")
-            logger.info("=" * 50)
+            # Determine workflow status
+            workflow_status = "completed"
+            if results["timed_out"]:
+                workflow_status = "timeout"
+            elif results["errors"]:
+                if results["items_scraped"] == 0:
+                    workflow_status = "failed"
+                else:
+                    workflow_status = "partial"
 
             try:
-                matcher = SemanticMatcher(
-                    relevance_threshold=relevance_threshold
+                from .markdown_report import generate_markdown_report
+                md_generated = await generate_markdown_report(
+                    db,
+                    threshold=relevance_threshold,
+                    workflow_errors=results["errors"],
+                    workflow_status=workflow_status
                 )
-
-                results["matches_found"] = await run_semantic_matching(db, matcher, searches)
-                logger.info(f"Total matches found: {results['matches_found']}")
-
+                if md_generated:
+                    logger.info("Markdown report generated successfully")
+                else:
+                    logger.warning("Failed to generate Markdown report")
             except Exception as e:
-                error_msg = f"Semantic matching failed: {str(e)}"
-                logger.error(error_msg)
-                results["errors"].append(error_msg)
-        elif not os.getenv("ANTHROPIC_API_KEY"):
-            logger.warning("ANTHROPIC_API_KEY not set, skipping semantic matching")
+                logger.error(f"Error generating Markdown report: {e}")
+                results["errors"].append(f"Markdown report generation failed: {str(e)}")
 
-        # Mark ended auctions
-        await db.mark_ended_auctions()
-
-        # Phase 3: Email Report
-        if not skip_email:
-            logger.info("=" * 50)
-            logger.info("PHASE 3: Email Report")
-            logger.info("=" * 50)
-
-            email_config = EmailConfig.from_env()
-
-            # Debug logging for email config
-            logger.info(f"Email config - Host: {email_config.smtp_host}, Port: {email_config.smtp_port}")
-            logger.info(f"Email config - User set: {bool(email_config.username)}, Password set: {bool(email_config.password)}")
-            logger.info(f"Email config - Recipient: {email_config.recipient[:20] + '...' if email_config.recipient else 'NOT SET'}")
-
-            if email_config.username and email_config.password and email_config.recipient:
-                # Get today's matches
-                matches = await db.get_todays_matches(min_score=relevance_threshold)
-                logger.info(f"Generating report for {len(matches)} matches")
-
-                # Generate HTML report
-                html = generate_report_html(matches)
-
-                # Send email
-                results["email_sent"] = send_email_report(
-                    email_config,
-                    html,
-                    match_count=len(matches)
-                )
-
-                # Send error notifications if any
-                if results["errors"]:
-                    send_error_report(
-                        email_config,
-                        "\n".join(results["errors"]),
-                        "Multiple Sites"
-                    )
-            else:
-                logger.warning("Email not configured, skipping email report")
-
-        # Phase 4: Generate Markdown Report
-        logger.info("=" * 50)
-        logger.info("PHASE 4: Markdown Report")
-        logger.info("=" * 50)
-
-        try:
-            from .markdown_report import generate_markdown_report
-            md_generated = await generate_markdown_report(db, threshold=relevance_threshold)
-            if md_generated:
-                logger.info("Markdown report generated successfully")
-            else:
-                logger.warning("Failed to generate Markdown report")
-        except Exception as e:
-            logger.error(f"Error generating Markdown report: {e}")
-            results["errors"].append(f"Markdown report generation failed: {str(e)}")
-
-        # Log stats
-        stats = await db.get_stats()
-        logger.info(f"Database stats: {stats}")
+            # Log stats
+            try:
+                stats = await db.get_stats()
+                logger.info(f"Database stats: {stats}")
+            except Exception as e:
+                logger.warning(f"Could not get database stats: {e}")
 
     results["end_time"] = datetime.now()
     results["duration"] = (results["end_time"] - results["start_time"]).total_seconds()
