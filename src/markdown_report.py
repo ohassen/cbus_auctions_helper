@@ -210,7 +210,7 @@ def _build_item_section(item: dict) -> str:
 
     # Price info
     md += f"**Current Price:** {price_str}\n\n"
-    if msrp and msrp > 0:
+    if msrp and msrp > 0 and discount_pct is not None:
         md += f"**Retail Price:** ~~${msrp:.2f}~~ (Save {int(discount_pct)}%)\n\n"
 
     # Details
