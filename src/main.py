@@ -46,8 +46,13 @@ def setup_logging(log_level: str = "INFO", log_file: Optional[str] = None) -> No
 logger = logging.getLogger(__name__)
 
 
-async def scrape_site(scraper_class, config: ScraperConfig, searches: list, db: Database) -> dict:
-    """Scrape a single auction site for all search queries."""
+async def scrape_site(scraper_class, config: ScraperConfig, searches: list, db: Database, max_items_per_search: Optional[int] = 12) -> dict:
+    """Scrape a single auction site for all search queries.
+
+    Args:
+        max_items_per_search: Maximum items to scrape per search query (default: 12)
+                             Set to None for unlimited (not recommended)
+    """
     results = {
         "site": scraper_class.name if hasattr(scraper_class, 'name') else scraper_class.__name__,
         "items_scraped": 0,
@@ -59,7 +64,7 @@ async def scrape_site(scraper_class, config: ScraperConfig, searches: list, db: 
             for search in searches:
                 logger.info(f"Searching {scraper.name} for: {search.query}")
                 try:
-                    items = await scraper.scrape_all(search.query, search.id)
+                    items = await scraper.scrape_all(search.query, search.id, max_items=max_items_per_search)
                     logger.info(f"{scraper.name}: Found {len(items)} items for '{search.query}'")
                     results["items_scraped"] += len(items)
 
@@ -166,13 +171,16 @@ async def run_monitor(
     skip_matching: bool = False,
     skip_email: bool = False,
     relevance_threshold: int = 70,
-    max_runtime_minutes: int = None
+    max_runtime_minutes: int = None,
+    max_items_per_search: int = 12
 ) -> dict:
     """Run the complete monitoring pipeline.
 
     Args:
         max_runtime_minutes: Maximum runtime before forcing stop (default 28 min to beat GitHub Actions 30 min timeout)
                             Can be overridden with MAX_RUNTIME_MINUTES environment variable
+        max_items_per_search: Maximum items to scrape per search query (default: 12)
+                             Tested timing: 12 items × 4 searches × 2 sites ≈ 26 min
     """
 
     # Allow environment variable to override default
@@ -218,8 +226,8 @@ async def run_monitor(
                 )
 
                 # Scrape Capital City Online Auction
-                logger.info("Scraping Capital City Online Auction...")
-                cc_results = await scrape_site(CapitalCityScraper, scraper_config, searches, db)
+                logger.info(f"Scraping Capital City Online Auction (max {max_items_per_search} items per search)...")
+                cc_results = await scrape_site(CapitalCityScraper, scraper_config, searches, db, max_items_per_search)
                 results["items_scraped"] += cc_results["items_scraped"]
                 results["errors"].extend(cc_results["errors"])
 
@@ -230,8 +238,8 @@ async def run_monitor(
                     results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
                 else:
                     # Scrape BidFTA
-                    logger.info("Scraping BidFTA (Columbus locations)...")
-                    bidfta_results = await scrape_site(BidFTAScraper, scraper_config, searches, db)
+                    logger.info(f"Scraping BidFTA (Columbus locations, max {max_items_per_search} items per search)...")
+                    bidfta_results = await scrape_site(BidFTAScraper, scraper_config, searches, db, max_items_per_search)
                     results["items_scraped"] += bidfta_results["items_scraped"]
                     results["errors"].extend(bidfta_results["errors"])
 
