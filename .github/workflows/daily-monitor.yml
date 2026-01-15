@@ -1,35 +1,111 @@
-# This workflow installs the required system dependencies for Playwright
-# and then runs playwright install to set up Playwright properly.
-
-name: Daily Monitor
+name: Daily Auction Monitor
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Run at 10 AM UTC daily (6 AM EST / 5 AM EDT)
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+    inputs:
+      skip_scraping:
+        description: 'Skip web scraping (use existing data)'
+        required: false
+        type: boolean
+        default: false
+      skip_matching:
+        description: 'Skip semantic matching'
+        required: false
+        type: boolean
+        default: false
+      log_level:
+        description: 'Logging level'
+        required: false
+        type: choice
+        options:
+          - INFO
+          - DEBUG
+          - WARNING
+        default: 'INFO'
+
+env:
+  PYTHON_VERSION: '3.11'
 
 jobs:
-  install:
+  run-monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write  # Required to push commits
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3-tools \
-            fonts-noto-color-emoji \
-            libxss1 \
-            libgbm-dev
-
-      - name: Cache Playwright
-        uses: actions/cache@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
+          # Fetch with token that has write permissions
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install Playwright
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+          sudo env "PATH=$PATH" playwright install-deps chromium
+
+      - name: Restore database cache
+        uses: actions/cache@v4
+        with:
+          path: auction_data.db
+          key: auction-db-v2-${{ github.run_number }}
+          restore-keys: |
+            auction-db-v2-
+
+      - name: Run auction monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LOG_LEVEL: ${{ inputs.log_level || 'INFO' }}
+        run: |
+          # Build command with optional flags
+          CMD="python -m src.main --skip-email"
+
+          if [ "${{ inputs.skip_scraping }}" = "true" ]; then
+            CMD="$CMD --skip-scraping"
+          fi
+
+          if [ "${{ inputs.skip_matching }}" = "true" ]; then
+            CMD="$CMD --skip-matching"
+          fi
+
+          CMD="$CMD --log-level ${{ inputs.log_level || 'INFO' }}"
+
+          echo "Running: $CMD"
+          $CMD
+
+      - name: Upload logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: monitor-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 30
+
+      - name: Save database cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: auction_data.db
+          key: auction-db-v2-${{ github.run_number }}
+
+      - name: Commit results
+        if: always()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -84,8 +160,7 @@ jobs:
 
           Please check the GitHub Actions logs for details:
           https://github.com/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/{os.environ.get('GITHUB_RUN_ID', '')}
-          """
-          )
+          """)
 
           msg['Subject'] = 'Auction Monitor - Workflow Failed'
           msg['From'] = username
