@@ -31,5 +31,72 @@ jobs:
 
       - name: Install Playwright
         run: |
-          npm install -D playwright
-          playwright install
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add markdown report and database if they exist
+          git add LATEST_RESULTS.md auction_data.db || true
+
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update auction results - $(date -u +%Y-%m-%d)"
+
+            # Pull latest changes and rebase, then push
+            git pull --rebase origin ${{ github.ref_name }}
+            git push
+          fi
+
+  notify-failure:
+    runs-on: ubuntu-latest
+    needs: run-monitor
+    if: failure()
+
+    steps:
+      - name: Send failure notification
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+        run: |
+          # Simple failure notification using Python
+          python3 << 'EOF'
+          import smtplib
+          import os
+          from email.mime.text import MIMEText
+
+          smtp_host = 'smtp.gmail.com'
+          smtp_port = 587
+          username = os.environ.get('EMAIL_USER', '')
+          password = os.environ.get('EMAIL_PASSWORD', '')
+          recipient = os.environ.get('EMAIL_RECIPIENT', '')
+
+          if not all([username, password, recipient]):
+              print("Email not configured, skipping notification")
+              exit(0)
+
+          msg = MIMEText(f"""
+          The Auction Monitor workflow failed.
+
+          Run: {os.environ.get('GITHUB_RUN_NUMBER', 'unknown')}
+          Repository: {os.environ.get('GITHUB_REPOSITORY', 'unknown')}
+
+          Please check the GitHub Actions logs for details:
+          https://github.com/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/{os.environ.get('GITHUB_RUN_ID', '')}
+          """
+          )
+
+          msg['Subject'] = 'Auction Monitor - Workflow Failed'
+          msg['From'] = username
+          msg['To'] = recipient
+
+          try:
+              with smtplib.SMTP(smtp_host, smtp_port) as server:
+                  server.starttls()
+                  server.login(username, password)
+                  server.send_message(msg)
+              print("Failure notification sent")
+          except Exception as e:
+              print(f"Failed to send notification: {e}")
+          EOF
