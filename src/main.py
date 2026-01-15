@@ -166,13 +166,18 @@ async def run_monitor(
     skip_matching: bool = False,
     skip_email: bool = False,
     relevance_threshold: int = 70,
-    max_runtime_minutes: int = 28
+    max_runtime_minutes: int = None
 ) -> dict:
     """Run the complete monitoring pipeline.
 
     Args:
         max_runtime_minutes: Maximum runtime before forcing stop (default 28 min to beat GitHub Actions 30 min timeout)
+                            Can be overridden with MAX_RUNTIME_MINUTES environment variable
     """
+
+    # Allow environment variable to override default
+    if max_runtime_minutes is None:
+        max_runtime_minutes = int(os.getenv("MAX_RUNTIME_MINUTES", "28"))
 
     results = {
         "start_time": datetime.now(),

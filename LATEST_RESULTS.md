@@ -1,12 +1,38 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-10 05:20 PM EST
+**Last Updated:** 2026-01-14 10:30 PM EST
+
+## 📋 Workflow Status
+
+❌ **Status:** Workflow failed
+
+**Errors:**
+- Failed to initialize scraper: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+- Failed to initialize scraper: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+---
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Total Items Scraped:** 268
-- **Items Seen Today:** 134
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Total Items Scraped:** 0
+- **Items Seen Today:** 0
 
 ---
 
@@ -14,42 +40,31 @@
 
 ### office chair
 
-📥 **Items Scraped:** 88 | ✅ **Matched:** 1
-
-*Sources: bidfta: 4 | capital_city: 84*
-
-### La-Z-Boy Westley Big & Tall Executive Office Chair With Active Lumbar Support
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/571763/item-detail/50224863)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
----
-
-### bread maker
-
-📥 **Items Scraped:** 46 | ✅ **Matched:** 0
-
-*Sources: bidfta: 1 | capital_city: 45*
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
 ---
 
-### stainless steel pots and pans
+### bread maker
 
-📥 **Items Scraped:** 134 | ✅ **Matched:** 8
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
-*Sources: bidfta: 10 | capital_city: 124*
+*No matches found for this search*
+
+---
+
+### stainless steel pan
+
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
+
+*No matches found for this search*
+
+---
+
+### manual coffee grinder
+
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
