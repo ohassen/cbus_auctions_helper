@@ -64,9 +64,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: auction_data.db
-          key: auction-db-v2-${{ github.run_number }}
+          key: auction-db-v3-${{ github.run_number }}
           restore-keys: |
-            auction-db-v2-
+            auction-db-v3-
 
       - name: Run auction monitor
         env:
@@ -102,7 +102,7 @@ jobs:
         if: always()
         with:
           path: auction_data.db
-          key: auction-db-v2-${{ github.run_number }}
+          key: auction-db-v3-${{ github.run_number }}
 
       - name: Commit results
         if: always()

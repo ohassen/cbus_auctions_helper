@@ -95,14 +95,17 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
     for search in searches:
         logger.info(f"Running semantic matching for: {search.query}")
 
-        # Get items scraped today for this search
+        # Get items scraped today that haven't been matched yet
+        # Skip items that already have match_metadata to avoid re-matching on multiple runs
         cursor = await db._connection.execute("""
-            SELECT * FROM items WHERE search_id = ? AND last_seen = ?
+            SELECT * FROM items
+            WHERE search_id = ? AND last_seen = ?
+              AND id NOT IN (SELECT item_id FROM match_metadata)
         """, (search.id, today))
         rows = await cursor.fetchall()
 
         if not rows:
-            logger.info(f"No items to match for search: {search.query}")
+            logger.info(f"No new items to match for search: {search.query}")
             continue
 
         # Convert to AuctionItem objects
@@ -271,9 +274,6 @@ async def run_monitor(
             elif not os.getenv("ANTHROPIC_API_KEY"):
                 logger.warning("ANTHROPIC_API_KEY not set, skipping semantic matching")
 
-            # Mark ended auctions
-            await db.mark_ended_auctions()
-
             # Phase 3: Email Report
             if not skip_email:
                 logger.info("=" * 50)
@@ -318,6 +318,13 @@ async def run_monitor(
             logger.error(error_msg)
             results["errors"].append(error_msg)
         finally:
+            # Mark ended auctions BEFORE generating report
+            # This ensures sold/ended items are marked inactive before report shows them
+            try:
+                await db.mark_ended_auctions()
+            except Exception as e:
+                logger.warning(f"Failed to mark ended auctions: {e}")
+
             # Phase 4: Generate Markdown Report (ALWAYS runs, even if earlier phases fail)
             logger.info("=" * 50)
             logger.info("PHASE 4: Markdown Report")
