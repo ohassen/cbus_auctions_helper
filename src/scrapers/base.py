@@ -167,11 +167,22 @@ class BaseScraper(ABC):
         """Scrape a single listing page."""
         pass
 
-    async def scrape_all(self, query: str, search_id: str) -> list[AuctionItem]:
-        """Scrape all listings for a search query."""
+    async def scrape_all(self, query: str, search_id: str, max_items: Optional[int] = None) -> list[AuctionItem]:
+        """Scrape all listings for a search query.
+
+        Args:
+            query: Search query string
+            search_id: Database ID for this search
+            max_items: Maximum number of items to scrape (None = unlimited)
+        """
         items = []
         try:
             async for listing_url in self.search(query):
+                # Check if we've reached the limit
+                if max_items is not None and len(items) >= max_items:
+                    logger.info(f"Reached max_items limit ({max_items}) for '{query}'")
+                    break
+
                 await self._rate_limit()
                 try:
                     item = await self.scrape_listing(listing_url, search_id)
