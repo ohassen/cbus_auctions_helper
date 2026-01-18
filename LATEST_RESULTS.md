@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-17 05:28 AM EST
+**Last Updated:** 2026-01-18 05:30 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,8 +10,8 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Total Items Scraped:** 843
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Total Items Scraped:** 899
 - **Items Seen Today:** 65
 
 ---
@@ -20,32 +20,19 @@
 
 ### office chair
 
-📥 **Items Scraped:** 255 | ✅ **Matched:** 16
+📥 **Items Scraped:** 269 | ✅ **Matched:** 16
 
-*Sources: bidfta: 6 | capital_city: 249*
+*Sources: bidfta: 8 | capital_city: 261*
 
-### La-Z-Boy Harnett Big & Tall Executive Office Comfort Core Cushions, Ergonomic High-Back Chair With Solid Wood Arms, Bonded Leather, Black
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/573107/item-detail/50423973)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 66 | ✅ **Matched:** 20
+📥 **Items Scraped:** 73 | ✅ **Matched:** 22
 
-*Sources: bidfta: 1 | capital_city: 65*
+*Sources: bidfta: 4 | capital_city: 69*
 
 *No matches found for this search*
 
@@ -53,9 +40,9 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 359 | ✅ **Matched:** 7
+📥 **Items Scraped:** 378 | ✅ **Matched:** 7
 
-*Sources: bidfta: 25 | capital_city: 334*
+*Sources: bidfta: 32 | capital_city: 346*
 
 *No matches found for this search*
 
@@ -63,9 +50,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 163 | ✅ **Matched:** 0
+📥 **Items Scraped:** 179 | ✅ **Matched:** 0
 
-*Sources: bidfta: 11 | capital_city: 152*
+*Sources: bidfta: 15 | capital_city: 164*
 
 *No matches found for this search*
 
