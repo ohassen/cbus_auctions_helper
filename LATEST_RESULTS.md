@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-17 01:19 PM EST
+**Last Updated:** 2026-01-18 03:01 PM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Total Items Scraped:** 137
-- **Items Seen Today:** 71
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Total Items Scraped:** 193
+- **Items Seen Today:** 72
 
 ---
 
@@ -20,50 +20,67 @@
 
 ### office chair
 
-📥 **Items Scraped:** 28 | ✅ **Matched:** 3
+📥 **Items Scraped:** 41 | ✅ **Matched:** 5
 
-*Sources: bidfta: 6 | capital_city: 22*
+*Sources: bidfta: 8 | capital_city: 33*
 
-*No matches found for this search*
+### Office Desk Chair With Ergonomic Lumbar Support, Extra-Thick Seat Cushion, Flip-Up Arms, Breathable Mesh Back, Computer Task Chair For Home Office Black&Silver
+
+🆕 NEW ⭐ 90% Match
+
+**[🔗 View Auction](https://www.bidfta.com/573898/item-detail/50496899)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Gtracing Gaming Chair Office Chair Pu Leather With Footrest & Adjustable Headrest, Black
+
+🆕 NEW ✓ 80% Match
+
+**[🔗 View Auction](https://www.bidfta.com/572368/item-detail/50308896)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 4
+📥 **Items Scraped:** 18 | ✅ **Matched:** 4
 
-*Sources: bidfta: 1 | capital_city: 14*
+*Sources: bidfta: 2 | capital_city: 16*
 
-### Sourdough Starter Kit, Complete Starter-To-Loaf Set with Instructions, Sourdough Starter Jar, Silicone Proofing Baskets, Danish Dough Whisk, Dough Scraper, Bread Lame & Sourdough Baking Supplies
-
-🆕 NEW ⭐ 85% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LE0baYvUIwwtUaHTLP5Wvw%3d%3d&AuctionId=rJEEr%2fUTOr7G4bPlvYYcPw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$65.99~~ (Save 98%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 47 | ✅ **Matched:** 2
+📥 **Items Scraped:** 66 | ✅ **Matched:** 3
 
-*Sources: bidfta: 24 | capital_city: 23*
+*Sources: bidfta: 31 | capital_city: 35*
 
-### Consevisen Vegetable Steamer Basket for Cooking Food, Stainless Steel Veggie Steam Basket for Pot, Folding Expandable Steaming Insert with Extendable Handle Fits Various Size Pot, 5.1" to 9"
+### (52) Gallery 30 in. Radiant Electric Cooktop in Stainless Steel with 5 Burner Elements, including Dual Burner
 
-🆕 NEW ⭐ 85% Match
+🆕 NEW ✓ 80% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=QSIR0EqUhevzXWexW161rw%3d%3d&AuctionId=ZsgmPIIoALdV%2bJWftPGCPQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gHGsTuTFls4CbA7SKbJjgQ%3d%3d&AuctionId=9xqbH4m7JD73Ug5CYwhpwQ%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $8.00
+
+**Retail Price:** ~~$1259.99~~ (Save 99%)
 
 **Source:** capital_city
 
@@ -74,9 +91,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 33 | ✅ **Matched:** 0
+📥 **Items Scraped:** 48 | ✅ **Matched:** 0
 
-*Sources: bidfta: 10 | capital_city: 23*
+*Sources: bidfta: 13 | capital_city: 35*
 
 *No matches found for this search*
 
@@ -84,11 +101,24 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 0
+📥 **Items Scraped:** 20 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 13*
+*Sources: bidfta: 1 | capital_city: 19*
 
-*No matches found for this search*
+### Fellow Stagg EKG Pro Electric Gooseneck Kettle - Pour-Over Coffee and Tea, Quick Heating, Precise Temperature Control, Scheduling, Built-in Brew Timer, Matte Black, 0.9 Liter
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xhQbByNu2ypIt4H1GHiVgg%3d%3d&AuctionId=hbHfRyNb%2ffpnEU%2fFfxLKBQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$189.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
 
 ---
 
