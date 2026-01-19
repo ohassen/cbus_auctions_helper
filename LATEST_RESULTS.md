@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-18 03:01 PM EST
+**Last Updated:** 2026-01-19 01:31 PM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Total Items Scraped:** 193
-- **Items Seen Today:** 72
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Total Items Scraped:** 243
+- **Items Seen Today:** 71
 
 ---
 
@@ -20,80 +20,67 @@
 
 ### office chair
 
-📥 **Items Scraped:** 41 | ✅ **Matched:** 5
+📥 **Items Scraped:** 54 | ✅ **Matched:** 5
 
-*Sources: bidfta: 8 | capital_city: 33*
-
-### Office Desk Chair With Ergonomic Lumbar Support, Extra-Thick Seat Cushion, Flip-Up Arms, Breathable Mesh Back, Computer Task Chair For Home Office Black&Silver
-
-🆕 NEW ⭐ 90% Match
-
-**[🔗 View Auction](https://www.bidfta.com/573898/item-detail/50496899)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Gtracing Gaming Chair Office Chair Pu Leather With Footrest & Adjustable Headrest, Black
-
-🆕 NEW ✓ 80% Match
-
-**[🔗 View Auction](https://www.bidfta.com/572368/item-detail/50308896)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
----
-
-### bread maker
-
-📥 **Items Scraped:** 18 | ✅ **Matched:** 4
-
-*Sources: bidfta: 2 | capital_city: 16*
+*Sources: bidfta: 9 | capital_city: 45*
 
 *No matches found for this search*
 
 ---
 
-### stainless steel pan
+### bread maker
 
-📥 **Items Scraped:** 66 | ✅ **Matched:** 3
+📥 **Items Scraped:** 22 | ✅ **Matched:** 6
 
-*Sources: bidfta: 31 | capital_city: 35*
+*Sources: bidfta: 3 | capital_city: 19*
 
-### (52) Gallery 30 in. Radiant Electric Cooktop in Stainless Steel with 5 Burner Elements, including Dual Burner
+### JoeCo Sourdough Starter Kit, Complete Starter-To-Loaf Set with Instructions, Sourdough Starter Jar, Silicone Proofing Baskets, Danish Dough Whisk, Dough Scraper, Bread Lame & Sourdough Baking Supplies
 
-🆕 NEW ✓ 80% Match 🔥 99% OFF
+🆕 NEW ⭐ 90% Match 🔥 95% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gHGsTuTFls4CbA7SKbJjgQ%3d%3d&AuctionId=9xqbH4m7JD73Ug5CYwhpwQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gSluJK%2f9JNxwwtXWt7wpoA%3d%3d&AuctionId=riTOE%2bwxLkBXvg7n%2bUjtHw%3d%3d)**
 
-**Current Price:** $8.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$1259.99~~ (Save 99%)
+**Retail Price:** ~~$65.00~~ (Save 95%)
 
 **Source:** capital_city
 
 
 ---
 
+### Dough Maker With Ferment Function 7.4qt Large Capacity Dough Mixer,Commercial&Household Bread Mixer For Pizza, Noodles, Bread,Sourdough Kneading Machine With Stainless Steel Bowl, Face-Up Touch Panel
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://www.bidfta.com/575091/item-detail/50614843)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+---
+
+### stainless steel pan
+
+📥 **Items Scraped:** 84 | ✅ **Matched:** 3
+
+*Sources: bidfta: 37 | capital_city: 47*
+
+*No matches found for this search*
+
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 48 | ✅ **Matched:** 0
+📥 **Items Scraped:** 58 | ✅ **Matched:** 0
 
-*Sources: bidfta: 13 | capital_city: 35*
+*Sources: bidfta: 14 | capital_city: 44*
 
 *No matches found for this search*
 
@@ -101,24 +88,11 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 20 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 19*
+*Sources: bidfta: 2 | capital_city: 23*
 
-### Fellow Stagg EKG Pro Electric Gooseneck Kettle - Pour-Over Coffee and Tea, Quick Heating, Precise Temperature Control, Scheduling, Built-in Brew Timer, Matte Black, 0.9 Liter
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xhQbByNu2ypIt4H1GHiVgg%3d%3d&AuctionId=hbHfRyNb%2ffpnEU%2fFfxLKBQ%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$189.99~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
