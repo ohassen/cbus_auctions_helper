@@ -36,6 +36,7 @@
 
 **Source:** capital_city
 
+*No matches found for this search*
 
 ---
 
@@ -74,7 +75,7 @@
 
 ---
 
-### manual coffee grinder
+### gooseneck kettle
 
 📥 **Items Scraped:** 205 | ✅ **Matched:** 0
 

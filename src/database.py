@@ -3,7 +3,7 @@
 import asyncio
 import json
 import logging
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 from typing import Optional
 from dataclasses import dataclass, field, asdict
@@ -106,7 +106,7 @@ class Database:
                 last_seen DATE NOT NULL,
                 is_active BOOLEAN DEFAULT 1,
                 reported_at TIMESTAMP,
-                UNIQUE(source_site, external_id, search_id)
+                UNIQUE(source_site, external_id)
             );
 
             CREATE TABLE IF NOT EXISTS images (
@@ -118,7 +118,7 @@ class Database:
 
             CREATE TABLE IF NOT EXISTS match_metadata (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                item_id INTEGER NOT NULL,
+                item_id INTEGER NOT NULL UNIQUE,
                 relevance_score INTEGER NOT NULL,
                 reasoning TEXT,
                 confidence TEXT,
@@ -137,20 +137,23 @@ class Database:
         """Insert or update an auction item. Returns the item ID."""
         today = date.today()
 
-        # Check if item already exists
+        # Check if item already exists (by source_site + external_id only)
         cursor = await self._connection.execute(
-            """SELECT id, first_seen FROM items
-               WHERE source_site = ? AND external_id = ? AND search_id = ?""",
-            (item.source_site, item.external_id, item.search_id)
+            """SELECT id, first_seen, search_id FROM items
+               WHERE source_site = ? AND external_id = ?""",
+            (item.source_site, item.external_id)
         )
         existing = await cursor.fetchone()
 
         if existing:
-            # Update existing item
+            # Update existing item - DON'T force is_active=1, preserve current state
             item_id = existing["id"]
             first_seen = existing["first_seen"]
+
+            # Update search_id to the most recent search that found this item
             await self._connection.execute("""
                 UPDATE items SET
+                    search_id = ?,
                     title = ?,
                     description = ?,
                     current_price = ?,
@@ -161,10 +164,10 @@ class Database:
                     pickup_location = ?,
                     pickup_dates = ?,
                     listing_url = ?,
-                    last_seen = ?,
-                    is_active = 1
+                    last_seen = ?
                 WHERE id = ?
             """, (
+                item.search_id,
                 item.title,
                 item.description,
                 item.current_price,
@@ -219,9 +222,9 @@ class Database:
         return item_id
 
     async def save_match_metadata(self, metadata: MatchMetadata) -> int:
-        """Save semantic matching metadata for an item."""
+        """Save semantic matching metadata for an item. Updates if already exists."""
         cursor = await self._connection.execute("""
-            INSERT INTO match_metadata (item_id, relevance_score, reasoning, confidence)
+            INSERT OR REPLACE INTO match_metadata (item_id, relevance_score, reasoning, confidence)
             VALUES (?, ?, ?, ?)
         """, (
             metadata.item_id,
@@ -265,13 +268,17 @@ class Database:
         return results
 
     async def get_matches_for_report(self, min_score: int = 70) -> list[dict]:
-        """Get all active items with matches for report (only unreported items)."""
+        """Get all active items with matches for report (only unreported items).
+
+        Note: With UNIQUE constraints on items(source_site, external_id) and
+        match_metadata(item_id), each physical auction appears exactly once.
+        """
         # Get all searches to build a lookup
         searches = load_searches()
         search_lookup = {s.id: s.query for s in searches}
 
         cursor = await self._connection.execute("""
-            SELECT
+            SELECT DISTINCT
                 i.*,
                 m.relevance_score,
                 m.reasoning,
@@ -306,15 +313,33 @@ class Database:
     async def mark_ended_auctions(self) -> int:
         """Mark auctions that have ended as inactive. Returns count of updated items."""
         now = datetime.utcnow().isoformat()
+
+        # Mark items with auction_end in the past
         cursor = await self._connection.execute("""
             UPDATE items SET is_active = 0
             WHERE auction_end < ? AND is_active = 1
         """, (now,))
+        count_ended = cursor.rowcount
+
+        # Mark items with NULL auction_end that haven't been seen in 7 days
+        seven_days_ago = (date.today() - timedelta(days=7)).isoformat()
+        cursor = await self._connection.execute("""
+            UPDATE items SET is_active = 0
+            WHERE auction_end IS NULL
+              AND last_seen < ?
+              AND is_active = 1
+        """, (seven_days_ago,))
+        count_stale = cursor.rowcount
+
         await self._connection.commit()
-        count = cursor.rowcount
-        if count > 0:
-            logger.info(f"Marked {count} ended auctions as inactive")
-        return count
+
+        total_count = count_ended + count_stale
+        if count_ended > 0:
+            logger.info(f"Marked {count_ended} ended auctions as inactive")
+        if count_stale > 0:
+            logger.info(f"Marked {count_stale} stale items (NULL auction_end, not seen in 7 days) as inactive")
+
+        return total_count
 
     async def get_item_by_id(self, item_id: int) -> Optional[dict]:
         """Get a single item by ID."""
