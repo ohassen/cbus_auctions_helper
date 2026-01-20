@@ -103,7 +103,7 @@ Set `"active": false` to disable a search without deleting it.
 python -m src.main
 
 # Run with options
-python -m src.main --skip-email --log-level DEBUG
+python -m src.main --log-level DEBUG
 
 # View all options
 python -m src.main --help
@@ -115,7 +115,7 @@ python -m src.main --help
 usage: python -m src.main [-h] [--searches SEARCHES] [--database DATABASE]
                           [--log-level {DEBUG,INFO,WARNING,ERROR}]
                           [--log-file LOG_FILE] [--threshold THRESHOLD]
-                          [--skip-scraping] [--skip-matching] [--skip-email]
+                          [--skip-scraping] [--skip-matching]
 
 Options:
   --searches, -s      Path to searches.json (default: searches.json)
@@ -125,7 +125,6 @@ Options:
   --threshold, -t     Minimum relevance score 0-100 (default: 70)
   --skip-scraping     Skip web scraping (use existing data)
   --skip-matching     Skip semantic matching
-  --skip-email        Skip sending email report
 ```
 
 ## GitHub Actions Setup
@@ -133,13 +132,8 @@ Options:
 The included workflow runs daily at 10 AM UTC. To enable:
 
 1. Go to your repository Settings > Secrets and variables > Actions
-2. Add these secrets:
+2. Add this secret:
    - `ANTHROPIC_API_KEY`
-   - `EMAIL_SMTP_HOST`
-   - `EMAIL_SMTP_PORT`
-   - `EMAIL_USER`
-   - `EMAIL_PASSWORD`
-   - `EMAIL_RECIPIENT`
 
 3. Enable Actions in your repository
 

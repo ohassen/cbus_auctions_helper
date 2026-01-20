@@ -74,7 +74,7 @@ jobs:
           LOG_LEVEL: ${{ inputs.log_level || 'INFO' }}
         run: |
           # Build command with optional flags
-          CMD="python -m src.main --skip-email"
+          CMD="python -m src.main"
 
           if [ "${{ inputs.skip_scraping }}" = "true" ]; then
             CMD="$CMD --skip-scraping"

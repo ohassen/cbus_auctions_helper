@@ -7,7 +7,7 @@
 #
 # WHAT IT DOES:
 #   - Sets MAX_RUNTIME_MINUTES=1 to trigger timeout after 1 minute
-#   - Runs the full workflow locally with --skip-email flag
+#   - Runs the full workflow locally
 #   - Generates LATEST_RESULTS.md with workflow status and errors
 #   - Much faster than waiting 30 minutes for GitHub Actions
 #
@@ -31,7 +31,7 @@ export MAX_RUNTIME_MINUTES=1
 
 # Run the workflow
 # It will timeout quickly and generate a report
-python -m src.main --skip-email
+python -m src.main
 
 echo ""
 echo "✅ Test complete! Check LATEST_RESULTS.md to see the report."
