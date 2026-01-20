@@ -147,7 +147,6 @@ auction-monitor/
 │   ├── main.py              # CLI entry point
 │   ├── database.py          # SQLite operations
 │   ├── matching.py          # Claude semantic matching
-│   ├── email_report.py      # HTML email generation
 │   └── scrapers/
 │       ├── __init__.py
 │       ├── base.py          # Base scraper class
@@ -155,7 +154,6 @@ auction-monitor/
 │       └── bidfta.py        # BidFTA scraper
 ├── tests/
 │   ├── test_database.py
-│   ├── test_email_report.py
 │   └── test_scrapers.py
 ├── .github/workflows/
 │   └── daily-monitor.yml    # GitHub Actions workflow
@@ -172,7 +170,6 @@ auction-monitor/
 The SQLite database tracks all items and matches:
 
 - **items**: Auction items with details (price, condition, pickup, etc.)
-- **images**: Image URLs associated with items
 - **match_metadata**: Semantic matching results (score, reasoning)
 
 Items are tracked historically with `first_seen` and `last_seen` dates.
@@ -181,7 +178,7 @@ Items are tracked historically with `first_seen` and `last_seen` dates.
 
 The matching system uses Claude to:
 
-1. Analyze item title, description, and images
+1. Analyze item title, description
 2. Compare against your search query
 3. Score relevance (0-100)
 4. Provide reasoning for the score
@@ -213,11 +210,6 @@ pytest tests/test_database.py -v
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | `ANTHROPIC_API_KEY` | Yes* | - | Claude API key (required for matching) |
-| `EMAIL_SMTP_HOST` | No | smtp.gmail.com | SMTP server hostname |
-| `EMAIL_SMTP_PORT` | No | 587 | SMTP server port |
-| `EMAIL_USER` | No | - | SMTP username/email |
-| `EMAIL_PASSWORD` | No | - | SMTP password/app password |
-| `EMAIL_RECIPIENT` | No | - | Where to send reports |
 | `RELEVANCE_THRESHOLD` | No | 70 | Minimum match score |
 | `RATE_LIMIT_DELAY` | No | 0.5 | Seconds between requests |
 | `LOG_LEVEL` | No | INFO | Logging verbosity |
@@ -232,10 +224,6 @@ pytest tests/test_database.py -v
 - **Timeouts**: Increase timeout with custom ScraperConfig if pages load slowly.
 - **Missing Data**: Check logs for selector issues. Sites may change their HTML structure.
 
-### Email Issues
-
-- **Gmail**: Use an App Password, not your regular password. Enable 2FA first.
-- **Authentication Failed**: Verify SMTP host/port match your provider.
 
 ### Matching Issues
 
