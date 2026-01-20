@@ -17,20 +17,22 @@
 ## 📊 Cost Impact Analysis
 
 ### Current Daily Usage Estimate
-Based on latest workflow results (51 items matched/day):
+Based on latest workflow results (51 items matched/day, TEXT-ONLY):
 
-- **Input tokens:** 91,800 (~0.092 MTok/day)
+- **Input tokens:** 30,600 (~0.031 MTok/day)
 - **Output tokens:** 10,200 (~0.010 MTok/day)
-- **Total:** ~0.102 MTok/day
+- **Total:** ~0.041 MTok/day
+
+**Note:** Vision/image processing has been removed to reduce costs and simplify workflow.
 
 ### Cost Comparison
 
 | Model | Input | Output | Daily | Monthly | Yearly | vs Haiku 3.5 |
 |-------|-------|--------|-------|---------|--------|--------------|
-| **Haiku 3.5** (retiring) | $1.00 | $5.00 | $0.14 | $4.28 | $52.12 | baseline |
-| **Haiku 4.5** ⭐⭐⭐ (recommended) | $1.00 | $5.00 | $0.14 | $4.28 | $52.12 | **+$0.00 (0%)** |
-| **Sonnet 4.5** (alternative) | $3.00 | $15.00 | $0.43 | $12.85 | $156.37 | +200% |
-| **Opus 4.5** (premium) | $5.00 | $25.00 | $0.71 | $21.42 | $260.61 | +400% |
+| **Haiku 3.5** (retiring, text-only) | $1.00 | $5.00 | $0.08 | $2.45 | $29.78 | baseline |
+| **Haiku 4.5** ⭐⭐⭐ (recommended, text-only) | $1.00 | $5.00 | $0.08 | $2.45 | $29.78 | **+$0.00 (0%)** |
+| **Sonnet 4.5** (alternative, text-only) | $3.00 | $15.00 | $0.14 | $4.29 | $52.18 | +75% |
+| **Opus 4.5** (premium, text-only) | $5.00 | $25.00 | $0.24 | $7.15 | $86.97 | +192% |
 
 ### 💰 Bottom Line
 
@@ -135,7 +137,7 @@ You get better performance at NO additional cost:
 
 1. **Better matching accuracy** - Improved reasoning about item relevance
 2. **Better JSON reliability** - More consistent structured outputs
-3. **Improved vision analysis** - Better understanding of product images
+3. **Better text understanding** - Improved analysis of titles and descriptions
 4. **Faster responses** - Haiku is the fastest Claude model
 5. **Future-proof** - Latest Haiku with ongoing support
 6. **Latest knowledge** - Training data through July 2025, reliable knowledge through Feb 2025
@@ -232,10 +234,9 @@ After upgrading, monitor actual costs at:
 https://console.anthropic.com/settings/usage
 
 Compare against these estimates:
-- Expected daily: $0.43
-- Expected monthly: $12.85
+- Expected daily: ~$0.08 (text-only, no images)
+- Expected monthly: ~$2.40
 
 If actual costs are significantly higher, investigate:
 1. Number of items being matched daily
-2. Number of images being sent per item
-3. Prompt token count (may have increased)
+2. Prompt token count (may have increased)
