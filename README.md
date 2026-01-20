@@ -9,7 +9,6 @@ A Python CLI tool that monitors auction websites daily for specific items, uses 
   - BidFTA (Columbus-area locations only)
 
 - **AI Semantic Matching**: Uses Claude to evaluate item relevance with:
-  - Vision analysis of product images
   - Intelligent filtering of false positives
   - Configurable relevance threshold
 
@@ -18,8 +17,8 @@ A Python CLI tool that monitors auction websites daily for specific items, uses 
   - Looks up retail prices via Claude when unavailable
   - Calculates discount percentages
 
-- **Email Reports**:
-  - HTML-formatted daily reports
+- **Markdown Reports**:
+  - .MD-formatted daily reports
   - Visual indicators for items ending soon
   - "New" badges for first-time matches
   - High-discount highlighting
