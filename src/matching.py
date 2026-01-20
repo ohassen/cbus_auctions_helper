@@ -1,13 +1,11 @@
-"""Claude semantic matching for auction items with vision analysis."""
+"""Claude semantic matching for auction items."""
 
 import asyncio
-import base64
 import logging
 import os
 from dataclasses import dataclass
 from typing import Optional
 
-import aiohttp
 import anthropic
 
 from .database import AuctionItem, MatchMetadata
@@ -49,35 +47,6 @@ class SemanticMatcher:
         self.model = model
         self.relevance_threshold = relevance_threshold
 
-    async def _fetch_image_base64(self, url: str) -> Optional[tuple[str, str]]:
-        """Fetch an image and return as base64 with media type."""
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, timeout=aiohttp.ClientTimeout(total=10)) as resp:
-                    if resp.status != 200:
-                        return None
-
-                    content_type = resp.headers.get("Content-Type", "image/jpeg")
-                    # Normalize content type
-                    if "jpeg" in content_type or "jpg" in content_type:
-                        media_type = "image/jpeg"
-                    elif "png" in content_type:
-                        media_type = "image/png"
-                    elif "gif" in content_type:
-                        media_type = "image/gif"
-                    elif "webp" in content_type:
-                        media_type = "image/webp"
-                    else:
-                        media_type = "image/jpeg"  # Default
-
-                    data = await resp.read()
-                    encoded = base64.standard_b64encode(data).decode("utf-8")
-                    return encoded, media_type
-
-        except Exception as e:
-            logger.debug(f"Failed to fetch image {url}: {e}")
-            return None
-
     def _build_match_prompt(self, query: str, item: AuctionItem) -> str:
         """Build the matching prompt."""
         # Format price properly
@@ -106,7 +75,7 @@ IMPORTANT MATCHING RULES:
      * Folding chairs
      * Gaming chairs (unless office-style)
 3. If the item is clearly a different category than the query, score it low
-4. Consider the images carefully - they often reveal the true nature of the item
+4. Use the title and description to determine the true nature of the item
 
 Analyze the item and provide your evaluation in this EXACT JSON format:
 {{
@@ -123,40 +92,9 @@ Respond with ONLY the JSON, no other text."""
     async def evaluate_item(
         self,
         query: str,
-        item: AuctionItem,
-        include_images: bool = True,
-        max_images: int = 3
+        item: AuctionItem
     ) -> MatchResult:
-        """Evaluate if an item matches the search query."""
-
-        # Build message content
-        content = []
-
-        # Add images if available
-        if include_images and item.image_urls:
-            images_added = 0
-            for url in item.image_urls[:max_images]:
-                result = await self._fetch_image_base64(url)
-                if result:
-                    encoded, media_type = result
-                    content.append({
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": media_type,
-                            "data": encoded
-                        }
-                    })
-                    images_added += 1
-
-            if images_added > 0:
-                logger.debug(f"Added {images_added} images for evaluation")
-
-        # Add text prompt
-        content.append({
-            "type": "text",
-            "text": self._build_match_prompt(query, item)
-        })
+        """Evaluate if an item matches the search query using text only."""
 
         try:
             # Call Claude API (synchronous SDK, but we'll run in executor)
@@ -165,7 +103,10 @@ Respond with ONLY the JSON, no other text."""
                 lambda: self.client.messages.create(
                     model=self.model,
                     max_tokens=500,
-                    messages=[{"role": "user", "content": content}]
+                    messages=[{
+                        "role": "user",
+                        "content": self._build_match_prompt(query, item)
+                    }]
                 )
             )
 
