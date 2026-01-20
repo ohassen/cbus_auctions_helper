@@ -24,7 +24,6 @@
 
 *Sources: bidfta: 12 | capital_city: 10*
 
-*No matches found for this search*
 
 ---
 
@@ -58,13 +57,36 @@
 
 ---
 
-### gooseneck kettle
+### manual coffee grinder
 
 📥 **Items Scraped:** 12 | ✅ **Matched:** 1
 
 *Sources: bidfta: 1 | capital_city: 11*
 
 *No matches found for this search*
+
+---
+
+### gooseneck kettle
+
+📥 **Items Scraped:** 12 | ✅ **Matched:** 1
+
+*Sources: bidfta: 1 | capital_city: 11*
+
+### Fellow Stagg EKG Pro Electric Gooseneck Kettle - Pour-Over Coffee and Tea, Quick Heating, Precise Temperature Control, Scheduling, Built-in Brew Timer, Matte Black, 0.9 Liter
+
+🆕 NEW ⭐ 95% Match 🔥 93% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xhQbByNu2ypIt4H1GHiVgg%3d%3d&AuctionId=hbHfRyNb%2ffpnEU%2fFfxLKBQ%3d%3d)**
+
+**Current Price:** $13.34
+
+**Retail Price:** ~~$189.99~~ (Save 93%)
+
+**Source:** capital_city
+
+
+---
 
 ---
 
