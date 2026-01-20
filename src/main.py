@@ -2,8 +2,7 @@
 """
 Auction Monitor CLI - Main orchestration script.
 
-Monitors auction websites for specific items, uses AI semantic matching,
-and sends email reports with matches.
+Monitors auction websites for specific items and uses AI semantic matching.
 """
 
 import argparse
@@ -21,7 +20,7 @@ from .database import Database, AuctionItem, MatchMetadata, load_searches
 from .scrapers import CapitalCityScraper, BidFTAScraper
 from .scrapers.base import ScraperConfig
 from .matching import SemanticMatcher, MatchResult
-from .email_report import EmailConfig, generate_report_html, send_email_report, send_error_report
+from .timeout_manager import TimeoutManager
 
 # Load environment variables
 load_dotenv()
@@ -172,7 +171,6 @@ async def run_monitor(
     db_path: str = "auction_data.db",
     skip_scraping: bool = False,
     skip_matching: bool = False,
-    skip_email: bool = False,
     relevance_threshold: int = 70,
     max_runtime_minutes: int = None,
     max_items_per_search: int = 12
@@ -195,7 +193,6 @@ async def run_monitor(
         "searches": 0,
         "items_scraped": 0,
         "matches_found": 0,
-        "email_sent": False,
         "errors": [],
         "timed_out": False
     }
@@ -209,10 +206,9 @@ async def run_monitor(
     results["searches"] = len(searches)
     logger.info(f"Loaded {len(searches)} active searches")
 
-    # Helper function to check if we're approaching timeout
-    def is_approaching_timeout() -> bool:
-        elapsed = (datetime.now() - results["start_time"]).total_seconds() / 60
-        return elapsed >= max_runtime_minutes
+    # Initialize timeout manager
+    timeout_manager = TimeoutManager(max_minutes=max_runtime_minutes)
+    timeout_manager.log_status("Start")
 
     # Initialize database
     async with Database(db_path) as db:
@@ -235,10 +231,10 @@ async def run_monitor(
                 results["errors"].extend(cc_results["errors"])
 
                 # Check timeout before BidFTA
-                if is_approaching_timeout():
-                    logger.warning(f"Approaching {max_runtime_minutes}-minute timeout, skipping BidFTA to ensure report generation")
+                if timeout_manager.is_approaching_timeout():
+                    logger.warning("Approaching timeout, skipping BidFTA to ensure report generation")
                     results["timed_out"] = True
-                    results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
+                    results["errors"].append(timeout_manager.get_timeout_message())
                 else:
                     # Scrape BidFTA
                     logger.info(f"Scraping BidFTA (Columbus locations, max {max_items_per_search} items per search)...")
@@ -249,7 +245,7 @@ async def run_monitor(
                 logger.info(f"Total items scraped: {results['items_scraped']}")
 
             # Phase 2: Semantic Matching
-            if not skip_matching and os.getenv("ANTHROPIC_API_KEY") and not is_approaching_timeout():
+            if not skip_matching and os.getenv("ANTHROPIC_API_KEY") and not timeout_manager.is_approaching_timeout():
                 logger.info("=" * 50)
                 logger.info("PHASE 2: Semantic Matching")
                 logger.info("=" * 50)
@@ -266,51 +262,13 @@ async def run_monitor(
                     error_msg = f"Semantic matching failed: {str(e)}"
                     logger.error(error_msg)
                     results["errors"].append(error_msg)
-            elif is_approaching_timeout():
-                logger.warning(f"Approaching {max_runtime_minutes}-minute timeout, skipping semantic matching to ensure report generation")
+            elif timeout_manager.is_approaching_timeout():
+                logger.warning("Approaching timeout, skipping semantic matching to ensure report generation")
                 if not results["timed_out"]:
                     results["timed_out"] = True
-                    results["errors"].append(f"Workflow stopped after {max_runtime_minutes} minutes to generate report before GitHub Actions timeout")
+                    results["errors"].append(timeout_manager.get_timeout_message())
             elif not os.getenv("ANTHROPIC_API_KEY"):
                 logger.warning("ANTHROPIC_API_KEY not set, skipping semantic matching")
-
-            # Phase 3: Email Report
-            if not skip_email:
-                logger.info("=" * 50)
-                logger.info("PHASE 3: Email Report")
-                logger.info("=" * 50)
-
-                email_config = EmailConfig.from_env()
-
-                # Debug logging for email config
-                logger.info(f"Email config - Host: {email_config.smtp_host}, Port: {email_config.smtp_port}")
-                logger.info(f"Email config - User set: {bool(email_config.username)}, Password set: {bool(email_config.password)}")
-                logger.info(f"Email config - Recipient: {email_config.recipient[:20] + '...' if email_config.recipient else 'NOT SET'}")
-
-                if email_config.username and email_config.password and email_config.recipient:
-                    # Get today's matches
-                    matches = await db.get_todays_matches(min_score=relevance_threshold)
-                    logger.info(f"Generating report for {len(matches)} matches")
-
-                    # Generate HTML report
-                    html = generate_report_html(matches)
-
-                    # Send email
-                    results["email_sent"] = send_email_report(
-                        email_config,
-                        html,
-                        match_count=len(matches)
-                    )
-
-                    # Send error notifications if any
-                    if results["errors"]:
-                        send_error_report(
-                            email_config,
-                            "\n".join(results["errors"]),
-                            "Multiple Sites"
-                        )
-                else:
-                    logger.warning("Email not configured, skipping email report")
 
         except Exception as e:
             # Catch any unexpected errors in the main workflow
@@ -412,11 +370,6 @@ def main():
         action="store_true",
         help="Skip semantic matching"
     )
-    parser.add_argument(
-        "--skip-email",
-        action="store_true",
-        help="Skip sending email report"
-    )
 
     args = parser.parse_args()
 
@@ -435,7 +388,6 @@ def main():
             db_path=args.database,
             skip_scraping=args.skip_scraping,
             skip_matching=args.skip_matching,
-            skip_email=args.skip_email,
             relevance_threshold=args.threshold
         ))
 
@@ -445,7 +397,6 @@ def main():
         logger.info(f"Searches processed: {results['searches']}")
         logger.info(f"Items scraped: {results['items_scraped']}")
         logger.info(f"Matches found: {results['matches_found']}")
-        logger.info(f"Email sent: {results['email_sent']}")
         logger.info(f"Duration: {results['duration']:.2f} seconds")
 
         if results["errors"]:
