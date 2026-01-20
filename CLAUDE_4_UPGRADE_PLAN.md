@@ -4,7 +4,13 @@
 
 **Deadline:** February 19, 2026 @ 9:00 AM PT
 **Current Model:** `claude-3-5-haiku-20241022` (retiring)
-**Action Required:** Upgrade to Claude 4.x model before deadline to avoid service interruption
+**Action Required:** Upgrade to Claude 4.5 Haiku before deadline to avoid service interruption
+
+---
+
+## 🎉 GREAT NEWS: Zero Cost Increase!
+
+**Claude 4.5 Haiku has the SAME pricing as Haiku 3.5!**
 
 ---
 
@@ -19,40 +25,45 @@ Based on latest workflow results (51 items matched/day):
 
 ### Cost Comparison
 
-| Model | Input | Output | Daily | Monthly | Yearly | vs Haiku |
-|-------|-------|--------|-------|---------|--------|----------|
+| Model | Input | Output | Daily | Monthly | Yearly | vs Haiku 3.5 |
+|-------|-------|--------|-------|---------|--------|--------------|
 | **Haiku 3.5** (retiring) | $1.00 | $5.00 | $0.14 | $4.28 | $52.12 | baseline |
-| **Sonnet 4.5** ⭐ (recommended) | $3.00 | $15.00 | $0.43 | $12.85 | $156.37 | **+200%** |
-| **Opus 4** (premium) | $15.00 | $75.00 | $2.14 | $64.26 | $781.83 | +1400% |
+| **Haiku 4.5** ⭐⭐⭐ (recommended) | $1.00 | $5.00 | $0.14 | $4.28 | $52.12 | **+$0.00 (0%)** |
+| **Sonnet 4.5** (alternative) | $3.00 | $15.00 | $0.43 | $12.85 | $156.37 | +200% |
+| **Opus 4.5** (premium) | $5.00 | $25.00 | $0.71 | $21.42 | $260.61 | +400% |
 
 ### 💰 Bottom Line
 
-**Recommended upgrade to Claude 4.5 Sonnet will cost an additional ~$8.50/month or ~$104/year**
+**✅ Upgrade to Claude 4.5 Haiku = $0.00 additional cost + better performance!**
 
-This is still very affordable for daily automated monitoring with AI-powered semantic matching.
+This is a no-brainer upgrade - you get a newer, more capable model with NO cost increase!
 
 ---
 
-## ✅ Recommended Upgrade: Claude 4.5 Sonnet
+## ✅ Recommended Upgrade: Claude 4.5 Haiku
 
-**Model ID:** `claude-sonnet-4-5-20250929`
+**Model ID:** `claude-haiku-4-5-20251001`
 
-### Why Sonnet over Opus?
+### Why Haiku 4.5?
 
-1. **Cost-effective:** 3x more expensive than Haiku, but 5x cheaper than Opus
-2. **Performance:** Excellent for semantic matching and JSON extraction
-3. **Speed:** Faster than Opus (important for 30-min workflow timeout)
-4. **Proven:** Widely used for production workloads
+1. **Same cost:** $1/MTok input, $5/MTok output (identical to Haiku 3.5)
+2. **Better performance:** Improved reasoning and understanding
+3. **Faster than Sonnet/Opus:** Important for 30-min workflow timeout
+4. **Perfect for this use case:** Semantic matching doesn't need premium models
+5. **Future-proof:** Latest Haiku with ongoing support
 
-### Why NOT Haiku 4.x?
+### When to consider Sonnet 4.5 instead?
 
-Claude 4.5 Haiku **does not exist yet**. Anthropic has not released a Haiku variant in the Claude 4 family. Your only options are Sonnet or Opus.
+Only if you find Haiku 4.5's matching quality insufficient (unlikely). Sonnet costs 3x more but offers:
+- Stronger reasoning for complex edge cases
+- Better multi-step analysis
+- More nuanced understanding
 
 ---
 
 ## 📋 Upgrade Steps
 
-### Step 1: Update Model Configuration (5 min)
+### Step 1: Update Model Configuration (2 min)
 
 **File:** `src/matching.py` (line 41)
 
@@ -60,11 +71,11 @@ Claude 4.5 Haiku **does not exist yet**. Anthropic has not released a Haiku vari
 # BEFORE (retiring)
 model: str = "claude-3-5-haiku-20241022",
 
-# AFTER (Claude 4.5 Sonnet)
-model: str = "claude-sonnet-4-5-20250929",
+# AFTER (Claude 4.5 Haiku - SAME PRICE!)
+model: str = "claude-haiku-4-5-20251001",
 ```
 
-### Step 2: Update Documentation (2 min)
+### Step 2: Update Documentation (1 min)
 
 **File:** `.claude/development-workflow.md` (line 138)
 
@@ -73,7 +84,7 @@ model: str = "claude-sonnet-4-5-20250929",
 - **API Model**: Claude 3.5 Haiku (cost-optimized)
 
 # AFTER
-- **API Model**: Claude 4.5 Sonnet (balanced performance & cost)
+- **API Model**: Claude 4.5 Haiku (latest, same price as 3.5)
 ```
 
 ### Step 3: Test Locally (10 min)
@@ -91,7 +102,7 @@ python -m src.main --skip-scraping --log-level INFO
 
 ```bash
 git add src/matching.py .claude/development-workflow.md
-git commit -m "Upgrade to Claude 4.5 Sonnet (Haiku 3.5 retiring Feb 19)"
+git commit -m "Upgrade to Claude 4.5 Haiku (Haiku 3.5 retiring Feb 19, no cost change)"
 git push origin main
 ```
 
@@ -118,37 +129,35 @@ After upgrading, verify:
 
 ---
 
-## 🎯 Expected Benefits of Claude 4.5 Sonnet
+## 🎯 Expected Benefits of Claude 4.5 Haiku
 
-While the cost increases, you'll get:
+You get better performance at NO additional cost:
 
 1. **Better matching accuracy** - Improved reasoning about item relevance
-2. **Better JSON reliability** - Sonnet excels at structured outputs
+2. **Better JSON reliability** - More consistent structured outputs
 3. **Improved vision analysis** - Better understanding of product images
-4. **Future-proof** - Latest model with ongoing support
-5. **Extended context** - 200K context window (vs Haiku's 200K)
+4. **Faster responses** - Haiku is the fastest Claude model
+5. **Future-proof** - Latest Haiku with ongoing support
+6. **Latest knowledge** - Training data through July 2025, reliable knowledge through Feb 2025
 
 ---
 
 ## ⚠️ Potential Issues & Mitigation
 
-### Issue 1: Workflow Timeout
-**Risk:** Sonnet is slightly slower than Haiku
-**Mitigation:** Already using 28-min timeout with 2-min buffer. Should still fit comfortably.
+### Issue 1: Model Behavior Changes
+**Risk:** Haiku 4.5 may have slightly different response patterns than 3.5
+**Mitigation:** Already using structured JSON output with clear prompts
+**Action if needed:** Adjust prompts if needed based on observed behavior
+
+### Issue 2: Workflow Timeout (unlikely)
+**Risk:** Even though Haiku is fastest, 4.5 might be marginally slower than 3.5
+**Mitigation:** Already using 28-min timeout with 2-min buffer
 **Action if needed:** Reduce `max_items_per_search` from 12 to 10 in main.py
 
-### Issue 2: Cost Overrun
-**Risk:** If matching volume increases significantly
-**Mitigation:** Monitor Anthropic usage dashboard
-**Action if needed:**
-- Reduce number of images sent per item (currently 3)
-- Increase relevance threshold to reduce items evaluated
-- Implement caching for previously evaluated items
-
 ### Issue 3: API Rate Limits
-**Risk:** Sonnet may have different rate limits
+**Risk:** Rate limits may differ slightly from Haiku 3.5
 **Mitigation:** Already using batch processing with delays
-**Action if needed:** Increase delay between batches in matching.py
+**Action if needed:** Increase delay between batches in matching.py if rate limit errors occur
 
 ---
 
@@ -177,9 +186,9 @@ If issues arise after upgrading:
 
 2. **Investigate issue** - Check logs, test locally
 
-3. **Try alternative:** Claude 4 Opus (faster, more accurate, but expensive)
+3. **Try alternative:** Claude 4.5 Sonnet (3x cost but more capable)
    ```python
-   model: str = "claude-opus-4-20250514"
+   model: str = "claude-sonnet-4-5-20250929"
    ```
 
 4. **Contact Anthropic support** if persistent issues
@@ -197,21 +206,21 @@ If issues arise after upgrading:
 
 ## ✅ Quick Start Command
 
-To upgrade right now:
+To upgrade right now (5 minutes total):
 
 ```bash
-# 1. Update the model
-sed -i 's/claude-3-5-haiku-20241022/claude-sonnet-4-5-20250929/g' src/matching.py
+# 1. Update the model (NO COST INCREASE!)
+sed -i 's/claude-3-5-haiku-20241022/claude-haiku-4-5-20251001/g' src/matching.py
 
 # 2. Update docs
-sed -i 's/Claude 3.5 Haiku (cost-optimized)/Claude 4.5 Sonnet (balanced performance \& cost)/g' .claude/development-workflow.md
+sed -i 's/Claude 3.5 Haiku (cost-optimized)/Claude 4.5 Haiku (latest, same price as 3.5)/g' .claude/development-workflow.md
 
 # 3. Commit
 git add src/matching.py .claude/development-workflow.md
-git commit -m "Upgrade to Claude 4.5 Sonnet (Haiku 3.5 retiring Feb 19, 2026)"
+git commit -m "Upgrade to Claude 4.5 Haiku (Haiku 3.5 retiring Feb 19, no cost change)"
 git push origin main
 
-# 4. Test
+# 4. Test locally
 python -m src.main --skip-scraping --log-level INFO
 ```
 
