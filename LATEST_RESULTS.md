@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-20 05:09 PM EST
+**Last Updated:** 2026-01-21 05:37 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Total Items Scraped:** 114
-- **Items Seen Today:** 114
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Total Items Scraped:** 130
+- **Items Seen Today:** 75
 
 ---
 
@@ -20,47 +20,19 @@
 
 ### office chair
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 4
+📥 **Items Scraped:** 26 | ✅ **Matched:** 2
 
-*Sources: bidfta: 15 | capital_city: 10*
+*Sources: bidfta: 5 | capital_city: 21*
 
-### Home Office Chair Ergonomic Desk Chair Mesh Computer Chair With Lumbar Support Armrest Executive Rolling Swivel Adjustable Mid Back Task Chair For.
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/574911/item-detail/50620542)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Leather Office Chair, Pu Home Computer Desk Chairs With Ergonomic Back Support, 360°Swivel Free?Small Gmaing Chair With Wheels And Adjustable Armrests, For Short People Use, Gray
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/573606/item-detail/50492346)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 3
+📥 **Items Scraped:** 16 | ✅ **Matched:** 3
 
-*Sources: bidfta: 1 | capital_city: 12*
+*Sources: bidfta: 1 | capital_city: 15*
 
 *No matches found for this search*
 
@@ -68,9 +40,9 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 39 | ✅ **Matched:** 1
+📥 **Items Scraped:** 41 | ✅ **Matched:** 1
 
-*Sources: bidfta: 27 | capital_city: 12*
+*Sources: bidfta: 17 | capital_city: 24*
 
 ### Swiss Diamond 12.5 Inch Frying Pan Nonstick Diamond Coated Aluminum With Stainless Steel Handle Dishwasher/Oven Safe Grey
 
@@ -91,9 +63,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 32 | ✅ **Matched:** 0
 
-*Sources: bidfta: 13 | capital_city: 12*
+*Sources: bidfta: 8 | capital_city: 24*
 
 *No matches found for this search*
 
@@ -101,19 +73,19 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 2
+📥 **Items Scraped:** 15 | ✅ **Matched:** 2
 
-*Sources: bidfta: 1 | capital_city: 11*
+*Sources: bidfta: 2 | capital_city: 13*
 
 ### (113) Franing 18 Inch Large Barn Light Outdoor Gooseneck Lights 2-Pack, Waterproof and Rust-Resistant Dusk to Dawn Barn Light for Patio, Porch, Farmhouse, Gooseneck Lighting
 
-🆕 NEW ⭐ 90% Match 🔥 99% OFF
+⭐ 85% Match 🔥 98% OFF
 
 **[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=vaI%2f%2f%2bnCUI8SGVpJjnfRZg%3d%3d&AuctionId=E5mJHLLlj1%2bTcJzJDmV%2byQ%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$269.99~~ (Save 99%)
+**Retail Price:** ~~$269.99~~ (Save 98%)
 
 **Condition:** s, making it a reliable choice for outdoor lighting
 
