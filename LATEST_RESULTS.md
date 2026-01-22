@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-21 05:37 AM EST
+**Last Updated:** 2026-01-22 05:37 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,8 +10,8 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Total Items Scraped:** 130
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Total Items Scraped:** 195
 - **Items Seen Today:** 75
 
 ---
@@ -20,19 +20,47 @@
 
 ### office chair
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 2
+📥 **Items Scraped:** 40 | ✅ **Matched:** 4
 
-*Sources: bidfta: 5 | capital_city: 21*
+*Sources: bidfta: 7 | capital_city: 33*
 
-*No matches found for this search*
+### 21.9 Inch Task Chair Office Desk Chair Make Up Chair With Wheels White(MISSING HARDWARE)
+
+🆕 NEW ⭐ 90% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ThPRsgL924DpgBdCrjkhAg%3d%3d&AuctionId=cFc4NJd036vSOV1k2G9%2fUA%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$65.99~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
+
+### VINGLI Modern Vanity Chair with Back, Velvet Desk Chair for Girls, Small Office Chair with Silent Wheels,Stylish and Comfortable,Creamy Beige
+
+🆕 NEW ✓ 75% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7aG5ycNsUlksupzf%2bU3XMA%3d%3d&AuctionId=cFc4NJd036vSOV1k2G9%2fUA%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$65.99~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 3
+📥 **Items Scraped:** 29 | ✅ **Matched:** 3
 
-*Sources: bidfta: 1 | capital_city: 15*
+*Sources: bidfta: 4 | capital_city: 25*
 
 *No matches found for this search*
 
@@ -40,15 +68,15 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 41 | ✅ **Matched:** 1
+📥 **Items Scraped:** 61 | ✅ **Matched:** 2
 
-*Sources: bidfta: 17 | capital_city: 24*
+*Sources: bidfta: 26 | capital_city: 35*
 
-### Swiss Diamond 12.5 Inch Frying Pan Nonstick Diamond Coated Aluminum With Stainless Steel Handle Dishwasher/Oven Safe Grey
+### Rachael Ray 11" Hard-Anodized Nonstick Covered Stir Fry Pan - Gray With Agave Blue: Dishwasher-Safe Silicone With Stainless Steel Handle
 
-🆕 NEW ⭐ 85% Match
+🆕 NEW ⭐ 90% Match
 
-**[🔗 View Auction](https://www.bidfta.com/575535/item-detail/50677123)**
+**[🔗 View Auction](https://www.bidfta.com/575107/item-detail/50624261)**
 
 **Current Price:** No bids yet
 
@@ -63,9 +91,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 32 | ✅ **Matched:** 0
+📥 **Items Scraped:** 49 | ✅ **Matched:** 0
 
-*Sources: bidfta: 8 | capital_city: 24*
+*Sources: bidfta: 13 | capital_city: 36*
 
 *No matches found for this search*
 
@@ -73,28 +101,11 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 2
+📥 **Items Scraped:** 16 | ✅ **Matched:** 2
 
-*Sources: bidfta: 2 | capital_city: 13*
+*Sources: bidfta: 3 | capital_city: 13*
 
-### (113) Franing 18 Inch Large Barn Light Outdoor Gooseneck Lights 2-Pack, Waterproof and Rust-Resistant Dusk to Dawn Barn Light for Patio, Porch, Farmhouse, Gooseneck Lighting
-
-⭐ 85% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=vaI%2f%2f%2bnCUI8SGVpJjnfRZg%3d%3d&AuctionId=E5mJHLLlj1%2bTcJzJDmV%2byQ%3d%3d)**
-
-**Current Price:** $3.00
-
-**Retail Price:** ~~$269.99~~ (Save 98%)
-
-**Condition:** s, making it a reliable choice for outdoor lighting
-
-📍 **Pickup:** ! /  Lot - 8
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
