@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-22 05:37 AM EST
+**Last Updated:** 2026-01-23 05:36 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Total Items Scraped:** 195
-- **Items Seen Today:** 75
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Total Items Scraped:** 271
+- **Items Seen Today:** 84
 
 ---
 
@@ -20,63 +20,15 @@
 
 ### office chair
 
-📥 **Items Scraped:** 40 | ✅ **Matched:** 4
+📥 **Items Scraped:** 54 | ✅ **Matched:** 7
 
-*Sources: bidfta: 7 | capital_city: 33*
+*Sources: bidfta: 10 | capital_city: 44*
 
-### 21.9 Inch Task Chair Office Desk Chair Make Up Chair With Wheels White(MISSING HARDWARE)
+### Serta Mid Back Lumber Support And Swivel Office Desk Chair, Black
 
-🆕 NEW ⭐ 90% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ThPRsgL924DpgBdCrjkhAg%3d%3d&AuctionId=cFc4NJd036vSOV1k2G9%2fUA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$65.99~~ (Save 98%)
-
-**Source:** capital_city
-
-
----
-
-### VINGLI Modern Vanity Chair with Back, Velvet Desk Chair for Girls, Small Office Chair with Silent Wheels,Stylish and Comfortable,Creamy Beige
-
-🆕 NEW ✓ 75% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7aG5ycNsUlksupzf%2bU3XMA%3d%3d&AuctionId=cFc4NJd036vSOV1k2G9%2fUA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$65.99~~ (Save 98%)
-
-**Source:** capital_city
-
-
----
-
----
-
-### bread maker
-
-📥 **Items Scraped:** 29 | ✅ **Matched:** 3
-
-*Sources: bidfta: 4 | capital_city: 25*
-
-*No matches found for this search*
-
----
-
-### stainless steel pan
-
-📥 **Items Scraped:** 61 | ✅ **Matched:** 2
-
-*Sources: bidfta: 26 | capital_city: 35*
-
-### Rachael Ray 11" Hard-Anodized Nonstick Covered Stir Fry Pan - Gray With Agave Blue: Dishwasher-Safe Silicone With Stainless Steel Handle
-
-🆕 NEW ⭐ 90% Match
-
-**[🔗 View Auction](https://www.bidfta.com/575107/item-detail/50624261)**
+**[🔗 View Auction](https://www.bidfta.com/575895/item-detail/50760140)**
 
 **Current Price:** No bids yet
 
@@ -87,13 +39,61 @@
 
 ---
 
+### 600lbs Big And Tall Office Chair, Wide Ergonomic Leather Executive Chair For Heavy People With Foot Rest, High-Back Reclining Computer Chair With Swivel Wheels And Lumbar Support (Black)
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/575416/item-detail/50703565)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### COMPUTER CHAIR
+
+🆕 NEW ⭐ 90% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=rufrJh6OYtAS7Rnv2VLJKg%3d%3d&AuctionId=GSboU%2bx4lMxRsI%2fc%2btdMTg%3d%3d)**
+
+**Current Price:** $1.00
+
+**Source:** capital_city
+
+
+---
+
+---
+
+### bread maker
+
+📥 **Items Scraped:** 43 | ✅ **Matched:** 3
+
+*Sources: bidfta: 10 | capital_city: 33*
+
+*No matches found for this search*
+
+---
+
+### stainless steel pan
+
+📥 **Items Scraped:** 83 | ✅ **Matched:** 2
+
+*Sources: bidfta: 36 | capital_city: 47*
+
+*No matches found for this search*
+
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 49 | ✅ **Matched:** 0
+📥 **Items Scraped:** 69 | ✅ **Matched:** 0
 
-*Sources: bidfta: 13 | capital_city: 36*
+*Sources: bidfta: 21 | capital_city: 48*
 
 *No matches found for this search*
 
@@ -101,11 +101,22 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 2
+📥 **Items Scraped:** 22 | ✅ **Matched:** 3
 
-*Sources: bidfta: 3 | capital_city: 13*
+*Sources: bidfta: 3 | capital_city: 19*
 
-*No matches found for this search*
+### ZOKOP Electric Kettle, 1.8L Glass Kettle, 110V 1500W Fast Boiling, Electric Hot Water Kettle with Auto Shut-Off
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=BPECvabA2ajl22FB5DCR9g%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=kUAeeGnzJ9uI4H0PdvNeuA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
