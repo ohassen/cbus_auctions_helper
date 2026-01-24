@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-23 05:36 AM EST
+**Last Updated:** 2026-01-24 05:32 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Total Items Scraped:** 271
-- **Items Seen Today:** 84
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Total Items Scraped:** 307
+- **Items Seen Today:** 79
 
 ---
 
@@ -20,80 +20,65 @@
 
 ### office chair
 
-📥 **Items Scraped:** 54 | ✅ **Matched:** 7
+📥 **Items Scraped:** 58 | ✅ **Matched:** 7
 
-*Sources: bidfta: 10 | capital_city: 44*
+*Sources: bidfta: 12 | capital_city: 46*
 
-### Serta Mid Back Lumber Support And Swivel Office Desk Chair, Black
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/575895/item-detail/50760140)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### 600lbs Big And Tall Office Chair, Wide Ergonomic Leather Executive Chair For Heavy People With Foot Rest, High-Back Reclining Computer Chair With Swivel Wheels And Lumbar Support (Black)
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/575416/item-detail/50703565)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### COMPUTER CHAIR
-
-🆕 NEW ⭐ 90% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=rufrJh6OYtAS7Rnv2VLJKg%3d%3d&AuctionId=GSboU%2bx4lMxRsI%2fc%2btdMTg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 43 | ✅ **Matched:** 3
+📥 **Items Scraped:** 46 | ✅ **Matched:** 4
 
-*Sources: bidfta: 10 | capital_city: 33*
+*Sources: bidfta: 11 | capital_city: 35*
 
-*No matches found for this search*
+### Joydeem Electric Dough Maker With Ferment Function, 5.3qt Dough Mixer Machine, Perfect For Bread Pizza Roti Dumpling Dough & Sourdough, Hmj-A501 5qt
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://www.bidfta.com/577153/item-detail/50857898)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 83 | ✅ **Matched:** 2
+📥 **Items Scraped:** 102 | ✅ **Matched:** 3
 
-*Sources: bidfta: 36 | capital_city: 47*
+*Sources: bidfta: 44 | capital_city: 58*
 
-*No matches found for this search*
+### Tramontina Utsava 10.5-Inch Tri-Ply Clad Stainless Steel Ceramic-Coated Concave Chapati Tawa, Non Stick Tava Pan For Roti, Crepe Pan, Comales Para Tortillas, Nonstick Pancake Griddle 10.5-Inch (Concave) Stainless Steel
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://www.bidfta.com/576202/item-detail/50759926)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 69 | ✅ **Matched:** 0
+📥 **Items Scraped:** 79 | ✅ **Matched:** 0
 
-*Sources: bidfta: 21 | capital_city: 48*
+*Sources: bidfta: 30 | capital_city: 49*
 
 *No matches found for this search*
 
@@ -105,18 +90,7 @@
 
 *Sources: bidfta: 3 | capital_city: 19*
 
-### ZOKOP Electric Kettle, 1.8L Glass Kettle, 110V 1500W Fast Boiling, Electric Hot Water Kettle with Auto Shut-Off
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=BPECvabA2ajl22FB5DCR9g%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=kUAeeGnzJ9uI4H0PdvNeuA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
