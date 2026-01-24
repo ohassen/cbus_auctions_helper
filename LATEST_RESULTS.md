@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-24 05:32 AM EST
+**Last Updated:** 2026-01-24 10:25 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Total Items Scraped:** 307
-- **Items Seen Today:** 79
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Total Items Scraped:** 378
+- **Items Seen Today:** 152
 
 ---
 
@@ -20,9 +20,9 @@
 
 ### office chair
 
-📥 **Items Scraped:** 58 | ✅ **Matched:** 7
+📥 **Items Scraped:** 76 | ✅ **Matched:** 7
 
-*Sources: bidfta: 12 | capital_city: 46*
+*Sources: bidfta: 21 | capital_city: 55*
 
 *No matches found for this search*
 
@@ -30,55 +30,29 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 46 | ✅ **Matched:** 4
+📥 **Items Scraped:** 55 | ✅ **Matched:** 4
 
-*Sources: bidfta: 11 | capital_city: 35*
+*Sources: bidfta: 11 | capital_city: 44*
 
-### Joydeem Electric Dough Maker With Ferment Function, 5.3qt Dough Mixer Machine, Perfect For Bread Pizza Roti Dumpling Dough & Sourdough, Hmj-A501 5qt
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/577153/item-detail/50857898)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 102 | ✅ **Matched:** 3
+📥 **Items Scraped:** 124 | ✅ **Matched:** 3
 
-*Sources: bidfta: 44 | capital_city: 58*
+*Sources: bidfta: 53 | capital_city: 71*
 
-### Tramontina Utsava 10.5-Inch Tri-Ply Clad Stainless Steel Ceramic-Coated Concave Chapati Tawa, Non Stick Tava Pan For Roti, Crepe Pan, Comales Para Tortillas, Nonstick Pancake Griddle 10.5-Inch (Concave) Stainless Steel
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://www.bidfta.com/576202/item-detail/50759926)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 79 | ✅ **Matched:** 0
+📥 **Items Scraped:** 101 | ✅ **Matched:** 0
 
-*Sources: bidfta: 30 | capital_city: 49*
+*Sources: bidfta: 39 | capital_city: 62*
 
 *No matches found for this search*
 
