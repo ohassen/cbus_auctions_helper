@@ -1,11 +1,14 @@
 """Scraper for Capital City Online Auction (capitalcityonlineauction.com)."""
 
 import asyncio
+import json
 import logging
+import os
 import re
 from typing import Optional, AsyncIterator
 from urllib.parse import urljoin, urlencode, quote
 
+import anthropic
 from playwright.async_api import TimeoutError as PlaywrightTimeout
 
 from .base import BaseScraper, ScraperConfig
@@ -13,38 +16,119 @@ from ..database import AuctionItem
 
 logger = logging.getLogger(__name__)
 
+# Cache for key term extraction to avoid repeated API calls
+_KEY_TERM_CACHE = {}
+
+
+def extract_key_term(query: str) -> str:
+    """
+    Use Claude to extract the key term (essence) from a search query.
+
+    Examples:
+        "office chair" -> "chair"
+        "manual coffee grinder" -> "grinder"
+        "stainless steel pan" -> "pan"
+
+    The key term is the fundamental item type, not the modifiers.
+    """
+    # Check cache first
+    if query in _KEY_TERM_CACHE:
+        return _KEY_TERM_CACHE[query]
+
+    try:
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.warning("ANTHROPIC_API_KEY not set, falling back to simple extraction")
+            return _fallback_key_term_extraction(query)
+
+        client = anthropic.Anthropic(api_key=api_key)
+
+        prompt = f"""Extract the key term (essence) from this search query.
+
+The key term is the fundamental item type - what the item fundamentally IS, not its attributes or modifiers.
+
+Examples:
+- "office chair" -> key term is "chair" (essence), "office" is a modifier
+- "manual coffee grinder" -> key term is "grinder" (essence), "manual" and "coffee" are modifiers
+- "stainless steel pan" -> key term is "pan" (essence), "stainless steel" is a modifier
+- "gooseneck kettle" -> key term is "kettle" (essence), "gooseneck" is a modifier
+
+Query: "{query}"
+
+Respond with ONLY the key term, nothing else. Single word or short phrase (2 words max)."""
+
+        response = client.messages.create(
+            model="claude-3-5-haiku-20241022",
+            max_tokens=50,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        key_term = response.content[0].text.strip().lower()
+
+        # Cache the result
+        _KEY_TERM_CACHE[query] = key_term
+        logger.info(f"Extracted key term from '{query}': '{key_term}'")
+
+        return key_term
+
+    except Exception as e:
+        logger.warning(f"Error extracting key term with Claude: {e}, falling back to simple extraction")
+        return _fallback_key_term_extraction(query)
+
+
+def _fallback_key_term_extraction(query: str) -> str:
+    """Fallback key term extraction if Claude API fails."""
+    # Remove common filler words
+    stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of', 'manual', 'electric', 'automatic'}
+    words = [w.lower() for w in query.split() if w.lower() not in stop_words]
+
+    # Return the last significant word (usually the noun)
+    if len(words) >= 2:
+        return words[-1]  # e.g., "chair" from "office chair"
+    elif len(words) == 1:
+        return words[0]
+    else:
+        return query.lower()
+
 
 def extract_search_terms(query: str) -> list[str]:
     """
-    Extract simple search terms from a complex query.
+    Extract search terms using semantic key term extraction.
 
-    For "office chair with mesh seat" -> ["office chair", "chair"]
-    For "stainless steel cooking pan" -> ["stainless steel pan", "pan", "cookware"]
+    Strategy:
+    1. Full query (most specific) - "office chair"
+    2. Key term (essence/broad) - "chair"
+    3. Modifiers (fallback) - "office"
 
-    Returns multiple search terms to try, from most specific to least.
+    Examples:
+        "office chair" -> ["office chair", "chair", "office"]
+        "manual coffee grinder" -> ["manual coffee grinder", "grinder", "coffee"]
+        "stainless steel pan" -> ["stainless steel pan", "pan", "steel"]
+
+    Returns search terms from most specific to most broad.
     """
-    # Remove common filler words
+    search_terms = []
+
+    # 1. Always include the full query first (most specific)
+    search_terms.append(query.lower())
+
+    # 2. Extract and add the key term (essence)
+    key_term = extract_key_term(query)
+    if key_term and key_term not in search_terms:
+        search_terms.append(key_term)
+
+    # 3. Add modifiers as fallback
     stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of'}
     words = [w.lower() for w in query.split() if w.lower() not in stop_words]
 
-    search_terms = []
+    # Add the first significant word (usually the modifier)
+    if len(words) >= 2 and words[0] != key_term:
+        search_terms.append(words[0])
 
-    # Try the first two words together
-    if len(words) >= 2:
-        search_terms.append(f"{words[0]} {words[1]}")
-
-    # Try just the main noun (usually last significant word or second word)
-    if len(words) >= 2:
-        search_terms.append(words[1])  # e.g., "chair" from "office chair"
-
-    if len(words) >= 1:
-        search_terms.append(words[0])  # e.g., "office"
-
-    # If query contains specific item types, add them
-    item_types = ['chair', 'desk', 'table', 'pan', 'pot', 'cookware', 'furniture', 'electronics']
-    for item_type in item_types:
-        if item_type in query.lower() and item_type not in search_terms:
-            search_terms.append(item_type)
+    # Add any other significant words not already included
+    for word in words[1:]:
+        if word != key_term and word not in search_terms and len(search_terms) < 4:
+            search_terms.append(word)
 
     return search_terms[:3]  # Return top 3 search terms
 
