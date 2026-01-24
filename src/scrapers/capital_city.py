@@ -73,12 +73,9 @@ class CapitalCityScraper(BaseScraper):
                     self._found_urls.add(url)
                     yield url
 
-            # If we found items with a term, don't try less specific terms
-            if self._found_urls:
-                logger.info(f"Found {len(self._found_urls)} items with term '{search_term}'")
-                break
-
             await self._rate_limit()
+
+        logger.info(f"Found {len(self._found_urls)} total unique items across all search terms")
 
     async def _search_term(self, search_term: str) -> AsyncIterator[str]:
         """Search for a single term and yield listing URLs using the site's search form."""
