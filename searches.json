@@ -29,6 +29,12 @@
       "query": "gooseneck kettle",
       "active": true,
       "created_at": "2025-01-01T00:00:00Z"
+    },
+{
+      "id": "search-006",
+      "query": "Drone",
+      "active": true,
+      "created_at": "2025-01-01T00:00:00Z"
     }
   ]
 }
