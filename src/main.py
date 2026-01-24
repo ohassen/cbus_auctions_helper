@@ -173,15 +173,15 @@ async def run_monitor(
     skip_matching: bool = False,
     relevance_threshold: int = 70,
     max_runtime_minutes: int = None,
-    max_items_per_search: int = 12
+    max_items_per_search: int = 25
 ) -> dict:
     """Run the complete monitoring pipeline.
 
     Args:
         max_runtime_minutes: Maximum runtime before forcing stop (default 28 min to beat GitHub Actions 30 min timeout)
                             Can be overridden with MAX_RUNTIME_MINUTES environment variable
-        max_items_per_search: Maximum items to scrape per search query (default: 12)
-                             Tested timing: 12 items × 4 searches × 2 sites ≈ 26 min
+        max_items_per_search: Maximum items to scrape per search query (default: 25)
+                             Increased from 12 to capture more results per search
     """
 
     # Allow environment variable to override default
