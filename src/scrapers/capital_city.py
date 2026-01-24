@@ -95,42 +95,20 @@ def extract_search_terms(query: str) -> list[str]:
     """
     Extract search terms using semantic key term extraction.
 
-    Strategy:
-    1. Full query (most specific) - "office chair"
-    2. Key term (essence/broad) - "chair"
-    3. Modifiers (fallback) - "office"
+    Strategy: Search ONLY for the key term (essence) to cast the widest net,
+    then rely on semantic matching to filter results to the original query intent.
 
     Examples:
-        "office chair" -> ["office chair", "chair", "office"]
-        "manual coffee grinder" -> ["manual coffee grinder", "grinder", "coffee"]
-        "stainless steel pan" -> ["stainless steel pan", "pan", "steel"]
+        "office chair" -> ["chair"]
+        "manual coffee grinder" -> ["grinder"]
+        "stainless steel pan" -> ["pan"]
 
-    Returns search terms from most specific to most broad.
+    This broad search captures all item variations (desk chair, task chair, etc.),
+    then semantic matching filters to only items matching the original query.
     """
-    search_terms = []
-
-    # 1. Always include the full query first (most specific)
-    search_terms.append(query.lower())
-
-    # 2. Extract and add the key term (essence)
+    # Extract and return only the key term (essence)
     key_term = extract_key_term(query)
-    if key_term and key_term not in search_terms:
-        search_terms.append(key_term)
-
-    # 3. Add modifiers as fallback
-    stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of'}
-    words = [w.lower() for w in query.split() if w.lower() not in stop_words]
-
-    # Add the first significant word (usually the modifier)
-    if len(words) >= 2 and words[0] != key_term:
-        search_terms.append(words[0])
-
-    # Add any other significant words not already included
-    for word in words[1:]:
-        if word != key_term and word not in search_terms and len(search_terms) < 4:
-            search_terms.append(word)
-
-    return search_terms[:3]  # Return top 3 search terms
+    return [key_term]
 
 
 class CapitalCityScraper(BaseScraper):
