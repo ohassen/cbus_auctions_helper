@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-26 05:43 AM EST
+**Last Updated:** 2026-01-27 05:44 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Total Items Scraped:** 472
-- **Items Seen Today:** 114
+- **Total Matches Found:** 5 (Score ≥ 70)
+- **Total Items Scraped:** 502
+- **Items Seen Today:** 116
 
 ---
 
@@ -20,21 +20,36 @@
 
 ### office chair
 
-📥 **Items Scraped:** 109 | ✅ **Matched:** 12
+📥 **Items Scraped:** 117 | ✅ **Matched:** 14
 
-*Sources: bidfta: 22 | capital_city: 87*
+*Sources: bidfta: 30 | capital_city: 87*
 
-### VINGLI 23W x 40H Pink Velvet Swivel Upholstered Armless Office Desk Chair with Gold Base Wheels Back for Bedroom(LOOSE/MISSING HARDWARE)
+### Sytas Executive Office Ergonomic Chair With Adjustable Headrest, Pu Leather Desk Chair, High-Back Swivel Task Chair For Home Office, 135° Reclining, Black
 
-🆕 NEW ⭐ 90% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=MSnWStC0KJUTAr1dTOtjfw%3d%3d&AuctionId=aVyiFE7%2f69gVaVEKXXg2zw%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/577363/item-detail/50876680)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$89.99~~ (Save 98%)
+📍 **Pickup:** Columbus area (from search results)
 
-**Source:** capital_city
+**Source:** bidfta
+
+
+---
+
+### Dowinx Fabric Gaming Chair With Pocket Spring Cushion,Breathable Computer Chairs With Massage Lumbar Support And Footrest,High Back Game Office Chair For Adult,Beige
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://www.bidfta.com/576803/item-detail/50819367)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
 
 
 ---
@@ -43,9 +58,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 82 | ✅ **Matched:** 4
+📥 **Items Scraped:** 86 | ✅ **Matched:** 4
 
-*Sources: bidfta: 18 | capital_city: 64*
+*Sources: bidfta: 22 | capital_city: 64*
 
 *No matches found for this search*
 
@@ -53,9 +68,9 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 156 | ✅ **Matched:** 4
+📥 **Items Scraped:** 159 | ✅ **Matched:** 4
 
-*Sources: bidfta: 48 | capital_city: 108*
+*Sources: bidfta: 51 | capital_city: 108*
 
 *No matches found for this search*
 
@@ -63,9 +78,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 93 | ✅ **Matched:** 1
+📥 **Items Scraped:** 95 | ✅ **Matched:** 1
 
-*Sources: bidfta: 33 | capital_city: 60*
+*Sources: bidfta: 35 | capital_city: 60*
 
 *No matches found for this search*
 
@@ -73,34 +88,64 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 28 | ✅ **Matched:** 4
+📥 **Items Scraped:** 34 | ✅ **Matched:** 4
 
-*Sources: bidfta: 4 | capital_city: 24*
+*Sources: bidfta: 5 | capital_city: 29*
 
-### ZOKOP HD-1861-A 1.8L Electric Glass Kettle 110V 1200W US Plug 7 Color LED Lights Auto Shut Off
+*No matches found for this search*
 
-✓ 80% Match 🔥 98% OFF
+---
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=W%2boEulpMjT8Wj%2bUX6%2bTSqA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=UFpq45DvDv1w8wKM8TrB6g%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+### Drone
 
-**Current Price:** $1.00
+📥 **Items Scraped:** 11 | ✅ **Matched:** 5
 
-**Retail Price:** ~~$49.99~~ (Save 98%)
+*Sources: bidfta: 1 | capital_city: 10*
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bOdUjaUOjvkGKgMFBUDBUw%3d%3d&AuctionId=r7VCDLDKcBML%2fuz5KTRkPg%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 66
 
 **Source:** capital_city
 
 
 ---
 
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wF%2fS6s8UxYDFQp6x8PJCYg%3d%3d&AuctionId=r7VCDLDKcBML%2fuz5KTRkPg%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 67
+
+**Source:** capital_city
+
+
 ---
 
-### Drone
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
 
-📥 **Items Scraped:** 4 | ✅ **Matched:** 2
+🆕 NEW ✓ 75% Match
 
-*Sources: bidfta: 1 | capital_city: 3*
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=HKSOB4mSBqVa0ei9DL4yBA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=r7VCDLDKcBML%2fuz5KTRkPg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
 
-*No matches found for this search*
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 68
+
+**Source:** capital_city
+
+
+---
 
 ---
 
