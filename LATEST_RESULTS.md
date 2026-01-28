@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-27 05:44 AM EST
+**Last Updated:** 2026-01-28 05:44 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 502
-- **Items Seen Today:** 116
+- **Total Items Scraped:** 569
+- **Items Seen Today:** 107
 
 ---
 
@@ -20,47 +20,19 @@
 
 ### office chair
 
-📥 **Items Scraped:** 117 | ✅ **Matched:** 14
+📥 **Items Scraped:** 136 | ✅ **Matched:** 12
 
-*Sources: bidfta: 30 | capital_city: 87*
+*Sources: bidfta: 35 | capital_city: 101*
 
-### Sytas Executive Office Ergonomic Chair With Adjustable Headrest, Pu Leather Desk Chair, High-Back Swivel Task Chair For Home Office, 135° Reclining, Black
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/577363/item-detail/50876680)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Dowinx Fabric Gaming Chair With Pocket Spring Cushion,Breathable Computer Chairs With Massage Lumbar Support And Footrest,High Back Game Office Chair For Adult,Beige
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://www.bidfta.com/576803/item-detail/50819367)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 86 | ✅ **Matched:** 4
+📥 **Items Scraped:** 85 | ✅ **Matched:** 3
 
-*Sources: bidfta: 22 | capital_city: 64*
+*Sources: bidfta: 26 | capital_city: 59*
 
 *No matches found for this search*
 
@@ -68,19 +40,92 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 159 | ✅ **Matched:** 4
+📥 **Items Scraped:** 166 | ✅ **Matched:** 9
 
-*Sources: bidfta: 51 | capital_city: 108*
+*Sources: bidfta: 47 | capital_city: 119*
 
-*No matches found for this search*
+### Vivicreate 20 Piece Stainless Steel Cooking Pot Pots And Pan Pans Cookware Set Non Toxic Pfoa Free Non Stick Pots And Pans Hammered Design Induction Compatible Ollas De Acero Inoxidable
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/577532/item-detail/50893012)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Deluxe 13 Piece Hybrid Ceramic Nonstick Stainless Steel Cookware Set-5 Piece Frying Pan Set, 6 Pc Pot Set, 3.7qt Deep Sauté Pan&Lid, Induction Ready
+
+🆕 NEW ⭐ 90% Match
+
+**[🔗 View Auction](https://www.bidfta.com/575661/item-detail/50827867)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### ROVSUN 30" 3000W 110V Commercial Electric Griddle Countertop
+
+🆕 NEW ⭐ 85% Match 🔥 90% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bH2ksSAR43frgs7NiV6Rng%3d%3d&AuctionId=mg1WdVxMn%2fwMXouwdVZ9Cg%3d%3d)**
+
+**Current Price:** $26.00
+
+**Retail Price:** ~~$279.99~~ (Save 90%)
+
+**Source:** capital_city
+
+
+---
+
+### Stainless Steel Double Griddle For Gas Or Electric Double Burner Cooktop, 18'' X 11.5'' Non-Stick Stove Top Flat Griddle Grill Pan Skillet For Indoor Medium Or Low Heat Dual Burner Stove
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://www.bidfta.com/576006/item-detail/50754053)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### ROVSUN 14" 1500W 110V Commercial Electric Griddle Countertop
+
+🆕 NEW ✓ 80% Match 🔥 97% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=sFa%2f6pAmBFGG1fcKOPQnag%3d%3d&AuctionId=mg1WdVxMn%2fwMXouwdVZ9Cg%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$109.99~~ (Save 97%)
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 95 | ✅ **Matched:** 1
+📥 **Items Scraped:** 85 | ✅ **Matched:** 1
 
-*Sources: bidfta: 35 | capital_city: 60*
+*Sources: bidfta: 32 | capital_city: 53*
 
 *No matches found for this search*
 
@@ -88,9 +133,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 34 | ✅ **Matched:** 4
+📥 **Items Scraped:** 32 | ✅ **Matched:** 4
 
-*Sources: bidfta: 5 | capital_city: 29*
+*Sources: bidfta: 5 | capital_city: 27*
 
 *No matches found for this search*
 
@@ -102,50 +147,7 @@
 
 *Sources: bidfta: 1 | capital_city: 10*
 
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bOdUjaUOjvkGKgMFBUDBUw%3d%3d&AuctionId=r7VCDLDKcBML%2fuz5KTRkPg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 66
-
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wF%2fS6s8UxYDFQp6x8PJCYg%3d%3d&AuctionId=r7VCDLDKcBML%2fuz5KTRkPg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 67
-
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=HKSOB4mSBqVa0ei9DL4yBA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=r7VCDLDKcBML%2fuz5KTRkPg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 68
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
