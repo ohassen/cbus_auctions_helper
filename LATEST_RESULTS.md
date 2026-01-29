@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-28 05:44 AM EST
+**Last Updated:** 2026-01-29 05:53 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 569
-- **Items Seen Today:** 107
+- **Total Items Scraped:** 641
+- **Items Seen Today:** 102
 
 ---
 
@@ -20,19 +20,77 @@
 
 ### office chair
 
-📥 **Items Scraped:** 136 | ✅ **Matched:** 12
+📥 **Items Scraped:** 148 | ✅ **Matched:** 16
 
-*Sources: bidfta: 35 | capital_city: 101*
+*Sources: bidfta: 39 | capital_city: 109*
 
-*No matches found for this search*
+### 21.9 Inch Task Chair Office Desk Chair Make Up Chair With Wheels White
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=MCbuXPQ6BX5p%2brJlIyA4gA%3d%3d&AuctionId=%2bEf5EgJpmeWWb%2ffdECtCIw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$155.00~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### 21.9 Inch Task Chair Office Desk Chair Make Up Chair With Wheels Light blue
+
+🆕 NEW ⭐ 85% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=1E3EjaDF0qQ0QfigsVsC7g%3d%3d&AuctionId=%2bEf5EgJpmeWWb%2ffdECtCIw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$157.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### VINGLI Vanity Makeup Chair Comfy Cute Accent Chair Small Swivel Task Office Chair with Wheels Faux Rabbit Hair Green
+
+🆕 NEW ✓ 80% Match 🔥 91% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wPCQwc28j1v%2f619JYltlEw%3d%3d&AuctionId=UFpq45DvDv1w8wKM8TrB6g%3d%3d)**
+
+**Current Price:** $7.00
+
+**Retail Price:** ~~$77.99~~ (Save 91%)
+
+**Source:** capital_city
+
+
+---
+
+### Kerdom- Pu Rolling Swivel Vanity Chair With Arms Adjustable Height Task White
+
+🆕 NEW ✓ 80% Match
+
+**[🔗 View Auction](https://www.bidfta.com/578321/item-detail/51013991)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 85 | ✅ **Matched:** 3
+📥 **Items Scraped:** 90 | ✅ **Matched:** 1
 
-*Sources: bidfta: 26 | capital_city: 59*
+*Sources: bidfta: 29 | capital_city: 61*
 
 *No matches found for this search*
 
@@ -40,92 +98,19 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 166 | ✅ **Matched:** 9
+📥 **Items Scraped:** 172 | ✅ **Matched:** 8
 
-*Sources: bidfta: 47 | capital_city: 119*
+*Sources: bidfta: 40 | capital_city: 132*
 
-### Vivicreate 20 Piece Stainless Steel Cooking Pot Pots And Pan Pans Cookware Set Non Toxic Pfoa Free Non Stick Pots And Pans Hammered Design Induction Compatible Ollas De Acero Inoxidable
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/577532/item-detail/50893012)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Deluxe 13 Piece Hybrid Ceramic Nonstick Stainless Steel Cookware Set-5 Piece Frying Pan Set, 6 Pc Pot Set, 3.7qt Deep Sauté Pan&Lid, Induction Ready
-
-🆕 NEW ⭐ 90% Match
-
-**[🔗 View Auction](https://www.bidfta.com/575661/item-detail/50827867)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### ROVSUN 30" 3000W 110V Commercial Electric Griddle Countertop
-
-🆕 NEW ⭐ 85% Match 🔥 90% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bH2ksSAR43frgs7NiV6Rng%3d%3d&AuctionId=mg1WdVxMn%2fwMXouwdVZ9Cg%3d%3d)**
-
-**Current Price:** $26.00
-
-**Retail Price:** ~~$279.99~~ (Save 90%)
-
-**Source:** capital_city
-
-
----
-
-### Stainless Steel Double Griddle For Gas Or Electric Double Burner Cooktop, 18'' X 11.5'' Non-Stick Stove Top Flat Griddle Grill Pan Skillet For Indoor Medium Or Low Heat Dual Burner Stove
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/576006/item-detail/50754053)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### ROVSUN 14" 1500W 110V Commercial Electric Griddle Countertop
-
-🆕 NEW ✓ 80% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=sFa%2f6pAmBFGG1fcKOPQnag%3d%3d&AuctionId=mg1WdVxMn%2fwMXouwdVZ9Cg%3d%3d)**
-
-**Current Price:** $3.00
-
-**Retail Price:** ~~$109.99~~ (Save 97%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 85 | ✅ **Matched:** 1
+📥 **Items Scraped:** 70 | ✅ **Matched:** 1
 
-*Sources: bidfta: 32 | capital_city: 53*
+*Sources: bidfta: 29 | capital_city: 41*
 
 *No matches found for this search*
 
@@ -133,9 +118,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 32 | ✅ **Matched:** 4
+📥 **Items Scraped:** 29 | ✅ **Matched:** 3
 
-*Sources: bidfta: 5 | capital_city: 27*
+*Sources: bidfta: 4 | capital_city: 25*
 
 *No matches found for this search*
 
@@ -143,11 +128,24 @@
 
 ### Drone
 
-📥 **Items Scraped:** 11 | ✅ **Matched:** 5
+📥 **Items Scraped:** 12 | ✅ **Matched:** 6
 
-*Sources: bidfta: 1 | capital_city: 10*
+*Sources: bidfta: 2 | capital_city: 10*
 
-*No matches found for this search*
+### Sky Rider Goldfinch Quadcopter 0.3 Mp Drone
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/577639/item-detail/50915059)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
