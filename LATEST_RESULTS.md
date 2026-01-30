@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-29 05:53 AM EST
+**Last Updated:** 2026-01-30 05:48 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 641
-- **Items Seen Today:** 102
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Total Items Scraped:** 729
+- **Items Seen Today:** 107
 
 ---
 
@@ -20,60 +20,75 @@
 
 ### office chair
 
-📥 **Items Scraped:** 148 | ✅ **Matched:** 16
+📥 **Items Scraped:** 165 | ✅ **Matched:** 19
 
-*Sources: bidfta: 39 | capital_city: 109*
+*Sources: bidfta: 44 | capital_city: 121*
 
-### 21.9 Inch Task Chair Office Desk Chair Make Up Chair With Wheels White
+### Nyssa Velvet Task Chair PINK.
 
 🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=MCbuXPQ6BX5p%2brJlIyA4gA%3d%3d&AuctionId=%2bEf5EgJpmeWWb%2ffdECtCIw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6E5IGB0v2ks%2bYojbC585QA%3d%3d&AuctionId=Nixf0EhnzuN0n5I8jho5Jg%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$155.00~~ (Save 99%)
+**Retail Price:** ~~$326.40~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### 21.9 Inch Task Chair Office Desk Chair Make Up Chair With Wheels Light blue
+### Marama Ergonomic Leather Office Chair with Flip-Up Armrests
 
-🆕 NEW ⭐ 85% Match 🔥 99% OFF
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=1E3EjaDF0qQ0QfigsVsC7g%3d%3d&AuctionId=%2bEf5EgJpmeWWb%2ffdECtCIw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RDQGYlLSj5ImyuSXIyqLRg%3d%3d&AuctionId=Nixf0EhnzuN0n5I8jho5Jg%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$157.99~~ (Save 99%)
+**Retail Price:** ~~$299.99~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### VINGLI Vanity Makeup Chair Comfy Cute Accent Chair Small Swivel Task Office Chair with Wheels Faux Rabbit Hair Green
+### Office Chair - Ergonomic Desk Chair With Adjustable Lumbar Support, Mesh Computer Chair, Executive Chair For Home Office Comfortable Lumbar Support(Blue)
 
-🆕 NEW ✓ 80% Match 🔥 91% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wPCQwc28j1v%2f619JYltlEw%3d%3d&AuctionId=UFpq45DvDv1w8wKM8TrB6g%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/578645/item-detail/51033547)**
 
-**Current Price:** $7.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$77.99~~ (Save 91%)
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Nyssa Velvet Task Chair PINK.
+
+🆕 NEW ⭐ 90% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=udf7f4manQTc%2biiv1ANigw%3d%3d&AuctionId=Nixf0EhnzuN0n5I8jho5Jg%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$326.40~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### Kerdom- Pu Rolling Swivel Vanity Chair With Arms Adjustable Height Task White
+### Primy Tall Drafting Desk Chair - Armless, Adjustable Height, Mesh Back, Rolling, Standing Desk Chair For Art Room, Office Or Home (Black) Pr777-Z Black
 
-🆕 NEW ✓ 80% Match
+🆕 NEW ⭐ 90% Match
 
-**[🔗 View Auction](https://www.bidfta.com/578321/item-detail/51013991)**
+**[🔗 View Auction](https://www.bidfta.com/578959/item-detail/51087287)**
 
 **Current Price:** No bids yet
 
@@ -88,9 +103,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 90 | ✅ **Matched:** 1
+📥 **Items Scraped:** 109 | ✅ **Matched:** 1
 
-*Sources: bidfta: 29 | capital_city: 61*
+*Sources: bidfta: 31 | capital_city: 78*
 
 *No matches found for this search*
 
@@ -98,19 +113,32 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 172 | ✅ **Matched:** 8
+📥 **Items Scraped:** 180 | ✅ **Matched:** 8
 
-*Sources: bidfta: 40 | capital_city: 132*
+*Sources: bidfta: 34 | capital_city: 146*
 
-*No matches found for this search*
+### 4 Pack Hotel Pans With Lids, 1/1 Size 4" Deep Steam Table Pans, Full Size Stainless Steel Food Pan 22 Gauge Anti Jam 20.8" L X 12.8" W Commercial Food Storage Containers 1/1 Size 4" Deep 4 Pack
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://www.bidfta.com/579111/item-detail/51099036)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 70 | ✅ **Matched:** 1
+📥 **Items Scraped:** 54 | ✅ **Matched:** 1
 
-*Sources: bidfta: 29 | capital_city: 41*
+*Sources: bidfta: 25 | capital_city: 29*
 
 *No matches found for this search*
 
@@ -118,9 +146,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 29 | ✅ **Matched:** 3
+📥 **Items Scraped:** 24 | ✅ **Matched:** 3
 
-*Sources: bidfta: 4 | capital_city: 25*
+*Sources: bidfta: 5 | capital_city: 19*
 
 *No matches found for this search*
 
@@ -132,20 +160,7 @@
 
 *Sources: bidfta: 2 | capital_city: 10*
 
-### Sky Rider Goldfinch Quadcopter 0.3 Mp Drone
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/577639/item-detail/50915059)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
