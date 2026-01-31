@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-01-30 05:48 AM EST
+**Last Updated:** 2026-01-31 05:38 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 6 (Score ≥ 70)
-- **Total Items Scraped:** 729
-- **Items Seen Today:** 107
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Total Items Scraped:** 795
+- **Items Seen Today:** 115
 
 ---
 
@@ -20,92 +20,19 @@
 
 ### office chair
 
-📥 **Items Scraped:** 165 | ✅ **Matched:** 19
+📥 **Items Scraped:** 174 | ✅ **Matched:** 17
 
-*Sources: bidfta: 44 | capital_city: 121*
+*Sources: bidfta: 52 | capital_city: 122*
 
-### Nyssa Velvet Task Chair PINK.
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6E5IGB0v2ks%2bYojbC585QA%3d%3d&AuctionId=Nixf0EhnzuN0n5I8jho5Jg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$326.40~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
-
-### Marama Ergonomic Leather Office Chair with Flip-Up Armrests
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RDQGYlLSj5ImyuSXIyqLRg%3d%3d&AuctionId=Nixf0EhnzuN0n5I8jho5Jg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$299.99~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
-
-### Office Chair - Ergonomic Desk Chair With Adjustable Lumbar Support, Mesh Computer Chair, Executive Chair For Home Office Comfortable Lumbar Support(Blue)
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/578645/item-detail/51033547)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Nyssa Velvet Task Chair PINK.
-
-🆕 NEW ⭐ 90% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=udf7f4manQTc%2biiv1ANigw%3d%3d&AuctionId=Nixf0EhnzuN0n5I8jho5Jg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$326.40~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
-
-### Primy Tall Drafting Desk Chair - Armless, Adjustable Height, Mesh Back, Rolling, Standing Desk Chair For Art Room, Office Or Home (Black) Pr777-Z Black
-
-🆕 NEW ⭐ 90% Match
-
-**[🔗 View Auction](https://www.bidfta.com/578959/item-detail/51087287)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 109 | ✅ **Matched:** 1
+📥 **Items Scraped:** 114 | ✅ **Matched:** 1
 
-*Sources: bidfta: 31 | capital_city: 78*
+*Sources: bidfta: 31 | capital_city: 83*
 
 *No matches found for this search*
 
@@ -113,15 +40,15 @@
 
 ### stainless steel pan
 
-📥 **Items Scraped:** 180 | ✅ **Matched:** 8
+📥 **Items Scraped:** 185 | ✅ **Matched:** 9
 
-*Sources: bidfta: 34 | capital_city: 146*
+*Sources: bidfta: 26 | capital_city: 159*
 
-### 4 Pack Hotel Pans With Lids, 1/1 Size 4" Deep Steam Table Pans, Full Size Stainless Steel Food Pan 22 Gauge Anti Jam 20.8" L X 12.8" W Commercial Food Storage Containers 1/1 Size 4" Deep 4 Pack
+### Cooking King 10-Inch Stainless Steel Pan, Hybrid Nonstick Frying Pan, Skillet, 3-Ply Clad Cookware, Even Heat Distribution, Dishwasher & Oven Safe, With Stay-Cool Handle, Induction Compatible Stainless Steel 10 Inch
 
-🆕 NEW ✓ 75% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/579111/item-detail/51099036)**
+**[🔗 View Auction](https://www.bidfta.com/578650/item-detail/51033970)**
 
 **Current Price:** No bids yet
 
@@ -136,9 +63,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 54 | ✅ **Matched:** 1
+📥 **Items Scraped:** 48 | ✅ **Matched:** 1
 
-*Sources: bidfta: 25 | capital_city: 29*
+*Sources: bidfta: 18 | capital_city: 30*
 
 *No matches found for this search*
 
@@ -146,9 +73,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 3
+📥 **Items Scraped:** 28 | ✅ **Matched:** 3
 
-*Sources: bidfta: 5 | capital_city: 19*
+*Sources: bidfta: 6 | capital_city: 22*
 
 *No matches found for this search*
 
@@ -156,11 +83,41 @@
 
 ### Drone
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 6
+📥 **Items Scraped:** 18 | ✅ **Matched:** 8
 
-*Sources: bidfta: 2 | capital_city: 10*
+*Sources: bidfta: 3 | capital_city: 15*
 
-*No matches found for this search*
+### Brushless Motor Drone With Camera For Adults 4k Uhd Long Range Fpv Video,5g Transmission,120°Fov 90°Adjustable Lens,2batteries,Carrying Case,Optical Positioning,Easy For Beginner,Under249g Dark
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/579668/item-detail/51170384)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Lekufee Waterproof Hard Carrying Case for DJI Mavic 3 Pro/Classic/Combo/Cine and RC Pro/RC 2/RC- N3/N2/N1 and Accessories (Case Only)
+
+🆕 NEW ✓ 80% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=LFhbA10J7s5qKLWue%2bx%2bBw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=9ngiZ7WIHou0PBfX8TgGpQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$89.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 95
+
+**Source:** capital_city
+
+
+---
 
 ---
 
