@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-01 05:39 AM EST
+**Last Updated:** 2026-02-02 05:59 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Total Items Scraped:** 846
-- **Items Seen Today:** 103
+- **Total Matches Found:** 1 (Score ≥ 70)
+- **Total Items Scraped:** 913
+- **Items Seen Today:** 106
 
 ---
 
@@ -20,51 +20,55 @@
 
 ### office chair
 
-📥 **Items Scraped:** 189 | ✅ **Matched:** 20
+📥 **Items Scraped:** 192 | ✅ **Matched:** 19
 
-*Sources: bidfta: 60 | capital_city: 129*
+*Sources: bidfta: 60 | capital_city: 132*
 
-### Big and Tall Executive Office Chair with Footrest & Removable Headrest, High Back Ergonomic Computer Desk Chair with Frosted Velvet Upholstery,Comfortable Work Chair for Long Hours (Beige)
-
-🆕 NEW ⭐ 95% Match 🔥 81% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9OMOB3EXf%2bcA0gyKocosRg%3d%3d&AuctionId=xeVtjqMCrzuYVCURAIiIWg%3d%3d)**
-
-**Current Price:** $30.00
-
-**Retail Price:** ~~$159.99~~ (Save 81%)
-
-📍 **Pickup:** ! /  Lot - 99
-
-**Source:** capital_city
-
+*No matches found for this search*
 
 ---
 
-### Kro Suede Swivel Ergonomic Office Task Chair in Light Brown with Recliner High Back Lumbar Support Adjustable Arms
+### bread maker
 
-🆕 NEW ⭐ 95% Match 🔥 97% OFF
+📥 **Items Scraped:** 129 | ✅ **Matched:** 0
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2K3aEi1eesdWJwZpG%2f9wKA%3d%3d&AuctionId=xeVtjqMCrzuYVCURAIiIWg%3d%3d)**
+*Sources: bidfta: 38 | capital_city: 91*
 
-**Current Price:** $6.00
-
-**Retail Price:** ~~$252.99~~ (Save 97%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 127
-
-**Source:** capital_city
-
+*No matches found for this search*
 
 ---
 
-### Sweetcrispy Small Office Desk Chair, Ergonomic Low-Back Mesh Rolling Work Swivel Chairs With Wheels, Armless Comfortable Seat Lumbar Support For Home, Bedroom, Study, Student, Adults,Classic Black
+### stainless steel pan
+
+📥 **Items Scraped:** 192 | ✅ **Matched:** 7
+
+*Sources: bidfta: 19 | capital_city: 173*
+
+*No matches found for this search*
+
+---
+
+### manual coffee grinder
+
+📥 **Items Scraped:** 31 | ✅ **Matched:** 1
+
+*Sources: bidfta: 11 | capital_city: 20*
+
+*No matches found for this search*
+
+---
+
+### gooseneck kettle
+
+📥 **Items Scraped:** 21 | ✅ **Matched:** 3
+
+*Sources: bidfta: 7 | capital_city: 14*
+
+### Susteas Stove Top Whistling Tea Kettle - Food Grade Stainless Steel Teakettle Teapot With Cool Touch Ergonomic Handle, With 1 Silicone Pinch Mitt Included, 2.64 Quart(Black)
 
 🆕 NEW ⭐ 90% Match
 
-**[🔗 View Auction](https://www.bidfta.com/579399/item-detail/51162445)**
+**[🔗 View Auction](https://www.bidfta.com/579487/item-detail/51144602)**
 
 **Current Price:** No bids yet
 
@@ -74,46 +78,6 @@
 
 
 ---
-
----
-
-### bread maker
-
-📥 **Items Scraped:** 110 | ✅ **Matched:** 0
-
-*Sources: bidfta: 34 | capital_city: 76*
-
-*No matches found for this search*
-
----
-
-### stainless steel pan
-
-📥 **Items Scraped:** 191 | ✅ **Matched:** 8
-
-*Sources: bidfta: 18 | capital_city: 173*
-
-*No matches found for this search*
-
----
-
-### manual coffee grinder
-
-📥 **Items Scraped:** 27 | ✅ **Matched:** 1
-
-*Sources: bidfta: 10 | capital_city: 17*
-
-*No matches found for this search*
-
----
-
-### gooseneck kettle
-
-📥 **Items Scraped:** 19 | ✅ **Matched:** 2
-
-*Sources: bidfta: 6 | capital_city: 13*
-
-*No matches found for this search*
 
 ---
 
