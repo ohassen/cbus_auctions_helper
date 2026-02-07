@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-06 05:49 AM EST
+**Last Updated:** 2026-02-07 05:35 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 8 (Score ≥ 70)
-- **Total Items Scraped:** 1132
-- **Items Seen Today:** 80
+- **Total Matches Found:** 5 (Score ≥ 70)
+- **Total Items Scraped:** 1174
+- **Items Seen Today:** 94
 
 ---
 
@@ -20,110 +20,67 @@
 
 ### office chair
 
-📥 **Items Scraped:** 197 | ✅ **Matched:** 22
+📥 **Items Scraped:** 199 | ✅ **Matched:** 20
 
-*Sources: bidfta: 64 | capital_city: 133*
+*Sources: bidfta: 66 | capital_city: 133*
 
-### (41) Hbada P5 Ergonomic Office Chair, Desk Chair with Adjustable Lumbar Support and Height, Comfortable Mesh Computer Chair with Footrest 2D Headrest, Swivel Tilt Function Black
-
-🆕 NEW ⭐ 95% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bAB1w3wb7Leb%2fpLXhF73mA%3d%3d&AuctionId=K70RFSSCPlmbiNF%2f2ZTgeQ%3d%3d)**
-
-**Current Price:** $5.00
-
-**Retail Price:** ~~$219.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 8
-
-**Source:** capital_city
-
-
----
-
-### (40) La-Z-Boy Meyer Ergonomic Bonded Leather Swivel Executive Chair
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ti5PgGpaVZ9RqAftbfKOng%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 4
-
-**Source:** capital_city
-
-
----
-
-### Modern Navy Chenille Upholstered Swivel Accent Barrel Chair with Metal Base (Set of 2)
-
-🆕 NEW ⭐ 85% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=omVl9Wj6EnZ43SjOyqhUYw%3d%3d&AuctionId=RK7LGF%2fq0vNj4xpgfMolUQ%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$493.99~~ (Save 99%)
-
-📍 **Pickup:** !- /  Lot - 101
-
-**Source:** capital_city
-
-
----
-
-### Flash Furniture Hercules Regal Series Contemporary Melrose White Leathersoft Chair With Encasing Frame
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/580277/item-detail/51321213)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Modern Navy Chenille Upholstered Swivel Accent Barrel Chair with Metal Base (Set of 2)
-
-🆕 NEW ✓ 75% Match 🔥 95% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UwM2Mfh%2fHq4yIaJJ%2fJ02jA%3d%3d&AuctionId=RK7LGF%2fq0vNj4xpgfMolUQ%3d%3d)**
-
-**Current Price:** $24.00
-
-**Retail Price:** ~~$493.99~~ (Save 95%)
-
-📍 **Pickup:** !- /  Lot - 100
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 105 | ✅ **Matched:** 2
+📥 **Items Scraped:** 113 | ✅ **Matched:** 5
 
-*Sources: bidfta: 42 | capital_city: 63*
+*Sources: bidfta: 45 | capital_city: 68*
 
-### Neretva Bread Machine Pan With Two Paddles For Bread Maker Pe9806u
+### (144). Neretva Bread Maker, 3.3LB Larger Bread Machine 15-in-1 Stainless Steel & Nonstick Ceramic Pan & Auto Nut Dispenser Breadmaker Machines Full Touch Panel with Gluten Free White Wheat Rye French Pizza
 
-⭐ 85% Match
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/581015/item-detail/51335032)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Bf1OpyLD8kpgljFeQZTFpA%3d%3d&AuctionId=MeIW7njDr0rjTJHdI4%2f5dw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $2.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$209.99~~ (Save 99%)
 
-**Source:** bidfta
+📍 **Pickup:** ! /  Lot - 7
+
+**Source:** capital_city
+
+
+---
+
+### Neretva Bread Maker, 20-IN-1 2LB Bread Machine Dual Heater Bread Maker Machine Automatic with Nonstick Ceramic Pan, 15H Timer & 1H Keep Warm Set, Low Noise, Stainless Steel Breadmaker Recipe-Green
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=b%2bEAc2EdlqbK7UXXhu%2fPNg%3d%3d&AuctionId=MeIW7njDr0rjTJHdI4%2f5dw%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$149.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 103
+
+**Source:** capital_city
+
+
+---
+
+### Dough Mixer 7L Large Capacity Electric Dough Maker with Ferment Function for Baking Bread Dough&Pizza Dough - Dough whisk 304 Stainless Steel Blender Add water/seasoning with Top Small Window
+
+🆕 NEW ⭐ 85% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5s3dpU8svFCde18vmlCp9w%3d%3d&AuctionId=MeIW7njDr0rjTJHdI4%2f5dw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$149.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 119
+
+**Source:** capital_city
 
 
 ---
@@ -132,9 +89,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 34 | ✅ **Matched:** 1
+📥 **Items Scraped:** 32 | ✅ **Matched:** 1
 
-*Sources: bidfta: 7 | capital_city: 27*
+*Sources: bidfta: 8 | capital_city: 24*
 
 *No matches found for this search*
 
@@ -142,23 +99,21 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 22 | ✅ **Matched:** 2
+📥 **Items Scraped:** 26 | ✅ **Matched:** 3
 
-*Sources: bidfta: 8 | capital_city: 14*
+*Sources: bidfta: 10 | capital_city: 16*
 
-### (40) Fellow Stagg EKG Pro Electric Gooseneck Kettle - Pour-Over Coffee and Tea, Quick Heating, Precise Temperature Control, Scheduling, Built-in Brew Timer, Matte Black with Walnut Wood Handle, 0.9 Liter
+### Intasting Electric Kettle, Gooseneck Electric Kettle, ±1? Precise Temperature Control, Stainless Steel Interior, Quick Heating For Pour Over Coffee, Tea & Boiling Water, 0.9l (Onyx Black)
 
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Imeec7QRS%2fGDluQLRxEJ7g%3d%3d&AuctionId=V41jBTKIUF2%2b2%2bbR8QYDCw%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/581530/item-detail/51397299)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$209.99~~ (Save 99%)
+📍 **Pickup:** Columbus area (from search results)
 
-📍 **Pickup:** ! /  Lot - 8
-
-**Source:** capital_city
+**Source:** bidfta
 
 
 ---
@@ -167,15 +122,15 @@
 
 ### Drone
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 8
+📥 **Items Scraped:** 13 | ✅ **Matched:** 9
 
-*Sources: bidfta: 4 | capital_city: 10*
+*Sources: bidfta: 5 | capital_city: 8*
 
-### Drone With Camera 1080p Hd, Fpv Foldable Mini Drone For Beginners Kids Boys Girls, With 2 Recharging Batteries, Carrying Case, One Key Start, Stable Hover, Trajectory Flight, Toys Gifts (Black)
+### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 90% Match
 
-**[🔗 View Auction](https://www.bidfta.com/581015/item-detail/51335027)**
+**[🔗 View Auction](https://www.bidfta.com/578884/item-detail/51075338)**
 
 **Current Price:** No bids yet
 
