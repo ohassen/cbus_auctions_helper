@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-07 05:35 AM EST
+**Last Updated:** 2026-02-08 05:39 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 1174
-- **Items Seen Today:** 94
+- **Total Matches Found:** 9 (Score ≥ 70)
+- **Total Items Scraped:** 1220
+- **Items Seen Today:** 102
 
 ---
 
@@ -20,78 +20,129 @@
 
 ### office chair
 
-📥 **Items Scraped:** 199 | ✅ **Matched:** 20
+📥 **Items Scraped:** 188 | ✅ **Matched:** 23
 
-*Sources: bidfta: 66 | capital_city: 133*
+*Sources: bidfta: 65 | capital_city: 123*
 
-*No matches found for this search*
+### La-Z-Boy High Back Height Adjustment and 360 Degree Swivel Office Desk Chair, Black
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Dktm4umc2s5tyH3petOuog%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 34
+
+**Source:** capital_city
+
+
+---
+
+### La-Z-Boy High Back Height Adjustment and 360 Degree Swivel Office Desk Chair, Black
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0Iwd3Rj7BZ8LFDK%2bi52u8g%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+
+**Current Price:** $4.00
+
+**Retail Price:** ~~$299.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 35
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 90% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=DpgI%2fMSowZl0ua0Mp6Hqrw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+
+**Current Price:** $5.00
+
+**Retail Price:** ~~$299.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 32
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 90% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=C4CBp0mv1YxKS9mRPq31rw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+
+**Current Price:** $4.00
+
+**Retail Price:** ~~$299.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 115
+
+**Source:** capital_city
+
+
+---
+
+### Lay Z Boy High Back Black Leather Chair
+
+🆕 NEW ⭐ 85% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Z5Cnq1CUY3P88YxAJwclMw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$189.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 36
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 85% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ak3SgMy8avqWa6Y%2bxe7oXw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+
+**Current Price:** $5.00
+
+**Retail Price:** ~~$299.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 114
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### bread maker
 
-📥 **Items Scraped:** 113 | ✅ **Matched:** 5
+📥 **Items Scraped:** 115 | ✅ **Matched:** 5
 
-*Sources: bidfta: 45 | capital_city: 68*
+*Sources: bidfta: 46 | capital_city: 69*
 
-### (144). Neretva Bread Maker, 3.3LB Larger Bread Machine 15-in-1 Stainless Steel & Nonstick Ceramic Pan & Auto Nut Dispenser Breadmaker Machines Full Touch Panel with Gluten Free White Wheat Rye French Pizza
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Bf1OpyLD8kpgljFeQZTFpA%3d%3d&AuctionId=MeIW7njDr0rjTJHdI4%2f5dw%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$209.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 7
-
-**Source:** capital_city
-
-
----
-
-### Neretva Bread Maker, 20-IN-1 2LB Bread Machine Dual Heater Bread Maker Machine Automatic with Nonstick Ceramic Pan, 15H Timer & 1H Keep Warm Set, Low Noise, Stainless Steel Breadmaker Recipe-Green
-
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=b%2bEAc2EdlqbK7UXXhu%2fPNg%3d%3d&AuctionId=MeIW7njDr0rjTJHdI4%2f5dw%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$149.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 103
-
-**Source:** capital_city
-
-
----
-
-### Dough Mixer 7L Large Capacity Electric Dough Maker with Ferment Function for Baking Bread Dough&Pizza Dough - Dough whisk 304 Stainless Steel Blender Add water/seasoning with Top Small Window
-
-🆕 NEW ⭐ 85% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5s3dpU8svFCde18vmlCp9w%3d%3d&AuctionId=MeIW7njDr0rjTJHdI4%2f5dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$149.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 119
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 32 | ✅ **Matched:** 1
+📥 **Items Scraped:** 39 | ✅ **Matched:** 1
 
-*Sources: bidfta: 8 | capital_city: 24*
+*Sources: bidfta: 8 | capital_city: 31*
 
 *No matches found for this search*
 
@@ -99,21 +150,21 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 3
+📥 **Items Scraped:** 29 | ✅ **Matched:** 4
 
-*Sources: bidfta: 10 | capital_city: 16*
+*Sources: bidfta: 12 | capital_city: 17*
 
-### Intasting Electric Kettle, Gooseneck Electric Kettle, ±1? Precise Temperature Control, Stainless Steel Interior, Quick Heating For Pour Over Coffee, Tea & Boiling Water, 0.9l (Onyx Black)
+### ZOKOP HD-1861-A 1.8L Electric Glass Kettle 110V 1200W US Plug 7 Color LED Lights Auto Shut Off
 
-🆕 NEW ⭐ 95% Match
+✓ 75% Match 🔥 92% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/581530/item-detail/51397299)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=c%2bpjs73xn%2bXoyzgEjXUy7w%3d%3d&AuctionId=rg%2fMgnkMoiO30B493UVMXw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $4.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$49.99~~ (Save 92%)
 
-**Source:** bidfta
+**Source:** capital_city
 
 
 ---
@@ -122,15 +173,30 @@
 
 ### Drone
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 9
+📥 **Items Scraped:** 19 | ✅ **Matched:** 11
 
-*Sources: bidfta: 5 | capital_city: 8*
+*Sources: bidfta: 6 | capital_city: 13*
+
+### Pro Quadcopter Drone with Wi-Fi Camera, Remote and Phone Holder, White
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=XlVn9RJ7EUKFHe6c1QcCiA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 125
+
+**Source:** capital_city
+
+
+---
 
 ### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
 
-🆕 NEW ⭐ 90% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/578884/item-detail/51075338)**
+**[🔗 View Auction](https://www.bidfta.com/578916/item-detail/51076514)**
 
 **Current Price:** No bids yet
 
