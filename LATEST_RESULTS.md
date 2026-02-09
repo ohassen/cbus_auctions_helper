@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-08 05:39 AM EST
+**Last Updated:** 2026-02-09 06:09 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 9 (Score ≥ 70)
-- **Total Items Scraped:** 1220
-- **Items Seen Today:** 102
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Total Items Scraped:** 1254
+- **Items Seen Today:** 98
 
 ---
 
@@ -20,106 +20,19 @@
 
 ### office chair
 
-📥 **Items Scraped:** 188 | ✅ **Matched:** 23
+📥 **Items Scraped:** 187 | ✅ **Matched:** 22
 
-*Sources: bidfta: 65 | capital_city: 123*
+*Sources: bidfta: 72 | capital_city: 115*
 
-### La-Z-Boy High Back Height Adjustment and 360 Degree Swivel Office Desk Chair, Black
+### VINGLI Modern Velvet Small Office Chair,Cute Desk Chair with Wheels,Gold Base/Studs, Comfy Armless Swivel Vanity Task Chair for Women/Girl/Kids, Nail Tech Chair for Bedroom,Small Space,Black
 
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
+🆕 NEW ⭐ 85% Match 🔥 96% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Dktm4umc2s5tyH3petOuog%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Xqrw4HDU%2bCXdmnx8z7BxOg%3d%3d&AuctionId=uJ4gyyhBWzLEHl5FK0lsWQ%3d%3d)**
 
 **Current Price:** $3.00
 
-**Retail Price:** ~~$299.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 34
-
-**Source:** capital_city
-
-
----
-
-### La-Z-Boy High Back Height Adjustment and 360 Degree Swivel Office Desk Chair, Black
-
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0Iwd3Rj7BZ8LFDK%2bi52u8g%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$299.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 35
-
-**Source:** capital_city
-
-
----
-
-### Henredon Murphy Fabric Office Chair Cream
-
-🆕 NEW ⭐ 90% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=DpgI%2fMSowZl0ua0Mp6Hqrw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
-
-**Current Price:** $5.00
-
-**Retail Price:** ~~$299.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 32
-
-**Source:** capital_city
-
-
----
-
-### Henredon Murphy Fabric Office Chair Cream
-
-🆕 NEW ⭐ 90% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=C4CBp0mv1YxKS9mRPq31rw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$299.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 115
-
-**Source:** capital_city
-
-
----
-
-### Lay Z Boy High Back Black Leather Chair
-
-🆕 NEW ⭐ 85% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Z5Cnq1CUY3P88YxAJwclMw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$189.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 36
-
-**Source:** capital_city
-
-
----
-
-### Henredon Murphy Fabric Office Chair Cream
-
-🆕 NEW ⭐ 85% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ak3SgMy8avqWa6Y%2bxe7oXw%3d%3d&AuctionId=ikztrUkGFxwq4fTe6et2tg%3d%3d)**
-
-**Current Price:** $5.00
-
-**Retail Price:** ~~$299.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 114
+**Retail Price:** ~~$89.99~~ (Save 96%)
 
 **Source:** capital_city
 
@@ -130,9 +43,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 115 | ✅ **Matched:** 5
+📥 **Items Scraped:** 108 | ✅ **Matched:** 5
 
-*Sources: bidfta: 46 | capital_city: 69*
+*Sources: bidfta: 47 | capital_city: 61*
 
 *No matches found for this search*
 
@@ -142,7 +55,7 @@
 
 📥 **Items Scraped:** 39 | ✅ **Matched:** 1
 
-*Sources: bidfta: 8 | capital_city: 31*
+*Sources: bidfta: 9 | capital_city: 30*
 
 *No matches found for this search*
 
@@ -150,19 +63,21 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 29 | ✅ **Matched:** 4
+📥 **Items Scraped:** 30 | ✅ **Matched:** 5
 
-*Sources: bidfta: 12 | capital_city: 17*
+*Sources: bidfta: 14 | capital_city: 16*
 
-### ZOKOP HD-1861-A 1.8L Electric Glass Kettle 110V 1200W US Plug 7 Color LED Lights Auto Shut Off
+### SUGIFT 1.8L (60oz) Electric Kettle 1100W Electric Tea Kettle Auto Shut Off Double Wall Stainless Steel White
 
-✓ 75% Match 🔥 92% OFF
+⭐ 90% Match 🔥 96% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=c%2bpjs73xn%2bXoyzgEjXUy7w%3d%3d&AuctionId=rg%2fMgnkMoiO30B493UVMXw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=InuD%2bPvx0ZsKBKum%2byvPqA%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d)**
 
-**Current Price:** $4.00
+**Current Price:** $2.00
 
-**Retail Price:** ~~$49.99~~ (Save 92%)
+**Retail Price:** ~~$49.99~~ (Save 96%)
+
+📍 **Pickup:** ! /  Lot - 24
 
 **Source:** capital_city
 
@@ -173,36 +88,36 @@
 
 ### Drone
 
-📥 **Items Scraped:** 19 | ✅ **Matched:** 11
+📥 **Items Scraped:** 23 | ✅ **Matched:** 10
 
-*Sources: bidfta: 6 | capital_city: 13*
-
-### Pro Quadcopter Drone with Wi-Fi Camera, Remote and Phone Holder, White
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=XlVn9RJ7EUKFHe6c1QcCiA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 125
-
-**Source:** capital_city
-
-
----
+*Sources: bidfta: 7 | capital_city: 16*
 
 ### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/578916/item-detail/51076514)**
+**[🔗 View Auction](https://www.bidfta.com/578883/item-detail/51068003)**
 
 **Current Price:** No bids yet
 
 📍 **Pickup:** Columbus area (from search results)
 
 **Source:** bidfta
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 80% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=s8OXJh8Pt%2fPQx7R84jPuVw%3d%3d&AuctionId=AA8g8UwaLEPOX3po91a5Aw%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 85
+
+**Source:** capital_city
 
 
 ---
