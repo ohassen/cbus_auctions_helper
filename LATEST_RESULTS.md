@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-10 06:07 AM EST
+**Last Updated:** 2026-02-11 06:00 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 1287
-- **Items Seen Today:** 99
+- **Total Items Scraped:** 1340
+- **Items Seen Today:** 84
 
 ---
 
@@ -20,30 +20,64 @@
 
 ### office chair
 
-📥 **Items Scraped:** 193 | ✅ **Matched:** 23
+📥 **Items Scraped:** 200 | ✅ **Matched:** 26
 
-*Sources: bidfta: 74 | capital_city: 119*
+*Sources: bidfta: 75 | capital_city: 125*
 
-### Shaggy Fabric Adjustable Height Swivel Task Chair in Off-White with Armless
+### Costway Fabric Adjustable Height Swivel High Back Ergonomic Office Chair in Black with Arms
 
-🆕 NEW ⭐ 85% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match 🔥 91% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6wRHfalPfkKrpXjPPLgBNA%3d%3d&AuctionId=1fEnBGqWW8x2BG4ANZ480A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2frP2APtvWIwkMLqJq8kEBw%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $28.00
 
-**Retail Price:** ~~$117.99~~ (Save 98%)
+**Retail Price:** ~~$318.99~~ (Save 91%)
+
+📍 **Pickup:** ! /  Lot - 34
 
 **Source:** capital_city
 
 
 ---
 
-### Jayetta Mid-Back Mesh Swivel Chair
+### Bestier Cross Legged Office Chair with Wider Bentwood Back Support, Ergonomic Meditation Office Chair for Adults up to 300 lbs, 360° Swivel Adjustable Height for Multi Position Black
 
-🆕 NEW ⭐ 85% Match
+🆕 NEW ⭐ 95% Match 🔥 88% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/581489/item-detail/51440528)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=i%2btZ91dZ0jt30YGzLnp3Rw%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d)**
+
+**Current Price:** $21.00
+
+**Retail Price:** ~~$189.99~~ (Save 88%)
+
+📍 **Pickup:** ! /  Lot - 146
+
+**Source:** capital_city
+
+
+---
+
+### Cappello High-Back Mesh Swivel Ergonomic Office Chair With Flip-U
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/583291/item-detail/51636475)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Cili Massage Chair Pad,Back Massager With Heat,Massage Seat Cushion With 10 Vibration Motors,30-60-90 Minutes Heating Options,Chair Massager For Office Chair, Home Office Use Black
+
+🆕 NEW ✓ 80% Match
+
+**[🔗 View Auction](https://www.bidfta.com/583010/item-detail/51576279)**
 
 **Current Price:** No bids yet
 
@@ -58,9 +92,19 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 102 | ✅ **Matched:** 5
+📥 **Items Scraped:** 105 | ✅ **Matched:** 5
 
-*Sources: bidfta: 49 | capital_city: 53*
+*Sources: bidfta: 50 | capital_city: 55*
+
+*No matches found for this search*
+
+---
+
+### Garage Opener
+
+📥 **Items Scraped:** 34 | ✅ **Matched:** 1
+
+*Sources: bidfta: 4 | capital_city: 30*
 
 *No matches found for this search*
 
@@ -68,9 +112,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 37 | ✅ **Matched:** 1
+📥 **Items Scraped:** 38 | ✅ **Matched:** 1
 
-*Sources: bidfta: 10 | capital_city: 27*
+*Sources: bidfta: 11 | capital_city: 27*
 
 *No matches found for this search*
 
@@ -78,25 +122,15 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 33 | ✅ **Matched:** 4
+📥 **Items Scraped:** 34 | ✅ **Matched:** 5
 
-*Sources: bidfta: 17 | capital_city: 16*
+*Sources: bidfta: 18 | capital_city: 16*
 
-*No matches found for this search*
+### Travel Electric Kettle-Collapsible Portable Electric Kettle, 600w Foldable Small Water Boiler With 4-Temp Presets, Food Grade Silicone For Hotel, Office, Camping (Beige, 600ml) Beige 0.6 Quarts
 
----
+🆕 NEW ⭐ 85% Match
 
-### Drone
-
-📥 **Items Scraped:** 23 | ✅ **Matched:** 12
-
-*Sources: bidfta: 7 | capital_city: 16*
-
-### Nanuk 915 Dji™ Mini 5 Pro Fly More Combo Plus - Waterproof Hard Case With Drone Foam Insert, Crushproof, Portable Travel Case, Made In Canada - Graphite (15.8" X 12.1" X 6.8")
-
-🆕 NEW ✓ 80% Match
-
-**[🔗 View Auction](https://www.bidfta.com/583402/item-detail/51620180)**
+**[🔗 View Auction](https://www.bidfta.com/583331/item-detail/51612902)**
 
 **Current Price:** No bids yet
 
@@ -107,39 +141,15 @@
 
 ---
 
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-✓ 75% Match 🔥 93% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3gGTbj7lGKVChoX3K5yfJQ%3d%3d&AuctionId=AA8g8UwaLEPOX3po91a5Aw%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$32.00~~ (Save 93%)
-
-📍 **Pickup:** ! /  Lot - 86
-
-**Source:** capital_city
-
-
 ---
 
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+### Drone
 
-✓ 75% Match 🔥 93% OFF
+📥 **Items Scraped:** 18 | ✅ **Matched:** 11
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=Cy0Mi0nndiELtbsfmMw0gg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=AA8g8UwaLEPOX3po91a5Aw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+*Sources: bidfta: 7 | capital_city: 11*
 
-**Current Price:** $2.00
-
-**Retail Price:** ~~$32.00~~ (Save 93%)
-
-📍 **Pickup:** ! /  Lot - 87
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
