@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-11 06:00 AM EST
+**Last Updated:** 2026-02-12 05:55 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 1340
-- **Items Seen Today:** 84
+- **Total Matches Found:** 15 (Score ≥ 70)
+- **Total Items Scraped:** 1390
+- **Items Seen Today:** 72
 
 ---
 
@@ -20,70 +20,257 @@
 
 ### office chair
 
-📥 **Items Scraped:** 200 | ✅ **Matched:** 26
+📥 **Items Scraped:** 199 | ✅ **Matched:** 35
 
-*Sources: bidfta: 75 | capital_city: 125*
+*Sources: bidfta: 76 | capital_city: 123*
 
-### Costway Fabric Adjustable Height Swivel High Back Ergonomic Office Chair in Black with Arms
-
-🆕 NEW ⭐ 95% Match 🔥 91% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2frP2APtvWIwkMLqJq8kEBw%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d)**
-
-**Current Price:** $28.00
-
-**Retail Price:** ~~$318.99~~ (Save 91%)
-
-📍 **Pickup:** ! /  Lot - 34
-
-**Source:** capital_city
-
-
----
-
-### Bestier Cross Legged Office Chair with Wider Bentwood Back Support, Ergonomic Meditation Office Chair for Adults up to 300 lbs, 360° Swivel Adjustable Height for Multi Position Black
+### (98) Thomasville Lamont Big & Tall Executive Office Chair Brown
 
 🆕 NEW ⭐ 95% Match 🔥 88% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=i%2btZ91dZ0jt30YGzLnp3Rw%3d%3d&AuctionId=tnN1oU7TxnzXT5KvxXayzg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Zahyc8PVrmiiefl1Uib24w%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
 
-**Current Price:** $21.00
+**Current Price:** $67.00
 
-**Retail Price:** ~~$189.99~~ (Save 88%)
+**Retail Price:** ~~$599.99~~ (Save 88%)
 
-📍 **Pickup:** ! /  Lot - 146
+📍 **Pickup:** ! /  Lot - 2
 
 **Source:** capital_city
 
 
 ---
 
-### Cappello High-Back Mesh Swivel Ergonomic Office Chair With Flip-U
+### La-Z-Boy Meyer Ergonomic Bonded Leather Swivel Executive Chair
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/583291/item-detail/51636475)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=oSoTXmzTBftWsBOMH3xTRg%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $6.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$399.99~~ (Save 98%)
 
-**Source:** bidfta
+📍 **Pickup:** ! /  Lot - 31
+
+**Source:** capital_city
 
 
 ---
 
-### Cili Massage Chair Pad,Back Massager With Heat,Massage Seat Cushion With 10 Vibration Motors,30-60-90 Minutes Heating Options,Chair Massager For Office Chair, Home Office Use Black
+### LA Z BOY Manager Office Chair w/ ComfortCore Model #1782894
 
-🆕 NEW ✓ 80% Match
+🆕 NEW ⭐ 95% Match 🔥 70% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/583010/item-detail/51576279)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3lfsVJpXzFBh9oZCfXobpw%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $86.00
+
+**Retail Price:** ~~$289.99~~ (Save 70%)
+
+📍 **Pickup:** ! /  Lot - 64
+
+**Source:** capital_city
+
+
+---
+
+### La-Z-Boy Manager Office Chair
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wV6lXwEp%2bw00tqUzwbEYog%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$279.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 152
+
+**Source:** capital_city
+
+
+---
+
+### La-Z-Boy Manager Office Chair
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PvuhPZCaW3nUbs7G68l5RQ%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $5.00
+
+**Retail Price:** ~~$279.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 215
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 90% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=sPBLt1QtjBuRCXYa7ONsPg%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 30
+
+**Source:** capital_city
+
+
+---
+
+### La-Z-Boy Manager Office Chair
+
+🆕 NEW ⭐ 90% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=OGidM%2fL%2f4OOZvgqsouZOOg%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$199.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 32
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 90% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=rqBsuW02C5LYcpFC0EiZiw%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 129
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 90% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=z94Qd4AvqD%2bK4hLZ6EAA4w%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 131
+
+**Source:** capital_city
+
+
+---
+
+### True Innovations Mesh Office Chair
+
+🆕 NEW ⭐ 90% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pBD%2bwlTy%2f3fICMgaaFNhHA%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** Columbus area (from search results)
+📍 **Pickup:** ! /  Lot - 159
 
-**Source:** bidfta
+**Source:** capital_city
+
+
+---
+
+### DPS Centurion Gaming Office Chair
+
+🆕 NEW ⭐ 85% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xLd2WUqWF1wm%2bxi9GNN00Q%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$199.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 70
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 85% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ws%2btm82zF%2bguJMx5CbsE%2bQ%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $6.00
+
+**Retail Price:** ~~$299.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 88
+
+**Source:** capital_city
+
+
+---
+
+### Henredon Murphy Fabric Office Chair Cream
+
+🆕 NEW ⭐ 85% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=DI9g1iqsZN59%2bP3IxZDkmg%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 153
+
+**Source:** capital_city
+
+
+---
+
+### La-Z-Boy Manager Office Chair
+
+🆕 NEW ⭐ 85% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=JrKAy46G7%2bgYI4W8G8jt9Q%3d%3d&AuctionId=nQA4%2bAuGnyow8z8Da%2fK0fw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$279.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 154
+
+**Source:** capital_city
+
+
+---
+
+### 4 PACK Office Stackable Chairs Set with Metal Sled Base Grey
+
+🆕 NEW ⭐ 85% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=IAyp%2bNIuv76uaAYzyVvXEg%3d%3d&AuctionId=x%2f0VSELadWfwiniU%2f4nizA%3d%3d)**
+
+**Current Price:** $4.00
+
+**Retail Price:** ~~$349.99~~ (Save 98%)
+
+**Source:** capital_city
 
 
 ---
@@ -92,9 +279,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 105 | ✅ **Matched:** 5
+📥 **Items Scraped:** 108 | ✅ **Matched:** 5
 
-*Sources: bidfta: 50 | capital_city: 55*
+*Sources: bidfta: 49 | capital_city: 59*
 
 *No matches found for this search*
 
@@ -102,9 +289,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 34 | ✅ **Matched:** 1
+📥 **Items Scraped:** 7 | ✅ **Matched:** 0
 
-*Sources: bidfta: 4 | capital_city: 30*
+*Sources: bidfta: 2 | capital_city: 5*
 
 *No matches found for this search*
 
@@ -112,9 +299,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 38 | ✅ **Matched:** 1
+📥 **Items Scraped:** 42 | ✅ **Matched:** 1
 
-*Sources: bidfta: 11 | capital_city: 27*
+*Sources: bidfta: 11 | capital_city: 31*
 
 *No matches found for this search*
 
@@ -122,32 +309,19 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 34 | ✅ **Matched:** 5
+📥 **Items Scraped:** 31 | ✅ **Matched:** 5
 
-*Sources: bidfta: 18 | capital_city: 16*
+*Sources: bidfta: 17 | capital_city: 14*
 
-### Travel Electric Kettle-Collapsible Portable Electric Kettle, 600w Foldable Small Water Boiler With 4-Temp Presets, Food Grade Silicone For Hotel, Office, Camping (Beige, 600ml) Beige 0.6 Quarts
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/583331/item-detail/51612902)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Drone
 
-📥 **Items Scraped:** 18 | ✅ **Matched:** 11
+📥 **Items Scraped:** 17 | ✅ **Matched:** 10
 
-*Sources: bidfta: 7 | capital_city: 11*
+*Sources: bidfta: 6 | capital_city: 11*
 
 *No matches found for this search*
 
