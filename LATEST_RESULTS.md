@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-15 05:38 AM EST
+**Last Updated:** 2026-02-16 06:01 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 5 (Score ≥ 70)
-- **Total Items Scraped:** 1518
-- **Items Seen Today:** 82
+- **Total Items Scraped:** 1570
+- **Items Seen Today:** 84
 
 ---
 
@@ -20,30 +20,32 @@
 
 ### office chair
 
-📥 **Items Scraped:** 203 | ✅ **Matched:** 36
+📥 **Items Scraped:** 221 | ✅ **Matched:** 36
 
-*Sources: bidfta: 79 | capital_city: 124*
+*Sources: bidfta: 78 | capital_city: 143*
 
-### Felixking Office Desk Chairs, Ergonomic Pc Desk Chair With Wheels, Adjustable Lumbar Support And Height, Swivel Computer Chair With Flip-Up Armrests, Ergo Mesh Backrest For Working (Black) Fk936 Black
+### Flash Furniture Whitney Faux Leather Mid-Back Gold Frame Ergonomic Executive Swivel Office Chair in White with Arms
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 96% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/583709/item-detail/51677374)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0F6cXNEpVERrVkI4JJn7bg%3d%3d&AuctionId=7hxlSmwanN8CYTWnY3ZfYA%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $6.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$169.00~~ (Save 96%)
 
-**Source:** bidfta
+📍 **Pickup:** ! /  Lot - 162
+
+**Source:** capital_city
 
 
 ---
 
-### Gtplayer Gaming Chair, Computer Office Chair With Pocket Spring Cushion, Linkage Armrests And Footrest, High Back Ergonomic Computer Chair With Lumbar Support Task Chair With Footrest Black
+### Serta Torrington Ergonomic Polyurethane Big & Tall Chair
 
 🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/583157/item-detail/51762054)**
+**[🔗 View Auction](https://www.bidfta.com/584417/item-detail/51804954)**
 
 **Current Price:** No bids yet
 
@@ -58,9 +60,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 98 | ✅ **Matched:** 3
+📥 **Items Scraped:** 96 | ✅ **Matched:** 3
 
-*Sources: bidfta: 40 | capital_city: 58*
+*Sources: bidfta: 34 | capital_city: 62*
 
 *No matches found for this search*
 
@@ -68,54 +70,21 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 1
+📥 **Items Scraped:** 21 | ✅ **Matched:** 2
 
-*Sources: bidfta: 4 | capital_city: 11*
+*Sources: bidfta: 5 | capital_city: 16*
 
-*No matches found for this search*
+### Chamberlain B2211T | 1/2 HP Smart Quiet Belt Drive Garage Door Opener | with Battery Backup
 
----
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
 
-### manual coffee grinder
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6vZB6OhVchFSboOdIz5%2bNg%3d%3d&AuctionId=fO2ytqvubRbfk5hh%2flYYUg%3d%3d)**
 
-📥 **Items Scraped:** 38 | ✅ **Matched:** 0
+**Current Price:** $4.00
 
-*Sources: bidfta: 11 | capital_city: 27*
+**Retail Price:** ~~$219.99~~ (Save 98%)
 
-*No matches found for this search*
-
----
-
-### gooseneck kettle
-
-📥 **Items Scraped:** 29 | ✅ **Matched:** 7
-
-*Sources: bidfta: 15 | capital_city: 14*
-
-### Chefman Gooseneck Electric Kettle, 0.8l Pour Over Tea Kettle For Coffee And Tea, One-Touch Operation, Boil-Dry Protection, Auto Shut-Off, Ultra-Fast Hot Water Boiler – Black Black - Gooseneck
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/584383/item-detail/51740225)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### ZOKOP Electric Kettle, 1.8L Glass Kettle, 110V 1500W Fast Boiling, Electric Hot Water Kettle with Auto Shut-Off
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=DPtDoFahGgdFp2mmmwtVww%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=hURXPriHceWwLbZO72Y%2bRg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** ! MSRP: $39.99
+📍 **Pickup:** ! /  Lot - 246
 
 **Source:** capital_city
 
@@ -124,23 +93,62 @@
 
 ---
 
+### manual coffee grinder
+
+📥 **Items Scraped:** 31 | ✅ **Matched:** 0
+
+*Sources: bidfta: 10 | capital_city: 21*
+
+*No matches found for this search*
+
+---
+
+### gooseneck kettle
+
+📥 **Items Scraped:** 27 | ✅ **Matched:** 7
+
+*Sources: bidfta: 13 | capital_city: 14*
+
+*No matches found for this search*
+
+---
+
 ### Drone
 
-📥 **Items Scraped:** 21 | ✅ **Matched:** 10
+📥 **Items Scraped:** 19 | ✅ **Matched:** 11
 
-*Sources: bidfta: 5 | capital_city: 16*
+*Sources: bidfta: 4 | capital_city: 15*
 
-### Top Race Drone Clip Remote Control Object Launcher - Drone Drop Release Device, Fits Most Drones And Dji, Holds Up To 2 Lbs, And 300 Feet Distance Remote Control
+### SKY RIDER Pro Quadcopter Drone with Wi-Fi Camera, Remote and Phone Holder, White
 
-✓ 75% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/584919/item-detail/51818902)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=QTAt9v3ehiV0sKlI%2f9InBg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=VgilfirpCUcCoTVQR1PoTg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** Columbus area (from search results)
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-**Source:** bidfta
+📍 **Pickup:** ! /  Lot - 99
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+✓ 75% Match 🔥 90% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2VdW%2bgowfOS8gy%2f3xbK5Dg%3d%3d&AuctionId=dvVg4UJsrNVMUv9KTysV6Q%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$32.00~~ (Save 90%)
+
+📍 **Pickup:** ! /  Lot - 166
+
+**Source:** capital_city
 
 
 ---
