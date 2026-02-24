@@ -47,6 +47,26 @@ class SemanticMatcher:
         self.model = model
         self.relevance_threshold = relevance_threshold
 
+    async def validate_api_key(self) -> bool:
+        """Validate the API key by making a minimal test call.
+
+        Returns True if the key is valid, False if it's expired/invalid.
+        """
+        try:
+            await asyncio.get_event_loop().run_in_executor(
+                None,
+                lambda: self.client.messages.create(
+                    model=self.model,
+                    max_tokens=5,
+                    messages=[{"role": "user", "content": "hi"}]
+                )
+            )
+            logger.info("ANTHROPIC_API_KEY validated successfully")
+            return True
+        except Exception as e:
+            logger.error(f"ANTHROPIC_API_KEY validation failed: {e}")
+            return False
+
     def _build_match_prompt(self, query: str, item: AuctionItem) -> str:
         """Build the matching prompt."""
         # Format price properly

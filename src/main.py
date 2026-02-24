@@ -84,12 +84,17 @@ async def scrape_site(scraper_class, config: ScraperConfig, searches: list, db: 
     return results
 
 
-async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches: list) -> int:
-    """Run semantic matching on all scraped items."""
+async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches: list) -> tuple[int, int]:
+    """Run semantic matching on all scraped items.
+
+    Returns:
+        Tuple of (total_matches, total_api_errors)
+    """
     from datetime import date
     today = date.today().isoformat()
 
     total_matches = 0
+    total_api_errors = 0
 
     for search in searches:
         logger.info(f"Running semantic matching for: {search.query}")
@@ -140,11 +145,17 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
         logger.info(f"Evaluating {len(items)} items for '{search.query}'")
 
         # Process items in batches
+        search_errors = 0
         for i, item in enumerate(items):
             try:
                 result = await matcher.evaluate_item(search.query, item)
 
-                if result.is_match:
+                # Check if the result indicates an API failure (score=0 with error reasoning)
+                if result.reasoning and result.reasoning.startswith("Evaluation failed:"):
+                    search_errors += 1
+                    total_api_errors += 1
+                    logger.error(f"API error evaluating '{item.title[:50]}': {result.reasoning}")
+                elif result.is_match:
                     # Save match metadata
                     metadata = MatchMetadata(
                         item_id=item.id,
@@ -161,9 +172,17 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
                     await asyncio.sleep(0.5)
 
             except Exception as e:
+                search_errors += 1
+                total_api_errors += 1
                 logger.error(f"Error matching item {item.title[:50]}: {e}")
 
-    return total_matches
+        if search_errors > 0:
+            logger.warning(
+                f"Matching '{search.query}': {search_errors}/{len(items)} items failed due to API errors. "
+                f"Check that ANTHROPIC_API_KEY is valid and not expired."
+            )
+
+    return total_matches, total_api_errors
 
 
 async def run_monitor(
@@ -255,8 +274,28 @@ async def run_monitor(
                         relevance_threshold=relevance_threshold
                     )
 
-                    results["matches_found"] = await run_semantic_matching(db, matcher, searches)
-                    logger.info(f"Total matches found: {results['matches_found']}")
+                    # Validate the API key with a minimal test call before processing all items
+                    api_key_valid = await matcher.validate_api_key()
+                    if not api_key_valid:
+                        error_msg = (
+                            "ANTHROPIC_API_KEY validation failed - key may be expired or invalid. "
+                            "Go to console.anthropic.com to check your API key. "
+                            "Semantic matching skipped."
+                        )
+                        logger.error(error_msg)
+                        results["errors"].append(error_msg)
+                    else:
+                        matches_found, api_errors = await run_semantic_matching(db, matcher, searches)
+                        results["matches_found"] = matches_found
+                        logger.info(f"Total matches found: {results['matches_found']}")
+
+                        if api_errors > 0:
+                            error_msg = (
+                                f"{api_errors} items failed semantic matching due to API errors. "
+                                f"Check that ANTHROPIC_API_KEY is valid and not expired."
+                            )
+                            logger.error(error_msg)
+                            results["errors"].append(error_msg)
 
                 except Exception as e:
                     error_msg = f"Semantic matching failed: {str(e)}"
