@@ -386,16 +386,17 @@ class Database:
         """Get statistics for each search query."""
         searches = load_searches()
         stats = {}
+        today = date.today().isoformat()
 
         for search in searches:
-            # Count total items scraped for this search
+            # Count items scraped TODAY for this search (accurate daily count)
             cursor = await self._connection.execute("""
                 SELECT COUNT(*) as total FROM items
-                WHERE search_id = ? AND is_active = 1
-            """, (search.id,))
-            total = (await cursor.fetchone())["total"]
+                WHERE search_id = ? AND last_seen = ?
+            """, (search.id, today))
+            scraped_today = (await cursor.fetchone())["total"]
 
-            # Count items that passed semantic matching
+            # Count items that passed semantic matching (all-time active, for context)
             cursor = await self._connection.execute("""
                 SELECT COUNT(*) as matched FROM items i
                 JOIN match_metadata m ON i.id = m.item_id
@@ -405,17 +406,17 @@ class Database:
             """, (search.id, min_score))
             matched = (await cursor.fetchone())["matched"]
 
-            # Count by source
+            # Count by source for TODAY's scrape
             cursor = await self._connection.execute("""
                 SELECT source_site, COUNT(*) as count FROM items
-                WHERE search_id = ? AND is_active = 1
+                WHERE search_id = ? AND last_seen = ?
                 GROUP BY source_site
-            """, (search.id,))
+            """, (search.id, today))
             source_rows = await cursor.fetchall()
             by_source = {row["source_site"]: row["count"] for row in source_rows}
 
             stats[search.query] = {
-                "total_scraped": total,
+                "total_scraped": scraped_today,
                 "matched": matched,
                 "search_id": search.id,
                 "by_source": by_source

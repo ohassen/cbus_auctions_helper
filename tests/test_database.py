@@ -4,6 +4,7 @@ import asyncio
 import os
 import tempfile
 from datetime import date, datetime
+from unittest.mock import patch
 
 import pytest
 import pytest_asyncio
@@ -218,3 +219,136 @@ def test_load_searches_missing_file():
     """Test loading from missing file returns empty list."""
     searches = load_searches("/nonexistent/file.json")
     assert searches == []
+
+
+# ── New tests for get_search_statistics (Bug 3 fix) ─────────────────────────
+
+@pytest.mark.asyncio
+async def test_get_search_statistics_counts_todays_items(db, tmp_path):
+    """get_search_statistics must count items seen TODAY, not all-time."""
+    from datetime import date
+
+    # Write a searches.json with one active search
+    config = tmp_path / "searches.json"
+    config.write_text("""
+    {
+        "searches": [
+            {
+                "id": "search-001",
+                "query": "office chair",
+                "active": true,
+                "created_at": "2025-01-01T00:00:00Z"
+            }
+        ]
+    }
+    """)
+
+    # Insert two items for search-001 (seen today by default)
+    item1 = AuctionItem(
+        search_id="search-001",
+        source_site="capital_city",
+        external_id="aaa-001",
+        title="Ergonomic Office Chair",
+        listing_url="https://example.com/lot/aaa-001",
+    )
+    item2 = AuctionItem(
+        search_id="search-001",
+        source_site="bidfta",
+        external_id="bbb-001",
+        title="Mesh Office Chair",
+        listing_url="https://example.com/lot/bbb-001",
+    )
+    await db.upsert_item(item1)
+    await db.upsert_item(item2)
+
+    # Force one item to appear as if it was last seen YESTERDAY (old item)
+    yesterday = (date.today().replace(day=date.today().day - 1)).isoformat()
+    await db._connection.execute(
+        "UPDATE items SET last_seen = ? WHERE external_id = ?",
+        (yesterday, "aaa-001")
+    )
+    await db._connection.commit()
+
+    stats = await db.get_search_statistics(min_score=70)
+
+    # Monkeypatch load_searches to use our tmp config
+    with patch("src.database.load_searches", return_value=load_searches(str(config))):
+        stats = await db.get_search_statistics(min_score=70)
+
+    # Only the item seen TODAY should be counted
+    assert stats["office chair"]["total_scraped"] == 1
+    assert stats["office chair"]["by_source"].get("bidfta", 0) == 1
+    assert stats["office chair"]["by_source"].get("capital_city", 0) == 0
+
+
+@pytest.mark.asyncio
+async def test_get_search_statistics_matched_counts_all_active(db, tmp_path, sample_item):
+    """'matched' in stats counts all active items with match_metadata."""
+    config = tmp_path / "searches.json"
+    config.write_text("""
+    {
+        "searches": [
+            {
+                "id": "test-search-001",
+                "query": "Test Office Chair with Mesh Seat",
+                "active": true,
+                "created_at": "2025-01-01T00:00:00Z"
+            }
+        ]
+    }
+    """)
+
+    item_id = await db.upsert_item(sample_item)
+    await db.save_match_metadata(MatchMetadata(
+        item_id=item_id,
+        relevance_score=85,
+        reasoning="Perfect match",
+        confidence="high"
+    ))
+
+    with patch("src.database.load_searches", return_value=load_searches(str(config))):
+        stats = await db.get_search_statistics(min_score=70)
+
+    query = "Test Office Chair with Mesh Seat"
+    assert query in stats
+    assert stats[query]["matched"] == 1
+
+
+# ── New tests for mark_items_as_reported ────────────────────────────────────
+
+@pytest.mark.asyncio
+async def test_reported_items_excluded_from_get_matches_for_report(db, tmp_path, sample_item):
+    """Items marked as reported do not appear in get_matches_for_report."""
+    config = tmp_path / "searches.json"
+    config.write_text("""
+    {
+        "searches": [
+            {
+                "id": "test-search-001",
+                "query": "Test Office Chair with Mesh Seat",
+                "active": true,
+                "created_at": "2025-01-01T00:00:00Z"
+            }
+        ]
+    }
+    """)
+
+    item_id = await db.upsert_item(sample_item)
+    await db.save_match_metadata(MatchMetadata(
+        item_id=item_id,
+        relevance_score=85,
+        reasoning="Good match",
+        confidence="high"
+    ))
+
+    with patch("src.database.load_searches", return_value=load_searches(str(config))):
+        # Before reporting: should appear
+        matches_before = await db.get_matches_for_report(min_score=70)
+        assert len(matches_before) == 1
+
+        # Mark as reported
+        await db.mark_items_as_reported([item_id])
+
+        # After reporting: should NOT appear
+        matches_after = await db.get_matches_for_report(min_score=70)
+        assert len(matches_after) == 0
