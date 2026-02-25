@@ -28,13 +28,18 @@ def sample_item():
 
 
 def _make_mock_client(response_text: str):
-    """Build a mock Anthropic client that returns a specific response."""
+    """Build a mock OpenRouter/OpenAI client that returns a specific response."""
+    mock_message = MagicMock()
+    mock_message.content = response_text
+
+    mock_choice = MagicMock()
+    mock_choice.message = mock_message
+
     mock_response = MagicMock()
-    mock_response.content = [MagicMock()]
-    mock_response.content[0].text = response_text
+    mock_response.choices = [mock_choice]
 
     mock_client = MagicMock()
-    mock_client.messages.create.return_value = mock_response
+    mock_client.chat.completions.create.return_value = mock_response
     return mock_client
 
 
@@ -48,13 +53,13 @@ class TestSemanticMatcherInit:
 
     def test_init_raises_without_key(self, monkeypatch):
         """Raises ValueError when no API key available."""
-        monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
-        with pytest.raises(ValueError, match="ANTHROPIC_API_KEY not set"):
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+        with pytest.raises(ValueError, match="OPEN_ROUTER_API_KEY not set"):
             SemanticMatcher()
 
     def test_init_reads_env_var(self, monkeypatch):
         """Reads API key from environment variable."""
-        monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-env-key")
+        monkeypatch.setenv("OPEN_ROUTER_API_KEY", "sk-ant-env-key")
         matcher = SemanticMatcher()
         assert matcher.api_key == "sk-ant-env-key"
 
@@ -87,7 +92,7 @@ class TestValidateApiKey:
         matcher = SemanticMatcher(api_key="sk-ant-expired-key")
 
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = Exception(
+        mock_client.chat.completions.create.side_effect = Exception(
             "401 Unauthorized: Invalid API key"
         )
         matcher.client = mock_client
@@ -101,7 +106,7 @@ class TestValidateApiKey:
         matcher = SemanticMatcher(api_key="sk-ant-test")
 
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = ConnectionError("Network unreachable")
+        mock_client.chat.completions.create.side_effect = ConnectionError("Network unreachable")
         matcher.client = mock_client
 
         result = await matcher.validate_api_key()
@@ -160,7 +165,7 @@ class TestEvaluateItem:
         matcher = SemanticMatcher(api_key="sk-ant-expired")
 
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = Exception("401 Unauthorized")
+        mock_client.chat.completions.create.side_effect = Exception("401 Unauthorized")
         matcher.client = mock_client
 
         result = await matcher.evaluate_item("bread maker", sample_item)
@@ -216,7 +221,7 @@ class TestApiErrorDetection:
 
             matcher = SemanticMatcher(api_key="sk-ant-expired")
             mock_client = MagicMock()
-            mock_client.messages.create.side_effect = Exception("401 Unauthorized")
+            mock_client.chat.completions.create.side_effect = Exception("401 Unauthorized")
             matcher.client = mock_client
 
             search = Search(
@@ -312,8 +317,8 @@ class TestKeyTermExtraction:
         assert result == "drone"
 
     def test_extract_key_term_falls_back_without_api_key(self, monkeypatch):
-        """Falls back to simple extraction when ANTHROPIC_API_KEY is not set."""
-        monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+        """Falls back to simple extraction when OPEN_ROUTER_API_KEY is not set."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
 
         # Clear cache to force fresh extraction
         from src.scrapers import capital_city

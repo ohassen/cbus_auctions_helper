@@ -1,4 +1,4 @@
-"""Claude semantic matching for auction items."""
+"""Claude semantic matching for auction items via OpenRouter."""
 
 import asyncio
 import logging
@@ -6,7 +6,7 @@ import os
 from dataclasses import dataclass
 from typing import Optional
 
-import anthropic
+from openai import OpenAI
 
 from .database import AuctionItem, MatchMetadata
 
@@ -31,19 +31,22 @@ class PriceLookupResult:
 
 
 class SemanticMatcher:
-    """Claude-powered semantic matching for auction items."""
+    """Claude-powered semantic matching for auction items via OpenRouter."""
 
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "claude-3-5-haiku-20241022",
+        model: str = "anthropic/claude-haiku-4-5-20251001",
         relevance_threshold: int = 70
     ):
-        self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
+        self.api_key = api_key or os.getenv("OPEN_ROUTER_API_KEY")
         if not self.api_key:
-            raise ValueError("ANTHROPIC_API_KEY not set")
+            raise ValueError("OPEN_ROUTER_API_KEY not set")
 
-        self.client = anthropic.Anthropic(api_key=self.api_key)
+        self.client = OpenAI(
+            base_url="https://openrouter.ai/api/v1",
+            api_key=self.api_key,
+        )
         self.model = model
         self.relevance_threshold = relevance_threshold
 
@@ -55,16 +58,16 @@ class SemanticMatcher:
         try:
             await asyncio.get_event_loop().run_in_executor(
                 None,
-                lambda: self.client.messages.create(
+                lambda: self.client.chat.completions.create(
                     model=self.model,
                     max_tokens=5,
                     messages=[{"role": "user", "content": "hi"}]
                 )
             )
-            logger.info("ANTHROPIC_API_KEY validated successfully")
+            logger.info("OPEN_ROUTER_API_KEY validated successfully")
             return True
         except Exception as e:
-            logger.error(f"ANTHROPIC_API_KEY validation failed: {e}")
+            logger.error(f"OPEN_ROUTER_API_KEY validation failed: {e}")
             return False
 
     def _build_match_prompt(self, query: str, item: AuctionItem) -> str:
@@ -117,10 +120,10 @@ Respond with ONLY the JSON, no other text."""
         """Evaluate if an item matches the search query using text only."""
 
         try:
-            # Call Claude API (synchronous SDK, but we'll run in executor)
+            # Call Claude via OpenRouter (synchronous SDK, but we'll run in executor)
             response = await asyncio.get_event_loop().run_in_executor(
                 None,
-                lambda: self.client.messages.create(
+                lambda: self.client.chat.completions.create(
                     model=self.model,
                     max_tokens=500,
                     messages=[{
@@ -131,7 +134,7 @@ Respond with ONLY the JSON, no other text."""
             )
 
             # Parse response
-            response_text = response.content[0].text.strip()
+            response_text = response.choices[0].message.content.strip()
 
             # Extract JSON (handle potential markdown code blocks)
             if "```" in response_text:
@@ -187,14 +190,14 @@ Respond with ONLY the JSON, no other text."""
         try:
             response = await asyncio.get_event_loop().run_in_executor(
                 None,
-                lambda: self.client.messages.create(
+                lambda: self.client.chat.completions.create(
                     model=self.model,
                     max_tokens=300,
                     messages=[{"role": "user", "content": prompt}]
                 )
             )
 
-            response_text = response.content[0].text.strip()
+            response_text = response.choices[0].message.content.strip()
 
             # Extract JSON
             if "```" in response_text:

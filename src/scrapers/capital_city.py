@@ -8,7 +8,7 @@ import re
 from typing import Optional, AsyncIterator
 from urllib.parse import urljoin, urlencode, quote
 
-import anthropic
+from openai import OpenAI
 from playwright.async_api import TimeoutError as PlaywrightTimeout
 
 from .base import BaseScraper, ScraperConfig
@@ -36,12 +36,15 @@ def extract_key_term(query: str) -> str:
         return _KEY_TERM_CACHE[query]
 
     try:
-        api_key = os.getenv("ANTHROPIC_API_KEY")
+        api_key = os.getenv("OPEN_ROUTER_API_KEY")
         if not api_key:
-            logger.warning("ANTHROPIC_API_KEY not set, falling back to simple extraction")
+            logger.warning("OPEN_ROUTER_API_KEY not set, falling back to simple extraction")
             return _fallback_key_term_extraction(query)
 
-        client = anthropic.Anthropic(api_key=api_key)
+        client = OpenAI(
+            base_url="https://openrouter.ai/api/v1",
+            api_key=api_key,
+        )
 
         prompt = f"""Extract the key term (essence) from this search query.
 
@@ -57,13 +60,13 @@ Query: "{query}"
 
 Respond with ONLY the key term, nothing else. Single word or short phrase (2 words max)."""
 
-        response = client.messages.create(
-            model="claude-3-5-haiku-20241022",
+        response = client.chat.completions.create(
+            model="anthropic/claude-haiku-4-5-20251001",
             max_tokens=50,
             messages=[{"role": "user", "content": prompt}]
         )
 
-        key_term = response.content[0].text.strip().lower()
+        key_term = response.choices[0].message.content.strip().lower()
 
         # Cache the result
         _KEY_TERM_CACHE[query] = key_term
