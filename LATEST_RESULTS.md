@@ -1,12 +1,12 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-24 05:28 PM EST
+**Last Updated:** 2026-02-25 05:54 AM EST
 
 ## 📋 Workflow Status
 
-❌ **Status:** Workflow failed
+⚠️ **Status:** Completed with errors
 
-**Errors:**
+**Errors encountered:**
 - ANTHROPIC_API_KEY validation failed - key may be expired or invalid. Go to console.anthropic.com to check your API key. Semantic matching skipped.
 
 ---
@@ -14,8 +14,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 1731
-- **Items Seen Today:** 53
+- **Total Items Scraped:** 1755
+- **Items Seen Today:** 55
 
 ---
 
@@ -23,9 +23,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 18 | ✅ **Matched:** 0
+📥 **Items Scraped:** 15 | ✅ **Matched:** 0
 
-*Sources: bidfta: 3 | capital_city: 15*
+*Sources: bidfta: 3 | capital_city: 12*
 
 *No matches found for this search*
 
@@ -43,9 +43,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 0
+📥 **Items Scraped:** 12 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 12*
+*Sources: bidfta: 1 | capital_city: 11*
 
 *No matches found for this search*
 
@@ -53,9 +53,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 1
+📥 **Items Scraped:** 10 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 12*
+*Sources: bidfta: 1 | capital_city: 9*
 
 *No matches found for this search*
 
@@ -63,7 +63,9 @@
 
 ### Drone
 
-📥 **Items Scraped:** 0 | ✅ **Matched:** 4
+📥 **Items Scraped:** 9 | ✅ **Matched:** 4
+
+*Sources: capital_city: 9*
 
 *No matches found for this search*
 
