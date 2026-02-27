@@ -51,7 +51,7 @@ async def generate_markdown_report(
         output_file = Path(output_path)
         output_file.write_text(markdown, encoding='utf-8')
 
-        # Mark all displayed items as reported
+        # Mark all displayed items as reported so they don't appear in future reports
         if matches:
             item_ids = [m['id'] for m in matches]
             await db.mark_items_as_reported(item_ids)
