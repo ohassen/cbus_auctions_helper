@@ -8,7 +8,7 @@ import re
 from typing import Optional, AsyncIterator
 from urllib.parse import urljoin, urlencode, quote
 
-import anthropic
+from openai import OpenAI
 from playwright.async_api import TimeoutError as PlaywrightTimeout
 
 from .base import BaseScraper, ScraperConfig
@@ -36,34 +36,45 @@ def extract_key_term(query: str) -> str:
         return _KEY_TERM_CACHE[query]
 
     try:
-        api_key = os.getenv("ANTHROPIC_API_KEY")
+        api_key = os.getenv("OPEN_ROUTER_API_KEY")
         if not api_key:
-            logger.warning("ANTHROPIC_API_KEY not set, falling back to simple extraction")
+            logger.warning("OPEN_ROUTER_API_KEY not set, falling back to simple extraction")
             return _fallback_key_term_extraction(query)
 
-        client = anthropic.Anthropic(api_key=api_key)
+        client = OpenAI(
+            base_url="https://openrouter.ai/api/v1",
+            api_key=api_key,
+        )
 
-        prompt = f"""Extract the key term (essence) from this search query.
+        prompt = f"""Extract the best search keyword from this product query for an auction website search.
 
-The key term is the fundamental item type - what the item fundamentally IS, not its attributes or modifiers.
+The keyword should be the most SPECIFIC and DISTINCTIVE word or phrase that reliably finds THIS product on auction sites.
+Choose the term that uniquely identifies the product category — it is NOT always the last noun.
 
 Examples:
-- "office chair" -> key term is "chair" (essence), "office" is a modifier
-- "manual coffee grinder" -> key term is "grinder" (essence), "manual" and "coffee" are modifiers
-- "stainless steel pan" -> key term is "pan" (essence), "stainless steel" is a modifier
-- "gooseneck kettle" -> key term is "kettle" (essence), "gooseneck" is a modifier
+- "office chair" -> "chair" (finds all chair types; "office" is a modifier handled by semantic matching)
+- "gooseneck kettle" -> "kettle" (specific product type)
+- "stainless steel pan" -> "pan" (specific product type)
+- "vacuum cleaner" -> "vacuum" (NOT "cleaner" — "cleaner" alone matches unrelated cleaning products)
+- "bread maker" -> "bread maker" (NOT "maker" — "maker" alone matches coffee makers, waffle makers, etc.)
+- "manual coffee grinder" -> "coffee grinder" (NOT just "grinder" — "grinder" alone matches angle/meat grinders)
+- "garage opener" -> "garage opener" (both words needed to be specific)
+- "air purifier" -> "air purifier" (both words needed)
+
+Key rule: if the last word alone (e.g. "cleaner", "maker", "grinder", "machine", "device") would
+match many UNRELATED products, use the full phrase or the more specific first word instead.
 
 Query: "{query}"
 
-Respond with ONLY the key term, nothing else. Single word or short phrase (2 words max)."""
+Respond with ONLY the search keyword (1-3 words max), nothing else."""
 
-        response = client.messages.create(
-            model="claude-3-5-haiku-20241022",
+        response = client.chat.completions.create(
+            model="anthropic/claude-haiku-4-5-20251001",
             max_tokens=50,
             messages=[{"role": "user", "content": prompt}]
         )
 
-        key_term = response.content[0].text.strip().lower()
+        key_term = response.choices[0].message.content.strip().lower()
 
         # Cache the result
         _KEY_TERM_CACHE[query] = key_term
@@ -82,8 +93,23 @@ def _fallback_key_term_extraction(query: str) -> str:
     stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of', 'manual', 'electric', 'automatic'}
     words = [w.lower() for w in query.split() if w.lower() not in stop_words]
 
-    # Return the last significant word (usually the noun)
+    # Generic nouns that are too broad to use alone as search terms.
+    # e.g. "cleaner" finds floor cleaners/sprays, "maker" finds coffee/waffle/candle makers,
+    # "grinder" finds angle/meat grinders — none of these find the intended product.
+    # In these cases use the full 2-word compound phrase for a specific search.
+    too_generic = {'cleaner', 'cleaners', 'maker', 'makers', 'grinder', 'grinders',
+                   'machine', 'machines', 'device', 'devices',
+                   'appliance', 'appliances', 'tool', 'tools', 'unit', 'units',
+                   'system', 'systems', 'set', 'kit'}
+
     if len(words) >= 2:
+        last_word = words[-1]
+        if last_word in too_generic:
+            # Use the full 2-word compound phrase — specific enough to find the right product.
+            # e.g. "bread maker" (not just "bread" or "maker"),
+            #      "vacuum cleaner" (better than "cleaner" alone; "vacuum" alone also works but this is safe)
+            #      "coffee grinder" (not just "coffee" or "grinder")
+            return f"{words[0]} {last_word}"
         return words[-1]  # e.g., "chair" from "office chair"
     elif len(words) == 1:
         return words[0]

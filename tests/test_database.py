@@ -352,3 +352,61 @@ async def test_reported_items_excluded_from_get_matches_for_report(db, tmp_path,
         # After reporting: should NOT appear
         matches_after = await db.get_matches_for_report(min_score=70)
         assert len(matches_after) == 0
+
+
+# ── Tests for the report "Matched" counter consistency (markdown_report bug fix) ─
+
+@pytest.mark.asyncio
+async def test_reported_item_not_counted_in_per_search_matched(db, tmp_path, sample_item):
+    """After an item is reported, the per-search Matched counter must be 0.
+
+    This is the core bug: the old code used get_search_statistics()'matched')
+    which counts all-time matches regardless of reported_at. That caused the report
+    to show 'Matched: 3' while simultaneously showing 'No matches found for this
+    search' because the links are driven by get_matches_for_report() which filters
+    reported items.
+
+    The fix drives the matched counter from the actual display list, so it is always
+    consistent with what follows in the report.
+    """
+    from src.markdown_report import generate_markdown_report
+
+    config = tmp_path / "searches.json"
+    config.write_text("""
+    {
+        "searches": [
+            {
+                "id": "test-search-001",
+                "query": "Test Office Chair with Mesh Seat",
+                "active": true,
+                "created_at": "2025-01-01T00:00:00Z"
+            }
+        ]
+    }
+    """)
+
+    item_id = await db.upsert_item(sample_item)
+    await db.save_match_metadata(MatchMetadata(
+        item_id=item_id,
+        relevance_score=85,
+        reasoning="Good match",
+        confidence="high"
+    ))
+
+    report_path = str(tmp_path / "test_report.md")
+
+    # First run: item is unreported, should appear with Matched: 1
+    with patch("src.database.load_searches", return_value=load_searches(str(config))):
+        await generate_markdown_report(db, output_path=report_path, threshold=70)
+
+    first_report = (tmp_path / "test_report.md").read_text()
+    assert "✅ **Matched:** 1" in first_report
+    assert "*No matches found for this search*" not in first_report
+
+    # Second run: item is now reported, should show Matched: 0, no links
+    with patch("src.database.load_searches", return_value=load_searches(str(config))):
+        await generate_markdown_report(db, output_path=report_path, threshold=70)
+
+    second_report = (tmp_path / "test_report.md").read_text()
+    assert "✅ **Matched:** 0" in second_report
+    assert "*No matches found for this search*" in second_report

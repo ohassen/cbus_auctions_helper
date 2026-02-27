@@ -28,13 +28,18 @@ def sample_item():
 
 
 def _make_mock_client(response_text: str):
-    """Build a mock Anthropic client that returns a specific response."""
+    """Build a mock OpenRouter/OpenAI client that returns a specific response."""
+    mock_message = MagicMock()
+    mock_message.content = response_text
+
+    mock_choice = MagicMock()
+    mock_choice.message = mock_message
+
     mock_response = MagicMock()
-    mock_response.content = [MagicMock()]
-    mock_response.content[0].text = response_text
+    mock_response.choices = [mock_choice]
 
     mock_client = MagicMock()
-    mock_client.messages.create.return_value = mock_response
+    mock_client.chat.completions.create.return_value = mock_response
     return mock_client
 
 
@@ -48,13 +53,13 @@ class TestSemanticMatcherInit:
 
     def test_init_raises_without_key(self, monkeypatch):
         """Raises ValueError when no API key available."""
-        monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
-        with pytest.raises(ValueError, match="ANTHROPIC_API_KEY not set"):
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+        with pytest.raises(ValueError, match="OPEN_ROUTER_API_KEY not set"):
             SemanticMatcher()
 
     def test_init_reads_env_var(self, monkeypatch):
         """Reads API key from environment variable."""
-        monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-env-key")
+        monkeypatch.setenv("OPEN_ROUTER_API_KEY", "sk-ant-env-key")
         matcher = SemanticMatcher()
         assert matcher.api_key == "sk-ant-env-key"
 
@@ -87,7 +92,7 @@ class TestValidateApiKey:
         matcher = SemanticMatcher(api_key="sk-ant-expired-key")
 
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = Exception(
+        mock_client.chat.completions.create.side_effect = Exception(
             "401 Unauthorized: Invalid API key"
         )
         matcher.client = mock_client
@@ -101,7 +106,7 @@ class TestValidateApiKey:
         matcher = SemanticMatcher(api_key="sk-ant-test")
 
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = ConnectionError("Network unreachable")
+        mock_client.chat.completions.create.side_effect = ConnectionError("Network unreachable")
         matcher.client = mock_client
 
         result = await matcher.validate_api_key()
@@ -160,7 +165,7 @@ class TestEvaluateItem:
         matcher = SemanticMatcher(api_key="sk-ant-expired")
 
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = Exception("401 Unauthorized")
+        mock_client.chat.completions.create.side_effect = Exception("401 Unauthorized")
         matcher.client = mock_client
 
         result = await matcher.evaluate_item("bread maker", sample_item)
@@ -216,7 +221,7 @@ class TestApiErrorDetection:
 
             matcher = SemanticMatcher(api_key="sk-ant-expired")
             mock_client = MagicMock()
-            mock_client.messages.create.side_effect = Exception("401 Unauthorized")
+            mock_client.chat.completions.create.side_effect = Exception("401 Unauthorized")
             matcher.client = mock_client
 
             search = Search(
@@ -284,20 +289,22 @@ class TestKeyTermExtraction:
         """Fallback ignores common stop/modifier words."""
         from src.scrapers.capital_city import _fallback_key_term_extraction
 
-        # "manual" is in stop_words, so "manual coffee grinder" → "grinder"
-        assert _fallback_key_term_extraction("manual coffee grinder") == "grinder"
+        # "manual" is in stop_words, so "manual coffee grinder" → words = ["coffee", "grinder"]
+        # "grinder" is in too_generic → returns full phrase "coffee grinder"
+        assert _fallback_key_term_extraction("manual coffee grinder") == "coffee grinder"
 
-    def test_fallback_bread_maker_returns_maker(self):
-        """'bread maker' fallback returns 'maker' - note this is a known weak fallback.
+    def test_fallback_bread_maker_returns_full_phrase(self):
+        """'bread maker' fallback returns 'bread maker' (full phrase), not 'maker'.
 
-        The Claude-powered version would return 'bread maker' or 'maker' more intelligently.
-        This test documents the current behavior so regressions are visible.
+        'maker' alone matches coffee makers, waffle makers, candle makers, etc.
+        Searching the full phrase 'bread maker' finds bread makers specifically.
         """
         from src.scrapers.capital_city import _fallback_key_term_extraction
 
         result = _fallback_key_term_extraction("bread maker")
-        # 'maker' is what the fallback returns - this may not be ideal
-        assert result == "maker"
+        assert result == "bread maker", (
+            "Expected 'bread maker' — 'maker' alone is too generic and matches unrelated products"
+        )
 
     def test_extract_key_term_uses_cache(self, monkeypatch):
         """Key term cache prevents redundant API calls."""
@@ -312,8 +319,8 @@ class TestKeyTermExtraction:
         assert result == "drone"
 
     def test_extract_key_term_falls_back_without_api_key(self, monkeypatch):
-        """Falls back to simple extraction when ANTHROPIC_API_KEY is not set."""
-        monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+        """Falls back to simple extraction when OPEN_ROUTER_API_KEY is not set."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
 
         # Clear cache to force fresh extraction
         from src.scrapers import capital_city
@@ -322,3 +329,75 @@ class TestKeyTermExtraction:
         from src.scrapers.capital_city import extract_key_term
         result = extract_key_term("gooseneck kettle")
         assert result == "kettle"
+
+    def test_fallback_vacuum_cleaner_not_cleaner(self):
+        """'vacuum cleaner' fallback must NOT return 'cleaner'.
+
+        'cleaner' alone matches unrelated products (floor cleaners, bathroom sprays, etc.)
+        on auction sites. The fallback returns the full phrase 'vacuum cleaner'.
+        """
+        from src.scrapers.capital_city import _fallback_key_term_extraction
+
+        result = _fallback_key_term_extraction("vacuum cleaner")
+        assert result != "cleaner", "Must not return 'cleaner' — too generic"
+        assert result == "vacuum cleaner"
+
+    def test_fallback_generic_last_words_use_full_phrase(self):
+        """When the last word is too generic, fallback uses the full 2-word phrase."""
+        from src.scrapers.capital_city import _fallback_key_term_extraction
+
+        # Full phrase is more specific than either word alone
+        assert _fallback_key_term_extraction("vacuum cleaner") == "vacuum cleaner"
+        assert _fallback_key_term_extraction("steam cleaner") == "steam cleaner"
+        assert _fallback_key_term_extraction("sewing machine") == "sewing machine"
+        assert _fallback_key_term_extraction("washing machine") == "washing machine"
+        assert _fallback_key_term_extraction("bread maker") == "bread maker"
+        assert _fallback_key_term_extraction("coffee grinder") == "coffee grinder"
+
+    def test_extract_key_term_vacuum_cleaner_without_api(self, monkeypatch):
+        """extract_key_term('vacuum cleaner') avoids 'cleaner' when API is unavailable."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_key_term
+        result = extract_key_term("vacuum cleaner")
+        assert result != "cleaner", "Must not return 'cleaner' — too generic"
+        assert result == "vacuum cleaner"
+
+    def test_extract_search_terms_vacuum_cleaner(self, monkeypatch):
+        """extract_search_terms('vacuum cleaner') does NOT produce ['cleaner']."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_search_terms
+        terms = extract_search_terms("vacuum cleaner")
+        assert terms != ["cleaner"], "'cleaner' would find unrelated cleaning products"
+        assert terms == ["vacuum cleaner"]
+
+    def test_extract_search_terms_bread_maker(self, monkeypatch):
+        """extract_search_terms('bread maker') produces ['bread maker'], not ['maker']."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_search_terms
+        terms = extract_search_terms("bread maker")
+        assert terms != ["maker"], "'maker' finds coffee/waffle/candle makers — too generic"
+        assert terms == ["bread maker"]
+
+    def test_extract_search_terms_manual_coffee_grinder(self, monkeypatch):
+        """'manual coffee grinder' → ['coffee grinder'] (not ['grinder'])."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_search_terms
+        terms = extract_search_terms("manual coffee grinder")
+        assert terms != ["grinder"], "'grinder' finds angle/meat grinders — too generic"
+        assert terms == ["coffee grinder"]

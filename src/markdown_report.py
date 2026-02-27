@@ -51,7 +51,7 @@ async def generate_markdown_report(
         output_file = Path(output_path)
         output_file.write_text(markdown, encoding='utf-8')
 
-        # Mark all displayed items as reported
+        # Mark all displayed items as reported so they don't appear in future reports
         if matches:
             item_ids = [m['id'] for m in matches]
             await db.mark_items_as_reported(item_ids)
@@ -128,8 +128,8 @@ def _build_markdown(
     md += f"""## 📊 Overall Statistics
 
 - **Total Matches Found:** {len(matches)} (Score ≥ {threshold})
-- **Total Items Scraped:** {stats.get('total_items', 0)}
 - **Items Seen Today:** {stats.get('items_seen_today', 0)}
+- **Total Items Tracked (DB):** {stats.get('total_items', 0)}
 
 ---
 
@@ -141,8 +141,12 @@ def _build_markdown(
     if search_stats:
         for query, query_stats in search_stats.items():
             total_scraped = query_stats.get('total_scraped', 0)
-            matched = query_stats.get('matched', 0)
             by_source = query_stats.get('by_source', {})
+
+            # Use the actual display list as the matched count — this is always
+            # consistent with the links shown below (no "Matched: 3" + "No matches" contradiction)
+            display_matches = grouped.get(query, [])
+            matched = len(display_matches)
 
             md += f"### {query}\n\n"
             md += f"📥 **Items Scraped:** {total_scraped} | ✅ **Matched:** {matched}\n\n"
@@ -153,7 +157,7 @@ def _build_markdown(
                 md += f"*Sources: {sources_str}*\n\n"
 
             # Show matches for this query if any exist
-            if query in grouped and grouped[query]:
+            if display_matches:
                 for item in grouped[query]:
                     md += _build_item_section(item)
                     md += "\n---\n\n"

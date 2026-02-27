@@ -165,7 +165,10 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
                     )
                     await db.save_match_metadata(metadata)
                     total_matches += 1
-                    logger.info(f"Match found: {item.title[:50]}... (score: {result.relevance_score})")
+                    logger.info(f"MATCH   [{result.relevance_score:3d}] {item.title[:70]}")
+                else:
+                    # Log non-matches so we can diagnose scoring issues from GitHub Actions logs
+                    logger.info(f"no match[{result.relevance_score:3d}] {item.title[:70]}")
 
                 # Rate limiting
                 if i < len(items) - 1:
@@ -179,7 +182,7 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
         if search_errors > 0:
             logger.warning(
                 f"Matching '{search.query}': {search_errors}/{len(items)} items failed due to API errors. "
-                f"Check that ANTHROPIC_API_KEY is valid and not expired."
+                f"Check that OPEN_ROUTER_API_KEY is valid and not expired."
             )
 
     return total_matches, total_api_errors
@@ -264,7 +267,7 @@ async def run_monitor(
                 logger.info(f"Total items scraped: {results['items_scraped']}")
 
             # Phase 2: Semantic Matching
-            if not skip_matching and os.getenv("ANTHROPIC_API_KEY") and not timeout_manager.is_approaching_timeout():
+            if not skip_matching and os.getenv("OPEN_ROUTER_API_KEY") and not timeout_manager.is_approaching_timeout():
                 logger.info("=" * 50)
                 logger.info("PHASE 2: Semantic Matching")
                 logger.info("=" * 50)
@@ -278,8 +281,8 @@ async def run_monitor(
                     api_key_valid = await matcher.validate_api_key()
                     if not api_key_valid:
                         error_msg = (
-                            "ANTHROPIC_API_KEY validation failed - key may be expired or invalid. "
-                            "Go to console.anthropic.com to check your API key. "
+                            "OPEN_ROUTER_API_KEY validation failed - key may be invalid or revoked. "
+                            "Go to openrouter.ai/keys to check your API key. "
                             "Semantic matching skipped."
                         )
                         logger.error(error_msg)
@@ -292,7 +295,7 @@ async def run_monitor(
                         if api_errors > 0:
                             error_msg = (
                                 f"{api_errors} items failed semantic matching due to API errors. "
-                                f"Check that ANTHROPIC_API_KEY is valid and not expired."
+                                f"Check that OPEN_ROUTER_API_KEY is valid and not expired."
                             )
                             logger.error(error_msg)
                             results["errors"].append(error_msg)
@@ -306,8 +309,8 @@ async def run_monitor(
                 if not results["timed_out"]:
                     results["timed_out"] = True
                     results["errors"].append(timeout_manager.get_timeout_message())
-            elif not os.getenv("ANTHROPIC_API_KEY"):
-                logger.warning("ANTHROPIC_API_KEY not set, skipping semantic matching")
+            elif not os.getenv("OPEN_ROUTER_API_KEY"):
+                logger.warning("OPEN_ROUTER_API_KEY not set, skipping semantic matching")
 
         except Exception as e:
             # Catch any unexpected errors in the main workflow
