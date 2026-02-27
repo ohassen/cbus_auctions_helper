@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-26 05:50 AM EST
+**Last Updated:** 2026-02-26 08:44 PM EST
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 1778
-- **Items Seen Today:** 51
+- **Total Items Scraped:** 1785
+- **Items Seen Today:** 56
 
 ---
 
@@ -20,9 +20,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 0
+📥 **Items Scraped:** 17 | ✅ **Matched:** 0
 
-*Sources: capital_city: 13*
+*Sources: bidfta: 4 | capital_city: 13*
 
 *No matches found for this search*
 
@@ -30,7 +30,7 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 11 | ✅ **Matched:** 2
+📥 **Items Scraped:** 11 | ✅ **Matched:** 1
 
 *Sources: bidfta: 1 | capital_city: 10*
 
@@ -40,9 +40,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 8*
+*Sources: bidfta: 1 | capital_city: 9*
 
 *No matches found for this search*
 
@@ -50,7 +50,7 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 1
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
 *Sources: bidfta: 1 | capital_city: 8*
 
@@ -60,7 +60,7 @@
 
 ### Drone
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 3
+📥 **Items Scraped:** 9 | ✅ **Matched:** 1
 
 *Sources: capital_city: 9*
 
