@@ -2,7 +2,7 @@
   "searches": [
     {
       "id": "search-001",
-      "query": "office chair",
+      "query": "vacuum",
       "active": false,
       "created_at": "2025-01-01T00:00:00Z"
     },
