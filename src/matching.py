@@ -77,6 +77,13 @@ class SemanticMatcher:
 
         return f"""You are evaluating whether an auction item matches a user's search query.
 
+CONTEXT: Items are from consumer auction websites selling household goods, electronics, and
+appliances. Interpret queries by their most common consumer meaning:
+- "vacuum" = vacuum cleaner / floor vacuum appliance (NOT vacuum bags, sealers, or storage bags)
+- "drill" = power drill tool
+- "grinder" = grinding appliance (coffee grinder, angle grinder, etc. depending on context)
+Short single-word queries refer to the primary appliance or product, not accessories.
+
 SEARCH QUERY: "{query}"
 
 ITEM DETAILS:
@@ -97,6 +104,10 @@ IMPORTANT MATCHING RULES:
      * Dining chairs
      * Folding chairs
      * Gaming chairs (unless office-style)
+   - "vacuum" should match vacuum cleaners (upright, canister, robot, stick), NOT:
+     * Vacuum bags / replacement bags
+     * Vacuum sealers / food vacuum machines
+     * Vacuum storage bags
 3. If the item is clearly a different category than the query, score it low
 4. Use the title and description to determine the true nature of the item
 

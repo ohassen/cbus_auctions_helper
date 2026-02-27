@@ -165,7 +165,10 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
                     )
                     await db.save_match_metadata(metadata)
                     total_matches += 1
-                    logger.info(f"Match found: {item.title[:50]}... (score: {result.relevance_score})")
+                    logger.info(f"MATCH   [{result.relevance_score:3d}] {item.title[:70]}")
+                else:
+                    # Log non-matches so we can diagnose scoring issues from GitHub Actions logs
+                    logger.info(f"no match[{result.relevance_score:3d}] {item.title[:70]}")
 
                 # Rate limiting
                 if i < len(items) - 1:
