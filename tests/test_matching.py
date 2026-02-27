@@ -327,3 +327,52 @@ class TestKeyTermExtraction:
         from src.scrapers.capital_city import extract_key_term
         result = extract_key_term("gooseneck kettle")
         assert result == "kettle"
+
+    def test_fallback_vacuum_cleaner_returns_vacuum(self):
+        """'vacuum cleaner' fallback must return 'vacuum', not 'cleaner'.
+
+        'cleaner' alone matches unrelated products (floor cleaners, bathroom sprays, etc.)
+        on auction sites, which then all fail semantic matching for 'vacuum cleaner'.
+        'vacuum' correctly identifies the product category.
+        """
+        from src.scrapers.capital_city import _fallback_key_term_extraction
+
+        result = _fallback_key_term_extraction("vacuum cleaner")
+        assert result == "vacuum", (
+            "Expected 'vacuum' — 'cleaner' is too generic and matches unrelated products"
+        )
+
+    def test_fallback_generic_last_words_use_first_word(self):
+        """When the last word is too generic, fallback uses the first (more specific) word."""
+        from src.scrapers.capital_city import _fallback_key_term_extraction
+
+        # All of these have a generic last word; the first word is more distinctive
+        assert _fallback_key_term_extraction("vacuum cleaner") == "vacuum"
+        assert _fallback_key_term_extraction("steam cleaner") == "steam"
+        assert _fallback_key_term_extraction("sewing machine") == "sewing"
+        assert _fallback_key_term_extraction("washing machine") == "washing"
+
+    def test_extract_key_term_vacuum_cleaner_without_api(self, monkeypatch):
+        """extract_key_term('vacuum cleaner') returns 'vacuum' when API is unavailable."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_key_term
+        result = extract_key_term("vacuum cleaner")
+        assert result == "vacuum"
+
+    def test_extract_search_terms_vacuum_cleaner(self, monkeypatch):
+        """extract_search_terms('vacuum cleaner') produces ['vacuum'], not ['cleaner']."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_search_terms
+        terms = extract_search_terms("vacuum cleaner")
+        assert terms == ["vacuum"], (
+            f"Expected ['vacuum'] but got {terms!r}. "
+            "'cleaner' would find unrelated products on auction sites."
+        )

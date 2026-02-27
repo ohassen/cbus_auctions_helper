@@ -46,19 +46,27 @@ def extract_key_term(query: str) -> str:
             api_key=api_key,
         )
 
-        prompt = f"""Extract the key term (essence) from this search query.
+        prompt = f"""Extract the best search keyword from this product query for an auction website search.
 
-The key term is the fundamental item type - what the item fundamentally IS, not its attributes or modifiers.
+The keyword should be the most SPECIFIC and DISTINCTIVE word that reliably finds THIS product on auction sites.
+Choose the word that uniquely identifies the product category — it is NOT always the last noun.
 
 Examples:
-- "office chair" -> key term is "chair" (essence), "office" is a modifier
-- "manual coffee grinder" -> key term is "grinder" (essence), "manual" and "coffee" are modifiers
-- "stainless steel pan" -> key term is "pan" (essence), "stainless steel" is a modifier
-- "gooseneck kettle" -> key term is "kettle" (essence), "gooseneck" is a modifier
+- "office chair" -> "chair" (finds all chair types; "office" is a modifier handled by semantic matching)
+- "manual coffee grinder" -> "grinder" (the specific tool; modifiers handled by semantic matching)
+- "stainless steel pan" -> "pan" (specific product type)
+- "gooseneck kettle" -> "kettle" (specific product type)
+- "vacuum cleaner" -> "vacuum" (NOT "cleaner" — "cleaner" alone matches unrelated cleaning products)
+- "garage opener" -> "opener" (specific product type)
+- "bread maker" -> "maker" (distinctive for this product category)
+- "air purifier" -> "purifier" (specific product type)
+
+Key rule: if the last word alone would match many UNRELATED products (e.g. "cleaner", "machine",
+"device"), use the more specific first word instead.
 
 Query: "{query}"
 
-Respond with ONLY the key term, nothing else. Single word or short phrase (2 words max)."""
+Respond with ONLY the search keyword (1-2 words max), nothing else."""
 
         response = client.chat.completions.create(
             model="anthropic/claude-haiku-4-5-20251001",
@@ -85,8 +93,18 @@ def _fallback_key_term_extraction(query: str) -> str:
     stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of', 'manual', 'electric', 'automatic'}
     words = [w.lower() for w in query.split() if w.lower() not in stop_words]
 
-    # Return the last significant word (usually the noun)
+    # Generic nouns that are too broad to use alone as search terms.
+    # e.g. searching "cleaner" finds floor cleaners, bathroom sprays, etc. — not vacuum cleaners.
+    # In these cases the first word is more distinctive.
+    too_generic = {'cleaner', 'cleaners', 'machine', 'machines', 'device', 'devices',
+                   'appliance', 'appliances', 'tool', 'tools', 'unit', 'units',
+                   'system', 'systems', 'set', 'kit'}
+
     if len(words) >= 2:
+        last_word = words[-1]
+        if last_word in too_generic:
+            # First word is more specific (e.g. "vacuum" from "vacuum cleaner")
+            return words[0]
         return words[-1]  # e.g., "chair" from "office chair"
     elif len(words) == 1:
         return words[0]
