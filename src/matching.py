@@ -50,10 +50,10 @@ class SemanticMatcher:
         self.model = model
         self.relevance_threshold = relevance_threshold
 
-    async def validate_api_key(self) -> bool:
+    async def validate_api_key(self) -> tuple[bool, str]:
         """Validate the API key by making a minimal test call.
 
-        Returns True if the key is valid, False if it's expired/invalid.
+        Returns (True, "") if the key is valid, (False, error_message) otherwise.
         """
         try:
             await asyncio.get_event_loop().run_in_executor(
@@ -65,10 +65,11 @@ class SemanticMatcher:
                 )
             )
             logger.info("OPEN_ROUTER_API_KEY validated successfully")
-            return True
+            return True, ""
         except Exception as e:
-            logger.error(f"OPEN_ROUTER_API_KEY validation failed: {e}")
-            return False
+            error_detail = str(e)
+            logger.error(f"OPEN_ROUTER_API_KEY validation failed: {error_detail}")
+            return False, error_detail
 
     def _build_match_prompt(self, query: str, item: AuctionItem) -> str:
         """Build the matching prompt."""

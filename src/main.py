@@ -278,12 +278,12 @@ async def run_monitor(
                     )
 
                     # Validate the API key with a minimal test call before processing all items
-                    api_key_valid = await matcher.validate_api_key()
+                    api_key_valid, api_key_error = await matcher.validate_api_key()
                     if not api_key_valid:
                         error_msg = (
                             "OPEN_ROUTER_API_KEY validation failed - key may be invalid or revoked. "
                             "Go to openrouter.ai/keys to check your API key. "
-                            "Semantic matching skipped."
+                            f"Semantic matching skipped. (Detail: {api_key_error})"
                         )
                         logger.error(error_msg)
                         results["errors"].append(error_msg)
