@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-26 08:44 PM EST
+**Last Updated:** 2026-02-26 10:57 PM EST
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 1785
-- **Items Seen Today:** 56
+- **Total Items Scraped:** 1790
+- **Items Seen Today:** 61
 
 ---
 
@@ -20,9 +20,9 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 17 | ✅ **Matched:** 0
+📥 **Items Scraped:** 20 | ✅ **Matched:** 0
 
-*Sources: bidfta: 4 | capital_city: 13*
+*Sources: bidfta: 7 | capital_city: 13*
 
 *No matches found for this search*
 
@@ -40,9 +40,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 9*
+*Sources: bidfta: 2 | capital_city: 9*
 
 *No matches found for this search*
 
@@ -50,9 +50,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 8*
+*Sources: bidfta: 2 | capital_city: 8*
 
 *No matches found for this search*
 
