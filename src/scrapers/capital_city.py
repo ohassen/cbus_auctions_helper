@@ -48,25 +48,25 @@ def extract_key_term(query: str) -> str:
 
         prompt = f"""Extract the best search keyword from this product query for an auction website search.
 
-The keyword should be the most SPECIFIC and DISTINCTIVE word that reliably finds THIS product on auction sites.
-Choose the word that uniquely identifies the product category — it is NOT always the last noun.
+The keyword should be the most SPECIFIC and DISTINCTIVE word or phrase that reliably finds THIS product on auction sites.
+Choose the term that uniquely identifies the product category — it is NOT always the last noun.
 
 Examples:
 - "office chair" -> "chair" (finds all chair types; "office" is a modifier handled by semantic matching)
-- "manual coffee grinder" -> "grinder" (the specific tool; modifiers handled by semantic matching)
-- "stainless steel pan" -> "pan" (specific product type)
 - "gooseneck kettle" -> "kettle" (specific product type)
+- "stainless steel pan" -> "pan" (specific product type)
 - "vacuum cleaner" -> "vacuum" (NOT "cleaner" — "cleaner" alone matches unrelated cleaning products)
-- "garage opener" -> "opener" (specific product type)
-- "bread maker" -> "maker" (distinctive for this product category)
-- "air purifier" -> "purifier" (specific product type)
+- "bread maker" -> "bread maker" (NOT "maker" — "maker" alone matches coffee makers, waffle makers, etc.)
+- "manual coffee grinder" -> "coffee grinder" (NOT just "grinder" — "grinder" alone matches angle/meat grinders)
+- "garage opener" -> "garage opener" (both words needed to be specific)
+- "air purifier" -> "air purifier" (both words needed)
 
-Key rule: if the last word alone would match many UNRELATED products (e.g. "cleaner", "machine",
-"device"), use the more specific first word instead.
+Key rule: if the last word alone (e.g. "cleaner", "maker", "grinder", "machine", "device") would
+match many UNRELATED products, use the full phrase or the more specific first word instead.
 
 Query: "{query}"
 
-Respond with ONLY the search keyword (1-2 words max), nothing else."""
+Respond with ONLY the search keyword (1-3 words max), nothing else."""
 
         response = client.chat.completions.create(
             model="anthropic/claude-haiku-4-5-20251001",
@@ -94,17 +94,22 @@ def _fallback_key_term_extraction(query: str) -> str:
     words = [w.lower() for w in query.split() if w.lower() not in stop_words]
 
     # Generic nouns that are too broad to use alone as search terms.
-    # e.g. searching "cleaner" finds floor cleaners, bathroom sprays, etc. — not vacuum cleaners.
-    # In these cases the first word is more distinctive.
-    too_generic = {'cleaner', 'cleaners', 'machine', 'machines', 'device', 'devices',
+    # e.g. "cleaner" finds floor cleaners/sprays, "maker" finds coffee/waffle/candle makers,
+    # "grinder" finds angle/meat grinders — none of these find the intended product.
+    # In these cases use the full 2-word compound phrase for a specific search.
+    too_generic = {'cleaner', 'cleaners', 'maker', 'makers', 'grinder', 'grinders',
+                   'machine', 'machines', 'device', 'devices',
                    'appliance', 'appliances', 'tool', 'tools', 'unit', 'units',
                    'system', 'systems', 'set', 'kit'}
 
     if len(words) >= 2:
         last_word = words[-1]
         if last_word in too_generic:
-            # First word is more specific (e.g. "vacuum" from "vacuum cleaner")
-            return words[0]
+            # Use the full 2-word compound phrase — specific enough to find the right product.
+            # e.g. "bread maker" (not just "bread" or "maker"),
+            #      "vacuum cleaner" (better than "cleaner" alone; "vacuum" alone also works but this is safe)
+            #      "coffee grinder" (not just "coffee" or "grinder")
+            return f"{words[0]} {last_word}"
         return words[-1]  # e.g., "chair" from "office chair"
     elif len(words) == 1:
         return words[0]

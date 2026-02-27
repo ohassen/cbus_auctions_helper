@@ -289,20 +289,22 @@ class TestKeyTermExtraction:
         """Fallback ignores common stop/modifier words."""
         from src.scrapers.capital_city import _fallback_key_term_extraction
 
-        # "manual" is in stop_words, so "manual coffee grinder" → "grinder"
-        assert _fallback_key_term_extraction("manual coffee grinder") == "grinder"
+        # "manual" is in stop_words, so "manual coffee grinder" → words = ["coffee", "grinder"]
+        # "grinder" is in too_generic → returns full phrase "coffee grinder"
+        assert _fallback_key_term_extraction("manual coffee grinder") == "coffee grinder"
 
-    def test_fallback_bread_maker_returns_maker(self):
-        """'bread maker' fallback returns 'maker' - note this is a known weak fallback.
+    def test_fallback_bread_maker_returns_full_phrase(self):
+        """'bread maker' fallback returns 'bread maker' (full phrase), not 'maker'.
 
-        The Claude-powered version would return 'bread maker' or 'maker' more intelligently.
-        This test documents the current behavior so regressions are visible.
+        'maker' alone matches coffee makers, waffle makers, candle makers, etc.
+        Searching the full phrase 'bread maker' finds bread makers specifically.
         """
         from src.scrapers.capital_city import _fallback_key_term_extraction
 
         result = _fallback_key_term_extraction("bread maker")
-        # 'maker' is what the fallback returns - this may not be ideal
-        assert result == "maker"
+        assert result == "bread maker", (
+            "Expected 'bread maker' — 'maker' alone is too generic and matches unrelated products"
+        )
 
     def test_extract_key_term_uses_cache(self, monkeypatch):
         """Key term cache prevents redundant API calls."""
@@ -328,32 +330,32 @@ class TestKeyTermExtraction:
         result = extract_key_term("gooseneck kettle")
         assert result == "kettle"
 
-    def test_fallback_vacuum_cleaner_returns_vacuum(self):
-        """'vacuum cleaner' fallback must return 'vacuum', not 'cleaner'.
+    def test_fallback_vacuum_cleaner_not_cleaner(self):
+        """'vacuum cleaner' fallback must NOT return 'cleaner'.
 
         'cleaner' alone matches unrelated products (floor cleaners, bathroom sprays, etc.)
-        on auction sites, which then all fail semantic matching for 'vacuum cleaner'.
-        'vacuum' correctly identifies the product category.
+        on auction sites. The fallback returns the full phrase 'vacuum cleaner'.
         """
         from src.scrapers.capital_city import _fallback_key_term_extraction
 
         result = _fallback_key_term_extraction("vacuum cleaner")
-        assert result == "vacuum", (
-            "Expected 'vacuum' — 'cleaner' is too generic and matches unrelated products"
-        )
+        assert result != "cleaner", "Must not return 'cleaner' — too generic"
+        assert result == "vacuum cleaner"
 
-    def test_fallback_generic_last_words_use_first_word(self):
-        """When the last word is too generic, fallback uses the first (more specific) word."""
+    def test_fallback_generic_last_words_use_full_phrase(self):
+        """When the last word is too generic, fallback uses the full 2-word phrase."""
         from src.scrapers.capital_city import _fallback_key_term_extraction
 
-        # All of these have a generic last word; the first word is more distinctive
-        assert _fallback_key_term_extraction("vacuum cleaner") == "vacuum"
-        assert _fallback_key_term_extraction("steam cleaner") == "steam"
-        assert _fallback_key_term_extraction("sewing machine") == "sewing"
-        assert _fallback_key_term_extraction("washing machine") == "washing"
+        # Full phrase is more specific than either word alone
+        assert _fallback_key_term_extraction("vacuum cleaner") == "vacuum cleaner"
+        assert _fallback_key_term_extraction("steam cleaner") == "steam cleaner"
+        assert _fallback_key_term_extraction("sewing machine") == "sewing machine"
+        assert _fallback_key_term_extraction("washing machine") == "washing machine"
+        assert _fallback_key_term_extraction("bread maker") == "bread maker"
+        assert _fallback_key_term_extraction("coffee grinder") == "coffee grinder"
 
     def test_extract_key_term_vacuum_cleaner_without_api(self, monkeypatch):
-        """extract_key_term('vacuum cleaner') returns 'vacuum' when API is unavailable."""
+        """extract_key_term('vacuum cleaner') avoids 'cleaner' when API is unavailable."""
         monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
 
         from src.scrapers import capital_city
@@ -361,10 +363,11 @@ class TestKeyTermExtraction:
 
         from src.scrapers.capital_city import extract_key_term
         result = extract_key_term("vacuum cleaner")
-        assert result == "vacuum"
+        assert result != "cleaner", "Must not return 'cleaner' — too generic"
+        assert result == "vacuum cleaner"
 
     def test_extract_search_terms_vacuum_cleaner(self, monkeypatch):
-        """extract_search_terms('vacuum cleaner') produces ['vacuum'], not ['cleaner']."""
+        """extract_search_terms('vacuum cleaner') does NOT produce ['cleaner']."""
         monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
 
         from src.scrapers import capital_city
@@ -372,7 +375,29 @@ class TestKeyTermExtraction:
 
         from src.scrapers.capital_city import extract_search_terms
         terms = extract_search_terms("vacuum cleaner")
-        assert terms == ["vacuum"], (
-            f"Expected ['vacuum'] but got {terms!r}. "
-            "'cleaner' would find unrelated products on auction sites."
-        )
+        assert terms != ["cleaner"], "'cleaner' would find unrelated cleaning products"
+        assert terms == ["vacuum cleaner"]
+
+    def test_extract_search_terms_bread_maker(self, monkeypatch):
+        """extract_search_terms('bread maker') produces ['bread maker'], not ['maker']."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_search_terms
+        terms = extract_search_terms("bread maker")
+        assert terms != ["maker"], "'maker' finds coffee/waffle/candle makers — too generic"
+        assert terms == ["bread maker"]
+
+    def test_extract_search_terms_manual_coffee_grinder(self, monkeypatch):
+        """'manual coffee grinder' → ['coffee grinder'] (not ['grinder'])."""
+        monkeypatch.delenv("OPEN_ROUTER_API_KEY", raising=False)
+
+        from src.scrapers import capital_city
+        capital_city._KEY_TERM_CACHE.clear()
+
+        from src.scrapers.capital_city import extract_search_terms
+        terms = extract_search_terms("manual coffee grinder")
+        assert terms != ["grinder"], "'grinder' finds angle/meat grinders — too generic"
+        assert terms == ["coffee grinder"]

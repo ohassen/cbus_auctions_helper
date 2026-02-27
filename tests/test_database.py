@@ -370,7 +370,6 @@ async def test_reported_item_not_counted_in_per_search_matched(db, tmp_path, sam
     consistent with what follows in the report.
     """
     from src.markdown_report import generate_markdown_report
-    import tempfile
 
     config = tmp_path / "searches.json"
     config.write_text("""
