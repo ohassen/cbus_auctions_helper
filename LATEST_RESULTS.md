@@ -1,18 +1,21 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-27 06:01 AM EST
+**Last Updated:** 2026-02-27 08:16 AM EST
 
 ## 📋 Workflow Status
 
-✅ **Status:** Completed successfully
+❌ **Status:** Workflow failed
+
+**Errors:**
+- OPEN_ROUTER_API_KEY validation failed - key may be invalid or revoked. Go to openrouter.ai/keys to check your API key. Semantic matching skipped.
 
 ---
 
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 1846
 - **Items Seen Today:** 117
+- **Total Items Tracked (DB):** 1846
 
 ---
 
@@ -40,7 +43,7 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 11 | ✅ **Matched:** 1
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
 *Sources: bidfta: 1 | capital_city: 10*
 
@@ -70,7 +73,7 @@
 
 ### Drone
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 1
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
 *Sources: capital_city: 9*
 
