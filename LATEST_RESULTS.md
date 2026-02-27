@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-26 10:57 PM EST
+**Last Updated:** 2026-02-27 12:09 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,12 +11,22 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 1790
-- **Items Seen Today:** 61
+- **Total Items Scraped:** 1820
+- **Items Seen Today:** 91
 
 ---
 
 ## 🔍 Search Results
+
+### vacuum
+
+📥 **Items Scraped:** 29 | ✅ **Matched:** 0
+
+*Sources: bidfta: 4 | capital_city: 25*
+
+*No matches found for this search*
+
+---
 
 ### bread maker
 
@@ -40,9 +50,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 11 | ✅ **Matched:** 0
+📥 **Items Scraped:** 12 | ✅ **Matched:** 0
 
-*Sources: bidfta: 2 | capital_city: 9*
+*Sources: bidfta: 3 | capital_city: 9*
 
 *No matches found for this search*
 
