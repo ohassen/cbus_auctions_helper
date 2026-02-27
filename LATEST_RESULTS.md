@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-27 12:09 AM EST
+**Last Updated:** 2026-02-27 05:44 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,18 +11,18 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Total Items Scraped:** 1820
-- **Items Seen Today:** 91
+- **Total Items Scraped:** 1846
+- **Items Seen Today:** 117
 
 ---
 
 ## 🔍 Search Results
 
-### vacuum
+### vacuum cleaner
 
-📥 **Items Scraped:** 29 | ✅ **Matched:** 0
+📥 **Items Scraped:** 55 | ✅ **Matched:** 0
 
-*Sources: bidfta: 4 | capital_city: 25*
+*Sources: bidfta: 7 | capital_city: 48*
 
 *No matches found for this search*
 
