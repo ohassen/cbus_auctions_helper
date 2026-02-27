@@ -1,13 +1,13 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-02-27 09:20 AM EST
+**Last Updated:** 2026-02-27 11:00 AM EST
 
 ## 📋 Workflow Status
 
 ❌ **Status:** Workflow failed
 
 **Errors:**
-- OPEN_ROUTER_API_KEY validation failed - key may be invalid or revoked. Go to openrouter.ai/keys to check your API key. Semantic matching skipped.
+- OPEN_ROUTER_API_KEY validation failed - key may be invalid or revoked. Go to openrouter.ai/keys to check your API key. Semantic matching skipped. (Detail: Error code: 400 - {'error': {'message': 'anthropic/claude-haiku-4-5-20251001 is not a valid model ID', 'code': 400}, 'user_id': 'user_35dFbWApT9a3JlYI6nkTSYwl5vg'})
 
 ---
 
