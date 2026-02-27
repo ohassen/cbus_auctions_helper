@@ -79,16 +79,17 @@ class TestValidateApiKey:
 
     @pytest.mark.asyncio
     async def test_validate_returns_true_on_success(self):
-        """validate_api_key returns True when API call succeeds."""
+        """validate_api_key returns (True, '') when API call succeeds."""
         matcher = SemanticMatcher(api_key="sk-ant-valid-key")
         matcher.client = _make_mock_client("hi")
 
-        result = await matcher.validate_api_key()
-        assert result is True
+        valid, error = await matcher.validate_api_key()
+        assert valid is True
+        assert error == ""
 
     @pytest.mark.asyncio
     async def test_validate_returns_false_on_auth_error(self):
-        """validate_api_key returns False when API raises an exception."""
+        """validate_api_key returns (False, detail) when API raises an exception."""
         matcher = SemanticMatcher(api_key="sk-ant-expired-key")
 
         mock_client = MagicMock()
@@ -97,20 +98,22 @@ class TestValidateApiKey:
         )
         matcher.client = mock_client
 
-        result = await matcher.validate_api_key()
-        assert result is False
+        valid, error = await matcher.validate_api_key()
+        assert valid is False
+        assert "401" in error
 
     @pytest.mark.asyncio
     async def test_validate_returns_false_on_any_exception(self):
-        """validate_api_key catches all exceptions and returns False."""
+        """validate_api_key catches all exceptions and returns (False, detail)."""
         matcher = SemanticMatcher(api_key="sk-ant-test")
 
         mock_client = MagicMock()
         mock_client.chat.completions.create.side_effect = ConnectionError("Network unreachable")
         matcher.client = mock_client
 
-        result = await matcher.validate_api_key()
-        assert result is False
+        valid, error = await matcher.validate_api_key()
+        assert valid is False
+        assert "Network unreachable" in error
 
 
 class TestEvaluateItem:
