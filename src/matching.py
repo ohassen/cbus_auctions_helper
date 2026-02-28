@@ -36,7 +36,7 @@ class SemanticMatcher:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "anthropic/claude-haiku-4.5",
+        model: str = "openrouter/free",
         relevance_threshold: int = 70
     ):
         self.api_key = api_key or os.getenv("OPEN_ROUTER_API_KEY")
@@ -76,16 +76,7 @@ class SemanticMatcher:
         # Format price properly
         price_str = f"${item.current_price:.2f}" if item.current_price is not None else "Unknown"
 
-        return f"""You are evaluating whether an auction item matches a user's search query.
-
-CONTEXT: Items are from consumer auction websites selling household goods, electronics, and
-appliances. Interpret queries by their most common consumer meaning:
-- "vacuum" = vacuum cleaner / floor vacuum appliance (NOT vacuum bags, sealers, or storage bags)
-- "drill" = power drill tool
-- "grinder" = grinding appliance (coffee grinder, angle grinder, etc. depending on context)
-Short single-word queries refer to the primary appliance or product, not accessories.
-
-SEARCH QUERY: "{query}"
+        return f"""If I buy the item described, will I get {query}?
 
 ITEM DETAILS:
 - Title: {item.title}
@@ -93,34 +84,15 @@ ITEM DETAILS:
 - Condition: {item.condition or 'Unknown'}
 - Current Price: {price_str}
 
-IMPORTANT MATCHING RULES:
-1. Focus on the PRIMARY PURPOSE of the item matching the query intent
-2. Be STRICT about false positives. Examples:
-   - "stainless steel pan" should match cooking pans (skillets, saucepans), NOT:
-     * Washer/dryer drip pans
-     * AC drain pans
-     * Appliance drip trays
-     * Oil pans
-   - "office chair" should match desk/computer chairs, NOT:
-     * Dining chairs
-     * Folding chairs
-     * Gaming chairs (unless office-style)
-   - "vacuum" should match vacuum cleaners (upright, canister, robot, stick), NOT:
-     * Vacuum bags / replacement bags
-     * Vacuum sealers / food vacuum machines
-     * Vacuum storage bags
-3. If the item is clearly a different category than the query, score it low
-4. Use the title and description to determine the true nature of the item
-
-Analyze the item and provide your evaluation in this EXACT JSON format:
+Respond in this EXACT JSON format:
 {{
     "relevance_score": <0-100 integer>,
     "reasoning": "<2-3 sentences explaining your score>",
     "confidence": "<high|medium|low>"
 }}
 
-A score of 70+ means it's a genuine match for the search query.
-A score below 70 means it's not what the user is looking for.
+A score of 70+ means yes, buying this item gets me {query}.
+A score below 70 means no.
 
 Respond with ONLY the JSON, no other text."""
 
