@@ -69,7 +69,7 @@ Query: "{query}"
 Respond with ONLY the search keyword (1-3 words max), nothing else."""
 
         response = client.chat.completions.create(
-            model="openrouter/free",
+            model="inception/mercury",
             max_tokens=50,
             messages=[{"role": "user", "content": prompt}]
         )
