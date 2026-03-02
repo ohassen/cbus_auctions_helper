@@ -1,21 +1,21 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-01 05:39 AM EST
+**Last Updated:** 2026-03-02 05:55 AM EST
 
 ## 📋 Workflow Status
 
 ⚠️ **Status:** Completed with errors
 
 **Errors encountered:**
-- 3 items failed semantic matching due to API errors. Check that OPEN_ROUTER_API_KEY is valid and not expired.
+- 5 items failed semantic matching due to API errors. Check that OPEN_ROUTER_API_KEY is valid and not expired.
 
 ---
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Items Seen Today:** 116
-- **Total Items Tracked (DB):** 1997
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 109
+- **Total Items Tracked (DB):** 2043
 
 ---
 
@@ -23,66 +23,70 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 30 | ✅ **Matched:** 4
+📥 **Items Scraped:** 28 | ✅ **Matched:** 4
 
-*Sources: bidfta: 5 | capital_city: 25*
+*Sources: bidfta: 3 | capital_city: 25*
 
-### Shark UV725 Navigator Lift-Away with Self Cleaning Brushroll Upright Vacuum with HEPA Filter (Renewed)
+### Kenmore Stratus™ | 24V 2-in-1 Cordless Stick Vacuum
 
-🆕 NEW ⭐ 90% Match 🔥 98% OFF
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Urdgws912wqtaSbgDTm%2bZQ%3d%3d&AuctionId=W0wXg6y%2bzG6QNIN5JjS3Ig%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=C8EVIJRU3qpX7F5aAVMQXg%3d%3d&AuctionId=W0wXg6y%2bzG6QNIN5JjS3Ig%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$159.99~~ (Save 98%)
+**Retail Price:** ~~$139.99~~ (Save 99%)
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 82
+📍 **Pickup:** ! /  Lot - 165
 
 **Source:** capital_city
 
 
 ---
 
-### RIDGID 16 Gal. 6.5 Peak HP NXT Shop Vacuum Wet Dry Vac with Cart, Fine Dust Filter, Hose and Accessory Attachments HD1800
+### Stratus Bagless Cordless Cyclonic Stick Vacuum
 
-🆕 NEW ⭐ 90% Match 🔥 96% OFF
+🆕 NEW ⭐ 100% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=66GH9Q%2bsF0tfy2vDlQ2l%2fA%3d%3d&AuctionId=W0wXg6y%2bzG6QNIN5JjS3Ig%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6k3jRmMAaQALYF1awyNpzw%3d%3d&AuctionId=8rKoKoNEr05IBl0YQDMURw%3d%3d)**
 
-**Current Price:** $7.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$179.99~~ (Save 96%)
+**Retail Price:** ~~$129.99~~ (Save 97%)
 
-📍 **Pickup:** ! /  Lot - 152
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 212
 
 **Source:** capital_city
 
 
 ---
 
-### Craftsman Cft 5-Gal Ss Wet Dry Vacuum
+### (202) V11 Cordless Stick Vacuum Cleaner
 
-🆕 NEW ⭐ 90% Match
+🆕 NEW ⭐ 95% Match 🔥 74% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/589756/item-detail/52432843)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=oQAB6FUH%2fFdpnRm5duVOxA%3d%3d&AuctionId=8rKoKoNEr05IBl0YQDMURw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $160.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$629.99~~ (Save 74%)
 
-**Source:** bidfta
+📍 **Pickup:** ! /  Lot - 4
+
+**Source:** capital_city
 
 
 ---
 
-### Eureka Nes215a Blaze 3-In-1 Swivel Handheld & Stick Vacuum Cleaner, Blue
+### Dreame D10 Plus Gen 2 Robot Vacuum And Mop With Self Emptying Base For 90 Days Of Cleaning, 6000 Pa Suction And Lidar Navigation, Obstacle Avoidance, Wi-Fi Connected
 
 🆕 NEW ⭐ 90% Match
 
-**[🔗 View Auction](https://www.bidfta.com/590554/item-detail/52528074)**
+**[🔗 View Auction](https://www.bidfta.com/590700/item-detail/52551269)**
 
 **Current Price:** No bids yet
 
@@ -101,17 +105,17 @@
 
 *Sources: bidfta: 1 | capital_city: 17*
 
-### Kitchenarm 29-In-1 Smart Bread Machine With Gluten Free Setting 2lb 1.5lb 1lb Bread Maker Machine With Homemade Cycle - Stainless Steel Breadmaker With Recipes Whole Wheat Bread Making Machine 29 Programs - 3 Loaf Sizes - 3 Crust Colors Stainless Steel
+### (129). Large Wooden Corner Play Kitchen Sets with Ice Maker,Water Dispenser,Bread Maker,Washing Machine,Electronic Display,Toy Sink with Running Water,Stove with Light&Sounds, Birthday Gift for 3+Boys Girl
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ✓ 80% Match
 
-**[🔗 View Auction](https://www.bidfta.com/589924/item-detail/52447293)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CxCXUXducMC58585AcakJg%3d%3d&AuctionId=v5hicq4KCeuLPmmWd58nWg%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** Columbus area (from search results)
+📍 **Pickup:** ! /  Lot - 7
 
-**Source:** bidfta
+**Source:** capital_city
 
 
 ---
@@ -120,9 +124,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 26 | ✅ **Matched:** 0
 
-*Sources: capital_city: 25*
+*Sources: bidfta: 1 | capital_city: 25*
 
 *No matches found for this search*
 
@@ -130,9 +134,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 0
+📥 **Items Scraped:** 26 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1*
+*Sources: bidfta: 1 | capital_city: 25*
 
 *No matches found for this search*
 
@@ -150,11 +154,22 @@
 
 ### Drone
 
-📥 **Items Scraped:** 35 | ✅ **Matched:** 0
+📥 **Items Scraped:** 4 | ✅ **Matched:** 1
 
-*Sources: bidfta: 10 | capital_city: 25*
+*Sources: capital_city: 4*
 
-*No matches found for this search*
+### Sky Rider Goldfinch Quadcopter 0.3 MP Drone
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=XIR4%2bkXBRRf7%2bE%2b4n8q%2bUw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=Sj86to0XY4VPVDnDcNfPhw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
