@@ -1,13 +1,13 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-03 05:50 AM EST
+**Last Updated:** 2026-03-03 07:56 AM EST
 
 ## 📋 Workflow Status
 
 ⚠️ **Status:** Completed with errors
 
 **Errors encountered:**
-- 2 items failed semantic matching due to API errors. Check that OPEN_ROUTER_API_KEY is valid and not expired.
+- 3 items failed semantic matching due to API errors. Check that OPEN_ROUTER_API_KEY is valid and not expired.
 
 ---
 
@@ -27,19 +27,17 @@
 
 *Sources: bidfta: 5 | capital_city: 37*
 
-### Mattress Vacuum Bed Vacuum Cleaner with 253.7nm UV-C Light, Hyper Helix Motor with 16kPa Strong Suction & 33000 RPM/Min Tapping, HEPA Filter, 149℉ Heat & Ultrasonic & Anion for Bed and Pet.
+### Carpet Cleaner Machine Upholstery - 450w Shampooer Portable For Couch Rug Sofa Car Seat Furniture Fabric Wet Vacuum Spot Handheld Small Mini Car Water Aspiradora De Agua Deep Extractor Washer
 
-🆕 NEW ⭐ 90% Match 🔥 98% OFF
+🆕 NEW ✓ 80% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UA6sefbQ81fNnWQf6eOmKg%3d%3d&AuctionId=Qh0PBBvUYaSexuaYLfEL5g%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/590700/item-detail/52551239)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$89.99~~ (Save 98%)
+📍 **Pickup:** Columbus area (from search results)
 
-📍 **Pickup:** ! /  Lot - 276
-
-**Source:** capital_city
+**Source:** bidfta
 
 
 ---
