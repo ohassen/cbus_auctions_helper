@@ -155,6 +155,14 @@ async def run_semantic_matching(db: Database, matcher: SemanticMatcher, searches
                     search_errors += 1
                     total_api_errors += 1
                     logger.error(f"API error evaluating '{item.title[:50]}': {result.reasoning}")
+                    # Save a score-0 record so this item isn't re-queued on future runs
+                    failed_metadata = MatchMetadata(
+                        item_id=item.id,
+                        relevance_score=0,
+                        reasoning=result.reasoning,
+                        confidence="low"
+                    )
+                    await db.save_match_metadata(failed_metadata)
                 elif result.is_match:
                     # Save match metadata
                     metadata = MatchMetadata(

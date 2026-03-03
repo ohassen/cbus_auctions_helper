@@ -36,7 +36,7 @@ class SemanticMatcher:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "inception/mercury",
+        model: str = "anthropic/claude-haiku-4-5-20251001",
         relevance_threshold: int = 70
     ):
         self.api_key = api_key or os.getenv("OPEN_ROUTER_API_KEY")
@@ -102,53 +102,68 @@ Respond with ONLY the JSON, no other text."""
         item: AuctionItem
     ) -> MatchResult:
         """Evaluate if an item matches the search query using text only."""
+        max_retries = 3
+        last_error = None
 
-        try:
-            # Call Claude via OpenRouter (synchronous SDK, but we'll run in executor)
-            response = await asyncio.get_event_loop().run_in_executor(
-                None,
-                lambda: self.client.chat.completions.create(
-                    model=self.model,
-                    max_tokens=500,
-                    messages=[{
-                        "role": "user",
-                        "content": self._build_match_prompt(query, item)
-                    }]
+        for attempt in range(max_retries):
+            try:
+                # Call Claude via OpenRouter (synchronous SDK, but we'll run in executor)
+                response = await asyncio.get_event_loop().run_in_executor(
+                    None,
+                    lambda: self.client.chat.completions.create(
+                        model=self.model,
+                        max_tokens=500,
+                        messages=[{
+                            "role": "user",
+                            "content": self._build_match_prompt(query, item)
+                        }]
+                    )
                 )
-            )
 
-            # Parse response
-            response_text = response.choices[0].message.content.strip()
+                # Parse response
+                response_text = response.choices[0].message.content.strip()
 
-            # Extract JSON (handle potential markdown code blocks)
-            if "```" in response_text:
-                import re
-                json_match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", response_text, re.DOTALL)
-                if json_match:
-                    response_text = json_match.group(1)
+                # Extract JSON (handle potential markdown code blocks)
+                if "```" in response_text:
+                    import re
+                    json_match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", response_text, re.DOTALL)
+                    if json_match:
+                        response_text = json_match.group(1)
 
-            import json
-            result = json.loads(response_text)
+                import json
+                result = json.loads(response_text)
 
-            score = int(result.get("relevance_score", 0))
-            reasoning = result.get("reasoning", "No reasoning provided")
-            confidence = result.get("confidence", "low")
+                score = int(result.get("relevance_score", 0))
+                reasoning = result.get("reasoning", "No reasoning provided")
+                confidence = result.get("confidence", "low")
 
-            return MatchResult(
-                relevance_score=score,
-                reasoning=reasoning,
-                confidence=confidence,
-                is_match=score >= self.relevance_threshold
-            )
+                return MatchResult(
+                    relevance_score=score,
+                    reasoning=reasoning,
+                    confidence=confidence,
+                    is_match=score >= self.relevance_threshold
+                )
 
-        except Exception as e:
-            logger.error(f"Error evaluating item {item.title[:50]}: {e}")
-            return MatchResult(
-                relevance_score=0,
-                reasoning=f"Evaluation failed: {str(e)}",
-                confidence="low",
-                is_match=False
-            )
+            except Exception as e:
+                last_error = e
+                if attempt < max_retries - 1:
+                    wait_seconds = 2 ** (attempt + 1)  # 2s then 4s
+                    logger.warning(
+                        f"Attempt {attempt + 1}/{max_retries} failed for "
+                        f"'{item.title[:50]}': {e}. Retrying in {wait_seconds}s..."
+                    )
+                    await asyncio.sleep(wait_seconds)
+                else:
+                    logger.error(
+                        f"All {max_retries} attempts failed for '{item.title[:50]}': {e}"
+                    )
+
+        return MatchResult(
+            relevance_score=0,
+            reasoning=f"Evaluation failed: {str(last_error)}",
+            confidence="low",
+            is_match=False
+        )
 
     async def lookup_msrp(self, item: AuctionItem) -> PriceLookupResult:
         """Look up MSRP for an item using Claude's web search."""
