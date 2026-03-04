@@ -76,7 +76,9 @@ class SemanticMatcher:
         # Format price properly
         price_str = f"${item.current_price:.2f}" if item.current_price is not None else "Unknown"
 
-        return f"""If I buy the item described, will I get {query}?
+        return f"""You are evaluating auction items for relevance to a buyer's search.
+
+SEARCH QUERY: {query}
 
 ITEM DETAILS:
 - Title: {item.title}
@@ -84,15 +86,25 @@ ITEM DETAILS:
 - Condition: {item.condition or 'Unknown'}
 - Current Price: {price_str}
 
+QUESTION: Is this auction item specifically and primarily "{query}"?
+
+SCORING GUIDE:
+- 90-100: Item clearly IS {query}
+- 70-89: Item is {query}, but with some uncertainty (vague title, missing description)
+- 50-69: Related to {query} — compatible with, an accessory for, or a category that could include one
+- 0-49: Not {query} — different product, only mentions {query} incidentally
+
+RULES:
+- Lots, bundles, or collections of multiple items score 0, even if {query} may be among them
+- Accessories, cases, parts, or peripherals for {query} score below 70
+- If uncertain, score conservatively (below 70)
+
 Respond in this EXACT JSON format:
 {{
     "relevance_score": <0-100 integer>,
     "reasoning": "<2-3 sentences explaining your score>",
     "confidence": "<high|medium|low>"
 }}
-
-A score of 70+ means yes, buying this item gets me {query}.
-A score below 70 means no.
 
 Respond with ONLY the JSON, no other text."""
 
