@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-04 05:48 AM EST
+**Last Updated:** 2026-03-04 05:18 PM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 20 (Score ≥ 70)
-- **Items Seen Today:** 107
-- **Total Items Tracked (DB):** 2147
+- **Total Matches Found:** 12 (Score ≥ 70)
+- **Items Seen Today:** 132
+- **Total Items Tracked (DB):** 2172
 
 ---
 
@@ -20,120 +20,66 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 31 | ✅ **Matched:** 13
+📥 **Items Scraped:** 39 | ✅ **Matched:** 10
 
-*Sources: bidfta: 6 | capital_city: 25*
+*Sources: bidfta: 13 | capital_city: 26*
 
-### VINGLI Automatic Pool Vacuum Cleaner with with 33FT Hoses Navy Blue and White
+### Shark Pet Bagless Cordless Washable Filter Stick Vacuum, XL Dust Cup, LED Lights, Removable Handheld, 40min Runtime in Gray
 
-🆕 NEW ⭐ 95% Match 🔥 97% OFF
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=S%2bVPqbXJ46fvMQOkh5btPg%3d%3d&AuctionId=NknUCt%2bvJ5EUIMJo3hqrUQ%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$87.99~~ (Save 97%)
-
-**Source:** capital_city
-
-
----
-
-### Dog Clipper Grooming Kit and Vacuum, 2.5L Large Capacity Dust Cup, 5 Pet Grooming Tools, 10KPa Powerful vacuum, Low Noise Dog Hair Remover Pet Grooming Supplies for Dogs Cats
-
-🆕 NEW ⭐ 95% Match 🔥 86% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=nOqi4ntCO%2baE6UULWF3iTg%3d%3d&AuctionId=rQBkYoNO4m4tdQvpTqpmlg%3d%3d)**
-
-**Current Price:** $11.00
-
-**Retail Price:** ~~$79.99~~ (Save 86%)
-
-📍 **Pickup:** ! /  Lot - 179
-
-**Source:** capital_city
-
-
----
-
-### Milwaukee 0880-20 18V Cordless Lithium-Ion 2 Gallon Wet/Dry Vacuum (Bare Tool)
-
-🆕 NEW ⭐ 95% Match 🔥 74% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=YxQS2tQuToBsWuUz%2b87caw%3d%3d&AuctionId=VYXwn3m%2bORrMwm15HIvR%2fQ%3d%3d)**
-
-**Current Price:** $43.00
-
-**Retail Price:** ~~$169.99~~ (Save 74%)
-
-📍 **Pickup:** ! /  Lot - 59
-
-**Source:** capital_city
-
-
----
-
-### RIDGID 6 Gal. 3.5 Peak HP NXT Shop Vacuum Wet Dry Vac with General Debris Filter, Locking Hose and Attachments HD0600
-
-🆕 NEW ⭐ 95% Match 🔥 94% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=JvpBudj6a%2fuf5JIVDgJEAw%3d%3d&AuctionId=VYXwn3m%2bORrMwm15HIvR%2fQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=K4GFMJDmlYa0Vu84O5Ketw%3d%3d&AuctionId=v5hicq4KCeuLPmmWd58nWg%3d%3d)**
 
 **Current Price:** $5.00
 
-**Retail Price:** ~~$89.99~~ (Save 94%)
+**Retail Price:** ~~$300.00~~ (Save 98%)
 
-📍 **Pickup:** ! /  Lot - 121
-
-**Source:** capital_city
-
-
----
-
-### Dyson V11 Portable Cordless Pet Stick Vacuum Cleaner (Convertible to Handheld) SLIGHTY USED
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5jSXc3JJjc9x9YLazNdu9A%3d%3d&AuctionId=Sj86to0XY4VPVDnDcNfPhw%3d%3d)**
-
-**Current Price:** $24.00
+📍 **Pickup:** ! /  Lot - 25
 
 **Source:** capital_city
 
 
 ---
 
-### Dyson V11 Portable Cordless Pet Stick Vacuum Cleaner (Convertible to Handheld) (NEW)
+### Shark PowerPro Bagless Cordless HEPA Filter Portable Stick Vacuum
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bTL8M71bUuiA%2bQ5iUPxlNQ%3d%3d&AuctionId=Sj86to0XY4VPVDnDcNfPhw%3d%3d)**
-
-**Current Price:** $40.00
-
-**Source:** capital_city
-
-
----
-
-### HORSEPOWER Cordless Car Handheld Vacuum Cleaner
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=zbJLyCVFMRUpRWY%2b%2bjZ3cQ%3d%3d&AuctionId=Sj86to0XY4VPVDnDcNfPhw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=w5tc%2fNlpiCPvkfmLwA%2bZgg%3d%3d&AuctionId=0pLMsZM%2bKaACiURKmUooTw%3d%3d)**
 
 **Current Price:** $1.00
 
+**Condition:** prior to bidding. This item is NON-REFUNDABLE! NO EXCEPTIONS! Thanks for your cooperation!  **ITEM U
+
+📍 **Pickup:** ! /  Lot - 47
+
 **Source:** capital_city
 
 
 ---
 
-### Robot Vacuum And Mop Combo,4200pa Powerful Robotic Vacuum Cleaner With Self-Charging, Home Automatic Robot Aspiradora For Hard Floor, Low Carpet, Pet Hair, App&Voice&Remote Smart Control
+### (62) 3i S10 Ultra Robot Vacuum and Mop with WaterRecycle System, 18000Pa Suction, Self-Cleaning Extendable Roller Mop, Auto Mop Washing & Drying, Self-Emptying & Refilling, Ai Obstacle Avoidance
+
+🆕 NEW ⭐ 95% Match 🔥 87% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=lPxD7kp7T5Sliyqbugkbgw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=zAxjSO1qItJOiillrRVOpg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $130.00
+
+**Retail Price:** ~~$1009.99~~ (Save 87%)
+
+📍 **Pickup:** ! /  Lot - 3
+
+**Source:** capital_city
+
+
+---
+
+### Bissell Cleanview Compact Upright Vacuum, Fits In Dorm Rooms & Apartments, Lightweight With Powerful Suction And Removable Extension Wand, 3508
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/589896/item-detail/52469756)**
+**[🔗 View Auction](https://www.bidfta.com/591077/item-detail/52603719)**
 
 **Current Price:** No bids yet
 
@@ -144,11 +90,11 @@
 
 ---
 
-### Shark Clean & Empty Cordless Stick Vacuum – Lightweight Cordless With Hepa Filter, Portable, Rechargeable, Auto-Empty System, Stick Vacuum For Pet Hair, Carpets & Hardfloor, White, Bu3521 Clean & Empty (Basic)
+### Eureka E20 Plus Robot Vacuum And Mop Combo, Robot Vacuum Cleaner With Bagless Self Emptying Station, 45-Day Capacity 8000pa Suction And Anti Hair-Tangling Brush App Control Lidar Navigation Black ( Slightly Used)
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591108/item-detail/52607436)**
+**[🔗 View Auction](https://www.bidfta.com/588382/item-detail/52314960)**
 
 **Current Price:** No bids yet
 
@@ -159,11 +105,11 @@
 
 ---
 
-### Bissell Biggreen Bgu1937t 13.5" Pro Cup Bagless Upright Vacuum With On-Board Tools, 44" Height, 13.5" Wide, 13.2" Length, Polypropylene, 2 Fl. Oz. Capacity, Green
+### Kenmore 81214 200 Series Pet Friendly Lightweight Bagged Canister Vacuum With Hepa 2 Motor System And 3 Cleaning Tools-Orange
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591580/item-detail/52661473)**
+**[🔗 View Auction](https://www.bidfta.com/591223/item-detail/52619395)**
 
 **Current Price:** No bids yet
 
@@ -174,11 +120,11 @@
 
 ---
 
-### Shark Vacmop Cordless Hard Floor Cleaner, Vacuum And Spray Mop, Powerful Suction, Lightweight, Led Headlights, Includes 4 Disposable Pads, 12oz Multi-Surface Cleaning Solution, Gray, Vm252
+### Robot Vacuum And Mop Combo With Self-Emptying Station (60-Day), Lidar Navigation Robotic Vacuum Cleaner, 5000pa Suction, 180-Min Runtime, App/Wi-Fi/Alexa Control, For Pet Hair, Carpets & Hard Floors 1
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591235/item-detail/52621106)**
+**[🔗 View Auction](https://www.bidfta.com/591430/item-detail/52653522)**
 
 **Current Price:** No bids yet
 
@@ -189,11 +135,11 @@
 
 ---
 
-### Cordless Vacuum Cleaner, Upgraded 40kpa Stick Vacuum Cleaners For Home, 8 In 1 Lightweight With Self-Standing, 1.5l Dust Cup & Anti-Tangle, Rechargeable Vacuum For Hard Floors Carpets Pet Hair Blue
+### Shark | Pet Cordless Vacuum Cleaner | Led Headlights | Removable Handheld Vacuum For Pet Hair | Crevice Tool & Pet Multi-Tool Included | 40min Runtime | For Carpet & Hard Floors | Grey | Ix141 Pet Cordless Essential
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591606/item-detail/52663469)**
+**[🔗 View Auction](https://www.bidfta.com/591753/item-detail/52680497)**
 
 **Current Price:** No bids yet
 
@@ -204,11 +150,26 @@
 
 ---
 
-### Amazon Basics Upright Bagless Vacuum Cleaner For Carpet And Hard Floors, With Crevice And Upholstery Tools, Detachable Handle, Lightweight (8.4 Lbs), 1.7l Dust Cup, 720w, 25ft Cord, Black/White
+### Bissell Cleanview Compact Turbo Upright Vacuum With Quick Release Wand, Full Size Power, Compact Size For Apartments & Dorms, 3437f
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591872/item-detail/52698750)**
+**[🔗 View Auction](https://www.bidfta.com/592150/item-detail/52729470)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Ilife A30 Pro Robot Vacuum And Mop, Self Emptying Station For 60 Days, 5000pa Suction, Lidar Navigation, No-Go Zones, 2.4g Wifi/App/Alexa/Remote Control, Clean Hard Floors To Medium-Pile Carpet, 110v
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/592255/item-detail/52742287)**
 
 **Current Price:** No bids yet
 
@@ -223,15 +184,15 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 1
+📥 **Items Scraped:** 14 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 12*
+*Sources: bidfta: 2 | capital_city: 12*
 
-### Amazon Basics Programmable Bread Maker, 2 Pound Non-Stick Automatic Bread Making Machine, 14 Settings For Breads, Doughs, Gluten-Free Options And More, Lcd Display, Black
+### Kbs 3lb Programmable Bread Maker,20-In-1 Automatic Bread Machine With Ceramic Pan & Fruit Dispenser, 750w Dual Heaters Bread Maker Machine With Quiet Brushless Motor,Stainless Steel,15h Timer,3 Colors 100% Stainless Steel Silver
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591106/item-detail/52605599)**
+**[🔗 View Auction](https://www.bidfta.com/591217/item-detail/52618603)**
 
 **Current Price:** No bids yet
 
@@ -246,34 +207,15 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 2
+📥 **Items Scraped:** 32 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 25*
+*Sources: bidfta: 2 | capital_city: 30*
 
-### Ktaxon 80 Qt Rolling Ice Chest Cooler Cart Outdoor Trolley with Storage Shelf, Bottle Opener & Cap Collector for 48 Hour Cold Drinks,Bright Pink
+### Genie Chain Drive 750 3/4 Hpc Garage Door Opener W/Battery Backup - Heavy Duty - Operate Your Garage Door When The Primary Power Is Out - Wireless Keypad Included, Model 7035-Tkv,Black
 
-🆕 NEW ⭐ 95% Match 🔥 97% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Iw1GAhlJBNiwCgMAptvphw%3d%3d&AuctionId=NknUCt%2bvJ5EUIMJo3hqrUQ%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$193.69~~ (Save 97%)
-
-**Condition:** ! Retail: MSRP $193.69
-
-📍 **Pickup:** to another. With four multi-directional rolling wheels, you can easily maneuver it around, even over uneven surfaces. Two of the wheels come with locks, allowing you to secure the cooler in place when needed.
-
-**Source:** capital_city
-
-
----
-
-### 891lm For Liftmaster Garage Door Opener Remote (1 Pack)
-
-⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/590837/item-detail/52572678)**
+**[🔗 View Auction](https://www.bidfta.com/591871/item-detail/52698604)**
 
 **Current Price:** No bids yet
 
@@ -288,85 +230,31 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 2
+📥 **Items Scraped:** 33 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 24*
+*Sources: bidfta: 1 | capital_city: 32*
 
-### Gevi 10-Cup Drip Coffee Maker with Built-in Grinder, Programmable Brew Coffee Machine with Timer, Reusable Filter, 1.5L Water Tank, Coffee Pot, Warming Plate Burr Grinder Combo
-
-⭐ 95% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bgBATfFrTeMwuKKIu52wxw%3d%3d&AuctionId=M3m6Qek6ftZAH1Dw0U%2fiDw%3d%3d)**
-
-**Current Price:** $6.00
-
-**Retail Price:** ~~$179.99~~ (Save 96%)
-
-**Condition:** ! MSRP: $179.99
-
-**Source:** capital_city
-
-
----
-
-### Play Kitchen for Toddlers with Felt Storage Boxes & Range Hook, Wooden Kids Kitchen Playset with Oven, Microwave, Ice Maker, Toy Kitchen Set with Coffee Maker for Girls & Boys Age 3+
-
-⭐ 85% Match 🔥 83% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fSE94LZjKqSg2jNFbxJWpw%3d%3d&AuctionId=NknUCt%2bvJ5EUIMJo3hqrUQ%3d%3d)**
-
-**Current Price:** $23.00
-
-**Retail Price:** ~~$139.99~~ (Save 83%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 1
+📥 **Items Scraped:** 7 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 5*
+*Sources: bidfta: 2 | capital_city: 5*
 
-### Aesthetern Electric Kettle
-
-⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=RfKnN79kBxRLg5B%2bJ7HhJQ%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=MNZb2AZsnj9GYWnsSOqcXA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Drone
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 1
+📥 **Items Scraped:** 7 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 5*
+*Sources: bidfta: 2 | capital_city: 5*
 
-### Hoverair X1 Travel Combo, An Ultra-Portable, 125g Foldable Ai Drone Designed For Hands-Free, 2.7k Video And 12mp Stills, Featuring A 3-Second Palm Launch.
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/590370/item-detail/52670710)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
