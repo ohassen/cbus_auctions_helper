@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-06 05:46 AM EST
+**Last Updated:** 2026-03-07 05:35 AM EST
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 14 (Score ≥ 70)
-- **Items Seen Today:** 118
-- **Total Items Tracked (DB):** 2286
+- **Total Matches Found:** 9 (Score ≥ 70)
+- **Items Seen Today:** 112
+- **Total Items Tracked (DB):** 2308
 
 ---
 
@@ -20,130 +20,68 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 30 | ✅ **Matched:** 12
+📥 **Items Scraped:** 29 | ✅ **Matched:** 8
 
-*Sources: bidfta: 6 | capital_city: 24*
+*Sources: bidfta: 5 | capital_city: 24*
 
-### (117) Roborock Q Revo Curv 17.7 in Robotic Vacuum and Mop with Smart Navigation, Self-Emptying, Self-Drying, Multi-surface in White
+### Roborock Q10 VFS+ 13. 9 in. Robotic Vacuum and Mop with Smart Navigation Auto Lifting Mop Multi-Surface in White
 
 🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=odfFt12Mlvq322ab6otfJA%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=mLlbAxQx%2bUZeD6Yzopb1fw%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
 
-**Current Price:** $3.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$1019.99~~ (Save 99%)
+**Retail Price:** ~~$459.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 4
+📍 **Pickup:** ! /  Lot - 124
 
 **Source:** capital_city
 
 
 ---
 
-### (119) Roborock Qrevo Pro 13. 4in Robotic Vacuum, with Lidar Smart Navigation, FlexiArm Edge Mopping, Dynamic Hot Water Re-Wash in White
+### Milwaukee M18 Fuel 6 Gallon Wet/Dry Vacuum - No Charger, No Battery, Bare Tool Only
 
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
+🆕 NEW ⭐ 95% Match 🔥 70% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bvkK6EJqxQKsNXxrkWuowQ%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9HDiTcCcOok9mb8r53XaIA%3d%3d&AuctionId=Bmr2x0Ne2%2bca6FLhWFbOrw%3d%3d)**
+
+**Current Price:** $80.00
+
+**Retail Price:** ~~$269.99~~ (Save 70%)
+
+📍 **Pickup:** ! /  Lot - 288
+
+**Source:** capital_city
+
+
+---
+
+### RIDGID 9 Gal. 4.25 Peak HP NXT Shop Vacuum Wet Dry Vac with General Debris Filter, Locking Hose and Attachments HD09001
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=hLd5gUiqRF78u0aFzECUIQ%3d%3d&AuctionId=Bmr2x0Ne2%2bca6FLhWFbOrw%3d%3d)**
 
 **Current Price:** $2.00
 
-**Retail Price:** ~~$1009.99~~ (Save 99%)
+**Retail Price:** ~~$114.99~~ (Save 98%)
 
-📍 **Pickup:** ! /  Lot - 6
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-**Source:** capital_city
-
-
----
-
-### roborock Qrevo Series Robot Vacuum and Mop, 8000Pa Suction, Upgraded from Qrevo S, Anti-Tangle Brush, Smart Obstacle Avoidance, Auto Mop Washing, All-in-One Dock, 200RPM Spinning Mops, White(QV 35A)
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Qp49B%2fJnCtK9H%2fplmw0FBA%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$659.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 118
+📍 **Pickup:** ! /  Lot - 314
 
 **Source:** capital_city
 
 
 ---
 
-### roborock Qrevo Series Robot Vacuum and Mop, 8000Pa Suction, Upgraded from Qrevo S, Anti-Tangle Brush, Smart Obstacle Avoidance, Auto Mop Washing, All-in-One Dock, 200RPM Spinning Mops, White(QV 35A)
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5SV%2fjI9AOxPG%2b0oYBLzZoA%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$659.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 121
-
-**Source:** capital_city
-
-
----
-
-### Roborock Qrevo Pro 13. 4in Robotic Vacuum, with Lidar Smart Navigation, FlexiArm Edge Mopping, Dynamic Hot Water Re-Wash in White
+### Irobot Roomba Combo Robot Vacuum & Mop (Y0110) - Easy To Use, Power-Lifting Suction, Vacuums And Mops, Multi-Surface Cleaning, Smart Navigation Cleans In Neat Rows, Self-Charging, Alexa
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wrfkq%2bLTHbkKJ%2fuiaQaYRg%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 120
-
-**Source:** capital_city
-
-
----
-
-### Roborock Qrevo Pro 13. 4in Robotic Vacuum, with Lidar Smart Navigation, FlexiArm Edge Mopping, Dynamic Hot Water Re-Wash in White
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=lnZHWfv5ImDdVlP9jpoAQw%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 122
-
-**Source:** capital_city
-
-
----
-
-### Roborock Q Revo Curv 17.7 in Robotic Vacuum and Mop with Smart Navigation, Self-Emptying, Self-Drying, Multi-surface in White
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=S0sgr9p4uYx1IFJUeVSNIg%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$1019.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 123
-
-**Source:** capital_city
-
-
----
-
-### Eureka Bagless Canister Vacuum Cleaner, Lightweight Vac For Carpets And Hard Floors, Silver With Black, Nen180
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/591602/item-detail/52663320)**
+**[🔗 View Auction](https://www.bidfta.com/591894/item-detail/52712852)**
 
 **Current Price:** No bids yet
 
@@ -154,11 +92,11 @@
 
 ---
 
-### Roomie Tec Slimvac Cordless Vacuum Cleaner For Home – 2200mah Battery, High Suction Power, Lightweight 2-In-1 Handheld With Bagless Filter, 6 Led Headlights And Auto Recharge Station - Vincent
+### Cordless Vacuum Cleaner, 2 Batteries 120 Mins Runtime, 600w 50kpa Stick Vacuum With Self-Standing, Tangle-Free Brush, Led Display, Vacuum Cleaner For Home Hardwood Floor, Carpet, Pet Hair Blue
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591787/item-detail/52688215)**
+**[🔗 View Auction](https://www.bidfta.com/592193/item-detail/52735084)**
 
 **Current Price:** No bids yet
 
@@ -169,11 +107,11 @@
 
 ---
 
-### Black+Decker Powerseries+ 20v Max Cordless Stick Vacuum Cleaner With Led Floor Lights, Bagless, Lightweight, Cordless Vacuum Cleaners For Home, Up To 44 Minutes, Powerful Suction, Gray (Bhfea520j) 20v Vacuum
+### Vaconly Cordless Vacuum Cleaner, 8 In 1 40kpa 55mins,Lightweight Vacuum Cleaners For Home, Stick Vacuum With Anti-Tangle Brush,Wall Mount, Rechargeable Cordless Vacuum For Floor/Sofa/Pet Hair,Gold
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592154/item-detail/52729793)**
+**[🔗 View Auction](https://www.bidfta.com/592533/item-detail/52774967)**
 
 **Current Price:** No bids yet
 
@@ -184,11 +122,11 @@
 
 ---
 
-### Shark Hydrovac Messmaster Wet Dry Corded Vacuum Cleaner, 3-In-1 Multi-Surface Vacuum Mop & Self-Cleaning System, Lightweight, Powerful Suction, For Hard Floors & Area Rugs, Navy, Wd161
+### Irobot Roomba 104 Vac Robot Vacuum - Intense Power-Lifting Suction, Smart & Fast Home Mapping, Ideal For Pet Hair, Lidar Navigation, Multi-Surface Cleaning, Cleans In Neat Rows, Self-Charging ( Slightly Used)
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592377/item-detail/52774822)**
+**[🔗 View Auction](https://www.bidfta.com/591464/item-detail/52666086)**
 
 **Current Price:** No bids yet
 
@@ -199,11 +137,11 @@
 
 ---
 
-### Bagotte Robot Vacuum And Mop Combo,5000pa Robotic Vacuum With Schedule,4 In 1 Robotic Vacuum Cleaner, Quiet Slim,Self-Charging,Wi-Fi/Voice/App,Perfect For Pet/Hard Floors,/Carpet
+### Kipvvo V3 3 In 1 Robot Vacuum And Mop With 5000pa Suction Power, Work With 2.4gwifi/ Alexa/App/, Sel
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592259/item-detail/52743408)**
+**[🔗 View Auction](https://www.bidfta.com/592869/item-detail/52835984)**
 
 **Current Price:** No bids yet
 
@@ -218,15 +156,15 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 2
+📥 **Items Scraped:** 24 | ✅ **Matched:** 1
 
 *Sources: bidfta: 1 | capital_city: 23*
 
-### Kitchenarm 29-In-1 Smart Bread Machine With Gluten Free Setting 2lb 1.5lb 1lb Bread Maker Machine With Homemade Cycle - Stainless Steel Breadmaker With Recipes Whole Wheat Bread Making Machine 29 Programs - 3 Loaf Sizes - 3 Crust Colors Stainless Steel
+### 2lb Bread Maker Machine, 25 In 1 Programmable Bread Maker, Bread Machine With Fruits & Nuts Dispenser For Beginner, Breadmaker With Nonstick Ceramic Pan, Gluten-Free, Recipe, Gifts 25 Programs Bread Maker
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591742/item-detail/52679099)**
+**[🔗 View Auction](https://www.bidfta.com/592191/item-detail/52733964)**
 
 **Current Price:** No bids yet
 
@@ -237,28 +175,13 @@
 
 ---
 
-### BOOROS Commercial Dough Mixer 750W Dual Rotating Dough Kneading Machine Pizza Dough Mixer 10.5Qt Capacity with Timer & Safety Shield Make 2.2-11Lbs
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=K1GUWtXasGV9wCZ1RXWX2w%3d%3d&AuctionId=MVxd3OqzbIGLQsUaxfeFbA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 20
-
-**Source:** capital_city
-
-
----
-
 ---
 
 ### Garage Opener
 
 📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 24*
+*Sources: capital_city: 25*
 
 *No matches found for this search*
 
@@ -286,9 +209,9 @@
 
 ### Drone
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 0
+📥 **Items Scraped:** 1 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 5*
+*Sources: bidfta: 1*
 
 *No matches found for this search*
 
