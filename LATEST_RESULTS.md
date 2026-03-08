@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-07 05:35 AM EST
+**Last Updated:** 2026-03-08 06:38 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 9 (Score ≥ 70)
-- **Items Seen Today:** 112
-- **Total Items Tracked (DB):** 2308
+- **Total Matches Found:** 11 (Score ≥ 70)
+- **Items Seen Today:** 123
+- **Total Items Tracked (DB):** 2355
 
 ---
 
@@ -20,68 +20,15 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 29 | ✅ **Matched:** 8
+📥 **Items Scraped:** 29 | ✅ **Matched:** 4
 
-*Sources: bidfta: 5 | capital_city: 24*
+*Sources: bidfta: 4 | capital_city: 25*
 
-### Roborock Q10 VFS+ 13. 9 in. Robotic Vacuum and Mop with Smart Navigation Auto Lifting Mop Multi-Surface in White
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=mLlbAxQx%2bUZeD6Yzopb1fw%3d%3d&AuctionId=JuvVlFlOClyTKcWBdfk1qg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$459.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 124
-
-**Source:** capital_city
-
-
----
-
-### Milwaukee M18 Fuel 6 Gallon Wet/Dry Vacuum - No Charger, No Battery, Bare Tool Only
-
-🆕 NEW ⭐ 95% Match 🔥 70% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9HDiTcCcOok9mb8r53XaIA%3d%3d&AuctionId=Bmr2x0Ne2%2bca6FLhWFbOrw%3d%3d)**
-
-**Current Price:** $80.00
-
-**Retail Price:** ~~$269.99~~ (Save 70%)
-
-📍 **Pickup:** ! /  Lot - 288
-
-**Source:** capital_city
-
-
----
-
-### RIDGID 9 Gal. 4.25 Peak HP NXT Shop Vacuum Wet Dry Vac with General Debris Filter, Locking Hose and Attachments HD09001
-
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=hLd5gUiqRF78u0aFzECUIQ%3d%3d&AuctionId=Bmr2x0Ne2%2bca6FLhWFbOrw%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$114.99~~ (Save 98%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 314
-
-**Source:** capital_city
-
-
----
-
-### Irobot Roomba Combo Robot Vacuum & Mop (Y0110) - Easy To Use, Power-Lifting Suction, Vacuums And Mops, Multi-Surface Cleaning, Smart Navigation Cleans In Neat Rows, Self-Charging, Alexa
+### Samsung Jet Bot+ Robot Vacuum Cleaner W/ Clean Station, Automatic Emptying, Precision Cleaning, 5-Layer Filter, Intelligent Power Control For Hardwood Floors, Carpets, Area Rugs, Vr30t85513w/Aa, White Jet Bot +
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591894/item-detail/52712852)**
+**[🔗 View Auction](https://www.bidfta.com/592253/item-detail/52740939)**
 
 **Current Price:** No bids yet
 
@@ -92,11 +39,11 @@
 
 ---
 
-### Cordless Vacuum Cleaner, 2 Batteries 120 Mins Runtime, 600w 50kpa Stick Vacuum With Self-Standing, Tangle-Free Brush, Led Display, Vacuum Cleaner For Home Hardwood Floor, Carpet, Pet Hair Blue
+### Shark Zu102 Rotator Pet Upright Vacuum With Powerfins Hairpro & Odor Neutralizer Technology, Charcoal, 2.9 L Dust Cup Powerfins+Odor Neutralizer Technology
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592193/item-detail/52735084)**
+**[🔗 View Auction](https://www.bidfta.com/590992/item-detail/52631937)**
 
 **Current Price:** No bids yet
 
@@ -107,11 +54,11 @@
 
 ---
 
-### Vaconly Cordless Vacuum Cleaner, 8 In 1 40kpa 55mins,Lightweight Vacuum Cleaners For Home, Stick Vacuum With Anti-Tangle Brush,Wall Mount, Rechargeable Cordless Vacuum For Floor/Sofa/Pet Hair,Gold
+### .”Mova P10 Pro Ultra Gen2 Robot Vacuum And Mop, 26,000pa Suction, 212°F Hot Water Auto Mop Washing, 1-Hour Hot Air Drying, Extenable Mop, All-In-One Dock, Triple Anti-Tangle System For Home
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592533/item-detail/52774967)**
+**[🔗 View Auction](https://www.bidfta.com/591892/item-detail/52807734)**
 
 **Current Price:** No bids yet
 
@@ -122,26 +69,11 @@
 
 ---
 
-### Irobot Roomba 104 Vac Robot Vacuum - Intense Power-Lifting Suction, Smart & Fast Home Mapping, Ideal For Pet Hair, Lidar Navigation, Multi-Surface Cleaning, Cleans In Neat Rows, Self-Charging ( Slightly Used)
+### Kmm Handheld Car Vacuum Cleaner, 9000pa Vacuum Cleaner And Air Duster, 120w High Power Hand Held Vacuum With Led Light And Multi-Nozzles For Car, Home, Office, Pet Blue
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591464/item-detail/52666086)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Kipvvo V3 3 In 1 Robot Vacuum And Mop With 5000pa Suction Power, Work With 2.4gwifi/ Alexa/App/, Sel
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/592869/item-detail/52835984)**
+**[🔗 View Auction](https://www.bidfta.com/592696/item-detail/52793669)**
 
 **Current Price:** No bids yet
 
@@ -160,11 +92,11 @@
 
 *Sources: bidfta: 1 | capital_city: 23*
 
-### 2lb Bread Maker Machine, 25 In 1 Programmable Bread Maker, Bread Machine With Fruits & Nuts Dispenser For Beginner, Breadmaker With Nonstick Ceramic Pan, Gluten-Free, Recipe, Gifts 25 Programs Bread Maker
+### 19-In-1 Compact Bread Maker Machine, 1.5 Lb / 1 Lb Loaf Small Breadmaker With Carrying Handle, Including Gluten Free, Dough, Jam, Yogurt Menus, Bake Evenly, Automatic Keep Warm, 3 Crust Color 19 Programs 1.5 Lb Small Bread Maker Stainless Steel (Black)
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592191/item-detail/52733964)**
+**[🔗 View Auction](https://www.bidfta.com/592268/item-detail/52761936)**
 
 **Current Price:** No bids yet
 
@@ -199,9 +131,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 7 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: bidfta: 2 | capital_city: 5*
+*Sources: bidfta: 2 | capital_city: 8*
 
 *No matches found for this search*
 
@@ -209,11 +141,99 @@
 
 ### Drone
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 6
 
-*Sources: bidfta: 1*
+*Sources: bidfta: 1 | capital_city: 8*
 
-*No matches found for this search*
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fmFA92Z63aE6cwc6tDTiYA%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 100
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=t2MmrHt1I5flXEmAGurZiQ%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 101
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Jrgx7P9MbI3%2f0qCR9y7VvQ%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 102
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5w8kSus0qyFtLb8ha0QK%2bg%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 174
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4RTMj%2fMvFRtODXjPEGp%2b3A%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 175
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=%2fXtdpNzfPsYyC2nGwo4wMg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 176
+
+**Source:** capital_city
+
+
+---
 
 ---
 
