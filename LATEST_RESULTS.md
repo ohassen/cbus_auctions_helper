@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-08 06:38 AM EDT
+**Last Updated:** 2026-03-09 06:58 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 11 (Score ≥ 70)
-- **Items Seen Today:** 123
-- **Total Items Tracked (DB):** 2355
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Items Seen Today:** 119
+- **Total Items Tracked (DB):** 2395
 
 ---
 
@@ -20,66 +20,42 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 29 | ✅ **Matched:** 4
+📥 **Items Scraped:** 25 | ✅ **Matched:** 2
 
-*Sources: bidfta: 4 | capital_city: 25*
+*Sources: capital_city: 25*
 
-### Samsung Jet Bot+ Robot Vacuum Cleaner W/ Clean Station, Automatic Emptying, Precision Cleaning, 5-Layer Filter, Intelligent Power Control For Hardwood Floors, Carpets, Area Rugs, Vr30t85513w/Aa, White Jet Bot +
+### 16 Gal. 6.5 Peak HP NXT Shop Vacuum Wet Dry Vac with Cart, Fine Dust Filter, Hose and Accessory Attachments HD1800
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592253/item-detail/52740939)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=njAz%2fj5kOXqGAC8ttsGhJg%3d%3d&AuctionId=f9yjGu6apqH%2f2bjCg22Pyw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** Columbus area (from search results)
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-**Source:** bidfta
+📍 **Pickup:** ! hd 1/3 /  Lot - 19
+
+**Source:** capital_city
 
 
 ---
 
-### Shark Zu102 Rotator Pet Upright Vacuum With Powerfins Hairpro & Odor Neutralizer Technology, Charcoal, 2.9 L Dust Cup Powerfins+Odor Neutralizer Technology
+### M18 FUEL PACKOUT 18-Volt Lithium-Ion Cordless 2.5 Gal. Wet/Dry Vacuum (Vacuum-Only)
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/590992/item-detail/52631937)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qpvZl7uDnXiOP8FXEw5QOQ%3d%3d&AuctionId=f9yjGu6apqH%2f2bjCg22Pyw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$209.99~~ (Save 99%)
 
-**Source:** bidfta
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
+📍 **Pickup:** ! hd 1/3 /  Lot - 25
 
----
-
-### .”Mova P10 Pro Ultra Gen2 Robot Vacuum And Mop, 26,000pa Suction, 212°F Hot Water Auto Mop Washing, 1-Hour Hot Air Drying, Extenable Mop, All-In-One Dock, Triple Anti-Tangle System For Home
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/591892/item-detail/52807734)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Kmm Handheld Car Vacuum Cleaner, 9000pa Vacuum Cleaner And Air Duster, 120w High Power Hand Held Vacuum With Led Light And Multi-Nozzles For Car, Home, Office, Pet Blue
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/592696/item-detail/52793669)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
+**Source:** capital_city
 
 
 ---
@@ -88,15 +64,15 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 23*
+*Sources: bidfta: 1 | capital_city: 24*
 
-### 19-In-1 Compact Bread Maker Machine, 1.5 Lb / 1 Lb Loaf Small Breadmaker With Carrying Handle, Including Gluten Free, Dough, Jam, Yogurt Menus, Bake Evenly, Automatic Keep Warm, 3 Crust Color 19 Programs 1.5 Lb Small Bread Maker Stainless Steel (Black)
+### 2lb Bread Maker Machine, 25 In 1 Programmable Bread Maker, Bread Machine With Fruits & Nuts Dispenser For Beginner, Breadmaker With Nonstick Ceramic Pan, Gluten-Free, Recipe, Gifts 25 Programs Bread Maker
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/592268/item-detail/52761936)**
+**[🔗 View Auction](https://www.bidfta.com/593054/item-detail/52842840)**
 
 **Current Price:** No bids yet
 
@@ -131,9 +107,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
-*Sources: bidfta: 2 | capital_city: 8*
+*Sources: bidfta: 1 | capital_city: 8*
 
 *No matches found for this search*
 
@@ -141,96 +117,21 @@
 
 ### Drone
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 6
+📥 **Items Scraped:** 9 | ✅ **Matched:** 1
 
 *Sources: bidfta: 1 | capital_city: 8*
 
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
 
-🆕 NEW ✓ 75% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fmFA92Z63aE6cwc6tDTiYA%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 100
-
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=t2MmrHt1I5flXEmAGurZiQ%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/591728/item-detail/52684638)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 101
+📍 **Pickup:** Columbus area (from search results)
 
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Jrgx7P9MbI3%2f0qCR9y7VvQ%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 102
-
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5w8kSus0qyFtLb8ha0QK%2bg%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 174
-
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4RTMj%2fMvFRtODXjPEGp%2b3A%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 175
-
-**Source:** capital_city
-
-
----
-
-### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=%2fXtdpNzfPsYyC2nGwo4wMg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 176
-
-**Source:** capital_city
+**Source:** bidfta
 
 
 ---
