@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-09 06:58 AM EDT
+**Last Updated:** 2026-03-10 06:52 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 119
-- **Total Items Tracked (DB):** 2395
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 115
+- **Total Items Tracked (DB):** 2447
 
 ---
 
@@ -20,42 +20,53 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 2
+📥 **Items Scraped:** 27 | ✅ **Matched:** 3
 
-*Sources: capital_city: 25*
+*Sources: bidfta: 2 | capital_city: 25*
 
-### 16 Gal. 6.5 Peak HP NXT Shop Vacuum Wet Dry Vac with Cart, Fine Dust Filter, Hose and Accessory Attachments HD1800
+### PROTEAM Backpack Vacuum: 159 cfm Air Flow, 11.6 lb Wt, 70 dB Sound Level, 1 1/2 gal Vacuum Capacity
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 94% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=njAz%2fj5kOXqGAC8ttsGhJg%3d%3d&AuctionId=f9yjGu6apqH%2f2bjCg22Pyw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bI4YZNcROfAtIUbJH%2bW34A%3d%3d&AuctionId=SHUusbyyMCP8w14MqVOhAA%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $41.00
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+**Retail Price:** ~~$719.52~~ (Save 94%)
 
-📍 **Pickup:** ! hd 1/3 /  Lot - 19
+**Condition:** . Power Tested. Strong Suction. No Refunds. Please Come to Preview to Verify Condition! MSRP: $719.5
 
 **Source:** capital_city
 
 
 ---
 
-### M18 FUEL PACKOUT 18-Volt Lithium-Ion Cordless 2.5 Gal. Wet/Dry Vacuum (Vacuum-Only)
+### 6080995 Duck Bagless Cordless Filter Bag Compact Vacuum&#44; White
 
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
+🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qpvZl7uDnXiOP8FXEw5QOQ%3d%3d&AuctionId=f9yjGu6apqH%2f2bjCg22Pyw%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/592867/item-detail/52818450)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$209.99~~ (Save 99%)
+📍 **Pickup:** Columbus area (from search results)
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+**Source:** bidfta
 
-📍 **Pickup:** ! hd 1/3 /  Lot - 25
 
-**Source:** capital_city
+---
+
+### Bacoeng Ash Vacuum For Pellet Stoves, Fireplace Ash Vac 5.2 Gallon 1200w With Double Stage Filtration System, Ash Vacuum Cleaner For Fireplaces, Wood Stove, Pellet Grill
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://www.bidfta.com/593648/item-detail/52917815)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
 
 
 ---
@@ -64,21 +75,21 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 15 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 24*
+*Sources: bidfta: 1 | capital_city: 14*
 
-### 2lb Bread Maker Machine, 25 In 1 Programmable Bread Maker, Bread Machine With Fruits & Nuts Dispenser For Beginner, Breadmaker With Nonstick Ceramic Pan, Gluten-Free, Recipe, Gifts 25 Programs Bread Maker
+### Dough Maker with Ferment Function 7.4Qt Large Capacity Dough Mixer, Commercial & Household Bread Mixer for Pizza, Noodles, Bread ,Sourdough Kneading Machine with Stainless Steel Bowl, Face-up Touch Panel
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 94% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/593054/item-detail/52842840)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pJy2H2mdNbvcoFRbSTgK1A%3d%3d&AuctionId=SHUusbyyMCP8w14MqVOhAA%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $7.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$119.99~~ (Save 94%)
 
-**Source:** bidfta
+**Source:** capital_city
 
 
 ---
@@ -107,9 +118,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 8*
+*Sources: bidfta: 1 | capital_city: 9*
 
 *No matches found for this search*
 
@@ -117,15 +128,28 @@
 
 ### Drone
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 1
+📥 **Items Scraped:** 12 | ✅ **Matched:** 2
 
-*Sources: bidfta: 1 | capital_city: 8*
+*Sources: bidfta: 1 | capital_city: 11*
+
+### Sky Rider Goldfinch Quadcopter 0.3 MP Drone
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=lHon0zKLC0UN5s7uO6WVXw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=yJkKh10WDwT0YRUnyCG%2fUw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Source:** capital_city
+
+
+---
 
 ### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591728/item-detail/52684638)**
+**[🔗 View Auction](https://www.bidfta.com/591719/item-detail/52679161)**
 
 **Current Price:** No bids yet
 
