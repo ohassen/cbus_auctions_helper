@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-10 06:52 AM EDT
+**Last Updated:** 2026-03-11 06:53 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 6 (Score ≥ 70)
-- **Items Seen Today:** 115
-- **Total Items Tracked (DB):** 2447
+- **Total Matches Found:** 10 (Score ≥ 70)
+- **Items Seen Today:** 117
+- **Total Items Tracked (DB):** 2518
 
 ---
 
@@ -20,47 +20,84 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 27 | ✅ **Matched:** 3
+📥 **Items Scraped:** 27 | ✅ **Matched:** 6
 
-*Sources: bidfta: 2 | capital_city: 25*
+*Sources: bidfta: 3 | capital_city: 24*
 
-### PROTEAM Backpack Vacuum: 159 cfm Air Flow, 11.6 lb Wt, 70 dB Sound Level, 1 1/2 gal Vacuum Capacity
+### Automatic Suction Pool Vacuum for Plat Pool Climbs Walls with 39. 6ft Hose
 
-🆕 NEW ⭐ 95% Match 🔥 94% OFF
+⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bI4YZNcROfAtIUbJH%2bW34A%3d%3d&AuctionId=SHUusbyyMCP8w14MqVOhAA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Nthb9pQ7OxxoyJonjBsN7w%3d%3d&AuctionId=PEpqL1EJA5%2fbo8VUpKV4BQ%3d%3d)**
 
-**Current Price:** $41.00
-
-**Retail Price:** ~~$719.52~~ (Save 94%)
-
-**Condition:** . Power Tested. Strong Suction. No Refunds. Please Come to Preview to Verify Condition! MSRP: $719.5
+**Current Price:** No bids yet
 
 **Source:** capital_city
 
 
 ---
 
-### 6080995 Duck Bagless Cordless Filter Bag Compact Vacuum&#44; White
+### 12 Gal. 5.5 HP Poly Wet/Dry Vacuum with Hose and Accessories
 
-🆕 NEW ⭐ 85% Match
+🆕 NEW ⭐ 95% Match 🔥 84% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/592867/item-detail/52818450)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=IAsc4GK3aKcaToRLXcevww%3d%3d&AuctionId=5uZfqHnNCVU8ZINZpt%2bL0A%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $21.00
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$138.99~~ (Save 84%)
 
-**Source:** bidfta
+📍 **Pickup:** ! /  Lot - 135
+
+**Source:** capital_city
 
 
 ---
 
-### Bacoeng Ash Vacuum For Pellet Stoves, Fireplace Ash Vac 5.2 Gallon 1200w With Double Stage Filtration System, Ash Vacuum Cleaner For Fireplaces, Wood Stove, Pellet Grill
+### Shop-Vac 16-Gallon 6.5 HP Corded Wet/Dry Shop Vacuum with Accessories Included
 
-🆕 NEW ⭐ 85% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/593648/item-detail/52917815)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=H3imUiDqS8vGyey9j8moLA%3d%3d&AuctionId=yJkKh10WDwT0YRUnyCG%2fUw%3d%3d)**
+
+**Current Price:** $3.00
+
+**Source:** capital_city
+
+
+---
+
+### Shop-Vac 12-Gallon 5.5 HP Corded Wet/Dry Shop Vacuum with Accessories Included (USED)
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=WsLiPuYPPVuZZJE4nFoSCA%3d%3d&AuctionId=yJkKh10WDwT0YRUnyCG%2fUw%3d%3d)**
+
+**Current Price:** $3.00
+
+**Source:** capital_city
+
+
+---
+
+### Shop-Vac 14-Gallon 6 HP Corded Wet/Dry Shop Vacuum with Accessories Included
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=rv9Jr2lOvZ2q9T%2fUwkYo2A%3d%3d&AuctionId=yJkKh10WDwT0YRUnyCG%2fUw%3d%3d)**
+
+**Current Price:** $3.00
+
+**Source:** capital_city
+
+
+---
+
+### Shark Rotator Pet Pro Lift-Away Adv – Ultimate Pet Hair & Odor Control Vacuum
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/593238/item-detail/52862175)**
 
 **Current Price:** No bids yet
 
@@ -75,21 +112,21 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 1
+📥 **Items Scraped:** 18 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 14*
+*Sources: bidfta: 1 | capital_city: 17*
 
-### Dough Maker with Ferment Function 7.4Qt Large Capacity Dough Mixer, Commercial & Household Bread Mixer for Pizza, Noodles, Bread ,Sourdough Kneading Machine with Stainless Steel Bowl, Face-up Touch Panel
+### Cuisinart Bread Maker Machine, Stainless Steel Automatic Bread Machine With 12 Menu Options, 3 Loaf Sizes Up To 2 Lb., 3 Crust Colors, Removable Nonstick Baking Pan & Kneading Paddle, Cbk-110nas Compact Machine
 
-🆕 NEW ⭐ 95% Match 🔥 94% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pJy2H2mdNbvcoFRbSTgK1A%3d%3d&AuctionId=SHUusbyyMCP8w14MqVOhAA%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/594210/item-detail/52987589)**
 
-**Current Price:** $7.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$119.99~~ (Save 94%)
+📍 **Pickup:** Columbus area (from search results)
 
-**Source:** capital_city
+**Source:** bidfta
 
 
 ---
@@ -98,19 +135,49 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 26 | ✅ **Matched:** 2
 
-*Sources: capital_city: 25*
+*Sources: bidfta: 1 | capital_city: 25*
 
-*No matches found for this search*
+### (32) Chamberlain 1 HP Belt Drive Opener With Battery Backup And Myq Connectivity
+
+🆕 NEW ⭐ 95% Match 🔥 71% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7qLQ%2fK%2fYZLTLsUBg0rEgug%3d%3d&AuctionId=fpMPSuTQHV9t57bzJi%2fNtA%3d%3d)**
+
+**Current Price:** $105.00
+
+**Retail Price:** ~~$369.99~~ (Save 71%)
+
+📍 **Pickup:** ! /  Lot - 2
+
+**Source:** capital_city
+
+
+---
+
+### Genie Stealthdrive 7155 Connect Smartphone-Controlled Belt Drive Garage Door Opener - 1 Each
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/594215/item-detail/53007616)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 25*
+*Sources: bidfta: 1 | capital_city: 24*
 
 *No matches found for this search*
 
@@ -118,9 +185,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 9*
+*Sources: bidfta: 1 | capital_city: 8*
 
 *No matches found for this search*
 
@@ -128,28 +195,15 @@
 
 ### Drone
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 2
+📥 **Items Scraped:** 12 | ✅ **Matched:** 1
 
 *Sources: bidfta: 1 | capital_city: 11*
-
-### Sky Rider Goldfinch Quadcopter 0.3 MP Drone
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=lHon0zKLC0UN5s7uO6WVXw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=yJkKh10WDwT0YRUnyCG%2fUw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Source:** capital_city
-
-
----
 
 ### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/591719/item-detail/52679161)**
+**[🔗 View Auction](https://www.bidfta.com/591722/item-detail/52678606)**
 
 **Current Price:** No bids yet
 
