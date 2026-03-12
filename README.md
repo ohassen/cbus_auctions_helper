@@ -62,13 +62,6 @@ Edit `.env` with your settings:
 ```env
 # Required for semantic matching
 ANTHROPIC_API_KEY=your_api_key_here
-
-# Email settings
-EMAIL_SMTP_HOST=smtp.gmail.com
-EMAIL_SMTP_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASSWORD=your_app_password
-EMAIL_RECIPIENT=recipient@example.com
 ```
 
 ### 3. Define Your Searches
