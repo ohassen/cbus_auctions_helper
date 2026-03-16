@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-15 06:41 AM EDT
+**Last Updated:** 2026-03-16 07:08 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 7 (Score ≥ 70)
-- **Items Seen Today:** 117
-- **Total Items Tracked (DB):** 2721
+- **Total Matches Found:** 10 (Score ≥ 70)
+- **Items Seen Today:** 115
+- **Total Items Tracked (DB):** 2756
 
 ---
 
@@ -20,92 +20,124 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 32 | ✅ **Matched:** 6
+📥 **Items Scraped:** 30 | ✅ **Matched:** 8
 
-*Sources: bidfta: 7 | capital_city: 25*
+*Sources: bidfta: 6 | capital_city: 24*
 
-### 14 Gal. 6.0 Peak HP NXT Shop Vacuum Wet Dry Vac with Fine Dust Filter, Locking Hose, Wands and Attachments HD1400
+### Cordless Pool Leaf Vacuum Cleaner with Dual Filter Bags for Above Ground & Inground Pools – Heavy Duty Swimming Pool Vacuum, 24GPM Strong Suction for Easy Leaf & Debris Removal
 
-🆕 NEW ⭐ 95% Match 🔥 92% OFF
+🆕 NEW ⭐ 95% Match 🔥 89% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=N3rDC31oPKjBt5HhtojDHQ%3d%3d&AuctionId=%2bAOcuG2aA1PNu0Bk%2fsiX6A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=KgIdbjX3QhMBfISlxCf5mw%3d%3d&AuctionId=JhDN%2fRDHPlli0SxTStowGQ%3d%3d)**
 
-**Current Price:** $10.00
+**Current Price:** $16.00
 
-**Retail Price:** ~~$134.99~~ (Save 92%)
+**Retail Price:** ~~$149.99~~ (Save 89%)
 
-📍 **Pickup:** ! /  Lot - 20
+**Condition:** ! Retail:$149.99
 
 **Source:** capital_city
 
 
 ---
 
-### Eureka Neu182a Powerspeed Bagless Upright Vacuum Cleaner, Lite, Blue
+### Stick Vacuum,350W/23Kpa Stick Vacuum with Smart Display (L)
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 74% OFF
 
-**[🔗 View Auction](https://www.bidfta.com/594791/item-detail/53062006)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=YRCm6ZWzTogdo%2bF2ErhTWA%3d%3d&AuctionId=JhDN%2fRDHPlli0SxTStowGQ%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $11.09
 
-📍 **Pickup:** Columbus area (from search results)
+**Retail Price:** ~~$43.99~~ (Save 74%)
 
-**Source:** bidfta
+**Condition:** ! Retail:$43.99
 
-
----
-
-### Eureka E20 Evo Plus Robot Vacuum And Mop Combo, 10,000pa Suction Robot Vacuum Cleaner Bagless Self-Emptying Station, 45-Day Capacity Anti-Hair-Tangling Side Brush Mop Lifting App Control Lidar Nav
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/593764/item-detail/52941623)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Eureka Bagless Canister Vacuum Cleaner, Lightweight Vac For Carpets And Hard Floors, Silver With Black, Nen180
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/595169/item-detail/53141751)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Corded Vacuum Cleaner, 17kpa Powerful Suction With 600w Motor, 4 In 1 Lightweight Handheld Stick Vacuum For Pet Hair Hard Floor And Carpet
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/595701/item-detail/53172010)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
+**Source:** capital_city
 
 
 ---
 
 ### Shark Vacmop Reveal New Cordless Hard Floor Cleaner, Vacuum & Spray Mop, Powerful Suction, Lightweight, Illumination Light, Includes 4 Disposable Pads, 12oz Pet Multi-Surface Cleaning Solution, Vm401
 
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/594945/item-detail/53094909)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Lefant M310 Robot Vacuum Cleaner, 4500pa Powerful Suction, Precisense Obstacle Avoidance, Mini, Quite, 160 Mins Self-Charging Robotic Vacuums, App/Voice/Remote, Ideal For Pet Hair Hard Floors, Black
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/595443/item-detail/53146169)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Bissell Featherweight Stick Lightweight Bagless Vacuum With Crevice Tool, 2033, Featherweight (Blue)
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/595882/item-detail/53201916)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Shark Sv1106 Bagless Navigator Freestyle Cordless Stick Swivel Vacuum Cleaner
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/595877/item-detail/53201002)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Mattress Vacuum Cleaner, 17kpa 650w Bed Vacuum Cleaner, 273nm Uv-C Light & Ultrasonic 145°F Heating, 80000 Rpm/Min Brushroll Rotation, Wide Suction Port For Pillows Cribs Sofa, Black Corded
+
 🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/593694/item-detail/53004494)**
+**[🔗 View Auction](https://www.bidfta.com/594609/item-detail/53059187)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Zcwa Robot Vacuum And Mop Combo
+
+🆕 NEW ✓ 80% Match
+
+**[🔗 View Auction](https://www.bidfta.com/595003/item-detail/53092664)**
 
 **Current Price:** No bids yet
 
@@ -120,15 +152,15 @@
 
 ### bread maker
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 1
+📥 **Items Scraped:** 24 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 22*
+*Sources: bidfta: 1 | capital_city: 23*
 
-### Kitchenarm 29-In-1 Smart Bread Machine With Gluten Free Setting 2lb 1.5lb 1lb Bread Maker Machine With Homemade Cycle - Stainless Steel Breadmaker With Recipes Whole Wheat Bread Making Machine 29 Programs - 3 Loaf Sizes - 3 Crust Colors Stainless Steel
+### Elite Gourmet Programmable Bread Maker, 2 Lb Loaf, 3 Sizes, 19 Presets Incl. Gluten-Free, Dough & Jam, Delay Timer, Black
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/594815/item-detail/53066324)**
+**[🔗 View Auction](https://www.bidfta.com/595116/item-detail/53103496)**
 
 **Current Price:** No bids yet
 
@@ -153,11 +185,24 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 24 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 24*
+*Sources: bidfta: 1 | capital_city: 23*
 
-*No matches found for this search*
+### Oxo Brew Conical Burr Coffee Grinder — Storm Blue
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://www.bidfta.com/595023/item-detail/53093726)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
