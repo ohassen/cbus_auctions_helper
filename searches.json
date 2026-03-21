@@ -8,8 +8,8 @@
     },
 {
       "id": "search-002",
-      "query": "bread maker",
-      "active": false,
+      "query": "suitcase",
+      "active": true,
       "created_at": "2025-01-01T00:00:00Z"
     },
 {
