@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-24 07:02 AM EDT
+**Last Updated:** 2026-03-25 06:59 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 7 (Score ≥ 70)
-- **Items Seen Today:** 108
-- **Total Items Tracked (DB):** 3169
+- **Items Seen Today:** 101
+- **Total Items Tracked (DB):** 3244
 
 ---
 
@@ -20,15 +20,34 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 27 | ✅ **Matched:** 3
+📥 **Items Scraped:** 29 | ✅ **Matched:** 6
 
-*Sources: bidfta: 4 | capital_city: 23*
+*Sources: bidfta: 5 | capital_city: 24*
 
-### Cordless Vacuum Cleaner, 180° Bendable Wand Stick Vacuum Cleaners With Led Touch Screen, 8-In-1 Lightweight Rechargeable Vacuum With 1.5l Dust Cup For Home Hard Floor Low-Pile Carpet
+### ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit with 4.0 Ah HIGH PERFORMANCE Battery and Charger
+
+🆕 NEW ⭐ 95% Match 🔥 94% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ai2g6sWimhzNmN%2bMvbHljA%3d%3d&AuctionId=FEAzXzs5viRPs5VOemtj3A%3d%3d)**
+
+**Current Price:** $16.00
+
+**Retail Price:** ~~$289.99~~ (Save 94%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 70
+
+**Source:** capital_city
+
+
+---
+
+### Dyson V8 Cordless Vacuum, Cleans Hard Floors And Carpets, Detangles, Converts To Handheld, 115aw, 2 Power Modes, Up To 40 Minutes¹
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/597734/item-detail/53424392)**
+**[🔗 View Auction](https://www.bidfta.com/598167/item-detail/53487659)**
 
 **Current Price:** No bids yet
 
@@ -39,11 +58,11 @@
 
 ---
 
-### Inse N5t Cordless Vacuum 145w 12kpa Suction Power 6 In 1 Stick Vacuum
+### Inse N650 Cordless Vacuum Cleaner 12kpa 160w Rechargeable Stick Vacuum 6 In 1
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/596136/item-detail/53252241)**
+**[🔗 View Auction](https://www.bidfta.com/597098/item-detail/53444991)**
 
 **Current Price:** No bids yet
 
@@ -54,11 +73,41 @@
 
 ---
 
-### Airrobo Dog Grooming Vacuum Kit,12000pa Strong Pet Vacuum For Shedding,Grooming Hai,Quiet,Pg100,2l Large Capacity White
+### Stanley - Sl18116p Wet/Dry Vacuum, 6 Gallon, 4 Horsepower Black Black 6 Gallon, 4.0 Hp Ac Wet/Dry Vacuum
 
-🆕 NEW ✓ 75% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/597941/item-detail/53459621)**
+**[🔗 View Auction](https://www.bidfta.com/599103/item-detail/53608560)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Robot Vacuum And Mop Combo, 11500pa Suction, 3-In-1 Robotic Vacuum With Smart Lidar Navigation, 70 Day Self-Emptying,160 Min Runtime,App/Alexa/Voice Control, Ideal For Pet Hair, Carpet & Hard Floor
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/599324/item-detail/53635585)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Irobot Roomba 208 Dustcompactor Combo Robot Vacuum And Mop
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://www.bidfta.com/599071/item-detail/53626929)**
 
 **Current Price:** No bids yet
 
@@ -73,37 +122,11 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 20 | ✅ **Matched:** 2
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 19*
+*Sources: bidfta: 1 | capital_city: 9*
 
-### Garvee 24 Inch Expandable Hard Shell Carry On Luggage with Spinner Wheels, Hardside Carry On Suitcase with Tsa Lock, Lightweight Hardshell Suitcase
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=qWaLC6%2bYo1b%2b0iq%2brXMcQA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=r4VI0XwSxtsR8SxgNzhpbQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### Hanke Expandable Carry On Luggage 22x14x9 Airline Approved, 20 Inch Hard Shell Suitcases With Wheels, Lightweight Travel Luggage Carry On Suitcase For Woman & Men With Tsa Lock(Caribbean Blue) Expandable 20 Inch Caribbean Blue
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/597708/item-detail/53447851)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
@@ -113,11 +136,11 @@
 
 *Sources: bidfta: 1 | capital_city: 25*
 
-### Genie Stealthdrive 7155 Connect Smartphone-Controlled Belt Drive Garage Door Opener - 1 Each
+### Universal Garage Door Opener Keypad Remote Wireless Keyless Keypad Compatible With Genie Liftmaster Chamberlain Craftsman Linear Overhead Door Wayne Dalton Opener Has Learn Button Or Dip Switch Universal Keypad 1pcs
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ✓ 75% Match
 
-**[🔗 View Auction](https://www.bidfta.com/597941/item-detail/53459601)**
+**[🔗 View Auction](https://www.bidfta.com/596136/item-detail/53252294)**
 
 **Current Price:** No bids yet
 
@@ -142,9 +165,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 8*
+*Sources: bidfta: 2 | capital_city: 8*
 
 *No matches found for this search*
 
@@ -152,24 +175,11 @@
 
 ### Drone
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 1
+📥 **Items Scraped:** 1 | ✅ **Matched:** 0
 
 *Sources: bidfta: 1*
 
-### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/597100/item-detail/53445163)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
