@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-25 06:59 AM EDT
+**Last Updated:** 2026-03-26 07:03 AM EDT
 
 ## 📋 Workflow Status
 
@@ -12,7 +12,7 @@
 
 - **Total Matches Found:** 7 (Score ≥ 70)
 - **Items Seen Today:** 101
-- **Total Items Tracked (DB):** 3244
+- **Total Items Tracked (DB):** 3305
 
 ---
 
@@ -20,34 +20,32 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 29 | ✅ **Matched:** 6
+📥 **Items Scraped:** 27 | ✅ **Matched:** 5
 
-*Sources: bidfta: 5 | capital_city: 24*
+*Sources: bidfta: 5 | capital_city: 22*
 
-### ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit with 4.0 Ah HIGH PERFORMANCE Battery and Charger
+### (243) Dyson V15 Cordless Stick Vacuum Cleaner
 
-🆕 NEW ⭐ 95% Match 🔥 94% OFF
+🆕 NEW ⭐ 95% Match 🔥 78% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ai2g6sWimhzNmN%2bMvbHljA%3d%3d&AuctionId=FEAzXzs5viRPs5VOemtj3A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RSr5k8vSnkIXdN1jQDLSAw%3d%3d&AuctionId=V1p%2bV%2fSKtMYPrmGD0MLV2w%3d%3d)**
 
-**Current Price:** $16.00
+**Current Price:** $182.00
 
-**Retail Price:** ~~$289.99~~ (Save 94%)
+**Retail Price:** ~~$859.99~~ (Save 78%)
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 70
+📍 **Pickup:** ! /  Lot - 1
 
 **Source:** capital_city
 
 
 ---
 
-### Dyson V8 Cordless Vacuum, Cleans Hard Floors And Carpets, Detangles, Converts To Handheld, 115aw, 2 Power Modes, Up To 40 Minutes¹
+### Ilife A30 Pro Robot Vacuum And Mop, Self Emptying Station For 60 Days, 5000pa Suction, Lidar Navigation, No-Go Zones, 2.4g Wifi/App/Alexa/Remote Control, Clean Hard Floors To Medium-Pile Carpet, 110v
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/598167/item-detail/53487659)**
+**[🔗 View Auction](https://www.bidfta.com/599125/item-detail/53612225)**
 
 **Current Price:** No bids yet
 
@@ -58,11 +56,11 @@
 
 ---
 
-### Inse N650 Cordless Vacuum Cleaner 12kpa 160w Rechargeable Stick Vacuum 6 In 1
+### Robot Vacuum And Mop Combo, App/Alexa, Robotic Vacuum With Wifi/Bluetooth, Self-Charging Mopping Robot Vacuum Cleaner, Set Schedule, Tangle-Free Strong Suction Ideal For Pet Hair/Carpet/Hard Floor Black Dimgray
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/597098/item-detail/53444991)**
+**[🔗 View Auction](https://www.bidfta.com/598385/item-detail/53530646)**
 
 **Current Price:** No bids yet
 
@@ -73,26 +71,11 @@
 
 ---
 
-### Stanley - Sl18116p Wet/Dry Vacuum, 6 Gallon, 4 Horsepower Black Black 6 Gallon, 4.0 Hp Ac Wet/Dry Vacuum
+### Jrfynft V16 Pro Cordless Stick Vacuum Cleaner With Wall Mount Charging
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/599103/item-detail/53608560)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Robot Vacuum And Mop Combo, 11500pa Suction, 3-In-1 Robotic Vacuum With Smart Lidar Navigation, 70 Day Self-Emptying,160 Min Runtime,App/Alexa/Voice Control, Ideal For Pet Hair, Carpet & Hard Floor
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/599324/item-detail/53635585)**
+**[🔗 View Auction](https://www.bidfta.com/598666/item-detail/53555803)**
 
 **Current Price:** No bids yet
 
@@ -107,7 +90,7 @@
 
 🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/599071/item-detail/53626929)**
+**[🔗 View Auction](https://www.bidfta.com/598498/item-detail/53555613)**
 
 **Current Price:** No bids yet
 
@@ -122,25 +105,15 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 9*
+*Sources: bidfta: 1 | capital_city: 8*
 
-*No matches found for this search*
+### Luggex Underseat Carry On Luggage With Wheels, Udk-Plus Large-Capacity Lightweight Soft Sided Personal Item Suitcase For Short Trips (Ux-Plus, Blue Black, 16 Inch) Blue Black Underseat 16-Inch
 
----
+🆕 NEW ⭐ 95% Match
 
-### Garage Opener
-
-📥 **Items Scraped:** 26 | ✅ **Matched:** 1
-
-*Sources: bidfta: 1 | capital_city: 25*
-
-### Universal Garage Door Opener Keypad Remote Wireless Keyless Keypad Compatible With Genie Liftmaster Chamberlain Craftsman Linear Overhead Door Wayne Dalton Opener Has Learn Button Or Dip Switch Universal Keypad 1pcs
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://www.bidfta.com/596136/item-detail/53252294)**
+**[🔗 View Auction](https://www.bidfta.com/599106/item-detail/53608731)**
 
 **Current Price:** No bids yet
 
@@ -153,11 +126,21 @@
 
 ---
 
+### Garage Opener
+
+📥 **Items Scraped:** 26 | ✅ **Matched:** 0
+
+*Sources: bidfta: 1 | capital_city: 25*
+
+*No matches found for this search*
+
+---
+
 ### manual coffee grinder
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 26 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 24*
+*Sources: bidfta: 1 | capital_city: 25*
 
 *No matches found for this search*
 
@@ -165,9 +148,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 12 | ✅ **Matched:** 0
 
-*Sources: bidfta: 2 | capital_city: 8*
+*Sources: bidfta: 5 | capital_city: 7*
 
 *No matches found for this search*
 
@@ -175,11 +158,24 @@
 
 ### Drone
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 0
+📥 **Items Scraped:** 1 | ✅ **Matched:** 1
 
 *Sources: bidfta: 1*
 
-*No matches found for this search*
+### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/597098/item-detail/53444979)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
 
 ---
 
