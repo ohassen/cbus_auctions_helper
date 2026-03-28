@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-27 06:58 AM EDT
+**Last Updated:** 2026-03-28 06:44 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 11 (Score ≥ 70)
-- **Items Seen Today:** 107
-- **Total Items Tracked (DB):** 3392
+- **Total Matches Found:** 7 (Score ≥ 70)
+- **Items Seen Today:** 106
+- **Total Items Tracked (DB):** 3411
 
 ---
 
@@ -20,28 +20,15 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 32 | ✅ **Matched:** 7
+📥 **Items Scraped:** 32 | ✅ **Matched:** 6
 
 *Sources: bidfta: 7 | capital_city: 25*
 
-### Ionvac ZipVac Corded Stick Vacuum, Multi-Surface 3-in-1 Upright/Handheld Vacuum Cleaner
+### Dewalt 20v Max Hand Vacuum, Cordless, For Wet Or Dry Surfaces, 1/2-Gallon Tank, Washable Filter, Portable, Bare Tool Only (Dcv517b) Wet/Dry Vac Only
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=78AejqbuZkI%2fIfWqT7gDeQ%3d%3d&AuctionId=eUHyh%2faLEBuNk9ZBQ2fnZA%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### Shark Zu102 Rotator Pet Upright Vacuum With Powerfins Hairpro & Odor Neutralizer Technology, Charcoal, 2.9 L Dust Cup Powerfins+Odor Neutralizer Technology
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/599132/item-detail/53613540)**
+**[🔗 View Auction](https://www.bidfta.com/599310/item-detail/53634517)**
 
 **Current Price:** No bids yet
 
@@ -52,11 +39,11 @@
 
 ---
 
-### Eureka Neu10ae5 Powerful Bagless Upright Vacuum Cleaner Carpet And Floor, Airspeed Ultra-Lightweight Vacuum Cleaner, W/ Replacement Filter, Blue Blue Airspeed Neu10ae5
+### Corded Vacuum Cleaner, 17kpa Powerful Suction With 600w Motor, 4 In 1 Lightweight Handheld Stick Vacuum For Pet Hair Hard Floor And Carpet
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/600114/item-detail/53750475)**
+**[🔗 View Auction](https://www.bidfta.com/596181/item-detail/53233442)**
 
 **Current Price:** No bids yet
 
@@ -67,11 +54,11 @@
 
 ---
 
-### Irobot Roomba 105 Combo Robot Vacuum & Mop - Easy To Use, Intense Power-Lifting Suction, Lidar Navigation, Multiple Cleaning Modes, Avoids Mopping Carpets, Self-Charging
+### Amazon Basics 2-In-1 Corded Stick Vacuum Cleaner, Convertible To Handheld, Lightweight (3.9 Lbs), With Washable Hepa Filter, Crevice Tools, 0.5l Dust Cup, 19.7-Ft Cord, 300w, Black Vacuum Cleaner Only
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/600170/item-detail/53763360)**
+**[🔗 View Auction](https://www.bidfta.com/599982/item-detail/53737196)**
 
 **Current Price:** No bids yet
 
@@ -82,11 +69,11 @@
 
 ---
 
-### Redroad Robot Vacuums,10kpa Robotic Vacuum Cleaner With Mapping,Lidar Navigation&Obstacle Avoidance,150mins Robot Vacuum With App/Alexa/Remote,Tangle-Free Pet Hair,Self-Charging For Hard Floor/Carpet
+### Shark Powerdetect Cordless Stick Vacuum, Powerful Suction, Hepa Filtration, Carpet & Hard Floor, Portable, Stick Vacuum For Pet Hair, Java Ice Blue, Ip1255 Powerdetect (Premium)
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/598408/item-detail/53575569)**
+**[🔗 View Auction](https://www.bidfta.com/600006/item-detail/53747779)**
 
 **Current Price:** No bids yet
 
@@ -97,26 +84,26 @@
 
 ---
 
-### Mattress Vacuum Cleaner - 5-In-1 Cordless Bed Vacuum Cleaner, Powered By Ultrasonic Technology, 16kpa Strong Suction,Low Noise,Suitable For Dust, Pet Hair, Etc - Grey
+### Shark Uz565h Pro Cordless Vacuum W/ Clean Sense Iq & Multiflex Technology, Powerfins Plus Brushroll, Duster Crevice Tool & Anti-Allergen Dusting Brush, Up To 40 Minute Runtime, White/Blue (Renewed)
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://www.bidfta.com/600395/item-detail/53788132)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** Columbus area (from search results)
+
+**Source:** bidfta
+
+
+---
+
+### Irobot Roomba 208 Dustcompactor Combo Robot Vacuum And Mop
 
 🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/599437/item-detail/53658249)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Carpet Cleaner Machine Upholstery - 450w Shampooer Portable For Couch Rug Sofa Car Seat Furniture Fabric Wet Vacuum Spot Handheld Small Mini Car Water Aspiradora De Agua Deep Extractor Washer
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://www.bidfta.com/598440/item-detail/53542544)**
+**[🔗 View Auction](https://www.bidfta.com/599126/item-detail/53681016)**
 
 **Current Price:** No bids yet
 
@@ -131,47 +118,21 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 3
+📥 **Items Scraped:** 9 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 9*
+*Sources: bidfta: 1 | capital_city: 8*
 
-### Set of 3 Travel Suitcases, Large Suitcase, Cabin Suitcase, Luggage Set for Travel, ABS with Reinforced Corners, 360° Swivel Wheels and Padlock, White Cream-Brown
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=dcg5h5dVyDc1LFGIbSKxYg%3d%3d&AuctionId=Lk8nxRTOMUFGPRkFebfUnA%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### 20"/24"/28" 3-Piece Hardshell Carry-On Luggage Set, Lightweight ABS Suitcase with Spinner Wheels & TSA Lock - Rose Gold
+### Luggage Sets 5 Piece Suitcases With Wheels, Suitcase Set Abs Hard Case Luggage With Tsa Lock Spinner Wheels Durable Travel Luggage Black
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LW6FnddrZ%2bJyFkHE1lxmNw%3d%3d&AuctionId=Lk8nxRTOMUFGPRkFebfUnA%3d%3d)**
+**[🔗 View Auction](https://www.bidfta.com/599313/item-detail/53634778)**
 
 **Current Price:** No bids yet
 
-**Source:** capital_city
+📍 **Pickup:** Columbus area (from search results)
 
-
----
-
-### Winado - 20"/24"/28" 3-Piece Hardshell Carry-On Luggage Set, Lightweight ABS Suitcase with Spinner Wheels & TSA Lock - Rose Gold
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=s%2btcFSk%2fOQrz%2fEEcOLZcRg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=PuahpNP1ZzaqIPHKco%2bxiw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$199.99~~ (Save 99%)
-
-**Source:** capital_city
+**Source:** bidfta
 
 
 ---
@@ -202,7 +163,7 @@
 
 📥 **Items Scraped:** 12 | ✅ **Matched:** 0
 
-*Sources: bidfta: 4 | capital_city: 8*
+*Sources: bidfta: 3 | capital_city: 9*
 
 *No matches found for this search*
 
@@ -210,24 +171,11 @@
 
 ### Drone
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 1
+📥 **Items Scraped:** 1 | ✅ **Matched:** 0
 
 *Sources: bidfta: 1*
 
-### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/596141/item-detail/53252906)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
