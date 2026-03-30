@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-29 06:46 AM EDT
+**Last Updated:** 2026-03-30 07:15 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 12 (Score ≥ 70)
-- **Items Seen Today:** 115
-- **Total Items Tracked (DB):** 3467
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Items Seen Today:** 110
+- **Total Items Tracked (DB):** 3475
 
 ---
 
@@ -20,32 +20,32 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 31 | ✅ **Matched:** 6
+📥 **Items Scraped:** 28 | ✅ **Matched:** 3
 
-*Sources: bidfta: 6 | capital_city: 25*
+*Sources: bidfta: 3 | capital_city: 25*
 
-### (78). Mova V50 Ultra Complete Robot Vacuum and Mop Self-Cleaning, 24,000 Pa Suction, Liftable Navigation with Obstacle Overcoming and Warm Water Mopping with DuoSolution System Designed for Pets
+### VINGLI Pool Vacuum Cleaner, Suction Side Wall-Climbing Sweeper for Ground&Inground Pools, Automatic Pool Vacuum with 39.6ft Tangle-Free Hose (Mint Green&Gray)
 
-🆕 NEW ⭐ 95% Match 🔥 93% OFF
+⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5R%2fS9%2fQBgY2KUu%2biYaN1eQ%3d%3d&AuctionId=byQjTg7%2fGVntbOEB1w%2by9A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=m0vIAcn2ERXk62Cc9x2R%2bg%3d%3d&AuctionId=eUHyh%2faLEBuNk9ZBQ2fnZA%3d%3d)**
 
-**Current Price:** $85.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$1399.00~~ (Save 93%)
+**Retail Price:** ~~$129.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 4
+**Condition:** ! MSRP: $129.99
 
 **Source:** capital_city
 
 
 ---
 
-### Shark Hz3002 Stratos Ultralight Corded Stick Vacuum With Duoclean Powerfins Hairpro, Self-Cleaning Brushroll, & Odor Neutralizer Technology, Navy Stratos W/ Duoclean & Odor Tech
+### Irobot Roomba 105 Vac Robot Vacuum With Autoempty Dock For Carpet & Hard Floor - Self-Empties For 75 Days, Easy To Use, Intense Power-Lifting Suction, Lidar Navigation, Cleans In Neat Rows Roomba 105 Vac Ae
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/599656/item-detail/53681611)**
+**[🔗 View Auction](https://www.bidfta.com/600170/item-detail/53763347)**
 
 **Current Price:** No bids yet
 
@@ -56,56 +56,11 @@
 
 ---
 
-### Eureka J15 Evo Ultra Self-Emptying Robot Vacuum Combo, 22,000 Pa Suction Auto Mop Lifting 131°F Hot Air Dry Scrub Extend Robotic Vacuum Cleaner
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/600122/item-detail/53762274)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Eureka Lightweight Powerful Upright Vacuum Cleaner For Carpet And Hard Floor, Powerspeed, New Model,Blue,Black/New Model
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/600164/item-detail/53762582)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Touchless Vacuum Automatic Dustpan With 2 Operation Modes - Ultra Fast & Powerful Corded Canister Pet Vacuum For Sweeping Pet Hair, Salon, Food Crumbs & Dirt
+### Irobot Irobot Roomba 208 Dustcompactor Combo Robot Vacuum And Mop
 
 🆕 NEW ⭐ 85% Match
 
-**[🔗 View Auction](https://www.bidfta.com/600399/item-detail/53801678)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Inse N520 Cordless Stick Vacuum
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/597615/item-detail/53426507)**
+**[🔗 View Auction](https://www.bidfta.com/598434/item-detail/53677948)**
 
 **Current Price:** No bids yet
 
@@ -120,92 +75,21 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 3
+📥 **Items Scraped:** 16 | ✅ **Matched:** 0
 
 *Sources: bidfta: 1 | capital_city: 15*
 
-### Luggage Sets 3 Piece PP Hardshell Carry on Suitcase with Bags Lightweight Suitcase Sets with Spinner Wheels TSA Lock - Rose Gold
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=GYlieFAifJmLYLnbUAfL9w%3d%3d&AuctionId=DaNPEtubcnLqvbTVeKVxCg%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** ! Retail: MSRP $115.99
-
-**Source:** capital_city
-
-
----
-
-### Luggage Sets 3 Piece PP Hardshell Carry on Suitcase with Bags Lightweight Suitcase Sets with Spinner Wheels TSA Lock - Blue
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=40wZJyx3B7J4cC8WQwSIqQ%3d%3d&AuctionId=DaNPEtubcnLqvbTVeKVxCg%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** ! Retail: MSRP $115.99
-
-**Source:** capital_city
-
-
----
-
-### Winado - 24" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - Pink
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FjWCdQ%2b%2btEVZJ3B3J6xIuQ%3d%3d&AuctionId=pZu4aun4sQNCk2dJiJhHkg%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 2
+📥 **Items Scraped:** 26 | ✅ **Matched:** 0
 
 *Sources: bidfta: 1 | capital_city: 25*
 
-### Chamberlain Wireless Garage Door Keypad
-
-✓ 80% Match 🔥 76% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=R8MLIqJZ6FMciQq5u4Kgiw%3d%3d&AuctionId=V1p%2bV%2fSKtMYPrmGD0MLV2w%3d%3d)**
-
-**Current Price:** $18.25
-
-**Retail Price:** ~~$76.99~~ (Save 76%)
-
-📍 **Pickup:** ! /  Lot - 415
-
-**Source:** capital_city
-
-
----
-
-### Universal Garage Door Opener Keypad Remote Wireless Keyless Keypad Compatible With Genie Liftmaster Chamberlain Craftsman Linear Overhead Door Wayne Dalton Opener Has Learn Button Or Dip Switch Universal Keypad 1pcs
-
-🆕 NEW ✓ 75% Match
-
-**[🔗 View Auction](https://www.bidfta.com/596178/item-detail/53233181)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
@@ -221,9 +105,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 0
+📥 **Items Scraped:** 13 | ✅ **Matched:** 0
 
-*Sources: bidfta: 2 | capital_city: 13*
+*Sources: bidfta: 1 | capital_city: 12*
 
 *No matches found for this search*
 
@@ -239,7 +123,7 @@
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://www.bidfta.com/596178/item-detail/53233133)**
+**[🔗 View Auction](https://www.bidfta.com/597612/item-detail/53427679)**
 
 **Current Price:** No bids yet
 
