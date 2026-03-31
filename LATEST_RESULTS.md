@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-03-30 07:15 AM EDT
+**Last Updated:** 2026-03-31 07:02 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 110
-- **Total Items Tracked (DB):** 3475
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 99
+- **Total Items Tracked (DB):** 3518
 
 ---
 
@@ -20,53 +20,23 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 28 | ✅ **Matched:** 3
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
-*Sources: bidfta: 3 | capital_city: 25*
+*Sources: capital_city: 25*
 
-### VINGLI Pool Vacuum Cleaner, Suction Side Wall-Climbing Sweeper for Ground&Inground Pools, Automatic Pool Vacuum with 39.6ft Tangle-Free Hose (Mint Green&Gray)
+### (86) Mova V50 Ultra Complete Robot Vacuum and Mop Self-Cleaning, 24,000 Pa Suction, Liftable Navigation with Obstacle Overcoming and Warm Water Mopping with DuoSolution System Designed for Pets
 
-⭐ 95% Match 🔥 99% OFF
+🆕 NEW ⭐ 95% Match 🔥 94% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=m0vIAcn2ERXk62Cc9x2R%2bg%3d%3d&AuctionId=eUHyh%2faLEBuNk9ZBQ2fnZA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7iJ6ca1edORojFTm1iVIPA%3d%3d&AuctionId=hKNygVom2k9vW4DGu%2fpLDA%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** $85.00
 
-**Retail Price:** ~~$129.99~~ (Save 99%)
+**Retail Price:** ~~$1409.99~~ (Save 94%)
 
-**Condition:** ! MSRP: $129.99
+📍 **Pickup:** ! /  Lot - 4
 
 **Source:** capital_city
-
-
----
-
-### Irobot Roomba 105 Vac Robot Vacuum With Autoempty Dock For Carpet & Hard Floor - Self-Empties For 75 Days, Easy To Use, Intense Power-Lifting Suction, Lidar Navigation, Cleans In Neat Rows Roomba 105 Vac Ae
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/600170/item-detail/53763347)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
-
-### Irobot Irobot Roomba 208 Dustcompactor Combo Robot Vacuum And Mop
-
-🆕 NEW ⭐ 85% Match
-
-**[🔗 View Auction](https://www.bidfta.com/598434/item-detail/53677948)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
 
 
 ---
@@ -75,19 +45,34 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 0
+📥 **Items Scraped:** 14 | ✅ **Matched:** 1
 
-*Sources: bidfta: 1 | capital_city: 15*
+*Sources: capital_city: 14*
 
-*No matches found for this search*
+### Olympia U.S.A. 33 inch Jumbo Size 8 Pockets Wheeled Rolling Duffel Bag Water Resistant Luggage Lightweight Travel Suitcase with Retractable Handle
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=zM0o9mVG4EYkdPpUY1eJfQ%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=Hzc9tZVZp8x6PZOaDx3d2g%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 64
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 25*
+*Sources: capital_city: 25*
 
 *No matches found for this search*
 
@@ -95,9 +80,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 26 | ✅ **Matched:** 0
+📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 25*
+*Sources: capital_city: 24*
 
 *No matches found for this search*
 
@@ -105,9 +90,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1 | capital_city: 12*
+*Sources: capital_city: 11*
 
 *No matches found for this search*
 
@@ -115,24 +100,9 @@
 
 ### Drone
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 1
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
-*Sources: bidfta: 1*
-
-### E88 Drone With Hd Camera, Fixed Height Hover, 360° Stunt Flip, 90° Adjustable Lens, Foldable Rc Quadcopter For Beginners, Indoor Outdoor Flying Toy.
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://www.bidfta.com/597612/item-detail/53427679)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** Columbus area (from search results)
-
-**Source:** bidfta
-
-
----
+*No matches found for this search*
 
 ---
 
