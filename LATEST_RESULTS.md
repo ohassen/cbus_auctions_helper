@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-02 06:59 AM EDT
+**Last Updated:** 2026-04-03 06:51 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 94
-- **Total Items Tracked (DB):** 3663
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 91
+- **Total Items Tracked (DB):** 3696
 
 ---
 
@@ -20,23 +20,38 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 1
+📥 **Items Scraped:** 23 | ✅ **Matched:** 2
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 23*
 
-### Tineco iFLOOR 2 Complete Cordless Wet Dry Vacuum Floor Cleaner and Mop, One-Step Cleaning for Hard Floors, Great for Sticky Messes and Pet Hair
+### Stinger 2.5 Gal. 1.75 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility and Car Nozzle Attachments HD2025
 
-🆕 NEW ⭐ 95% Match 🔥 88% OFF
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=sqxKMdS5dxEXzl4vEPqwhw%3d%3d&AuctionId=Hzc9tZVZp8x6PZOaDx3d2g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=k5aSOsV1%2bDhBeSUBx4Vw8A%3d%3d&AuctionId=2bVekJ7fQqE9BF%2fJ42FvvQ%3d%3d)**
 
-**Current Price:** $16.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$139.99~~ (Save 88%)
+**Retail Price:** ~~$49.99~~ (Save 98%)
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+📍 **Pickup:** ! /  Lot - 41
 
-📍 **Pickup:** ! /  Lot - 12
+**Source:** capital_city
+
+
+---
+
+### Stinger 2 Gal. 2.5 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility Nozzle and Car Nozzle Attachments
+
+🆕 NEW ⭐ 95% Match 🔥 96% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=c2I4vYmX%2b6Qo1ahDU2da8w%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=2bVekJ7fQqE9BF%2fJ42FvvQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$29.98~~ (Save 96%)
+
+📍 **Pickup:** ! /  Lot - 44
 
 **Source:** capital_city
 
@@ -47,35 +62,11 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 2
+📥 **Items Scraped:** 8 | ✅ **Matched:** 0
 
-*Sources: capital_city: 10*
+*Sources: capital_city: 8*
 
-### Luggage Set 3 Piece Suitcase Sets with TSA Lock Moulded Corner 4 Spinner Wheels, ABS Hardside Trolley Travel Case for Carry On Check-in Business Trip, Black & Brown (20/24/28)
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=8wOYBQ1BOGm5JwSxapXJlw%3d%3d&AuctionId=WnKRGHUgju9kBro%2f8hxRdQ%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### ModernLuxe Luggage Set 3 Piece Lightweight Durable ABS Suitcases with Spinner Wheels and TSA Lock Carryon Checked Travel Luggage 20inch/24inch/28inch
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=TPq9GwYK2DCLoxPq5a4H6g%3d%3d&AuctionId=PcRdWnj1hC3cCwU%2fgsq2jw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
