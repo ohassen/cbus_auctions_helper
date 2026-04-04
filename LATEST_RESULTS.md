@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-03 06:51 AM EDT
+**Last Updated:** 2026-04-04 06:40 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Items Seen Today:** 91
-- **Total Items Tracked (DB):** 3696
+- **Total Matches Found:** 1 (Score ≥ 70)
+- **Items Seen Today:** 92
+- **Total Items Tracked (DB):** 3713
 
 ---
 
@@ -20,38 +20,21 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 2
+📥 **Items Scraped:** 23 | ✅ **Matched:** 1
 
 *Sources: capital_city: 23*
 
-### Stinger 2.5 Gal. 1.75 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility and Car Nozzle Attachments HD2025
+### BLACK+DECKER Roboseries Robot Vacuum - 2000Pa Suction, Smart Mapping, App & Remote Control, 120 Min Runtime, Self-Charging, Works with Alexa, Perfect for Hard Floors, Carpets, Pet Hair, Low Carpet
 
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=k5aSOsV1%2bDhBeSUBx4Vw8A%3d%3d&AuctionId=2bVekJ7fQqE9BF%2fJ42FvvQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VdfgqdDg4Fnq4Lw%2bEQlD8w%3d%3d&AuctionId=ZQCMsUqVBQheiQufLI2fUA%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$49.99~~ (Save 98%)
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 41
-
-**Source:** capital_city
-
-
----
-
-### Stinger 2 Gal. 2.5 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility Nozzle and Car Nozzle Attachments
-
-🆕 NEW ⭐ 95% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=c2I4vYmX%2b6Qo1ahDU2da8w%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=2bVekJ7fQqE9BF%2fJ42FvvQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$29.98~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 44
+📍 **Pickup:** ! /  Lot - 139
 
 **Source:** capital_city
 
@@ -92,9 +75,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 5 | ✅ **Matched:** 0
+📥 **Items Scraped:** 6 | ✅ **Matched:** 0
 
-*Sources: capital_city: 5*
+*Sources: capital_city: 6*
 
 *No matches found for this search*
 
