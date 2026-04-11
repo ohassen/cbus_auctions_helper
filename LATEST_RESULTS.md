@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-10 07:00 AM EDT
+**Last Updated:** 2026-04-11 06:43 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Items Seen Today:** 94
-- **Total Items Tracked (DB):** 3960
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 99
+- **Total Items Tracked (DB):** 3978
 
 ---
 
@@ -20,49 +20,19 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 2
+📥 **Items Scraped:** 23 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 23*
 
-### (147) Mova Mobius 60 Robot Vacuum and Mop, 30000Pa Suction, Auto-Interchangeable Mop Pads, Liftable Navigation with 3.15inches Obstacle Overcoming, DuoSolution System Designed for Pets
-
-🆕 NEW ⭐ 95% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=97qJQo6gAYbTIZ5FvHmxMw%3d%3d&AuctionId=BPKq9ttXP5rLcEVwOQM%2bXg%3d%3d)**
-
-**Current Price:** $34.00
-
-**Retail Price:** ~~$1609.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 2
-
-**Source:** capital_city
-
-
----
-
-### Canister Vacuum Cleaner, 30KP Bagless Vacuum Cleaner, 4QT Large Dust Cup, Retractable Cord, Double HEPA Filter, 5 Tools, 1600W Lightweight for Pet, Hard Floors, Carpets
-
-🆕 NEW ⭐ 95% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=IPTwaHrJ66jIcpuTNlEG4A%3d%3d&AuctionId=S6FiG9qNNM5SWWZcd%2fCenQ%3d%3d)**
-
-**Current Price:** $5.00
-
-**Retail Price:** ~~$129.99~~ (Save 96%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### suitcase
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 8 | ✅ **Matched:** 0
 
-*Sources: capital_city: 9*
+*Sources: capital_city: 8*
 
 *No matches found for this search*
 
@@ -90,9 +60,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 0
+📥 **Items Scraped:** 7 | ✅ **Matched:** 0
 
-*Sources: capital_city: 6*
+*Sources: capital_city: 7*
 
 *No matches found for this search*
 
@@ -100,11 +70,101 @@
 
 ### Drone
 
-📥 **Items Scraped:** 5 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 6
 
-*Sources: capital_city: 5*
+*Sources: capital_city: 11*
 
-*No matches found for this search*
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 80% Match 🔥 96% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=k2be7jguq%2buIA5GxqW4SkA%3d%3d&AuctionId=tmEuDeqo67YuIKhtJDrJZA%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$32.00~~ (Save 96%)
+
+📍 **Pickup:** ! /  Lot - 101
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=tAtCbJT5Ce2YIe2lOJhS7Q%3d%3d&AuctionId=tmEuDeqo67YuIKhtJDrJZA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 102
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6OM%2bcifcznw3j9YTJdbT%2bA%3d%3d&AuctionId=tmEuDeqo67YuIKhtJDrJZA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 106
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=spfE8YQ19d%2fPwjpbdIh5qQ%3d%3d&AuctionId=tmEuDeqo67YuIKhtJDrJZA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 191
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4GWaybRRAkLuV9%2fl3XSomg%3d%3d&AuctionId=tmEuDeqo67YuIKhtJDrJZA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 192
+
+**Source:** capital_city
+
+
+---
+
+### 2025 Flying Orb Ball Toy, Flying Ball Drone Hand Controlled, Flying Orb Ball Toys with LED Light,Cosmic Globe Flying Spinner for 6 7 8 9+ Year Old Boys Girls Adults Christmas Birthday Gifts
+
+🆕 NEW ✓ 75% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9vOXaevT1dDw%2bPsFhOg7gg%3d%3d&AuctionId=tmEuDeqo67YuIKhtJDrJZA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 196
+
+**Source:** capital_city
+
+
+---
 
 ---
 
