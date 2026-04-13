@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-12 06:48 AM EDT
+**Last Updated:** 2026-04-13 07:26 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 98
-- **Total Items Tracked (DB):** 4007
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Items Seen Today:** 99
+- **Total Items Tracked (DB):** 4033
 
 ---
 
@@ -20,23 +20,55 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 3
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
-### DREAME Aqua10 Roller Robot Vacuum, AquaRoll Mopping, 30,000Pa Suction, 100% Detangling, Carpet-Protecting Roller Guard, Clear 2.36in Obstacle, Self-Empty, Self-Cleaning, Roller Mop Extending
+### 12 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with General Debris Filter, Locking Hose and Attachments HD1200
 
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
+🆕 NEW ⭐ 95% Match 🔥 93% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=cETYY9%2bpp21oXgd9Syay4g%3d%3d&AuctionId=q%2b69kIdBHob64t97Wz%2bVfw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CnSqh6%2f9Kjh7ZxYHsUM3lQ%3d%3d&AuctionId=E%2bFZIfZiwWgZI%2fQzal9eFA%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $8.00
 
-**Retail Price:** ~~$1009.99~~ (Save 99%)
+**Retail Price:** ~~$119.99~~ (Save 93%)
+
+📍 **Pickup:** ! /  Lot - 20
+
+**Source:** capital_city
+
+
+---
+
+### Vacuum Plus Wash Duo Bagless Cordless General Dirt Filter Stick Vacuum for Multi-Surfaces in Black
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AzK4tN3UcMSwxgkyw02nPw%3d%3d&AuctionId=E%2bFZIfZiwWgZI%2fQzal9eFA%3d%3d)**
+
+**Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 48
+📍 **Pickup:** ! /  Lot - 26
+
+**Source:** capital_city
+
+
+---
+
+### 6.5 Gal. 2.5 HP Ash Vacuum
+
+🆕 NEW ⭐ 85% Match 🔥 97% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZgYf0ek6xVZPYh1iJz2iwQ%3d%3d&AuctionId=E%2bFZIfZiwWgZI%2fQzal9eFA%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$115.99~~ (Save 97%)
+
+📍 **Pickup:** ! /  Lot - 39
 
 **Source:** capital_city
 
