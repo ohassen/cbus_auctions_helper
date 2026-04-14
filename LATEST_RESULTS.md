@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-13 07:26 AM EDT
+**Last Updated:** 2026-04-14 07:11 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 99
-- **Total Items Tracked (DB):** 4033
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 95
+- **Total Items Tracked (DB):** 4061
 
 ---
 
@@ -20,55 +20,38 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 3
+📥 **Items Scraped:** 21 | ✅ **Matched:** 2
 
-*Sources: capital_city: 25*
+*Sources: capital_city: 21*
 
-### 12 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with General Debris Filter, Locking Hose and Attachments HD1200
+### (197) Mova V50 Ultra Complete Robot Vacuum and Mop Self-Cleaning, 24,000 Pa Suction, Liftable Navigation with Obstacle Overcoming and Warm Water Mopping with DuoSolution System Designed for Pets
 
-🆕 NEW ⭐ 95% Match 🔥 93% OFF
+🆕 NEW ⭐ 95% Match 🔥 88% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CnSqh6%2f9Kjh7ZxYHsUM3lQ%3d%3d&AuctionId=E%2bFZIfZiwWgZI%2fQzal9eFA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=aAbS9%2fVpl4AAgcw3fSZH2w%3d%3d&AuctionId=6431zQGbUN1WKWjoKbpBnw%3d%3d)**
 
-**Current Price:** $8.00
+**Current Price:** $85.00
 
-**Retail Price:** ~~$119.99~~ (Save 93%)
+**Retail Price:** ~~$749.00~~ (Save 88%)
 
-📍 **Pickup:** ! /  Lot - 20
-
-**Source:** capital_city
-
-
----
-
-### Vacuum Plus Wash Duo Bagless Cordless General Dirt Filter Stick Vacuum for Multi-Surfaces in Black
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AzK4tN3UcMSwxgkyw02nPw%3d%3d&AuctionId=E%2bFZIfZiwWgZI%2fQzal9eFA%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 26
+📍 **Pickup:** ! /  Lot - 8
 
 **Source:** capital_city
 
 
 ---
 
-### 6.5 Gal. 2.5 HP Ash Vacuum
+### (137) Mova V50 Ultra Complete Robot Vacuum and Mop Self-Cleaning, 24,000 Pa Suction, Liftable Navigation with Obstacle Overcoming and Warm Water Mopping with DuoSolution System Designed for Pets, Black
 
-🆕 NEW ⭐ 85% Match 🔥 97% OFF
+🆕 NEW ⭐ 95% Match 🔥 95% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZgYf0ek6xVZPYh1iJz2iwQ%3d%3d&AuctionId=E%2bFZIfZiwWgZI%2fQzal9eFA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gCf375aiJ2CDP3VRBUgeWw%3d%3d&AuctionId=4CjcJPT65a6OXX1H5T%2fGLg%3d%3d)**
 
-**Current Price:** $3.00
+**Current Price:** $47.00
 
-**Retail Price:** ~~$115.99~~ (Save 97%)
+**Retail Price:** ~~$1109.99~~ (Save 95%)
 
-📍 **Pickup:** ! /  Lot - 39
+📍 **Pickup:** ! /  Lot - 5
 
 **Source:** capital_city
 
@@ -79,9 +62,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 5 | ✅ **Matched:** 0
+📥 **Items Scraped:** 6 | ✅ **Matched:** 0
 
-*Sources: capital_city: 5*
+*Sources: capital_city: 6*
 
 *No matches found for this search*
 
@@ -109,9 +92,9 @@
 
 ### gooseneck kettle
 
-📥 **Items Scraped:** 8 | ✅ **Matched:** 0
+📥 **Items Scraped:** 7 | ✅ **Matched:** 0
 
-*Sources: capital_city: 8*
+*Sources: capital_city: 7*
 
 *No matches found for this search*
 
