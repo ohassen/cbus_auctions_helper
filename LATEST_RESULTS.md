@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-15 07:09 AM EDT
+**Last Updated:** 2026-04-16 07:11 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 14 (Score ≥ 70)
-- **Items Seen Today:** 101
-- **Total Items Tracked (DB):** 4144
+- **Total Matches Found:** 10 (Score ≥ 70)
+- **Items Seen Today:** 96
+- **Total Items Tracked (DB):** 4218
 
 ---
 
@@ -20,151 +20,58 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 9
+📥 **Items Scraped:** 21 | ✅ **Matched:** 4
 
-*Sources: capital_city: 25*
+*Sources: capital_city: 21*
 
-### (30) Roomba Plus 405 (G185) Combo 13.2 in. Robotic Vacuum and Mop + with Smart Navigation + AutoWash Dock in Black
-
-🆕 NEW ⭐ 95% Match 🔥 81% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=x%2b3SBA6FSsESJio11ta4cA%3d%3d&AuctionId=EWgGJv6Lnn95R91aKDW8bg%3d%3d)**
-
-**Current Price:** $150.00
-
-**Retail Price:** ~~$809.99~~ (Save 81%)
-
-📍 **Pickup:** ! /  Lot - 5
-
-**Source:** capital_city
-
-
----
-
-### RIDGID 12 Gal. 6.0 Peak HP NXT Shop Vacuum Wet Dry Vac with Detachable Blower, Filter, Dust Bag, Hose and Accessories HD1280
-
-🆕 NEW ⭐ 95% Match 🔥 81% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=MsnmCMn%2bmkaoR7erb0TA0g%3d%3d&AuctionId=EWgGJv6Lnn95R91aKDW8bg%3d%3d)**
-
-**Current Price:** $22.00
-
-**Retail Price:** ~~$119.00~~ (Save 81%)
-
-📍 **Pickup:** ! /  Lot - 133
-
-**Source:** capital_city
-
-
----
-
-### VINGLI Automatic Suction Side Pool Cleaner for Inground Pools 40ft Hose Vacuum with Powerful Wall Climbing (Green and Gray)
+### Shop-Vac 12-Gallon 5.5 HP Corded Wet/Dry Shop Vacuum with Accessories Included
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=L3Au8swU0PzATJ%2bGHf8qEg%3d%3d&AuctionId=a1bobG4Zvlz2FYSguh5BBA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2f6KxuDrAKXXiNayGdCeBdg%3d%3d&AuctionId=%2bKL5QWI9mW0yByyTRQeeUA%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $3.00
 
-**Condition:** ! Retail: MSRP $139.99
-
-**Source:** capital_city
-
-
----
-
-### (410) 10 Gal. 6.0 Peak HP Stainless Steel Shop Vacuum Wet Dry Vac with Filter, Locking Hose and Accessory Attachments WD1060
-
-🆕 NEW ⭐ 95% Match 🔥 95% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=v9oTpBD2JCIVsxQDnWxvaA%3d%3d&AuctionId=6Y9VFh5KzZQ%2fPQCpo%2bikzQ%3d%3d)**
-
-**Current Price:** $6.00
-
-**Retail Price:** ~~$145.99~~ (Save 95%)
-
-📍 **Pickup:** ! /  Lot - 10
+**Condition:** , PLEASE SEE PHOTO)
 
 **Source:** capital_city
 
 
 ---
 
-### 2 Gal. 2.5 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility Nozzle and Car Nozzle Attachments
+### CRAFTSMAN V20 BRUSHLESS RP Cordless Stick Vacuum Cleaner (Convertible to Handheld)
 
-🆕 NEW ⭐ 95% Match 🔥 97% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5vXS8NGt3ZSxZNAP2nG2Dw%3d%3d&AuctionId=6Y9VFh5KzZQ%2fPQCpo%2bikzQ%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$39.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 336
-
-**Source:** capital_city
-
-
----
-
-### 2 Gal. 2.5 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility Nozzle and Car Nozzle Attachments
-
-🆕 NEW ⭐ 95% Match 🔥 95% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=KE50PVOP80O66W%2bgm99AEg%3d%3d&AuctionId=6Y9VFh5KzZQ%2fPQCpo%2bikzQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Jb4YwEsnvYyW3Tqq%2fvz0Zg%3d%3d&AuctionId=%2bKL5QWI9mW0yByyTRQeeUA%3d%3d)**
 
 **Current Price:** $2.00
 
-**Retail Price:** ~~$39.99~~ (Save 95%)
-
-📍 **Pickup:** ! /  Lot - 337
-
 **Source:** capital_city
 
 
 ---
 
-### 2 Gal. 2.5 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility Nozzle and Car Nozzle Attachments
-
-🆕 NEW ⭐ 95% Match 🔥 90% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0kLLrgWdMXhNaMqleOlq%2bw%3d%3d&AuctionId=6Y9VFh5KzZQ%2fPQCpo%2bikzQ%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$39.99~~ (Save 90%)
-
-📍 **Pickup:** ! /  Lot - 338
-
-**Source:** capital_city
-
-
----
-
-### 2 Gal. 2.5 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility Nozzle and Car Nozzle Attachments
-
-🆕 NEW ⭐ 95% Match 🔥 84% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=JHEo5Wm%2bAIt2T6y4znJ2vg%3d%3d&AuctionId=6Y9VFh5KzZQ%2fPQCpo%2bikzQ%3d%3d)**
-
-**Current Price:** $6.21
-
-**Retail Price:** ~~$39.99~~ (Save 84%)
-
-📍 **Pickup:** ! /  Lot - 339
-
-**Source:** capital_city
-
-
----
-
-### DEWALT 20-volt max 2.0-Gallon Cordless Wet/Dry Shop Vacuum (Battery Not Included)
+### RIDGID 4 Gal. 6.0 Peak HP Shop Vacuum WD4080 Wet Dry Vac with Detachable Blower, Fine Dust Filter, Hose and Accessories
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=tU5EYvBVE6Pjh6xWOnsEeg%3d%3d&AuctionId=%2bKL5QWI9mW0yByyTRQeeUA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=1WeTBUTIjkaMrJguuQKRoQ%3d%3d&AuctionId=v8YPdkfvz%2fiXf1gLB33Lxg%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### Bagless 20V MAX Stick Cordless General Dirt Filter Handheld Vacuum (Tool Only)
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=yGJ7y5x2CPbQrDIMKPNUJw%3d%3d&AuctionId=%2bKL5QWI9mW0yByyTRQeeUA%3d%3d)**
+
+**Current Price:** $6.00
 
 **Source:** capital_city
 
@@ -175,15 +82,70 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 2 | ✅ **Matched:** 0
+📥 **Items Scraped:** 5 | ✅ **Matched:** 3
 
-*Sources: capital_city: 2*
+*Sources: capital_city: 5*
+
+### Large Checked Luggage 28 Inch, Checking In Luggage with Smooth Double Spinner Wheels, Hard Shell PC+ABS Suitcase, Lightweight Travel Luggage, TSA Approved (Blue, Andes)
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=hKTNjzH0HVnL%2bzSVNqoSWA%3d%3d&AuctionId=S2mOpKjb7mDcFmwo939kEQ%3d%3d)**
+
+**Current Price:** $2.11
+
+**Retail Price:** ~~$119.99~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
+
+### 28" Checked Luggage Trolley Case ABS Hardside Large Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - Black
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AYTrdy52UXe6bL8Fd%2bS4ow%3d%3d&AuctionId=S2mOpKjb7mDcFmwo939kEQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$99.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### LOVEVOOK 4 Pcs Carry On Luggage 22x14x9 Airline Approved 20 Inch Underseat Carry on Suitcase for Women Men Softside Travel Luggage with Spinner Wheels and TSA Lock
+
+🆕 NEW ⭐ 95% Match 🔥 97% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AWF0ZfKPFsp0VG6T%2fmqEWg%3d%3d&AuctionId=%2bjqP5bBxZXEakWIV6Dnxfg%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$69.99~~ (Save 97%)
+
+**Condition:** ! Retail:$69.99
+
+**Source:** capital_city
+
+
+---
+
+---
+
+### Garage Opener
+
+📥 **Items Scraped:** 21 | ✅ **Matched:** 0
+
+*Sources: capital_city: 21*
 
 *No matches found for this search*
 
 ---
 
-### Garage Opener
+### manual coffee grinder
 
 📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
@@ -193,101 +155,59 @@
 
 ---
 
-### manual coffee grinder
-
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
-
-*Sources: capital_city: 25*
-
-*No matches found for this search*
-
----
-
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 5
+📥 **Items Scraped:** 25 | ✅ **Matched:** 3
 
 *Sources: capital_city: 25*
 
-### MAXYOYO 59" Bean Bag Sofa Couch, Loveseat Boneless Couch in a Box, Upholstered Small Mini Sofa with Deep Seating for Living Room Bedroom Office Apartment, No Assembly, Pink
+### CordaRoy's Corduroy Bean Bag-Convertible Bean Bag Chair-Machine-Washable Corduroy Fabric Cover-for Basement,Living Room,Game Room,Dorm&More - Full Size - Grey | Made in the USA
 
-🆕 NEW ⭐ 95% Match 🔥 86% OFF
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=oHoNFckGMboBzvS%2baUP%2bOA%3d%3d&AuctionId=6431zQGbUN1WKWjoKbpBnw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=lFlTgVuK0t9PYP462vXpxw%3d%3d&AuctionId=UZC79LODg0BpBmTf1kcB2g%3d%3d)**
 
-**Current Price:** $33.00
+**Current Price:** $5.00
 
-**Retail Price:** ~~$240.00~~ (Save 86%)
+**Retail Price:** ~~$359.99~~ (Save 98%)
 
-📍 **Pickup:** ! /  Lot - 37
-
-**Source:** capital_city
-
-
----
-
-### MAXYOYO 59" Bean Bag Sofa Couch, Loveseat Boneless Couch in a Box, Upholstered Small Mini Sofa with Deep Seating for Living Room Bedroom Office Apartment, No Assembly, Pink
-
-🆕 NEW ⭐ 95% Match 🔥 86% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=nBrkU1%2fVdo3cD1w9SpGWJQ%3d%3d&AuctionId=6431zQGbUN1WKWjoKbpBnw%3d%3d)**
-
-**Current Price:** $33.00
-
-**Retail Price:** ~~$240.00~~ (Save 86%)
-
-📍 **Pickup:** ! /  Lot - 38
+📍 **Pickup:** ! /  Lot - 45
 
 **Source:** capital_city
 
 
 ---
 
-### MAXYOYO 59" Bean Bag Sofa Couch, Loveseat Boneless Couch in a Box, Upholstered Small Mini Sofa with Deep Seating for Living Room Bedroom Office Apartment, No Assembly, Pink
+### Hobestluk 4ft Bean Bag Chairs for Adults Large Beanbag Chair with Dutch Corded Plush Cover Big Bean Bag Chair for Living Room Bedroom Dorm Office - White (42" x 42" x 24")
 
-🆕 NEW ⭐ 95% Match 🔥 86% OFF
+🆕 NEW ⭐ 95% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=zis%2fic8mWfdUWU1oWE%2bn9A%3d%3d&AuctionId=6431zQGbUN1WKWjoKbpBnw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=M%2bMZE5zxY8EPfOm2r5X42g%3d%3d&AuctionId=UZC79LODg0BpBmTf1kcB2g%3d%3d)**
 
-**Current Price:** $33.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$240.00~~ (Save 86%)
+**Retail Price:** ~~$109.99~~ (Save 97%)
 
-📍 **Pickup:** ! /  Lot - 39
-
-**Source:** capital_city
-
-
----
-
-### MAXYOYO 59" Bean Bag Sofa Couch, Loveseat Boneless Couch in a Box, Upholstered Small Mini Sofa with Deep Seating for Living Room Bedroom Office Apartment, No Assembly, Pink
-
-🆕 NEW ⭐ 95% Match 🔥 86% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=aZGuljNavQMUKxCjBM%2fCGA%3d%3d&AuctionId=6431zQGbUN1WKWjoKbpBnw%3d%3d)**
-
-**Current Price:** $33.00
-
-**Retail Price:** ~~$240.00~~ (Save 86%)
-
-📍 **Pickup:** ! /  Lot - 40
+📍 **Pickup:** ! /  Lot - 46
 
 **Source:** capital_city
 
 
 ---
 
-### MAXYOYO 59" Bean Bag Sofa Couch, Loveseat Boneless Couch in a Box, Upholstered Small Mini Sofa with Deep Seating for Living Room Bedroom Office Apartment, No Assembly, Pink
+### MAXYOYO Folding Sofa Bed, 2 in 1 Convertible Sofa to Lounger Comfy Single Bean Bag Chair for Adults, Floor Sleeper Couch with Handle, Faux Fur Couch Bed for Living Room Bedroom, Beige
 
-🆕 NEW ⭐ 95% Match 🔥 86% OFF
+🆕 NEW ✓ 75% Match 🔥 93% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iOChmfk7LbfzmssW1ebRqw%3d%3d&AuctionId=6431zQGbUN1WKWjoKbpBnw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=rRTlS12facMEJHi7QYKLmQ%3d%3d&AuctionId=UZC79LODg0BpBmTf1kcB2g%3d%3d)**
 
-**Current Price:** $33.00
+**Current Price:** $12.00
 
-**Retail Price:** ~~$240.00~~ (Save 86%)
+**Retail Price:** ~~$177.99~~ (Save 93%)
 
-📍 **Pickup:** ! /  Lot - 41
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 21
 
 **Source:** capital_city
 
