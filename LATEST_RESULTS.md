@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-21 07:19 AM EDT
+**Last Updated:** 2026-04-22 07:16 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 112
-- **Total Items Tracked (DB):** 4430
+- **Total Matches Found:** 5 (Score ≥ 70)
+- **Items Seen Today:** 109
+- **Total Items Tracked (DB):** 4503
 
 ---
 
@@ -20,72 +20,87 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 4
+📥 **Items Scraped:** 25 | ✅ **Matched:** 5
 
-*Sources: capital_city: 23*
-
-### (169) NT 65/2 Tact2 17.2 gal. 280-CFM Corded Wet and Dry Shop Vacuum Cleaner with Stainless Steel and Crevice Nozzle
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=QUlDS6FIjLGAqQPZJjW6jg%3d%3d&AuctionId=HYZ1R8%2fEQqmkovQwSVdWdg%3d%3d)**
-
-**Current Price:** $5.00
-
-**Retail Price:** ~~$1096.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 3
-
-**Source:** capital_city
-
-
----
+*Sources: capital_city: 25*
 
 ### RIDGID 4 Gal. 5.0 Peak HP Portable Shop Vacuum Wet Dry Vac with Fine Dust Filter, Locking Hose and Attachments WD4070
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qs3cDF1g74Z9fZ1R9s%2bgPw%3d%3d&AuctionId=HYZ1R8%2fEQqmkovQwSVdWdg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2tgleEclE%2bB%2bDAhFNWLQFg%3d%3d&AuctionId=HYZ1R8%2fEQqmkovQwSVdWdg%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $2.00
+
+**Retail Price:** ~~$144.99~~ (Save 98%)
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 11
+📍 **Pickup:** ! /  Lot - 70
 
 **Source:** capital_city
 
 
 ---
 
-### RYOBI 18V ONE+ HP Advanced WHISPER Series Stick Vacuum (Tool Only)
+### ONE+ 18V Cordless 1 Gal. Wet/Dry Vacuum (Tool Only)
 
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match 🔥 85% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=718OVQ8QhO9P2GmC%2fOK2Zg%3d%3d&AuctionId=HYZ1R8%2fEQqmkovQwSVdWdg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=XFCe2MIr32JuaxIcEyPZ9Q%3d%3d&AuctionId=BBzieeAFgoE2xElTu5dZ4g%3d%3d)**
 
-**Current Price:** $5.00
+**Current Price:** $16.03
 
-**Retail Price:** ~~$309.99~~ (Save 98%)
+**Retail Price:** ~~$109.99~~ (Save 85%)
 
-📍 **Pickup:** ! /  Lot - 21
+📍 **Pickup:** ! /  Lot - 36
 
 **Source:** capital_city
 
 
 ---
 
-### RYOBI 18V ONE+ HP Advanced WHISPER Series Stick Vacuum (Tool Only)
+### 2.5 Gal. 1.75 Peak HP Small Shop Vacuum Wet Dry Vac with Filter Bag, Hose, Utility and Car Nozzle Attachments HD2025
 
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match 🔥 96% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0EIUICsQQ%2f6EGnxVwdOrxQ%3d%3d&AuctionId=HYZ1R8%2fEQqmkovQwSVdWdg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=yaYctFhsCBDaGwnJyYEd8Q%3d%3d&AuctionId=BBzieeAFgoE2xElTu5dZ4g%3d%3d)**
 
-**Current Price:** $5.00
+**Current Price:** $2.00
 
-**Retail Price:** ~~$309.99~~ (Save 98%)
+**Retail Price:** ~~$54.99~~ (Save 96%)
 
-📍 **Pickup:** ! /  Lot - 22
+📍 **Pickup:** ! /  Lot - 46
+
+**Source:** capital_city
+
+
+---
+
+### HORSEPOWER Cordless Car Handheld Vacuum Cleaner
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gdJCV8oJy3qTfcUNAd%2fRpw%3d%3d&AuctionId=I5gpJrjdredRF7E%2bJxb%2fZA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### (92) RIDGID 14 Gal. HEPA Commercial Shop Vacuum Wet Dry Vac with Filter, Dust Bag, Professional Hose and Accessories RV2400HF
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RbmvTJSIbBRZv4mykWFezA%3d%3d&AuctionId=DNhptEZlCRQAz5hnH%2fc8iw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** of filter, and other factors.
+
+📍 **Pickup:** ! /  Lot - 8
 
 **Source:** capital_city
 
@@ -96,9 +111,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 15*
+*Sources: capital_city: 10*
 
 *No matches found for this search*
 
