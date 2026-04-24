@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-23 07:16 AM EDT
+**Last Updated:** 2026-04-24 07:15 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 107
-- **Total Items Tracked (DB):** 4564
+- **Items Seen Today:** 100
+- **Total Items Tracked (DB):** 4632
 
 ---
 
@@ -20,34 +20,36 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 2
+📥 **Items Scraped:** 19 | ✅ **Matched:** 2
 
-*Sources: capital_city: 23*
+*Sources: capital_city: 19*
 
-### RIDGID 10 Gal. 6.0 Peak HP Stainless Steel Shop Vacuum Wet Dry Vac with Filter, Locking Hose and Accessory Attachments WD1060
+### (43) DREAME Aqua10 Roller Robot Vacuum, AquaRoll Mopping, 30,000Pa Suction, 100% Detangling, Carpet-Protecting Roller Guard, Clear 2.36in Obstacle, Self-Empty, Self-Cleaning, Roller Mop Extending
 
 🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=L1cu1PaYzLNza1cydocStg%3d%3d&AuctionId=DNhptEZlCRQAz5hnH%2fc8iw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Fflk6SqdWDGh6AtUgMcXmg%3d%3d&AuctionId=MoPjc1mMrSJwqoWwBtFqrQ%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** $4.00
 
-**Retail Price:** ~~$135.00~~ (Save 99%)
+**Retail Price:** ~~$1009.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 87
+📍 **Pickup:** ! /  Lot - 3
 
 **Source:** capital_city
 
 
 ---
 
-### VINGLI Automatic Suction-Side Pool Vacuum Cleaner, Powerful Wall-Climbing Sweeper for Inground Pools, Includes 39.6ft Tangle-Free Hose (Blue&Gray)
+### VINGLI Automatic Suction Side Pool Cleaner for Inground Pools 40ft Hose Vacuum with Powerful Wall Climbing (Green and Gray)
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xX1WUm2ZP03Sw5EnXpro5A%3d%3d&AuctionId=tOiHK8Dx%2bOWHOqGhyGQQSw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CiM6xig0gbN8gruLHKYA4w%3d%3d&AuctionId=iCCiJzHq4bQg7frtedmdHw%3d%3d)**
 
 **Current Price:** No bids yet
+
+**Condition:** ! Retail: MSRP $139.99
 
 **Source:** capital_city
 
@@ -58,37 +60,11 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 2
+📥 **Items Scraped:** 7 | ✅ **Matched:** 0
 
-*Sources: capital_city: 10*
+*Sources: capital_city: 7*
 
-### Winado - 20"24"28" Trolley Case 3-Piece ABS Hardside Luggage Suitcase Set with Spinner Wheels & TSA Lock for Travel Business - Black & Brown
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=No6ShVlXQn3o%2fKkJPFs5wA%3d%3d&AuctionId=tOiHK8Dx%2bOWHOqGhyGQQSw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### 3 Piece Nested Spinner Suitcase Luggage Set With TSA Lock Purple
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=PIRCMUw%2be6hkrVYSmSCvTA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=iCCiJzHq4bQg7frtedmdHw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$166.24~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
@@ -114,11 +90,45 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 2
 
 *Sources: capital_city: 25*
 
-*No matches found for this search*
+### YOFE White Corduroy Polyester Giant Large Bean Bag Chair, Convertible Mattress Bed, Lazy Floor Sofa Couch, Machine Washable
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ltp1pU7FLv8H1ZNCiH%2bbpw%3d%3d&AuctionId=YNVaHlOD%2ffne4Q4rwN0u%2bQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 171
+
+**Source:** capital_city
+
+
+---
+
+### Hobestluk 3FT Bean Bag Chair Giant Bean Bag Chairs for Adults Large Bean Chairs with Removable Cover, Beanbag Chair with Filler, Adult Bean Bag Chairs for Living Room, Bedroom
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=tYdTH3VaM19VjSnYBCRxwQ%3d%3d&AuctionId=cvA%2f7pqUFhWFpXblXry33w%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$72.99~~ (Save 98%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 75
+
+**Source:** capital_city
+
+
+---
 
 ---
 
