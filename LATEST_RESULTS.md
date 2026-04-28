@@ -1,18 +1,21 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-27 07:57 AM EDT
+**Last Updated:** 2026-04-28 07:57 AM EDT
 
 ## 📋 Workflow Status
 
-✅ **Status:** Completed successfully
+⚠️ **Status:** Completed with errors
+
+**Errors encountered:**
+- OPEN_ROUTER_API_KEY validation failed - key may be invalid or revoked. Go to openrouter.ai/keys to check your API key. Semantic matching skipped. (Detail: Error code: 504 - {'error': {'message': 'The operation was aborted', 'code': 504, 'metadata': {'provider_name': 'Google'}}, 'user_id': 'user_35dFbWApT9a3JlYI6nkTSYwl5vg'})
 
 ---
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 115
-- **Total Items Tracked (DB):** 4730
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Items Seen Today:** 104
+- **Total Items Tracked (DB):** 4755
 
 ---
 
@@ -20,26 +23,11 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
 *Sources: capital_city: 25*
 
-### MOVA V50 Ultra Complete Robot Vacuum and Mop, 24,000Pa Suction, Zero Tangling Duobrush, 2.28in Obstacle Overcoming, FlexiRise Navigation, 176°F Hot Water Mop Self-Cleaning & Fast Hot Air Drying, Black
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=H6pNsESdngVX3iVDwKcsJg%3d%3d&AuctionId=gLote%2fZVZFIOm0q%2b1KuQvA%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 43
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
@@ -55,9 +43,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
-*Sources: capital_city: 25*
+*Sources: capital_city: 9*
 
 *No matches found for this search*
 
@@ -85,7 +73,9 @@
 
 ### Drone
 
-📥 **Items Scraped:** 0 | ✅ **Matched:** 0
+📥 **Items Scraped:** 5 | ✅ **Matched:** 0
+
+*Sources: capital_city: 5*
 
 *No matches found for this search*
 
