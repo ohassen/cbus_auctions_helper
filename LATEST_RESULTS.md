@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-04-29 07:43 AM EDT
+**Last Updated:** 2026-04-30 07:42 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Items Seen Today:** 116
-- **Total Items Tracked (DB):** 4848
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Items Seen Today:** 121
+- **Total Items Tracked (DB):** 4931
 
 ---
 
@@ -20,89 +20,60 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 4
+📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
-*Sources: capital_city: 23*
+*Sources: capital_city: 24*
 
-### Hoover Wind Tunnel XL Pet Bagless Upright Vacuum, UH71107, New
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=O32a1daAaOsOxB5v5Owtng%3d%3d&AuctionId=IfL0JU%2fo1tRnh5pyXymKTQ%3d%3d)**
-
-**Current Price:** $3.00
-
-**Retail Price:** ~~$78.99~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 43
-
-**Source:** capital_city
-
-
----
-
-### Flexreach Bagless Corded HEPA Filter Upright Vacuum for Multisurface
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=V6zK55rQk8EUEBYDLeYgrg%3d%3d&AuctionId=IfL0JU%2fo1tRnh5pyXymKTQ%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$149.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 117
-
-**Source:** capital_city
-
-
----
-
-### XTROVAC 70 Automatic Suction Pool Vacuum Cleaner
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ESjOzfv67eyDJ%2f5fJU1hLQ%3d%3d&AuctionId=jeYnLl2rgwrGyMbq8VgkMA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$109.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 164
-
-**Source:** capital_city
-
-
----
-
-### Mova Mobius 60 Robot Vacuum and Mop, 30000Pa Suction, Auto-Interchangeable Mop Pads, Liftable Navigation with 3.15inches Obstacle Overcoming, DuoSolut
-
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=klm3SytRdKiFyWnywCG5Xw%3d%3d&AuctionId=jeYnLl2rgwrGyMbq8VgkMA%3d%3d)**
-
-**Current Price:** $21.00
-
-**Retail Price:** ~~$1609.99~~ (Save 98%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 81
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### suitcase
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 0
+📥 **Items Scraped:** 16 | ✅ **Matched:** 3
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 16*
 
-*No matches found for this search*
+### 24" Checked Luggage Trolley Case ABS Hardside Medium Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - Black & Brown
+
+🆕 NEW ⭐ 100% Match 🔥 97% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=rKkFldQgxZa5Y9VJNYhyUA%3d%3d&AuctionId=4A76jjF4ctnJWW1tnIBLJw%3d%3d)**
+
+**Current Price:** $2.22
+
+**Retail Price:** ~~$94.99~~ (Save 97%)
+
+**Source:** capital_city
+
+
+---
+
+### Winado - 28" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - White
+
+🆕 NEW ⭐ 98% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bSlFiA3DBSrY3QNC3EHMIw%3d%3d&AuctionId=DRUXRLusVrCZ9vnDX8VgGg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### Winado - 28" Checked Luggage Trolley Case ABS Hardside Large Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - Navy Blue & Brown
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=OUjC787qnjwh1tlSyZz2tg%3d%3d&AuctionId=DRUXRLusVrCZ9vnDX8VgGg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
@@ -138,26 +109,11 @@
 
 ### Drone
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 1
+📥 **Items Scraped:** 6 | ✅ **Matched:** 0
 
 *Sources: capital_city: 6*
 
-### Pro Quadcopter Drone with Wi-Fi Camera, Remote and Phone Holder, White
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=fsqHsvfAubYBl3Jk6Wf3ZQ%3d%3d&AuctionId=IfL0JU%2fo1tRnh5pyXymKTQ%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$49.99~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 41
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
