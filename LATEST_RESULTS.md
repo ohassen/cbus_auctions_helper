@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-01 07:24 AM EDT
+**Last Updated:** 2026-05-02 07:00 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Items Seen Today:** 115
-- **Total Items Tracked (DB):** 4996
+- **Items Seen Today:** 111
+- **Total Items Tracked (DB):** 5008
 
 ---
 
@@ -20,9 +20,9 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 0
+📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
-*Sources: capital_city: 23*
+*Sources: capital_city: 24*
 
 *No matches found for this search*
 
@@ -70,9 +70,7 @@
 
 ### Drone
 
-📥 **Items Scraped:** 5 | ✅ **Matched:** 0
-
-*Sources: capital_city: 5*
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
