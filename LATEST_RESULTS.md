@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-03 07:06 AM EDT
+**Last Updated:** 2026-05-04 08:00 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 118
-- **Total Items Tracked (DB):** 5055
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 119
+- **Total Items Tracked (DB):** 5075
 
 ---
 
@@ -20,21 +20,42 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 22 | ✅ **Matched:** 1
+📥 **Items Scraped:** 22 | ✅ **Matched:** 2
 
 *Sources: capital_city: 22*
 
-### 12 Gal. 5.0 Peak HP NXT Shop Vacuum Wet Dry Vac with General Debris Filter, Locking Hose and Attachments HD1200
+### 16 Gal. 7.0 Peak HP NXT Power Shop Vacuum HD1900 Wet Dry Vac with Cart, Fine Dust Filter, Pro Hose and Accessories
 
 🆕 NEW ⭐ 100% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bTaUONmzEYhvj59PHxjWgA%3d%3d&AuctionId=LvtEtV0GOIdgFDbvSlxmyw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qlqmRUbdHmueBU17lO1x6w%3d%3d&AuctionId=4KI8qn%2bv7do%2bnxgV0xhPog%3d%3d)**
 
-**Current Price:** $3.00
+**Current Price:** $5.00
 
-**Retail Price:** ~~$119.99~~ (Save 97%)
+**Retail Price:** ~~$209.99~~ (Save 97%)
 
-📍 **Pickup:** ! /  Lot - 31
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 28
+
+**Source:** capital_city
+
+
+---
+
+### Shark AZ2002 Vertex Powered Lift-Away Upright Vacuum with DuoClean PowerFins, Self-Cleaning Brushroll, Large Dust Cup, Pet Crevice Tool, Dusting Brush & Power Brush
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LDbx%2ft59yXfeV%2bsovErWAA%3d%3d&AuctionId=4KI8qn%2bv7do%2bnxgV0xhPog%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$489.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 160
 
 **Source:** capital_city
 
@@ -45,39 +66,11 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 21 | ✅ **Matched:** 2
+📥 **Items Scraped:** 22 | ✅ **Matched:** 0
 
-*Sources: capital_city: 21*
+*Sources: capital_city: 22*
 
-### HIKOLAYAE Carry On Luggage, 20 in. Hardside Suitcase ABS Spinner Luggage with Lock - Vertical in Black
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=biy%2b%2fAwQfgW6PWhKbPuZUQ%3d%3d&AuctionId=LvtEtV0GOIdgFDbvSlxmyw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 101
-
-**Source:** capital_city
-
-
----
-
-### Winado - 28" Checked Luggage Trolley Case ABS Hardside Large Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - Navy Blue
-
-🆕 NEW ⭐ 98% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=la%2fOJ%2bhyj0OI57io6cGfUQ%3d%3d&AuctionId=EcPf4BJ1HMveRw3WJoQ2rw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
