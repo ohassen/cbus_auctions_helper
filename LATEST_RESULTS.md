@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-05 07:29 AM EDT
+**Last Updated:** 2026-05-06 08:01 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 7 (Score ≥ 70)
-- **Items Seen Today:** 123
-- **Total Items Tracked (DB):** 5119
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 118
+- **Total Items Tracked (DB):** 5199
 
 ---
 
@@ -20,94 +20,86 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 6
+📥 **Items Scraped:** 23 | ✅ **Matched:** 6
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 23*
 
-### Shop Spring Deals ❯ HORSEPOWER Duck Cordless Bagless Vacuum Ultra-Powerful Compact AS-SEEN-ON-TV, Rechargeable Includes Hose, Crevice Tool and Brush
+### CRAFTSMAN 3-Gallon 3 HP Corded Wet/Dry Shop Vacuum with Accessories Included
 
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=p9APHQ%2fOOOLqxysTNrcrlw%3d%3d&AuctionId=ZIAi5oQED5HaTC07cExp%2bg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=evguw%2baG8QoX7klOMa5HiQ%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
 
-**Current Price:** $1.00
-
-**Retail Price:** ~~$53.34~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 88
+**Current Price:** No bids yet
 
 **Source:** capital_city
 
 
 ---
 
-### Shark Navigator ADV Bagless Corded HEPA Upright Vacuum Cleaner
+### Shark UV580 Corded Stick Vacuum Performance Ultralight DuoClean with Self-Cleaning Brushroll, Removable Handheld, Blue (Renewed)
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 98% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=1EyQCGXEIiuBtBiJuY5vnQ%3d%3d&AuctionId=nbHOHfletiarXik5K7pZWQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=n6td2oRmsJyraZehofD0MA%3d%3d&AuctionId=mCSn0nQzgUBD1IfBBb4r0Q%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 172
+
+**Source:** capital_city
+
+
+---
+
+### Shop-Vac 12-Gallon 5.5 HP Corded Wet/Dry Shop Vacuum with Accessories Included
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7LEeYlWK%2flxQiwDQ%2b2fi%2bg%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
+
+**Current Price:** $16.00
+
+**Source:** capital_city
+
+
+---
+
+### Shop-Vac 12-Gallon 5.5 HP Corded Wet/Dry Shop Vacuum with Accessories Included
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VVVAYLO%2bBOCZIW3mZk2omQ%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
 
 **Current Price:** $3.00
 
-📍 **Pickup:** ! /  Lot - 92
+**Source:** capital_city
+
+
+---
+
+### DEWALT Stealthsonic Quiet 12-Gallon 5.5 HP Corded Wet/Dry Shop Vacuum MISSING Accessories (NO BOX)
+
+🆕 NEW ⭐ 85% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=8n6qKn8XneK%2fCf%2fgK2FEDw%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
+
+**Current Price:** $7.00
 
 **Source:** capital_city
 
 
 ---
 
-### Dyson Gen5outsize Cordless Stick Vacuum 12.6" Cleaning Path Blue: Multi-Surface, Bagless, Lithium Ion, 3 Speeds, Blue
+### DEWALT Stealthsonic Quiet 9-Gallon 5 HP Corded Wet/Dry Shop Vacuum MISSING HOSE & Accessories
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ✓ 75% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Dca8BDCT1DNvbNDU2mXr%2bg%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
-
-**Current Price:** $11.00
-
-**Source:** capital_city
-
-
----
-
-### Dyson Gen5outsize Cordless Stick Vacuum 12.6" Cleaning Path Blue: Multi-Surface, Bagless, Lithium Ion, 3 Speeds, Blue
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=c71Im5%2bXA0GBaXu9gdULwg%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
-
-**Current Price:** $9.00
-
-**Source:** capital_city
-
-
----
-
-### (111) RIDGID 18V 12.0 Ah Battery and 9 Gal. Cordless Portable NXT Shop Vacuum Combo (Vac Only)
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZgEUaJGqVRUV7X2ql2t9Lg%3d%3d&AuctionId=ZIAi5oQED5HaTC07cExp%2bg%3d%3d)**
-
-**Current Price:** $3.00
-
-**Retail Price:** ~~$388.00~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 10
-
-**Source:** capital_city
-
-
----
-
-### VINGLI Pool Vacuum Cleaner Automatic Sweeper Swimming Pool Creepy Crawler Vacuum with 33FT Hoses (Navy Blue&White)
-
-🆕 NEW ⭐ 95% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=1zyrMQ0xnjxMjByJnmWlgQ%3d%3d&AuctionId=XoZKm4Jl03wMzgXQX%2f7%2bWg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ite7OI4wGQC1I5cvyCwpFg%3d%3d&AuctionId=REajM0cph4PPbxWmV7LwNw%3d%3d)**
 
 **Current Price:** $1.00
-
-**Retail Price:** ~~$109.99~~ (Save 99%)
 
 **Source:** capital_city
 
@@ -118,9 +110,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 20 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 20*
 
 *No matches found for this search*
 
@@ -148,28 +140,11 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
 *Sources: capital_city: 25*
 
-### Big Joe Dorm Bean Bag Chair with Drink Holder and Pocket for Teens and Kids, Two Tone Black, Durable Easy-Clean Polyester Nylon Blend, 3 foot Gaming and Reading Nook Seat, Refillable
-
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=vxTY1QgtmiYXSW9Kzd%2bQAA%3d%3d&AuctionId=3vzaC2HMfxEcbPABtv1vnA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$74.99~~ (Save 98%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 22
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
