@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-09 07:07 AM EDT
+**Last Updated:** 2026-05-10 07:13 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 0 (Score ≥ 70)
-- **Items Seen Today:** 106
-- **Total Items Tracked (DB):** 5353
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Items Seen Today:** 116
+- **Total Items Tracked (DB):** 5408
 
 ---
 
@@ -20,29 +20,70 @@
 
 ### vacuum cleaner
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
-*No matches found for this search*
+### RIDGID Wet Dry Vacuums VAC1200 Heavy Duty Wet Dry Vacuum Cleaner and Blower Vac, 12-Gallon, 5.0 Peak Horsepower Detachable Leaf Blower Vacuum Cleaner with Pro-Grade Hose
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=nci789WrQUEzb7qFzHtNiQ%3d%3d&AuctionId=hbf%2f6Z3MYb6CVGNOyTpeBQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 143
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### suitcase
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 16 | ✅ **Matched:** 2
 
-*Sources: capital_city: 9*
+*Sources: capital_city: 16*
 
-*No matches found for this search*
+### Winado - 24" Checked Luggage Trolley PC+ABS Hardside Medium Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - Gradient Blue
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ktojkn5q0AEuKY9tQbM%2fpA%3d%3d&AuctionId=E96ToJyd4vdE9eUaJQKJPg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** ! Retail:$129.99
+
+**Source:** capital_city
+
+
+---
+
+### Winado - 24" Checked Luggage Trolley Case ABS Hardside Medium Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - White & Brown
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=122y0IbEn0vSgeqx7XMQeg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=E96ToJyd4vdE9eUaJQKJPg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
 *No matches found for this search*
 
@@ -50,9 +91,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
 *No matches found for this search*
 
