@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-14 08:02 AM EDT
+**Last Updated:** 2026-05-15 08:04 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 120
-- **Total Items Tracked (DB):** 5678
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 110
+- **Total Items Tracked (DB):** 5729
 
 ---
 
@@ -20,36 +20,21 @@
 
 ### dresser
 
-📥 **Items Scraped:** 22 | ✅ **Matched:** 2
+📥 **Items Scraped:** 16 | ✅ **Matched:** 1
 
-*Sources: capital_city: 22*
+*Sources: capital_city: 16*
 
-### Portland 6-Drawer Double Dresser in Black 26.89 in. H x 56.34 in. W x 12.46 in. D
+### (32) Delta Children Saint 4 Drawer Dresser with Changing Top and Interlocking Drawers, Teak Brown
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fs8YdsKRySNaT3eYkRDw4A%3d%3d&AuctionId=UoB5%2bYEYM1dYgRKAuU5TtQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0Nsv5YjFuP%2bxFnPBVnSctA%3d%3d&AuctionId=x%2fCvb2TUX6FXXy64pe7jmg%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$119.99~~ (Save 99%)
+**Retail Price:** ~~$449.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 69
-
-**Source:** capital_city
-
-
----
-
-### Garvee 6 Drawer Dresser for Bedroom 47in Wide Chest of Drawer with Metal Handle TV Stand Wood Closet Clothes Storage Organizer for Living Room Hallway Natural
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=oPLGhOuY1jJ9KWnuRmN3Hw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=iH2%2bpqjYiSTm9YJ4sUgFeg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 110
+📍 **Pickup:** ! /  Lot - 25
 
 **Source:** capital_city
 
@@ -60,30 +45,17 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 2
+📥 **Items Scraped:** 20 | ✅ **Matched:** 1
 
-*Sources: capital_city: 23*
+*Sources: capital_city: 20*
 
-### LONG VACATION Carry On Luggage Sets 3 Piece 20 Inch Suitcase Set, ABS+PC Hardshell Lightweight Travel Luggage with Spinner Wheels & YKK Zipper TSA Lock (NAVY, 20 Inch)
+### 20" Hardshell Spinner Luggage Piece, Rose Gold
 
-⭐ 95% Match
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CEt4aRl%2bmTD181Dvu7yogA%3d%3d&AuctionId=3GxL7kx8XTVnZjDEssx1qw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=EMTP6CVF6WoZvb2uG2jx0Q%3d%3d&AuctionId=GfKgqA5I7KXdb2ii7MU3rw%3d%3d)**
 
-**Current Price:** $2.00
-
-**Source:** capital_city
-
-
----
-
-### LONG VACATION Carry On Luggage Sets 3 Piece 20 Inch Suitcase Set, ABS+PC Hardshell Lightweight Travel Luggage with Spinner Wheels & YKK Zipper TSA Lock (BEIGE-BROWN, 20 Inch)
-
-⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UhrHtSB6e6T0lqCFiPucRw%3d%3d&AuctionId=3GxL7kx8XTVnZjDEssx1qw%3d%3d)**
-
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
 **Source:** capital_city
 
@@ -104,9 +76,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
-*Sources: capital_city: 25*
+*Sources: capital_city: 24*
 
 *No matches found for this search*
 
