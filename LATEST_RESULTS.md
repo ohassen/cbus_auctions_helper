@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-16 07:12 AM EDT
+**Last Updated:** 2026-05-17 07:17 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 7 (Score ≥ 70)
-- **Items Seen Today:** 110
-- **Total Items Tracked (DB):** 5767
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Items Seen Today:** 121
+- **Total Items Tracked (DB):** 5824
 
 ---
 
@@ -20,102 +20,74 @@
 
 ### dresser
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 6
+📥 **Items Scraped:** 25 | ✅ **Matched:** 4
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
-### Namesake Liberty 6-Drawer Dresser in Natural Walnut, Fully Assembled, Greenguard Gold Certified, Smooth Glide, Adult and Child Nursery Dresser, Vintage/Apothecary Design
+### Garvee Wide 6 Drawer Dresser for Bedroom, 47" Farmhouse Wooden Chestwith Storage Freestanding, Wooden Closet Storage Chest for Living Room, Bedroom, Entryway, Black
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5KP4nAa%2fM1YZDKv8nOEHMQ%3d%3d&AuctionId=fhlCeUKXcJo6PEJlF3mndw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PvZzTVgYzPqGHxO2nlFs4g%3d%3d&AuctionId=9bTko2s3KH6FslrRQqU0bA%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 138
+📍 **Pickup:** ! /  Lot - 140
 
 **Source:** capital_city
 
 
 ---
 
-### Signature DESIGN BY ASHLEY Battelle Brown 6 Drawer 60 in. Dresser
+### Zimtown 5-Drawers Dresser Chests, Wood Chest of Drawers,Dressers Organizer for Bedroom, Living Room,Hallway, White
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=25RyW1w2frYiFXZqyaXE%2bQ%3d%3d&AuctionId=qoUBFne06pIPVLI84DnWHQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VPswSkYdOUZMoa3Z8pkPnw%3d%3d&AuctionId=6pzR3OEcl57Zq9BgG6wt8g%3d%3d)**
 
 **Current Price:** $2.00
 
-**Retail Price:** ~~$277.00~~ (Save 99%)
+**Retail Price:** ~~$183.74~~ (Save 98%)
 
-📍 **Pickup:** ! /  Lot - 57
+📍 **Pickup:** Indoor
 
 **Source:** capital_city
 
 
 ---
 
-### Jocoevol 6 Drawer Dresser for Bedroom Modern Fluted Wooden Chest of Drawers Tall 6 Drawer Double Dresser for Living Room, Entryway, Natural
+### Zimtown 5-Drawers Dresser Chests, Wood Chest of Drawers,Dressers Organizer for Bedroom, Living Room,Hallway, Pink
+
+🆕 NEW ⭐ 100% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AAJ3CXRBLnJB5Ju9GbSc5A%3d%3d&AuctionId=6pzR3OEcl57Zq9BgG6wt8g%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$183.74~~ (Save 98%)
+
+**Condition:** ! Retail:$183.74
+
+📍 **Pickup:** Indoor
+
+**Source:** capital_city
+
+
+---
+
+### Storkcraft Brookside 6-Drawer Dresser (White) – GREENGUARD Gold Certified, White Dresser for Bedroom, Kids & Nursery Storage Chest, Safety Interlocking Drawers, Pre-Installed Tracks, Kids Chest
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=OWgsaWk7pw%2f3c49gFmV%2fNg%3d%3d&AuctionId=D%2bDJttDhsu26JDb5EMozRA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3wXJzC%2fp91he%2bcP9ZfKnFA%3d%3d&AuctionId=PdzdIffDV8p0hU9pY4L0yw%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 115
-
-**Source:** capital_city
-
-
----
-
-### Jocoevol Modern 6 Drawer Dresser Black Dresser for Bedroom, Simply Chest of Drawers, Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway,
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZUyUdlyBzvQMJVII7LR8tw%3d%3d&AuctionId=L3L4Zf0fj525tvbpWAJOzw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 32
-
-**Source:** capital_city
-
-
----
-
-### Delta Children Perry 6 Drawer Dresser - Greenguard Gold Certified, Moonstruck Grey
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=OX%2bNHmIyBs2UUBJGF5imxg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=L3L4Zf0fj525tvbpWAJOzw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 159
-
-**Source:** capital_city
-
-
----
-
-### Garvee Tall Dresser with 6 Drawers,Vertical Bedside End Table & Chest for Bedroom,Black Storage Tower Dorm Nightstand with Fabric Drawer Organizer Unit Furniture In Living Room,Closet,Hallyway
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CMlvtcKVCKu65vSSRPcawA%3d%3d&AuctionId=8Y9%2b%2f2ryup1xt5oPdesSiA%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 51
+📍 **Pickup:** ! /  Lot - 183
 
 **Source:** capital_city
 
@@ -126,9 +98,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 0
+📥 **Items Scraped:** 16 | ✅ **Matched:** 0
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 16*
 
 *No matches found for this search*
 
@@ -146,9 +118,9 @@
 
 ### manual coffee grinder
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
 *No matches found for this search*
 
@@ -156,34 +128,19 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
 *Sources: capital_city: 25*
 
-### MAXYOYO Giant Bean Bag Chair Bed for Adults, Convertible Beanbag Folds from Lazy Chair to Floor Mattress Bed, Large Floor Sofa Couch, Big Sofa Bed, High-Density Foam Filling, Machine Washable
-
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Fkm92ZQip1KeUtsI3kRC9Q%3d%3d&AuctionId=fhlCeUKXcJo6PEJlF3mndw%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$169.99~~ (Save 98%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 22
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Drone
 
-📥 **Items Scraped:** 0 | ✅ **Matched:** 0
+📥 **Items Scraped:** 5 | ✅ **Matched:** 0
+
+*Sources: capital_city: 5*
 
 *No matches found for this search*
 
