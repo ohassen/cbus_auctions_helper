@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-17 07:17 AM EDT
+**Last Updated:** 2026-05-18 09:56 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 121
-- **Total Items Tracked (DB):** 5824
+- **Items Seen Today:** 119
+- **Total Items Tracked (DB):** 5870
 
 ---
 
@@ -24,70 +24,62 @@
 
 *Sources: capital_city: 25*
 
-### Garvee Wide 6 Drawer Dresser for Bedroom, 47" Farmhouse Wooden Chestwith Storage Freestanding, Wooden Closet Storage Chest for Living Room, Bedroom, Entryway, Black
+### Modern Wood 7 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - Black
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PvZzTVgYzPqGHxO2nlFs4g%3d%3d&AuctionId=9bTko2s3KH6FslrRQqU0bA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=dr5QnZLKbcur8vctQspAKA%3d%3d&AuctionId=pndme%2bPiP8qcNqFy2Iewkw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 140
+**Retail Price:** ~~$269.99~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### Zimtown 5-Drawers Dresser Chests, Wood Chest of Drawers,Dressers Organizer for Bedroom, Living Room,Hallway, White
+### Black Dresser for Bedroom,Modern 6 Drawer Dresser with Deep Drawer,Wide Storage Chest of Drawers,Bedroom Storage Organizer Furniture,TV Stand for Living Room
 
 🆕 NEW ⭐ 100% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VPswSkYdOUZMoa3Z8pkPnw%3d%3d&AuctionId=6pzR3OEcl57Zq9BgG6wt8g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=yf8MJiaeIqXWB03z8FTjMQ%3d%3d&AuctionId=pndme%2bPiP8qcNqFy2Iewkw%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$183.74~~ (Save 98%)
-
-📍 **Pickup:** Indoor
+**Retail Price:** ~~$199.99~~ (Save 98%)
 
 **Source:** capital_city
 
 
 ---
 
-### Zimtown 5-Drawers Dresser Chests, Wood Chest of Drawers,Dressers Organizer for Bedroom, Living Room,Hallway, Pink
+### Dresser for Bedroom with 4 Drawers, Chest of Drawers, Tall Dresser Drawers, Hallway, Living Room, Closet, Black
 
 🆕 NEW ⭐ 100% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AAJ3CXRBLnJB5Ju9GbSc5A%3d%3d&AuctionId=6pzR3OEcl57Zq9BgG6wt8g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=fPgleD37WDjh32Oz7wN6qg%3d%3d&AuctionId=pndme%2bPiP8qcNqFy2Iewkw%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$183.74~~ (Save 98%)
+**Retail Price:** ~~$157.49~~ (Save 98%)
 
-**Condition:** ! Retail:$183.74
-
-📍 **Pickup:** Indoor
+**Condition:** ! Retail: MSRP $157.49
 
 **Source:** capital_city
 
 
 ---
 
-### Storkcraft Brookside 6-Drawer Dresser (White) – GREENGUARD Gold Certified, White Dresser for Bedroom, Kids & Nursery Storage Chest, Safety Interlocking Drawers, Pre-Installed Tracks, Kids Chest
+### 4-Drawer Dresser for Bedroom, Modern Nightstand Chest with Storage Drawers, White Dresser for Nurser
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 95% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3wXJzC%2fp91he%2bcP9ZfKnFA%3d%3d&AuctionId=PdzdIffDV8p0hU9pY4L0yw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=r%2fNfgPQOpExEyCKd8TAdQg%3d%3d&AuctionId=ULyhujUkBjKMQV32a2XgSw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $2.00
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 183
+**Retail Price:** ~~$80.99~~ (Save 97%)
 
 **Source:** capital_city
 
@@ -98,9 +90,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 0
+📥 **Items Scraped:** 14 | ✅ **Matched:** 0
 
-*Sources: capital_city: 16*
+*Sources: capital_city: 14*
 
 *No matches found for this search*
 
