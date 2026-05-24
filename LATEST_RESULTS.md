@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-23 07:21 AM EDT
+**Last Updated:** 2026-05-24 07:27 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 0 (Score ≥ 70)
-- **Items Seen Today:** 118
-- **Total Items Tracked (DB):** 6155
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 124
+- **Total Items Tracked (DB):** 6197
 
 ---
 
@@ -20,19 +20,30 @@
 
 ### dresser
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
-*No matches found for this search*
+### Winado - Modern Wood 6 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - White
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3hJdB8uo3PY1Y9h9VR8UBQ%3d%3d&AuctionId=MKUIpziaQdPrPbJenTohZw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### suitcase
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 0
+📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
-*Sources: capital_city: 15*
+*Sources: capital_city: 24*
 
 *No matches found for this search*
 
@@ -60,19 +71,32 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
 *Sources: capital_city: 25*
 
-*No matches found for this search*
+### MAXYOYO Loveseat Sofa Couch, Upholstered Bean Bag Chair Cloud 2-Seat for Adults, Boneless Couch with Tufted Cushion & Pillows, Sofa in A Box, No Assembly Required, Black
+
+🆕 NEW ⭐ 95% Match 🔥 87% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=uUmb88M0bg5gqOMWKRQTHg%3d%3d&AuctionId=1MlToNsfQtpLQrfFshBtKg%3d%3d)**
+
+**Current Price:** $26.00
+
+**Retail Price:** ~~$199.99~~ (Save 87%)
+
+📍 **Pickup:** ! /  Lot - 186
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### Drone
 
-📥 **Items Scraped:** 4 | ✅ **Matched:** 0
-
-*Sources: capital_city: 4*
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
