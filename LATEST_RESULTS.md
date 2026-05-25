@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-24 07:27 AM EDT
+**Last Updated:** 2026-05-25 09:15 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
+- **Total Matches Found:** 1 (Score ≥ 70)
 - **Items Seen Today:** 124
-- **Total Items Tracked (DB):** 6197
+- **Total Items Tracked (DB):** 6237
 
 ---
 
@@ -24,13 +24,15 @@
 
 *Sources: capital_city: 25*
 
-### Winado - Modern Wood 6 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - White
+### 4 Drawers Night Stand Bedside Chests of Drawers Furniture Nightstand Storage Cabinet Organizer Unit for Bedroom - White
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3hJdB8uo3PY1Y9h9VR8UBQ%3d%3d&AuctionId=MKUIpziaQdPrPbJenTohZw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bg2Z0n1od5XzDOL0P22KFg%3d%3d&AuctionId=An54VecXSsQnOL65eydy5Q%3d%3d)**
 
 **Current Price:** No bids yet
+
+📍 **Pickup:** s throughout the home; Use as a nightstand and keep your alarm clock, journal, glasses close at hand
 
 **Source:** capital_city
 
@@ -71,26 +73,11 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
 *Sources: capital_city: 25*
 
-### MAXYOYO Loveseat Sofa Couch, Upholstered Bean Bag Chair Cloud 2-Seat for Adults, Boneless Couch with Tufted Cushion & Pillows, Sofa in A Box, No Assembly Required, Black
-
-🆕 NEW ⭐ 95% Match 🔥 87% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=uUmb88M0bg5gqOMWKRQTHg%3d%3d&AuctionId=1MlToNsfQtpLQrfFshBtKg%3d%3d)**
-
-**Current Price:** $26.00
-
-**Retail Price:** ~~$199.99~~ (Save 87%)
-
-📍 **Pickup:** ! /  Lot - 186
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
