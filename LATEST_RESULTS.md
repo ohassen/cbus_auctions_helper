@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-25 09:15 AM EDT
+**Last Updated:** 2026-05-26 08:53 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 124
-- **Total Items Tracked (DB):** 6237
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Items Seen Today:** 119
+- **Total Items Tracked (DB):** 6277
 
 ---
 
@@ -20,32 +20,19 @@
 
 ### dresser
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 23 | ✅ **Matched:** 0
 
-*Sources: capital_city: 25*
+*Sources: capital_city: 23*
 
-### 4 Drawers Night Stand Bedside Chests of Drawers Furniture Nightstand Storage Cabinet Organizer Unit for Bedroom - White
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bg2Z0n1od5XzDOL0P22KFg%3d%3d&AuctionId=An54VecXSsQnOL65eydy5Q%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** s throughout the home; Use as a nightstand and keep your alarm clock, journal, glasses close at hand
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### suitcase
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 21 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 21*
 
 *No matches found for this search*
 
