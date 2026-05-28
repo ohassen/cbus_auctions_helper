@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-27 09:04 AM EDT
+**Last Updated:** 2026-05-28 09:58 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 99
-- **Total Items Tracked (DB):** 6343
+- **Items Seen Today:** 95
+- **Total Items Tracked (DB):** 6414
 
 ---
 
@@ -20,57 +20,49 @@
 
 ### dresser
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 3
+📥 **Items Scraped:** 14 | ✅ **Matched:** 3
 
-*Sources: capital_city: 13*
+*Sources: capital_city: 14*
 
-### Sauder Shoal Creek Jamocha Wood 6-Drawer Standard Dresser Sold Separately
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=HccduJailRwL6UxQzIKfbw%3d%3d&AuctionId=L9oGJRwYNzmfLxdnuz%2faEQ%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 165
-
-**Source:** capital_city
-
-
----
-
-### Jocoevol Modern 6 Drawer Dresser White Dresser for Bedroom, Simply Chest of Drawers, Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway, White
+### Kenton 5-Drawer Black Dresser (49.65 H X 33.74 W X 17.99 D)
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=5ypSJJ3qePe%2fRQnRNqbWaQ%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=L9oGJRwYNzmfLxdnuz%2faEQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RZsEIXtOGRo3DXsxdFG%2f1g%3d%3d&AuctionId=3S2vZFGe3U5DZu7Z%2b8P57Q%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** $2.00
 
-**Retail Price:** ~~$169.99~~ (Save 99%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 268
+**Retail Price:** ~~$300.00~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### Garvee Nursery Dresser with Baby Changing Table,Diaper Changing Tables with 3-Drawer & Shelves, Baby Dresser with Changing Table Top, Dresser for Nursery, Wood Diaper Changing Station
+### Garvee 5 Drawer Dresser for Bedroom, Rattan Chest of Drawers with Deep Drawers, Large Modern Double Dresser for Closet with Wide Top, Horizontal Wooden Dresser for Living Room, Hallway, Kids Room, Natural
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=avYRa%2brlIDFM1WENgQlPJg%3d%3d&AuctionId=L9oGJRwYNzmfLxdnuz%2faEQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=U5DImyfcvWVtEnoqQn%2f3ew%3d%3d&AuctionId=DTGafT6aw%2f%2b3O1dP4fRBXw%3d%3d)**
 
 **Current Price:** No bids yet
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+📍 **Pickup:** ! /  Lot - 80
 
-📍 **Pickup:** ! /  Lot - 78
+**Source:** capital_city
+
+
+---
+
+### Jocoevol Black 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Simply Chest of Drawers, Wood Storage Dresser with Drawers for Living Room Hallway Entryway, Black
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=8XDn9ZH9qAexC6aTrmuEJA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=DTGafT6aw%2f%2b3O1dP4fRBXw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 83
 
 **Source:** capital_city
 
@@ -81,9 +73,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 0
+📥 **Items Scraped:** 6 | ✅ **Matched:** 0
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 6*
 
 *No matches found for this search*
 
@@ -91,9 +83,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
 *No matches found for this search*
 
