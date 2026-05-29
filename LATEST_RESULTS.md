@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-05-28 09:58 AM EDT
+**Last Updated:** 2026-05-29 09:01 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 95
-- **Total Items Tracked (DB):** 6414
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 110
+- **Total Items Tracked (DB):** 6503
 
 ---
 
@@ -20,49 +20,66 @@
 
 ### dresser
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 3
+📥 **Items Scraped:** 20 | ✅ **Matched:** 4
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 20*
 
-### Kenton 5-Drawer Black Dresser (49.65 H X 33.74 W X 17.99 D)
+### 5 Drawers Dresser Chests, Wood Chest of Drawers, Dressers Organizer for Bedroom, Living Room,Hallway, Black
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RZsEIXtOGRo3DXsxdFG%2f1g%3d%3d&AuctionId=3S2vZFGe3U5DZu7Z%2b8P57Q%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=J%2bkqaaSdj%2f3UJT%2bm4EVfvg%3d%3d&AuctionId=iSLESEF9n9ZtdAS8madCMw%3d%3d)**
 
-**Current Price:** $2.00
-
-**Retail Price:** ~~$300.00~~ (Save 99%)
+**Current Price:** No bids yet
 
 **Source:** capital_city
 
 
 ---
 
-### Garvee 5 Drawer Dresser for Bedroom, Rattan Chest of Drawers with Deep Drawers, Large Modern Double Dresser for Closet with Wide Top, Horizontal Wooden Dresser for Living Room, Hallway, Kids Room, Natural
+### Garvee Modern 6 Drawers Dresser for Bedroom Freestanding Vertical Drawer Cabinet with Storage Wooden Closet Storage Chest for Living Room Hallway Entryway
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=U5DImyfcvWVtEnoqQn%2f3ew%3d%3d&AuctionId=DTGafT6aw%2f%2b3O1dP4fRBXw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=WgrhUBUJQwuMymNXfK%2fm9Q%3d%3d&AuctionId=pprOE911uk3no6phIsP9hA%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 80
+📍 **Pickup:** ! /  Lot - 105
 
 **Source:** capital_city
 
 
 ---
 
-### Jocoevol Black 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Simply Chest of Drawers, Wood Storage Dresser with Drawers for Living Room Hallway Entryway, Black
+### Storkcraft Crescent 6-Drawer Dresser (Black) – GREENGUARD Gold Certified, Black Dresser for Bedroom, Kids & Nursery Storage Chest, Safety Interlocking Drawers, Pre-Installed Tracks, Kids Chest
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=8XDn9ZH9qAexC6aTrmuEJA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=DTGafT6aw%2f%2b3O1dP4fRBXw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=YArsjrBRcOu47%2bltn0A%2bsw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=pprOE911uk3no6phIsP9hA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 83
+📍 **Pickup:** ! /  Lot - 159
+
+**Source:** capital_city
+
+
+---
+
+### Garvee Dresser with 11 Fabric Drawers, Power Outlet & LED Lights, 55" TV Stand for Bedroom, Closet, Entryway, Wooden Top, Multi-Color
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=t3q0%2fnVim9%2fcMsjTy0pRWw%3d%3d&AuctionId=vzVwf7IfS5qTpjapN0mzjA%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$156.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 134
 
 **Source:** capital_city
 
@@ -73,11 +90,39 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 0
+📥 **Items Scraped:** 15 | ✅ **Matched:** 2
 
-*Sources: capital_city: 6*
+*Sources: capital_city: 15*
 
-*No matches found for this search*
+### 20" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - White
+
+🆕 NEW ⭐ 95% Match 🔥 97% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=HSP2F%2fFBCImbVCTfvuddiQ%3d%3d&AuctionId=iSLESEF9n9ZtdAS8madCMw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$46.99~~ (Save 97%)
+
+**Source:** capital_city
+
+
+---
+
+### 28" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - Pink
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=plX%2fnWlKGf%2bm7KZvTclcHA%3d%3d&AuctionId=iSLESEF9n9ZtdAS8madCMw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$68.99~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
 
 ---
 
