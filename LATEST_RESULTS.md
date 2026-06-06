@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-05 08:46 AM EDT
+**Last Updated:** 2026-06-06 07:34 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Items Seen Today:** 85
-- **Total Items Tracked (DB):** 6782
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Items Seen Today:** 94
+- **Total Items Tracked (DB):** 6816
 
 ---
 
@@ -20,34 +20,51 @@
 
 ### dresser
 
-📥 **Items Scraped:** 19 | ✅ **Matched:** 2
+📥 **Items Scraped:** 19 | ✅ **Matched:** 3
 
 *Sources: capital_city: 19*
 
-### Azoriah 7 - Drawer Dresser in Gray By August Grove®
+### Jocoevol Modern LED 6 Drawer Dresser for Bedroom, Large Chest of Drawers with Hidden Handles, Long Double Wooden Dresser Closet for Living Room, Entryway, Hallway - Natural Oak
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=j9PVJSOdukyCO9N%2b12vwRQ%3d%3d&AuctionId=VV%2fi%2fxL8q8Frm74N3d2ruA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iWrqw8L5zJW%2fJ%2bnOhjxk0Q%3d%3d&AuctionId=Mf3KbJrNDa8g7qclybFNDw%3d%3d)**
 
-**Current Price:** $6.01
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$959.99~~ (Save 99%)
+📍 **Pickup:** ! /  Lot - 113
 
 **Source:** capital_city
 
 
 ---
 
-### 8-Drawer Double Dresser, 55" W By Mercer41
+### Garvee 7 Drawer Dresser Natural Oak for Bedroom, Living Room, Nursery, Entryway, 54in Wide, Large Storage Wooden Organizer
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iqzRRo4xUtvRW1f2iOIcGg%3d%3d&AuctionId=VV%2fi%2fxL8q8Frm74N3d2ruA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=zXVp76lMwTcUYuAHsiBTIA%3d%3d&AuctionId=Mf3KbJrNDa8g7qclybFNDw%3d%3d)**
 
-**Current Price:** $3.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$399.99~~ (Save 99%)
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 123
+
+**Source:** capital_city
+
+
+---
+
+### Spaco Dresser for Bedroom,Modern 6 Drawer Dresser with Deep Drawer,Wide Storage Chest of Drawers,Bedroom Storage Organizer Furniture,TV Stand for Living Room (GRAY)
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=HiEAhDmyyWAasihJrJHKkg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=Kv8soM3gqqzI%2braRYaNL%2fQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** ! Retail:$139.99
 
 **Source:** capital_city
 
@@ -58,43 +75,19 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 2
+📥 **Items Scraped:** 16 | ✅ **Matched:** 0
 
-*Sources: capital_city: 10*
+*Sources: capital_city: 16*
 
-### Winado - 20" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - Pink
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2brdVRi027hufrk43iSttXA%3d%3d&AuctionId=Zq%2bJrw7YDx03nBqeyfErcg%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### 28" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - White
-
-🆕 NEW ⭐ 98% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=up%2boNopmh71MnC%2be9vG5IA%3d%3d&AuctionId=OPeU%2fvvrOBxHIbghBOsxkQ%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
-*Sources: capital_city: 6*
+*Sources: capital_city: 9*
 
 *No matches found for this search*
 
@@ -112,28 +105,11 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
 *Sources: capital_city: 25*
 
-### Hobestluk 3ft Bean Bag Chairs for Adults Large Beanbag Chair with Stripe Plush Cover Big Bean Bag Chair for Living Room Bedroom Dorm Office - Grey (36” x 36” x 22”)
-
-🆕 NEW ⭐ 100% Match 🔥 86% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=x%2fFl5g98sCnFdv792KjMxQ%3d%3d&AuctionId=k5%2fUmjAxny0xV19NbkCnPA%3d%3d)**
-
-**Current Price:** $10.00
-
-**Retail Price:** ~~$73.99~~ (Save 86%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 49
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
