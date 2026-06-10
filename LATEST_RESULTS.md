@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-09 08:47 AM EDT
+**Last Updated:** 2026-06-10 09:05 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Items Seen Today:** 107
-- **Total Items Tracked (DB):** 6891
+- **Total Matches Found:** 1 (Score ≥ 70)
+- **Items Seen Today:** 94
+- **Total Items Tracked (DB):** 6939
 
 ---
 
@@ -20,21 +20,21 @@
 
 ### dresser
 
-📥 **Items Scraped:** 17 | ✅ **Matched:** 1
+📥 **Items Scraped:** 13 | ✅ **Matched:** 1
 
-*Sources: capital_city: 17*
+*Sources: capital_city: 13*
 
-### Jocoevol Modern 6 Drawer Dresser White Dresser for Bedroom, Simply Chest of Drawers, Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway, White
+### Graco Benton 6 Drawer Double Dresser (White) – Easy New Assembly Process, Universal Design, Durable Steel Hardware and Euro-Glide Drawers with Safety Stops, Coordinates with Any Nursery
 
-🆕 NEW ⭐ 98% Match
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2sfZARg8egGML7xlVx6jjA%3d%3d&AuctionId=GuBM9APgAfyiC6ePLyc5xQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=MHZOCFSXNUuTIu7mY2xtog%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=8w5k4uQSlSmGPIUK1kdHLg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 74
+📍 **Pickup:** ! /  Lot - 90
 
 **Source:** capital_city
 
@@ -45,30 +45,19 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 1
+📥 **Items Scraped:** 16 | ✅ **Matched:** 0
 
-*Sources: capital_city: 23*
+*Sources: capital_city: 16*
 
-### American Tourister Phenom Softside Lg Checked Spinner Suitcase - Black
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=0O0WEsf2f80qx6zqQ%2ftxtw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=PUdA6w63BhUjImKvqBEkkw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 17 | ✅ **Matched:** 0
+📥 **Items Scraped:** 15 | ✅ **Matched:** 0
 
-*Sources: capital_city: 17*
+*Sources: capital_city: 15*
 
 *No matches found for this search*
 
