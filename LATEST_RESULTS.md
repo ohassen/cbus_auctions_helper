@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-10 09:05 AM EDT
+**Last Updated:** 2026-06-11 10:07 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 94
-- **Total Items Tracked (DB):** 6939
+- **Items Seen Today:** 79
+- **Total Items Tracked (DB):** 6985
 
 ---
 
@@ -20,21 +20,23 @@
 
 ### dresser
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 1
+📥 **Items Scraped:** 10 | ✅ **Matched:** 1
 
-*Sources: capital_city: 13*
+*Sources: capital_city: 10*
 
-### Graco Benton 6 Drawer Double Dresser (White) – Easy New Assembly Process, Universal Design, Durable Steel Hardware and Euro-Glide Drawers with Safety Stops, Coordinates with Any Nursery
+### Garvee 6 Dresser for Bedroom Freestanding Vertical Drawer Cabinet with Storage Wooden Closet Storage Chest for Living Room Hallway Entryway-Black
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=MHZOCFSXNUuTIu7mY2xtog%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=8w5k4uQSlSmGPIUK1kdHLg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=07gnvMcPFtV6H%2fSu3otOaQ%3d%3d&AuctionId=yiJF8AZ9yAyNOWJNNb%2buWw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
+
+**Retail Price:** ~~$252.00~~ (Save 99%)
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 90
+📍 **Pickup:** ! /  Lot - 116
 
 **Source:** capital_city
 
@@ -45,9 +47,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 0
+📥 **Items Scraped:** 8 | ✅ **Matched:** 0
 
-*Sources: capital_city: 16*
+*Sources: capital_city: 8*
 
 *No matches found for this search*
 
@@ -55,9 +57,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
-*Sources: capital_city: 15*
+*Sources: capital_city: 11*
 
 *No matches found for this search*
 
