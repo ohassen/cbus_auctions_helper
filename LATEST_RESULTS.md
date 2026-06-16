@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-15 11:57 AM EDT
+**Last Updated:** 2026-06-16 11:13 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 110
-- **Total Items Tracked (DB):** 7143
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Items Seen Today:** 103
+- **Total Items Tracked (DB):** 7159
 
 ---
 
@@ -20,24 +20,11 @@
 
 ### dresser
 
-📥 **Items Scraped:** 21 | ✅ **Matched:** 1
+📥 **Items Scraped:** 16 | ✅ **Matched:** 0
 
-*Sources: capital_city: 21*
+*Sources: capital_city: 16*
 
-### Creaser 52 in. Black MDF Dresser for Bedroom, Wide Chest of Drawers with 6 Wood Dresser Drawers
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=B6xpZylm52IM0CRjUTONdA%3d%3d&AuctionId=XMgtAT4dVBSqb1S7Jn7EUw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 134
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
@@ -53,9 +40,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 19 | ✅ **Matched:** 0
+📥 **Items Scraped:** 17 | ✅ **Matched:** 0
 
-*Sources: capital_city: 19*
+*Sources: capital_city: 17*
 
 *No matches found for this search*
 
