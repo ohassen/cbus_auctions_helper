@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-17 09:52 AM EDT
+**Last Updated:** 2026-06-18 09:03 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 5 (Score ≥ 70)
-- **Items Seen Today:** 92
-- **Total Items Tracked (DB):** 7207
+- **Total Matches Found:** 7 (Score ≥ 70)
+- **Items Seen Today:** 99
+- **Total Items Tracked (DB):** 7280
 
 ---
 
@@ -20,55 +20,17 @@
 
 ### dresser
 
-📥 **Items Scraped:** 19 | ✅ **Matched:** 5
+📥 **Items Scraped:** 24 | ✅ **Matched:** 5
 
-*Sources: capital_city: 19*
+*Sources: capital_city: 24*
 
-### LACOO Creaser 51.9 in. White MDF Dresser for Bedroom, Wide Chest of Drawers with 6-Wood Dresser Drawers
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=q95G6NaBUePE%2b2sSB5LX8w%3d%3d&AuctionId=seo%2be92XoNVCzD%2f6LcKJAA%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 62
-
-**Source:** capital_city
-
-
----
-
-### Garvee 9 Drawer Dresser for Bedroom, Wide Modern Chest of Drawers, Large Wood Dresser Wooden Storage Organizer for Living Room, Hallway Entryway, Gray
+### YOCWO Fluted 6 Drawer Dressers for Bedroom, 48" Wide Modern Chest of Drawer, Black
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=n40GfQyBVwCJ7RWUX45QKQ%3d%3d&AuctionId=seo%2be92XoNVCzD%2f6LcKJAA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bMguuzdPqqB%2b4j63fBh9hA%3d%3d&AuctionId=UbdfFkpYz5%2brcY8Mocosmw%3d%3d)**
 
 **Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 133
-
-**Source:** capital_city
-
-
----
-
-### Signature Design by Ashley Realyn Chest Of Drawers, Traditional Cottage Dresser With Two‑Tone Finish, Wood Construction With Storage Drawers For Bedroom Organization, White
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=P7IxkEO2zp0SbpvRyPfMqg%3d%3d&AuctionId=W3UkB4tI6AqHaZcGYWOzpA%3d%3d)**
-
-**Current Price:** $7.00
-
-**Retail Price:** ~~$676.99~~ (Save 99%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
 📍 **Pickup:** ! /  Lot - 24
 
@@ -77,38 +39,60 @@
 
 ---
 
-### Black 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Modern Chest of Drawers, Wood Storage Dresser with Handleless Drawers for Kids Bedroom, Living Room, Hallway, Entryway
+### Garvee 6 Drawer Rattan Dresser for Bedroom Integrated Cabinet Body and Legs Design Wooden Chest of Drawers for Hallways Entryways and Closet Easy Assemble Black
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=TpJZ48x95Zc%2f5xxl3HYtLA%3d%3d&AuctionId=W3UkB4tI6AqHaZcGYWOzpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=KGT5q1hYYA7OL0KKO5JlTA%3d%3d&AuctionId=UbdfFkpYz5%2brcY8Mocosmw%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$145.99~~ (Save 99%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 92
+📍 **Pickup:** ! /  Lot - 106
 
 **Source:** capital_city
 
 
 ---
 
-### Walnut Tall 5 Drawer Dresser for Bedroom with Hidden Storage Design, Large Modern Closet Dressers & Chests of Drawers with Cut-Out Handles, 27.6" L*15.8" W*45.3" H for Bedroom, Living Room, Nursery
+### Garvee 6 Drawer Dresser for Bedroom, 47.2" Wide Modern Large Chest of Drawers with Metal Knobs, Wooden Clothes Storage Organizer for Closet, Nursery, Living Room, Apartment, Green
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZkdPog0gE%2bdlt%2bf8sWtCAQ%3d%3d&AuctionId=W3UkB4tI6AqHaZcGYWOzpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=SbDdaD%2fPXwE2ys9BogwJkQ%3d%3d&AuctionId=%2blMWeNXSfDzK7jnrdq79iw%3d%3d)**
 
-**Current Price:** $1.00
-
-**Retail Price:** ~~$159.99~~ (Save 99%)
+**Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 157
+📍 **Pickup:** ! /  Lot - 43
+
+**Source:** capital_city
+
+
+---
+
+### Jocoevol Modern 6 Drawer Dresser White Dresser for Bedroom, Simply Chest of Drawers, Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway, White
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=M5Aor0ctG5l7R2CKHlNejQ%3d%3d&AuctionId=%2blMWeNXSfDzK7jnrdq79iw%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 185
+
+**Source:** capital_city
+
+
+---
+
+### Black 6 Drawers Dresser for Bedroom, Chest of Drawers TV Stand Dresser for Closet, Wooden Modern Storage Cabinet for Women Living Room Furniture
+
+🆕 NEW ⭐ 98% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=BBqSiyXzbNRuJvdLmD3B4A%3d%3d&AuctionId=sxi6TiPQHJaz1ADLXBFQRw%3d%3d)**
+
+**Current Price:** No bids yet
 
 **Source:** capital_city
 
@@ -119,19 +103,30 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 11 | ✅ **Matched:** 0
+📥 **Items Scraped:** 15 | ✅ **Matched:** 1
 
-*Sources: capital_city: 11*
+*Sources: capital_city: 15*
 
-*No matches found for this search*
+### Winado - 20" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - Pink
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VTdNNHUSEnZ2fX6muQWg0g%3d%3d&AuctionId=HMaeJjJDYMTr3H9enZDpeQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 10*
 
 *No matches found for this search*
 
@@ -149,11 +144,26 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
 *Sources: capital_city: 25*
 
-*No matches found for this search*
+### MAXYOYO Folding Sofa Bed, 2 in 1 Convertible Sofa to Lounger Comfy Single Bean Bag Chair for Adults, Floor Couch with Handle, Faux Fur Couch Bed for Living Room Bedroom, Pink
+
+🆕 NEW ⭐ 85% Match 🔥 82% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2kgI6rqhO3rwiy%2bqOoKkvg%3d%3d&AuctionId=kqo3UwqQ3b4M6KKdhJwO%2fg%3d%3d)**
+
+**Current Price:** $26.00
+
+**Retail Price:** ~~$149.99~~ (Save 82%)
+
+📍 **Pickup:** ! /  Lot - 202
+
+**Source:** capital_city
+
+
+---
 
 ---
 
