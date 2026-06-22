@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-21 08:22 AM EDT
+**Last Updated:** 2026-06-22 11:38 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 100
-- **Total Items Tracked (DB):** 7384
+- **Total Matches Found:** 0 (Score ≥ 70)
+- **Items Seen Today:** 95
+- **Total Items Tracked (DB):** 7407
 
 ---
 
@@ -20,26 +20,11 @@
 
 ### dresser
 
-📥 **Items Scraped:** 19 | ✅ **Matched:** 1
+📥 **Items Scraped:** 14 | ✅ **Matched:** 0
 
-*Sources: capital_city: 19*
+*Sources: capital_city: 14*
 
-### (46) Storkcraft Casablanca Driftwood 6 Drawer 48.11 in. Wide Dresser
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=30SzVK2tuOlZ%2fg3IzmJchA%3d%3d&AuctionId=P0J3w4JEajyhsWMClXrobQ%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$629.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 3
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
