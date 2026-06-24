@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-23 08:44 AM EDT
+**Last Updated:** 2026-06-24 08:36 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 94
-- **Total Items Tracked (DB):** 7422
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Items Seen Today:** 86
+- **Total Items Tracked (DB):** 7462
 
 ---
 
@@ -20,53 +20,70 @@
 
 ### dresser
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 3
+📥 **Items Scraped:** 15 | ✅ **Matched:** 4
 
-*Sources: capital_city: 16*
+*Sources: capital_city: 15*
 
-### Jocoevol Modern 6 Drawer Dresser Black Dresser for Bedroom, Simply Chest of Drawers, Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway, Black
+### White 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Modern Chest of Drawers, Wood Storage Dresser with Handleless Drawers for Kids Bedroom, Living Room, Hallway, Entryway
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=poFwG3EHCRK0T4nbCqDa8A%3d%3d&AuctionId=0PQUVSgTE%2buM7Bf54Dc0QQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VzCV4hcBEmSSkvd%2fHuRmTg%3d%3d&AuctionId=1q45y7TBIYydJj8j7iN9eA%3d%3d)**
 
 **Current Price:** No bids yet
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 47
+📍 **Pickup:** ! /  Lot - 125
 
 **Source:** capital_city
 
 
 ---
 
-### Garvee 6 Drawer Dresser Black, Freestanding Vertical Storage Cabinet for Bedroom, Living Room, Hallway, 47.2in Wide, Wooden Chest
+### LACOO Creaser 52 in. Black MDF Dresser for Bedroom, Wide Chest of Drawers with 6 Wood Dresser Drawers
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=SXie6qnNOL3dgnm%2fCcNN3A%3d%3d&AuctionId=0PQUVSgTE%2buM7Bf54Dc0QQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=BgGfe7oprAyKew27yr8anQ%3d%3d&AuctionId=bDtagy0uOHnoavIKwqIS1A%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 183
+📍 **Pickup:** ! /  Lot - 116
 
 **Source:** capital_city
 
 
 ---
 
-### DaVinci Frem 6-Drawer Dresser in Walnut
+### SUNVIVI Large Fluted 3 Drawer Dresser, Wide Chest of Drawers with Ball Bearing Slide Modern Nightstand Cabinet Wood Dresser with Spacious Storage for Bedroom, Hallway, Living Room, Entryway, White
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6c96aZ1RK3uF75YaM1hszA%3d%3d&AuctionId=0PQUVSgTE%2buM7Bf54Dc0QQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=XTh8TK4Ej30C2u%2finYt00Q%3d%3d&AuctionId=ugiU%2bUy6Ow6vm%2b%2br4idIDw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 202
+📍 **Pickup:** ! /  Lot - 230
+
+**Source:** capital_city
+
+
+---
+
+### Bigbiglife Dresser for Bedroom, 6 Drawer Double Dresser, Modern Chest of Drawers with Deep Drawers, TV Stand Large Storage Organizer for Living Room, Closet (Light Oak)
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5%2beoh4XBt58DWlcA6VXqEQ%3d%3d&AuctionId=ugiU%2bUy6Ow6vm%2b%2br4idIDw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$199.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 289
 
 **Source:** capital_city
 
@@ -77,9 +94,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 10*
 
 *No matches found for this search*
 
@@ -87,9 +104,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 11*
 
 *No matches found for this search*
 
