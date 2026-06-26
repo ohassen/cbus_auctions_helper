@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-25 08:27 AM EDT
+**Last Updated:** 2026-06-26 08:20 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 6 (Score ≥ 70)
-- **Items Seen Today:** 88
-- **Total Items Tracked (DB):** 7526
+- **Total Matches Found:** 3 (Score ≥ 70)
+- **Items Seen Today:** 78
+- **Total Items Tracked (DB):** 7564
 
 ---
 
@@ -20,64 +20,34 @@
 
 ### dresser
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 4
+📥 **Items Scraped:** 9 | ✅ **Matched:** 2
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 9*
 
-### Garvee 7 Drawer Dresser Natural Oak for Bedroom, Living Room, Nursery, Entryway, 54in Wide, Large Storage Wooden Organizer
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gC%2b43HNcbV0e%2fx06y7NOSQ%3d%3d&AuctionId=o%2fO9QFzMW6fD%2b36RfUACug%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 14
-
-**Source:** capital_city
-
-
----
-
-### Delta Children Universal 6 Drawer Dresser with Interlocking Drawers - Greenguard Gold Certified, White
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=sNOL3XnD2UYGzY%2fgSh3obg%3d%3d&AuctionId=o%2fO9QFzMW6fD%2b36RfUACug%3d%3d)**
-
-**Current Price:** $6.50
-
-**Retail Price:** ~~$269.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 198
-
-**Source:** capital_city
-
-
----
-
-### 7 Drawer Dresser for Bedroom, TV Stand for 45 Inch TV, Fabric Storage Chest with Wood Top, Sturdy Media Console - Black
+### White 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Modern Chest of Drawers, Wood Storage Dresser with Handleless Drawers for Kids Bedroom, Living Room, Hallway, Entryway
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=OG6N84orPWiBzyZVd2X7ow%3d%3d&AuctionId=wUH%2bpxK4j36GBNlvih%2bgMw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=fvBqCHKc8lANI%2bO5omv7eQ%3d%3d&AuctionId=vB6wwX9dwVRjxIHBwlw%2b5g%3d%3d)**
 
 **Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 87
 
 **Source:** capital_city
 
 
 ---
 
-### Zimtown 6 Drawers Dresser Chests for Bedroom, Modern Wood Chest of Drawers,Dressers Organizer for Bedroom, Living Room,Hallway, Black
+### Storkcraft Alpine 6-Drawer Dresser (White) – GREENGUARD Gold Certified, White Dresser for Bedroom, Kids & Nursery Storage Drawers, Safety Interlocking Drawers, Pre-Installed Tracks, Kids Bedroom
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=gUAH%2b9DxHMqKOHCd%2fihLZw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=32XPk8WZ5EN1p46pe1DOnQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=b8d9eFX2lXU%2fcliOeQatZw%3d%3d&AuctionId=vB6wwX9dwVRjxIHBwlw%2b5g%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$209.99~~ (Save 99%)
+📍 **Pickup:** ! /  Lot - 207
 
 **Source:** capital_city
 
@@ -88,30 +58,19 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 1
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 13*
+*Sources: capital_city: 10*
 
-### 28 inches Hardside Checked Luggage PP Suitcase Green
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=a1PW8tclxI5YWuRz3nJITg%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=wUH%2bpxK4j36GBNlvih%2bgMw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
-*Sources: capital_city: 13*
+*Sources: capital_city: 9*
 
 *No matches found for this search*
 
@@ -133,17 +92,17 @@
 
 *Sources: capital_city: 25*
 
-### Hobestluk 3ft Bean Bag Chairs for Adults Large Beanbag Chair with Plush Faux Fur Cover Big Bean Bag Chair for Living Room Bedroom Dorm Office - Grey (36” x 36” x 22”)
+### Hobestluk Bean Bag Chairs Beanbag Chair with Filler Adult Bean Bags with Fluffy Cover, Giant Bean Bag Chairs for Adults for Living Room, Bedroom (White, 4FT - 44” x 44” x 24”)
 
 🆕 NEW ⭐ 100% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=m5TTPGmaBlkk7NJuhjTLRw%3d%3d&AuctionId=1q45y7TBIYydJj8j7iN9eA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LRccDeRtL49RsKCCekYCXQ%3d%3d&AuctionId=o%2fO9QFzMW6fD%2b36RfUACug%3d%3d)**
 
 **Current Price:** $2.00
 
-**Retail Price:** ~~$72.99~~ (Save 97%)
+**Retail Price:** ~~$79.99~~ (Save 97%)
 
-📍 **Pickup:** ! /  Lot - 227
+📍 **Pickup:** ! /  Lot - 42
 
 **Source:** capital_city
 
