@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-26 08:20 AM EDT
+**Last Updated:** 2026-06-27 07:38 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 3 (Score ≥ 70)
-- **Items Seen Today:** 78
-- **Total Items Tracked (DB):** 7564
+- **Total Matches Found:** 4 (Score ≥ 70)
+- **Items Seen Today:** 98
+- **Total Items Tracked (DB):** 7604
 
 ---
 
@@ -20,34 +20,62 @@
 
 ### dresser
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 2
+📥 **Items Scraped:** 13 | ✅ **Matched:** 4
 
-*Sources: capital_city: 9*
+*Sources: capital_city: 13*
 
-### White 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Modern Chest of Drawers, Wood Storage Dresser with Handleless Drawers for Kids Bedroom, Living Room, Hallway, Entryway
+### Wodeer Grey Dresser for Bedroom, Wooden 4 Drawer Dresser with LED Light, Dressers & Chests of Drawers with Metal Handles, Storage and Organization for Bedroom, Hallway, Entryway, Gray
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=fvBqCHKc8lANI%2bO5omv7eQ%3d%3d&AuctionId=vB6wwX9dwVRjxIHBwlw%2b5g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=KwefzjETjekoocTTphAzow%3d%3d&AuctionId=Qdit%2fv79aj1RQV6P37D0lQ%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 87
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 177
 
 **Source:** capital_city
 
 
 ---
 
-### Storkcraft Alpine 6-Drawer Dresser (White) – GREENGUARD Gold Certified, White Dresser for Bedroom, Kids & Nursery Storage Drawers, Safety Interlocking Drawers, Pre-Installed Tracks, Kids Bedroom
+### Winado - Modern 4 Drawer Dresser Tall Dresser Chest of Drawers Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - White
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=b8d9eFX2lXU%2fcliOeQatZw%3d%3d&AuctionId=vB6wwX9dwVRjxIHBwlw%2b5g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ClStsF8%2btPDNo0jtNhDTqg%3d%3d&AuctionId=mHOzacJV7FhU1Rh%2bLJN14g%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 207
+**Source:** capital_city
+
+
+---
+
+### Winado - Modern Wood 7 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - Brown
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2f%2bE6PYt9aqkXlEfuthLa9A%3d%3d&AuctionId=mHOzacJV7FhU1Rh%2bLJN14g%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### Winado - 4 Drawers Night Stand Bedside Chests of Drawers Furniture Nightstand Storage Cabinet Organizer Unit for Bedroom - White
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4AAx83clMfKFo%2fXyYfiZpA%3d%3d&AuctionId=0jvzSTctmdU8mXNGFMlPZg%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** s throughout the home; Use as a nightstand and keep your alarm clock, journal, glasses close at hand
 
 **Source:** capital_city
 
@@ -58,9 +86,9 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 15 | ✅ **Matched:** 0
 
-*Sources: capital_city: 10*
+*Sources: capital_city: 15*
 
 *No matches found for this search*
 
@@ -68,9 +96,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 9 | ✅ **Matched:** 0
+📥 **Items Scraped:** 20 | ✅ **Matched:** 0
 
-*Sources: capital_city: 9*
+*Sources: capital_city: 20*
 
 *No matches found for this search*
 
@@ -88,26 +116,11 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 1
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
 
 *Sources: capital_city: 25*
 
-### Hobestluk Bean Bag Chairs Beanbag Chair with Filler Adult Bean Bags with Fluffy Cover, Giant Bean Bag Chairs for Adults for Living Room, Bedroom (White, 4FT - 44” x 44” x 24”)
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LRccDeRtL49RsKCCekYCXQ%3d%3d&AuctionId=o%2fO9QFzMW6fD%2b36RfUACug%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$79.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 42
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
