@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-27 07:38 AM EDT
+**Last Updated:** 2026-06-28 07:59 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 98
-- **Total Items Tracked (DB):** 7604
+- **Total Matches Found:** 2 (Score ≥ 70)
+- **Items Seen Today:** 99
+- **Total Items Tracked (DB):** 7617
 
 ---
 
@@ -20,62 +20,38 @@
 
 ### dresser
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 4
+📥 **Items Scraped:** 15 | ✅ **Matched:** 2
 
-*Sources: capital_city: 13*
+*Sources: capital_city: 15*
 
-### Wodeer Grey Dresser for Bedroom, Wooden 4 Drawer Dresser with LED Light, Dressers & Chests of Drawers with Metal Handles, Storage and Organization for Bedroom, Hallway, Entryway, Gray
+### Tvilum Scottsdale 6 Drawer Double Dresser for Adults, Black Matte
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=KwefzjETjekoocTTphAzow%3d%3d&AuctionId=Qdit%2fv79aj1RQV6P37D0lQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=hh9ZGEp02xWkTqRDO40EdQ%3d%3d&AuctionId=4P1GkR3Mj%2f7o0c0plApdKg%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+**Retail Price:** ~~$258.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 177
-
-**Source:** capital_city
-
-
----
-
-### Winado - Modern 4 Drawer Dresser Tall Dresser Chest of Drawers Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - White
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ClStsF8%2btPDNo0jtNhDTqg%3d%3d&AuctionId=mHOzacJV7FhU1Rh%2bLJN14g%3d%3d)**
-
-**Current Price:** No bids yet
+📍 **Pickup:** ! /  Lot - 38
 
 **Source:** capital_city
 
 
 ---
 
-### Winado - Modern Wood 7 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - Brown
+### Garvee Fluted Dresser 54 Inch Wide 6-Drawer Wood Dresser White for Bedroom Living Room Entryway
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2f%2bE6PYt9aqkXlEfuthLa9A%3d%3d&AuctionId=mHOzacJV7FhU1Rh%2bLJN14g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZAsYx0IlN%2fVoKOE%2f1k40vw%3d%3d&AuctionId=6XAbOWQm8aGgh6XV7vt%2bXg%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
 
-**Source:** capital_city
+**Retail Price:** ~~$225.99~~ (Save 99%)
 
-
----
-
-### Winado - 4 Drawers Night Stand Bedside Chests of Drawers Furniture Nightstand Storage Cabinet Organizer Unit for Bedroom - White
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4AAx83clMfKFo%2fXyYfiZpA%3d%3d&AuctionId=0jvzSTctmdU8mXNGFMlPZg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** s throughout the home; Use as a nightstand and keep your alarm clock, journal, glasses close at hand
+📍 **Pickup:** ! /  Lot - 101
 
 **Source:** capital_city
 
@@ -96,9 +72,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 20 | ✅ **Matched:** 0
+📥 **Items Scraped:** 19 | ✅ **Matched:** 0
 
-*Sources: capital_city: 20*
+*Sources: capital_city: 19*
 
 *No matches found for this search*
 
