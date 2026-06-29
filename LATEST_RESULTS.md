@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-28 07:59 AM EDT
+**Last Updated:** 2026-06-29 10:16 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 2 (Score ≥ 70)
-- **Items Seen Today:** 99
-- **Total Items Tracked (DB):** 7617
+- **Total Matches Found:** 1 (Score ≥ 70)
+- **Items Seen Today:** 97
+- **Total Items Tracked (DB):** 7648
 
 ---
 
@@ -20,38 +20,23 @@
 
 ### dresser
 
-📥 **Items Scraped:** 15 | ✅ **Matched:** 2
+📥 **Items Scraped:** 12 | ✅ **Matched:** 1
 
-*Sources: capital_city: 15*
+*Sources: capital_city: 12*
 
-### Tvilum Scottsdale 6 Drawer Double Dresser for Adults, Black Matte
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=hh9ZGEp02xWkTqRDO40EdQ%3d%3d&AuctionId=4P1GkR3Mj%2f7o0c0plApdKg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$258.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 38
-
-**Source:** capital_city
-
-
----
-
-### Garvee Fluted Dresser 54 Inch Wide 6-Drawer Wood Dresser White for Bedroom Living Room Entryway
+### Romorgniz Black Dresser for Bedroom with 6 Wood Drawers, Tall Dressers & Chests of Drawers with Smooth Metal Slides for Entryway Hallway, Handle-Free Modern Design, 250 LBS Capacity
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ZAsYx0IlN%2fVoKOE%2f1k40vw%3d%3d&AuctionId=6XAbOWQm8aGgh6XV7vt%2bXg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FYzsxXM06%2f6bNnNU1%2f1prg%3d%3d&AuctionId=6XAbOWQm8aGgh6XV7vt%2bXg%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$225.99~~ (Save 99%)
+**Retail Price:** ~~$109.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 101
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 93
 
 **Source:** capital_city
 
@@ -72,9 +57,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 19 | ✅ **Matched:** 0
+📥 **Items Scraped:** 20 | ✅ **Matched:** 0
 
-*Sources: capital_city: 19*
+*Sources: capital_city: 20*
 
 *No matches found for this search*
 
