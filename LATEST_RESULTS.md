@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-06-29 10:16 AM EDT
+**Last Updated:** 2026-06-30 08:21 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 1 (Score ≥ 70)
-- **Items Seen Today:** 97
-- **Total Items Tracked (DB):** 7648
+- **Items Seen Today:** 94
+- **Total Items Tracked (DB):** 7663
 
 ---
 
@@ -20,23 +20,21 @@
 
 ### dresser
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 1
+📥 **Items Scraped:** 11 | ✅ **Matched:** 1
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 11*
 
-### Romorgniz Black Dresser for Bedroom with 6 Wood Drawers, Tall Dressers & Chests of Drawers with Smooth Metal Slides for Entryway Hallway, Handle-Free Modern Design, 250 LBS Capacity
+### StyleWell Rustic Unfinished Solid Pine 6-Drawer 54 in. Dresser
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FYzsxXM06%2f6bNnNU1%2f1prg%3d%3d&AuctionId=6XAbOWQm8aGgh6XV7vt%2bXg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fnYADC0PwwWCz1MBSUe9YQ%3d%3d&AuctionId=%2f87BeG0y8OzvgL2mRq6FXg%3d%3d)**
 
-**Current Price:** $1.00
-
-**Retail Price:** ~~$109.99~~ (Save 99%)
+**Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 93
+📍 **Pickup:** ! /  Lot - 69
 
 **Source:** capital_city
 
@@ -57,9 +55,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 20 | ✅ **Matched:** 0
+📥 **Items Scraped:** 18 | ✅ **Matched:** 0
 
-*Sources: capital_city: 20*
+*Sources: capital_city: 18*
 
 *No matches found for this search*
 
