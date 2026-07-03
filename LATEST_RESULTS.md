@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-07-02 08:20 AM EDT
+**Last Updated:** 2026-07-03 08:18 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 10 (Score ≥ 70)
-- **Items Seen Today:** 96
-- **Total Items Tracked (DB):** 7793
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 94
+- **Total Items Tracked (DB):** 7831
 
 ---
 
@@ -20,105 +20,98 @@
 
 ### dresser
 
-📥 **Items Scraped:** 21 | ✅ **Matched:** 7
+📥 **Items Scraped:** 24 | ✅ **Matched:** 6
 
-*Sources: capital_city: 21*
+*Sources: capital_city: 24*
 
-### 4 Drawer Dresser for Bedroom, White Small Wooden Dresser, Modern Closet Drawers Storage Cabinet for Entryway, Small Chest of Drawers for Living Room, Hallway, Office
+### Delta Children Perry 3 Drawer Dresser with Changing Top and Interlocking Drawers, Moonstruck Grey
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7MGDeA2m5J%2ffK5WZtNzu1A%3d%3d&AuctionId=Ao%2fXn0QEnrigOsKt2JlrBg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=lF44vWZ39ic0m7K4jG2RNw%3d%3d&AuctionId=tPjrIrNc4ZQMy4ealvAfNg%3d%3d)**
 
 **Current Price:** No bids yet
 
-**Source:** capital_city
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-
----
-
-### Dornisha 6 Drawer Double Dresser, 47.2" Chest Of Drawers, Modern Bedroom Dresser for Closet and Living Room, White
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AnGV48MKYUYZoCS8VocWAw%3d%3d&AuctionId=N1L1zkI15F6eJ9oR9R0R8g%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$599.00~~ (Save 99%)
+📍 **Pickup:** ! /  Lot - 164
 
 **Source:** capital_city
 
 
 ---
 
-### Orton 6-drawer Upholstered Dresser
+### Rustic Unfinished Solid Pine 6-Drawer 54 in. Dresser
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=WOsBWQOxKVCWt3PXv4dIEw%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bamxm1AtjHLu4Bc%2bT%2baeww%3d%3d&AuctionId=9m46%2fh%2bW%2f2SlreThJBcdzA%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$869.00~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
-
-### 5 - Drawer Dresser, 47.2" H By Ebern Designs
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bgVFv2eygIUbT8vpx4hY9w%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$269.99~~ (Save 99%)
+📍 **Pickup:** ! /  Lot - 127
 
 **Source:** capital_city
 
 
 ---
 
-### Scarlett 3 Drawer 33.9" W Dresser
+### Jocoevol White 6 Drawer Dresser for Bedroom, 15.3" D x 47.2" W x 32.3" H in Simply Modern Chest of Drawers, Wood Storage Double Dresser with Deep Drawers for Living Room, Hallway Entryway, White
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=U8NZhkn3BXWzfDe4ReEVNw%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fdEKrRTq2SD%2fX5I%2f8GAAug%3d%3d&AuctionId=yDj1P2U%2fORO57vQaq0cnJA%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$459.00~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
-
-### 6 Drawer 47.2" W Double Dresser
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=6CULGVK9741CehFOIfFL3w%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$599.00~~ (Save 99%)
+📍 **Pickup:** ! /  Lot - 32
 
 **Source:** capital_city
 
 
 ---
 
-### Living Room Unit Storage Cabinet with Drawers Simple TV Stand Chest of Drawers
+### Jocoevol Modern 6 Drawer Dresser Black Dresser for Bedroom, Simply Chest of Drawers, Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway, Black
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=nBYXdFEwF0MEHZymOVZGfg%3d%3d&AuctionId=yDj1P2U%2fORO57vQaq0cnJA%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 117
+
+**Source:** capital_city
+
+
+---
+
+### 8 Drawer Dresser for Bedroom, Wood Dresser Chests of Drawers with Metal Handle, Double Wide Dressers, Vintage Design Storage Chest Cabinet and Organizer Drawers for Closet, Hallway, Entryway, Black
+
+🆕 NEW ⭐ 98% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=K0mIVg0mUzDNOsJTWhyLJw%3d%3d&AuctionId=tPjrIrNc4ZQMy4ealvAfNg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 30
+
+**Source:** capital_city
+
+
+---
+
+### Garvee 6 Drawer Dresser with Power Outlet, White Dresser with LED Light, Modern Chest of Drawers for Closet, Double Wide Drawer Organizer Cabinet for Bedroom, Living Room
 
 🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=T5Kuu%2b6JnkUiuemXKD8gaw%3d%3d&AuctionId=w1svBlfDOAB073HLzoQADA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=csMBsn8%2fDMkEOHb3Efw%2bKg%3d%3d&AuctionId=yDj1P2U%2fORO57vQaq0cnJA%3d%3d)**
 
 **Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 72
 
 **Source:** capital_city
 
@@ -129,64 +122,19 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 11 | ✅ **Matched:** 3
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 11*
+*Sources: capital_city: 10*
 
-### 20" Hardside Spinner Luggage Piece, Pink
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fbUuwjgw8FNoW1rcmCXy2A%3d%3d&AuctionId=w1svBlfDOAB073HLzoQADA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$35.99~~ (Save 97%)
-
-**Condition:** ! MSRP: $35.99
-
-**Source:** capital_city
-
-
----
-
-### 28" Checked Luggage Trolley Case ABS Hardside Large Suitcase with Double Spinner Wheels & TSA Lock for Travel Business - Black
-
-🆕 NEW ⭐ 98% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FoeIx%2fgBQ1zmXBswhWZlkA%3d%3d&AuctionId=Ao%2fXn0QEnrigOsKt2JlrBg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$69.99~~ (Save 98%)
-
-**Source:** capital_city
-
-
----
-
-### Hardside 28 Inch Checked Luggage with Dual 360° Spinner Wheels, ABS Hardshell Medium Check-in Suitcase with TSA Lock & Smooth Rolling Wheels for Men & Women Lightweight Travel, Black
-
-🆕 NEW ⭐ 98% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Q42yySSTu5A4SDMW613zEA%3d%3d&AuctionId=Ao%2fXn0QEnrigOsKt2JlrBg%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$89.99~~ (Save 98%)
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 10*
 
 *No matches found for this search*
 
