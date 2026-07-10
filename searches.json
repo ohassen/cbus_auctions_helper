@@ -8,7 +8,7 @@
     },
 {
       "id": "search-002",
-      "query": "suitcase",
+      "query": "cabinet",
       "active": true,
       "created_at": "2025-01-01T00:00:00Z"
     },
@@ -20,7 +20,7 @@
     },
 {
       "id": "search-004",
-      "query": "manual coffee grinder",
+      "query": "night stand",
       "active": true,
       "created_at": "2025-01-01T00:00:00Z"
     },
