@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-07-08 07:57 AM EDT
+**Last Updated:** 2026-07-10 08:36 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 4 (Score ≥ 70)
-- **Items Seen Today:** 90
-- **Total Items Tracked (DB):** 7954
+- **Total Matches Found:** 7 (Score ≥ 70)
+- **Items Seen Today:** 93
+- **Total Items Tracked (DB):** 8039
 
 ---
 
@@ -20,68 +20,83 @@
 
 ### dresser
 
-📥 **Items Scraped:** 16 | ✅ **Matched:** 4
+📥 **Items Scraped:** 17 | ✅ **Matched:** 5
 
-*Sources: capital_city: 16*
+*Sources: capital_city: 17*
 
-### Rustic Unfinished Solid Pine 6-Drawer 54 in. Dresser
+### IC INTERNATIONAL CONCEPTS Dresser with 4 Drawers, Unfinished
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=BPXj2S8ZK%2fa5HO8ZIJdBzw%3d%3d&AuctionId=VIJuiYf5RVwwzCCR6ppTpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CC72JJO66nj%2bNlk7RQ6dfQ%3d%3d&AuctionId=ZQibGJdvX5U%2btasHTgyOFQ%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 204
+📍 **Pickup:** ! /  Lot - 110
 
 **Source:** capital_city
 
 
 ---
 
-### Jocoevol 5 Drawer Dresser for Bedroom - Farmhouse 44.9" Tall Chest of Dresser with Large Storage, Rubst Wood Construction for Living Room, Hallway & Entryway - Gray
+### LACOO Creaser 52 in. Black MDF Dresser for Bedroom, Wide Chest of Drawers with 6 Wood Dresser Drawers
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=oWw92q8YtyRrzTwMQ%2bs3ig%3d%3d&AuctionId=VIJuiYf5RVwwzCCR6ppTpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bUvQjkG3v9%2fimYvyzqtUFQ%3d%3d&AuctionId=ZQibGJdvX5U%2btasHTgyOFQ%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 11
+📍 **Pickup:** ! /  Lot - 170
 
 **Source:** capital_city
 
 
 ---
 
-### Decofy Fluted 5 Drawers Dresser, 48" Tall Modern Chest of Drawers with Round Edge & Metal Handle, Wood Drawer Organizer for Living Room, Bedroom, Entryway, Hallway (Natural Oak)
+### Winado - Modern Wood 5 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - White
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 100% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0%2bshbDaqX8j39T%2bvxhsJdg%3d%3d&AuctionId=VIJuiYf5RVwwzCCR6ppTpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=KgF3AXAXdi3QciPlhh0FQg%3d%3d&AuctionId=De%2bFkcQuSq%2bXKa9GI0PFqQ%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $2.00
 
-📍 **Pickup:** ! /  Lot - 36
+**Retail Price:** ~~$123.99~~ (Save 98%)
 
 **Source:** capital_city
 
 
 ---
 
-### Huuger 9 Drawer Dresser, 55 Inch TV Stand for 55, 60 Inch TV, Entertainment Center with Drawers, Large Storage Fabric Dresser for Bedroom, Closet, Rustic Brown
+### Modern Wood 5 Drawer Dresser Chest of Drawer Nightstand Anti-Tipping Device Metal Handle for Bedroom Living Room Hallway - White
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=eOs6oyLIZU23ELalUnMOSw%3d%3d&AuctionId=VIJuiYf5RVwwzCCR6ppTpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=Momn1lALnm3Jr3aggtoLhA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=SOspwx3GjUSuRMAFLAZfYg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
 
-📍 **Pickup:** ! /  Lot - 144
+**Retail Price:** ~~$123.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### Winado - 4 Drawers Night Stand Bedside Chests of Drawers Furniture Nightstand Storage Cabinet Organizer Unit for Bedroom - Black
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LW%2bceQW%2bSCaHNWs%2bXDCJkQ%3d%3d&AuctionId=De%2bFkcQuSq%2bXKa9GI0PFqQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$136.99~~ (Save 99%)
 
 **Source:** capital_city
 
@@ -92,19 +107,45 @@
 
 ### suitcase
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 0
+📥 **Items Scraped:** 15 | ✅ **Matched:** 2
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 15*
 
-*No matches found for this search*
+### 24" Hardshell Carry On Luggage with Spinner Wheels Lightweight PP Hardside Small Suitcase with Built-in Lock - Black
+
+🆕 NEW ⭐ 100% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=S6zevnu65YFivCo%2fLejylQ%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=SOspwx3GjUSuRMAFLAZfYg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$53.99~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
+
+### 24" Check-in Luggage, PP Hardside Checked Medium Suitcase with Wheels, Waterproof Durable Rolling Luggage with Built-in Lock for Travel Business Dark Green
+
+🆕 NEW ⭐ 98% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LSHaXYl5Lij%2bPm2iTGOIFw%3d%3d&AuctionId=msM6H21ogjXyELhK6%2b9%2fsg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### Garage Opener
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 11*
 
 *No matches found for this search*
 
