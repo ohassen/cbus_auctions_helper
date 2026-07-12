@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-07-11 07:13 AM EDT
+**Last Updated:** 2026-07-12 07:21 AM EDT
 
 ## 📋 Workflow Status
 
@@ -11,8 +11,8 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 15 (Score ≥ 70)
-- **Items Seen Today:** 100
-- **Total Items Tracked (DB):** 8085
+- **Items Seen Today:** 102
+- **Total Items Tracked (DB):** 8130
 
 ---
 
@@ -20,19 +20,70 @@
 
 ### dresser
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 1
+📥 **Items Scraped:** 16 | ✅ **Matched:** 4
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 16*
 
-### 6-Drawer L-Shaped Chest of Drawers Cabinet with Rotatable Desktop 47.2 in. W x 51.2 in. D x 32.7 in. H
+### WLIVE Tall Dresser with 10 Drawers, Dressers & Chest of Drawers, Dresser for Closet, Bedroom, Hallway, Living Room, Entryway, Black
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=yGlzYoJs%2fF%2bah1rSga6%2bgg%3d%3d&AuctionId=vvQpiRTuAtuaKjbziZaBnA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=z5DOggdsZ1%2bopuqLe6sozg%3d%3d&AuctionId=tztpSfS0YEv6wFjMk30f7g%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 16
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 183
+
+**Source:** capital_city
+
+
+---
+
+### 6 Drawer Double Dresser for Bedroom, Modern Simply Chest of Drawers, Wood Storage Dresser with Anti-Tipping for Living Room Hallway Entryway, Nursy White (15.3" D x 47.2" W x 32.3" H)
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=m6wEiZytrAFJYRr6Qc9qYw%3d%3d&AuctionId=c8VNQYM6zZ%2bmqVJdxhwPtQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** !-- Done /  Lot - 174
+
+**Source:** capital_city
+
+
+---
+
+### Garvee 8 Drawer Double Dresser for Bedroom, Modern Wooden Chest, Rattan Design, Sturdy Particleboard, Anti-Dumping, Black, Ideal for Living Room
+
+🆕 NEW ⭐ 98% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=p%2fL2eXMBn%2fISPk0Xs7b20g%3d%3d&AuctionId=tztpSfS0YEv6wFjMk30f7g%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 189
+
+**Source:** capital_city
+
+
+---
+
+### (201) Light Pine 100% Solid Wood Changing Table Dresser with Removable Changing Tray, Anti-Tip Kit, 9-Drawer, Nursery Storage
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iUX6c8kCGTwMU4u0RDHq2w%3d%3d&AuctionId=tztpSfS0YEv6wFjMk30f7g%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 8
 
 **Source:** capital_city
 
@@ -43,215 +94,203 @@
 
 ### cabinet
 
-📥 **Items Scraped:** 22 | ✅ **Matched:** 13
+📥 **Items Scraped:** 21 | ✅ **Matched:** 11
 
-*Sources: capital_city: 22*
+*Sources: capital_city: 21*
 
-### Aleatha 6-Tier 24 Pairs Shoe Cabinet With Doors And Adjustable Shelves For Entryway
+### Garvee 67 in Tall Corner Storage Cabinet with Lights, Farmhouse Corner Hutch Display Cabinet, Wooden Storage Organizer for Kitchen, Living Room, Bathroom, White
 
-⭐ 100% Match 🔥 84% OFF
+🆕 NEW ⭐ 100% Match 🔥 93% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=YthYnjYPsniQ6XcUNlAChg%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FJtad3Hc5sdFM9gYn6%2bxiQ%3d%3d&AuctionId=Par9j0W8j%2fpU9ItYpu2JFw%3d%3d)**
 
-**Current Price:** $28.00
+**Current Price:** $12.00
 
-**Retail Price:** ~~$179.99~~ (Save 84%)
+**Retail Price:** ~~$170.99~~ (Save 93%)
 
-**Source:** capital_city
-
-
----
-
-### Over The Toilet Storage Cabinet For Bathroom With Adjustable Shelf By Rebrilliant
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fs5aO4Wqnf%2btr0DjOiUGPw%3d%3d&AuctionId=mbarDCViyujajyk0qToN4A%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$159.99~~ (Save 97%)
-
-**Condition:** .
+📍 **Pickup:** ! /  Lot - 120
 
 **Source:** capital_city
 
 
 ---
 
-### Bathroom Wall Cabinet with Mirror, Mounted Medicine Cabinet with 4 Internal Shelves and 6 Open Compartments, Mirrored Door Over Toilet Storage, Gray
+### 5-Tier Shoe Cabinet, Freestanding Shoe Rack Organizer with Adjustable Shelves
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 98% Match 🔥 95% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3jRXgF0YdfkoobsRm8Lo8w%3d%3d&AuctionId=mbarDCViyujajyk0qToN4A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=wi8GHGK%2buyJDajb6n0wwtA%3d%3d&AuctionId=ZQibGJdvX5U%2btasHTgyOFQ%3d%3d)**
 
-**Current Price:** $4.00
+**Current Price:** $12.00
 
-**Source:** capital_city
-
-
----
-
-### BLACK 4-Door Storage Cabinet With Adjustable Shelves – Modern Sideboard For Kitchen & Living Room
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LtNo8jOxr72hykozuOdHRg%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$309.99~~ (Save 99%)
-
-**Source:** capital_city
-
-
----
-
-### 71" H X 23.6" W Kitchen Pantry With Bookcases, Glass Door Kitchen Hutch
-
-🆕 NEW ⭐ 100% Match 🔥 92% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pYzcD8K80135eLEKBYiDLQ%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
-
-**Current Price:** $17.00
-
-**Retail Price:** ~~$239.00~~ (Save 92%)
-
-📍 **Pickup:** s. With full-size drawers and glass doors, it facilitates easy access to documents and office supplies. The free combination design allows you to maximize your office area and create an orderly and neat environment.
-
-**Source:** capital_city
-
-
----
-
-### Crosley Furniture Tara Pantry Storage Cabinet with Shelves, Kitchen, Dining, or Laundry Room, Distressed White
-
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=f9lHkjyhFjMdPoCLjexP8g%3d%3d&AuctionId=XKG8VoBuziygvMtwlnxdIQ%3d%3d)**
-
-**Current Price:** $6.01
-
-**Retail Price:** ~~$338.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 22
-
-**Source:** capital_city
-
-
----
-
-### Crosley Furniture Tara Modern Farmhouse Sideboard Buffet Cabinet with Storage, Distressed White
-
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pmid8LKmsWuerhE4V0Ub6Q%3d%3d&AuctionId=XKG8VoBuziygvMtwlnxdIQ%3d%3d)**
-
-**Current Price:** $5.00
-
-**Retail Price:** ~~$390.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 23
-
-**Source:** capital_city
-
-
----
-
-### MEISSALIVVE Kitchen Pantry Storage Cabinet with LED Lights, 78.7" Tall with Glass Doors & Drawers, Freestanding Utility Cabinet, White (31.5" W x 15.7" D)
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2VRTvn%2bdC61SdTZXlN6H8Q%3d%3d&AuctionId=XKG8VoBuziygvMtwlnxdIQ%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$208.99~~ (Save 99%)
+**Retail Price:** ~~$269.99~~ (Save 95%)
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 105
+📍 **Pickup:** ! /  Lot - 102
 
 **Source:** capital_city
 
 
 ---
 
-### Sauder Miscellaneous Storage Cabinet/ Pantry cabinets, Highland Oak finish
+### Bannister 25 in. Single Sink Dusk Freestanding Bath Vanity with White Cultured Marble Top
 
-🆕 NEW ⭐ 100% Match
+⭐ 95% Match 🔥 96% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=oXQedLJ3UkhRjp%2bR1qorHQ%3d%3d&AuctionId=XKG8VoBuziygvMtwlnxdIQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=eD3Fef0KNvM2GsWEbYVLXw%3d%3d&AuctionId=CAo1EVlUF8eq07YJHxNmOQ%3d%3d)**
+
+**Current Price:** $13.33
+
+**Retail Price:** ~~$329.99~~ (Save 96%)
+
+📍 **Pickup:** ! /  Lot - 19
+
+**Source:** capital_city
+
+
+---
+
+### VEVOR Cat Enclosure, 41.3 in Self Cleaning Litter Box Cabinet, with Drawer & Detachable Divider, Automatic Litterbox Enclosure with Built-in Power Outlet, Fits Most Smart Litterboxes
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4C4PVGwfKyoOSZszOk6AJw%3d%3d&AuctionId=XKG8VoBuziygvMtwlnxdIQ%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 113
+📍 **Pickup:** ! /  Lot - 161
 
 **Source:** capital_city
 
 
 ---
 
-### Crosley Furniture Tara Pantry Storage Cabinet with Shelves, Kitchen, Dining, or Laundry Room, Distressed White
+### Sweetcrispy 30" Bathroom Vanity with Sink, 1-Door & 3-Drawer Undermount Sink Cabinet, Freestanding Storage Unit, Easy Assembly, No Mirror and No Faucet, Snowy White
 
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=21sx7eJv25wK%2fbHk56LOsg%3d%3d&AuctionId=XKG8VoBuziygvMtwlnxdIQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9tBt6oRwzZ8pGE%2bCslx7cQ%3d%3d&AuctionId=ZQibGJdvX5U%2btasHTgyOFQ%3d%3d)**
 
-**Current Price:** $5.00
+**Current Price:** $9.01
 
-**Retail Price:** ~~$338.99~~ (Save 98%)
+**Retail Price:** ~~$409.99~~ (Save 97%)
 
-📍 **Pickup:** ! /  Lot - 116
-
-**Source:** capital_city
-
-
----
-
-### Fluted Corner Cabinet With 2 Doors And 2-Tier Shelves
-
-⭐ 98% Match 🔥 88% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=1%2bC6%2bIbrv12v5KBsAlkpuQ%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
-
-**Current Price:** $22.00
-
-**Retail Price:** ~~$189.99~~ (Save 88%)
+📍 **Pickup:** ! /  Lot - 18
 
 **Source:** capital_city
 
 
 ---
 
-### (18) Bannister 43 in. Single Sink Pearl Gray Freestanding Bath Vanity with Granite-Look Colorpoint White Cultured Marble Top
+### SONGMICS Jewelry Organizer, LED Jewelry Cabinet Wall/Door Mounted, Lockable Rounded Wide Mirror with Storage, Interior Mirror, 3.9 x 16.5 x 55 Inches, White Surface with Greige Lining
 
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
+🆕 NEW ⭐ 95% Match 🔥 96% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=dLocZWBnejUREGZBUt4KQw%3d%3d&AuctionId=CAo1EVlUF8eq07YJHxNmOQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5hkAXB223N86imm9B2IyRw%3d%3d&AuctionId=ZQibGJdvX5U%2btasHTgyOFQ%3d%3d)**
 
-**Current Price:** $13.00
+**Current Price:** $6.00
 
-**Retail Price:** ~~$659.99~~ (Save 98%)
+**Retail Price:** ~~$179.99~~ (Save 96%)
 
-📍 **Pickup:** ! /  Lot - 8
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 120
 
 **Source:** capital_city
 
 
 ---
 
-### 69.7"H Arched Bookcase With 2 Drawers By Ebern Designs
+### Tribesigns 14-Tier Shoe Rack, White Shoe Storage Cabinet with 22 Open Cubbies, 46 Pairs Wide Entryway Shelf for Shoes, Modern Organizer for Closet Living Room Entryway Hallway
 
-🆕 NEW ⭐ 85% Match 🔥 97% OFF
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=kfTeMAX6GbK941yunhfq7A%3d%3d&AuctionId=hS51hIIDnFCGMtCVvQ0n6A%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=kDzj59JdlwibuDMidWyeFQ%3d%3d&AuctionId=Par9j0W8j%2fpU9ItYpu2JFw%3d%3d)**
 
-**Current Price:** $7.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$314.99~~ (Save 97%)
+**Retail Price:** ~~$239.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 176
+
+**Source:** capital_city
+
+
+---
+
+### 46 in. W x 18.1 in. D 9-Drawer Army Green Mobile Workbench Cabinet with Solid Wood Top
+
+🆕 NEW ⭐ 95% Match 🔥 81% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=cPMd9imI1a6aBploj1TPlw%3d%3d&AuctionId=sKcdXxVzjQgq8W6jUQEJuw%3d%3d)**
+
+**Current Price:** $83.00
+
+**Retail Price:** ~~$458.99~~ (Save 81%)
+
+📍 **Pickup:** ! /  Lot - 19
+
+**Source:** capital_city
+
+
+---
+
+### Tool Storage 46 in. W x 18 in. D 9-Drawer Mobile Workbench Cabinet in Gloss Black
+
+🆕 NEW ⭐ 95% Match 🔥 91% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=IPf1Vce4%2ftl9O4eJinp1WA%3d%3d&AuctionId=sKcdXxVzjQgq8W6jUQEJuw%3d%3d)**
+
+**Current Price:** $40.00
+
+**Retail Price:** ~~$458.99~~ (Save 91%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 20
+
+**Source:** capital_city
+
+
+---
+
+### Hampton Harbor 44 in. W x 22 in. D x 35 in. H Single Sink Freestanding Bath Vanity in White with White Marble Top
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=vP0ZCBDEF0U%2fNPk5HpR7Pg%3d%3d&AuctionId=sKcdXxVzjQgq8W6jUQEJuw%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$959.99~~ (Save 99%)
+
+**Condition:** ****ITEM SOLD AS-IS. PLEASE REVIEW ALL PHOTOS AND PREVIEW THE ITEM IF IN DOUBT ABOUT ITS CONDITION, 
+
+📍 **Pickup:** ! /  Lot - 58
+
+**Source:** capital_city
+
+
+---
+
+### Corley 36 in. Single Sink Freestanding Spiced Walnut Bath Vanity with White Engineered Stone Top (Assembled)
+
+🆕 NEW ⭐ 85% Match 🔥 80% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=K3YQ9t%2bSuRSvMUZ5pejA%2bg%3d%3d&AuctionId=sKcdXxVzjQgq8W6jUQEJuw%3d%3d)**
+
+**Current Price:** $111.00
+
+**Retail Price:** ~~$559.99~~ (Save 80%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 64
 
 **Source:** capital_city
 
@@ -262,34 +301,19 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 1
+📥 **Items Scraped:** 16 | ✅ **Matched:** 0
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 16*
 
-### (85) Signature Series Ultra-Quiet Wall Mount Smart Garage Door Opener with Battery Backup, Wi-Fi, Wireless Wall Console
-
-🆕 NEW ⭐ 95% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7njBWekdUpUsouVjgy5N4Q%3d%3d&AuctionId=vvQpiRTuAtuaKjbziZaBnA%3d%3d)**
-
-**Current Price:** $6.01
-
-**Retail Price:** ~~$539.00~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 9
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### night stand
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 24 | ✅ **Matched:** 0
 
-*Sources: capital_city: 25*
+*Sources: capital_city: 24*
 
 *No matches found for this search*
 
