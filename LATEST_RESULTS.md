@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-07-23 08:03 AM EDT
+**Last Updated:** 2026-07-24 07:53 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 12 (Score ≥ 70)
-- **Items Seen Today:** 93
-- **Total Items Tracked (DB):** 8810
+- **Total Matches Found:** 19 (Score ≥ 70)
+- **Items Seen Today:** 103
+- **Total Items Tracked (DB):** 8899
 
 ---
 
@@ -20,53 +20,114 @@
 
 ### dresser
 
-📥 **Items Scraped:** 12 | ✅ **Matched:** 3
+📥 **Items Scraped:** 20 | ✅ **Matched:** 8
 
-*Sources: capital_city: 12*
+*Sources: capital_city: 20*
 
-### Storkcraft California 6-Drawer Double Dresser (Black with Driftwood) - GREENGUARD Gold Certified, Interlocking Drawer System, Dresser Drawer Organizer for Kids Bedroom
+### Rumsey 68'' W 4 - Drawer Dresser By Astoria Grand
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9x%2bg7KSoB4B2eleg1KKFew%3d%3d&AuctionId=C7hDo1ZcZ7GRKV6XLOqX7g%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$499.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 178
-
-**Source:** capital_city
-
-
----
-
-### Unfinished Solid Pine 6-Drawer 54 in. Dresser
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=FrNByMiEXdOM7VOnm7iC4w%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=Rp7sEErwGZbHt5U0rmW6AQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$329.00~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 23
-
-**Source:** capital_city
-
-
----
-
-### (33 + 54) Garvee 9 Drawer Dresser for Bedroom with Open Shelf, 65" Wide Chest of Drawers with Large Storage Space and Charging Station, Modern Organizer Cabinet Table for Living Room, Hallway, Pink
-
-🆕 NEW ⭐ 95% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7KJJysuU72ilIlvuRQE4HQ%3d%3d&AuctionId=C7hDo1ZcZ7GRKV6XLOqX7g%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=5%2fYeiAupw7iNFOv9%2fhv8UA%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 33
+**Source:** capital_city
+
+
+---
+
+### Farmhouse 5-Drawer Dresser - Solid Wood & Space-Saver By Gracie Oaks
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=XJpNM7wpctlUZp4zmTL5Gg%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### 63" W 9 - Drawer Dresser By Mercer41
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FAuNEJIA4v6dZr1I8XcvlA%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### Dreavyn Despres 31.5'' Farmhouse 5 Drawer Tall Dresser with Sliding Barn Doors,White
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gXIRhZ4kO0w1uQEj%2fyuPfw%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### Modern Tall 5-Drawer Dresser with Curved Corner Design and Soft-Close Function
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=mKBrtYpMiUCdinv8MhOXdw%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### VASAGLE Dresser 6-Drawer Chest, Modern Style | Bedroom chest of drawers, TV stand for living room, Cloud White, Custos Collection, ULTS416WB01S
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=WvYXuhZhs81PcHBeG4ex4g%3d%3d&AuctionId=jxDUMi6EqJgyfFh13fo44Q%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 86
+
+**Source:** capital_city
+
+
+---
+
+### 6 Drawer Dresser, Chest of Drawers with Large Storage, White Dressers for Bedroom, Tall Dresser and Organizer with Anti-Tripping, Wooden Cabinet for Office, Living Room, Entryway
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=UxKsm4NARniqks82wCS1bA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=A7eKiHtfk%2bemnzil7rayXQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$142.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### (78) VASAGLE Custos Collection - Dresser for Bedroom, with LED Lights and Power Strip, Chest of Drawers, Modern, TV Stand for Living Room, 6 Drawers, 15.8 x 46.9 x 32 Inches, Cloud White ULTS316WB01S
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UimqtUZT2tEpK1Lj5KA2sQ%3d%3d&AuctionId=jxDUMi6EqJgyfFh13fo44Q%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 79
 
 **Source:** capital_city
 
@@ -77,139 +138,141 @@
 
 ### cabinet
 
-📥 **Items Scraped:** 22 | ✅ **Matched:** 9
+📥 **Items Scraped:** 21 | ✅ **Matched:** 9
 
-*Sources: capital_city: 22*
+*Sources: capital_city: 21*
 
-### VINGLI 12W x 32H Skinny Bathroom Floor Storage Cabinet/Small Storage Organizer with 4 Drawers for Bathroom Living Room White
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=mnhtud4kN9kU8CuzgJwCdw%3d%3d&AuctionId=LkqUwzc3QKhX3UByj9TBmw%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$59.99~~ (Save 96%)
-
-**Source:** capital_city
-
-
----
-
-### Costway Bathroom Storage Wooden 4 Drawer Cabinet Cupboard 2 Shelves Free Standing White
-
-🆕 NEW ⭐ 100% Match 🔥 95% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=U5Z5bLwFz2icphCyxbrA5w%3d%3d&AuctionId=LkqUwzc3QKhX3UByj9TBmw%3d%3d)**
-
-**Current Price:** $6.00
-
-**Retail Price:** ~~$133.99~~ (Save 95%)
-
-**Source:** capital_city
-
-
----
-
-### VINGLI Pedestal Under Sink Storage Bathroom Vanity Cabinet Space Saver Organizer, 23.6"Lx11.4"Wx23.6"H, Gray
+### Bathroom Cabinet,Freestanding Floor Storage Cabinet with Drawer,
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ULQGnCuitxVKEP0ZEGbKRA%3d%3d&AuctionId=LkqUwzc3QKhX3UByj9TBmw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=40%2fznxe%2bZsFJRj0hrVmyug%3d%3d&AuctionId=YiRZMpnkPFI8y8Ci2mmNgg%3d%3d)**
 
-**Current Price:** No bids yet
-
-**Source:** capital_city
-
-
----
-
-### VINGLI 9.8D x 23.8W x 68.1H Over The Toilet Storage Cabinet with Fluted Doors and Adjustable Shelf Oak
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=YrJMz0O%2fX4Jj%2fkSqjdWBew%3d%3d&AuctionId=qrZ46QkNcTyea5DrKifPTA%3d%3d)**
-
-**Current Price:** $3.00
-
-**Retail Price:** ~~$99.99~~ (Save 97%)
+**Current Price:** $1.00
 
 **Source:** capital_city
 
 
 ---
 
-### Ktaxon Bathroom Vanity Under Sink Pedestal with Two Doors and Three Adjustable - height Shelves, White
+### 48'' W x 32'' H Cynethia Silver Aluminum Frame Rounded Edge Recessed/Surface Mount Medicine Cabinet with Mirrors, 3 Color Dimmable Lights and Adjustable Glass Shelves for Makeup, Shaving or Bathroom Vanity Storage
 
-🆕 NEW ⭐ 100% Match
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0NlCt%2bDDEUvUA5EwV3tpEg%3d%3d&AuctionId=qrZ46QkNcTyea5DrKifPTA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=OoysVUHWZ%2bbyjFBHHgwSkA%3d%3d&AuctionId=qqQ8%2fvjN1NOnjwob3Y1HmQ%3d%3d)**
 
-**Current Price:** No bids yet
+**Current Price:** $1.00
+
+**Retail Price:** ~~$1199.00~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### VINGLI 32-in Bathroom Floor Storage Cabinet with 3 Drawers/Freestanding Short Storage Organizer with Fluted Door and Adjustable Shelf White
+### Higuera Solid Wood Bathroom Cabinet By Wade Logan®
 
 🆕 NEW ⭐ 100% Match 🔥 98% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=CifMl5GS%2f6le%2fjLS%2bfj4fw%3d%3d&AuctionId=qrZ46QkNcTyea5DrKifPTA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ibA0ZXekQ8Rz2sw30rvo8g%3d%3d&AuctionId=qqQ8%2fvjN1NOnjwob3Y1HmQ%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $6.77
 
-**Retail Price:** ~~$129.90~~ (Save 98%)
-
-**Source:** capital_city
-
-
----
-
-### (199) Glacier Bay Everdean 49 in. Single Sink White Freestanding Bath Vanity with White Cultured Marble Top (Assembled)
-
-🆕 NEW ⭐ 95% Match 🔥 92% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4ddxZO2U%2fG7wp76YSzMNkQ%3d%3d&AuctionId=9yPidwzZxWnIpvM%2fNzQnIg%3d%3d)**
-
-**Current Price:** $65.00
-
-**Retail Price:** ~~$837.32~~ (Save 92%)
-
-📍 **Pickup:** ! /  Lot - 5
+**Retail Price:** ~~$422.00~~ (Save 98%)
 
 **Source:** capital_city
 
 
 ---
 
-### KAER 2 Gun Safe for Rifle and Pistols Electronic Gun Security Cabinet Quick Access Rifle Security Safes Gun Cabinet for Shotguns with Built-in Removable Storage Shelf
+### Shoe Cabinet for Entryway, 3 Flip Drawers Shoe Storage Cabinet with 3-Tier Adjustable Shelves, Ultra Slim 9.1" Depth Holds Up to 30 Pairs, Freestanding Hidden Shoe Organizer with Barn Door Design
 
-🆕 NEW ⭐ 95% Match 🔥 94% OFF
+🆕 NEW ⭐ 100% Match 🔥 86% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qfVRO%2fDmWyUjAyt%2fjrlK1A%3d%3d&AuctionId=lq0Yguqd%2bAMe5ciFzMIQFQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ImsHGzW0fKxlWPCKtiXiSQ%3d%3d&AuctionId=JTHto8DNGflXNm%2bDHGzcHQ%3d%3d)**
 
-**Current Price:** $7.66
+**Current Price:** $19.88
 
-**Retail Price:** ~~$139.99~~ (Save 94%)
+**Retail Price:** ~~$143.99~~ (Save 86%)
 
-📍 **Pickup:** ! /  Lot - 67
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 105
 
 **Source:** capital_city
 
 
 ---
 
-### 4.7 ft. W x 2.5 ft. D Upgraded Outdoor Resin Storage Shed Cabinet with Floor, Outdoor Trash Can Storage(11.5 sq. ft. )
+### Marcello 48'' Single Bathroom Vanity with Quartz Top By James Martin Vanities
 
-🆕 NEW ⭐ 95% Match 🔥 71% OFF
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=BVfCzTNKCbQVsrPFUe2dhQ%3d%3d&AuctionId=LkqUwzc3QKhX3UByj9TBmw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AMNRFzh4keMIVChgDEUogg%3d%3d&AuctionId=qqQ8%2fvjN1NOnjwob3Y1HmQ%3d%3d)**
 
-**Current Price:** $70.00
+**Current Price:** $3.00
 
-**Retail Price:** ~~$244.43~~ (Save 71%)
+**Retail Price:** ~~$5334.00~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### Mahyar 21.6" Modern Floating Bathroom Vanity with Ceramic Sink By Ebern Designs
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=IRuBnCxNooQ8f34z%2bUkMHg%3d%3d&AuctionId=qqQ8%2fvjN1NOnjwob3Y1HmQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$309.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### Alvieri Farmhouse 58" W 3-Drawer 4-Cabinet Sideboard with Solid Wood Legs
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=yd6Fz2tvMGo9ZgBD7NTjCg%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### Farmhouse Tilt Out Trash Can Cabinet w/drawers, 20 Gallon Dog Proof Trash Can Cabinet, with Storage Basket for Kitchen
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Wq1ycX9Mt0Aupqet5HrC1A%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
+
+### ARNOT 2-in-1 Rolling Tool Chest with 5 Drawers, Heavy-Duty Metal Tool Box with Wheels, Detachable Top Tool Box & Rolling Tool Cabinet for Garage, DIY (5-Drawers, Black)
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=XXNEyu9q4gUJax%2bsTjvFGA%3d%3d&AuctionId=JTHto8DNGflXNm%2bDHGzcHQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$169.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 97
 
 **Source:** capital_city
 
@@ -220,9 +283,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 14 | ✅ **Matched:** 0
 
-*Sources: capital_city: 10*
+*Sources: capital_city: 14*
 
 *No matches found for this search*
 
@@ -230,21 +293,45 @@
 
 ### night stand
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 0
+📥 **Items Scraped:** 23 | ✅ **Matched:** 1
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 23*
 
-*No matches found for this search*
+### Dahl Slatted Mango Wood Slim Side Table for Use as Narrow Bedroom Nightstand By Loon Peak®
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qbXtNRYKXNFdD4jWBNrNOQ%3d%3d&AuctionId=9ByKjHSe63if8EGweJyMPQ%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$167.99~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
 *Sources: capital_city: 25*
 
-*No matches found for this search*
+### Adult Oversized Cat-shaped Beanbag Chair By Latitude Run®
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=B70oLqvadMdoXWm0Vk72WA%3d%3d&AuctionId=tUqoggrqoJoM0sK0ljPfvA%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
