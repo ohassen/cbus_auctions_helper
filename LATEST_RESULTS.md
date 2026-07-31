@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-07-30 08:05 AM EDT
+**Last Updated:** 2026-07-31 08:09 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 24 (Score ≥ 70)
-- **Items Seen Today:** 103
-- **Total Items Tracked (DB):** 9268
+- **Total Matches Found:** 23 (Score ≥ 70)
+- **Items Seen Today:** 104
+- **Total Items Tracked (DB):** 9361
 
 ---
 
@@ -20,19 +20,92 @@
 
 ### dresser
 
-📥 **Items Scraped:** 17 | ✅ **Matched:** 1
+📥 **Items Scraped:** 14 | ✅ **Matched:** 6
 
-*Sources: capital_city: 17*
+*Sources: capital_city: 14*
 
-### Brown 5 Drawer Dresser for Bedroom, 15" D x 23.7" W x 40.4" H in Modern Chest of Drawers, Wood Storage Dresser with Handleless Drawers for Kids Bedroom, Living Room, Hallway, Entryway
+### Garvee Modern 7 Drawer Dresser for Bedroom – Wide Wooden Chest of Drawers – Large Storage Organizer for Living Room, Hallway – Embossed Black (AB Package)
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=jX7R4yPEVa21Ee1GP7tn%2bw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=5bvqhncED13TyxkjbF6ENQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=M5zztW9HL3HqzydrINb86A%3d%3d&AuctionId=n%2fp%2b%2f69%2bE15f%2bVdLMZrN%2bg%3d%3d)**
+
+**Current Price:** $11.00
+
+**Source:** capital_city
+
+
+---
+
+### 8-Drawer Double Dresser, 55" W By Mercer41
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=8WkgBYAS4TKGSWNOLU4rFA%3d%3d&AuctionId=H%2blqdovoDT55KufLJjTtZg%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$399.99~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### Corene 31.5'' W 5 - Drawer Dresser By Bayou Breeze
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=S5Ws3hyTmGlX1bpSBqfnTA%3d%3d&AuctionId=H%2blqdovoDT55KufLJjTtZg%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 84
+**Source:** capital_city
+
+
+---
+
+### Sybrand 6 - Drawer Dresser By Mercer41
+
+🆕 NEW ⭐ 100% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7%2fgnYGnmGm%2bkRpKd3MAZ0w%3d%3d&AuctionId=H%2blqdovoDT55KufLJjTtZg%3d%3d)**
+
+**Current Price:** $5.00
+
+**Retail Price:** ~~$299.00~~ (Save 98%)
+
+**Source:** capital_city
+
+
+---
+
+### Jocoevol Black Tall 6 Drawer Dresser for Bedroom,Dressers & Chests of Drawers with Jewelry Storage,Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway (40.75" L*23.62" W*15.75")
+
+🆕 NEW ⭐ 100% Match 🔥 86% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=YinkXFCuXU7fnp8cLjnP5Q%3d%3d&AuctionId=isLqOeVgtLtYli283%2bX3Kw%3d%3d)**
+
+**Current Price:** $25.98
+
+**Retail Price:** ~~$191.99~~ (Save 86%)
+
+📍 **Pickup:** ! /  Lot - 102
+
+**Source:** capital_city
+
+
+---
+
+### 57"L Fluted Chest of Dresser Drawers with 9 Drawers Wide Boho Wood Chest of Drawers Organizer for Living Room Bedroom - Oak (COMES IN 2 BOXES)
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=TLtdZoYzTnAxFlC9URShJA%3d%3d&AuctionId=ALuwW%2fq75%2bF9%2fNhsNQTOFg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** ! Retail:$459.99
 
 **Source:** capital_city
 
@@ -43,376 +116,217 @@
 
 ### cabinet
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 22
+📥 **Items Scraped:** 22 | ✅ **Matched:** 13
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 22*
 
-### Shaker 24 in. W x 24 in. D x 34.5 in. H Assembled Base Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 94% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=G4QxhHp5cBaArNES%2b7j1mg%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $14.00
-
-**Retail Price:** ~~$249.99~~ (Save 94%)
-
-📍 **Pickup:** ! /  Lot - 46
-
-**Source:** capital_city
-
-
----
-
-### Shaker 24 in. W x 24 in. D x 34.5 in. H Assembled Base Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 95% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iIzeSc3BoaWC1j64QC84fQ%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $12.00
-
-**Retail Price:** ~~$249.99~~ (Save 95%)
-
-📍 **Pickup:** ! /  Lot - 47
-
-**Source:** capital_city
-
-
----
-
-### Shaker 24 in. W x 12 in. D x 42 in. H Assembled Wall Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 90% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bhPjZuqUJAqOMIjZODHkNQ%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $22.00
-
-**Retail Price:** ~~$229.99~~ (Save 90%)
-
-📍 **Pickup:** ! /  Lot - 48
-
-**Source:** capital_city
-
-
----
-
-### Shaker 24 in. W x 12 in. D x 42 in. H Assembled Wall Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 90% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=G6Dkv5GQMtnInOggOhtVYw%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $22.00
-
-**Retail Price:** ~~$229.99~~ (Save 90%)
-
-📍 **Pickup:** ! /  Lot - 49
-
-**Source:** capital_city
-
-
----
-
-### Shaker 12 in. W x 24 in. D x 34.5 in. H Assembled Base Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 94% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=9O84aXNi8ZwT8opmthnJjg%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $11.00
-
-**Retail Price:** ~~$204.99~~ (Save 94%)
-
-📍 **Pickup:** ! /  Lot - 50
-
-**Source:** capital_city
-
-
----
-
-### Shaker 36 in. W X 12 in. D X 24 in. H Assembled Wall Bridge Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=IT6nOKpkhHtb%2f77h8HZolw%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $7.00
-
-**Retail Price:** ~~$225.99~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 51
-
-**Source:** capital_city
-
-
----
-
-### Shaker 30 in. W x 24 in. D x 34.5 in. H Assembled 3 Drawer Base Kitchen Cabinet in Satin White
-
-🆕 NEW ⭐ 100% Match 🔥 94% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3qmajgzqbI0b3fwYWc2j1g%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $21.00
-
-**Retail Price:** ~~$409.99~~ (Save 94%)
-
-📍 **Pickup:** ! /  Lot - 52
-
-**Source:** capital_city
-
-
----
-
-### Ready-to-Assemble 36.6 in. W x 72 in. H x 18.3 in. D 24 Gauge 3-Shelf Steel Freestanding Cabinet in Black
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=m6y%2bFo4avgcSY0vmqHuvXw%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $15.00
-
-**Retail Price:** ~~$409.99~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 53
-
-**Source:** capital_city
-
-
----
-
-### Hampton Bay 15 in. W x 12 in. D x 30 in. H Ready to Assemble Wall Kitchen Cabinet in Unfinished with CLICKREADY Technology
-
-🆕 NEW ⭐ 100% Match 🔥 90% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fv836LvQITKqno7hQEy7Qg%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $8.00
-
-**Retail Price:** ~~$82.99~~ (Save 90%)
-
-📍 **Pickup:** ! /  Lot - 102
-
-**Source:** capital_city
-
-
----
-
-### Glacier Bay 22-7/8 in. W. x 27-7/8 in. H Rectangular Framed Surface-Mount White Bathroom Medicine Cabinet with Mirror
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=MPLoau9vWxRXYbnM5xitag%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$109.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 104
-
-**Source:** capital_city
-
-
----
-
-### Lirago 16 in. W x 24 in. H Rectangular Recessed Surface Mount Medicine Cabinet Mirror Black
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=jlZm52NTnaZVFAPqtlsHMQ%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$152.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 103
-
-**Source:** capital_city
-
-
----
-
-### Glacier Bay 16 in. W x 26 in. H White Frameless Recessed/Surface Mount Bathroom Medicine Cabinet with Mirror
-
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=dTdP0iNvkRJJDgSk0auxCg%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$69.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 106
-
-**Source:** capital_city
-
-
----
-
-### Glacier Bay 26 in. W x 30 in. H Rectangular Frameless Recessed or Surface-Mount Bi-View Medicine Cabinet with Mirror
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Q033gk8Ty7TcSyNQTDZk7w%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$199.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 105
-
-**Source:** capital_city
-
-
----
-
-### Glacier Bay 15-1/4 in. W x 19-3/8 in. H Rectangular Framed Recessed or Surface-Mount White Bathroom Medicine Cabinet with Mirror
+### Zenna Professional American Pride 16w X 20"H Raised Panel Recessed Medicine Cabinet - Steel Body White
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=RMYoTXpg83KmTShFE8mK3g%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LCuzesRI4s8%2f1uTPH9DUow%3d%3d&AuctionId=n%2fp%2b%2f69%2bE15f%2bVdLMZrN%2bg%3d%3d)**
 
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 107
+**Current Price:** $1.00
 
 **Source:** capital_city
 
 
 ---
 
-### Glacier Bay 20 in. W x 26 in. H Rectangular Framed Recessed or Surface-Mount Bathroom Medicine Cabinet with Mirror, White
+### Nathan James Enloe Modern Sideboard Buffet Storage Accent Cabinet Black with Doors in a Rustic Pine Wood Finish and Matte Metal Base for Hallway, Entryway, Kitchen or Living Room, Walnut Brown/Black
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=vXoodvWeIulXTXh0As02Mw%3d%3d&AuctionId=zzlfUitDjg2%2f5393VllRkA%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$229.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 67
+
+**Source:** capital_city
+
+
+---
+
+### VASAGLE Over the Toilet Storage Cabinet, Adjustable Shelves, Space-Saving | Bathroom organizer, toilet paper holder, Rustic White, LIRY Collection, UBTS027W01
 
 🆕 NEW ⭐ 100% Match 🔥 97% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VB292A4gEVnsQjVo5x1eGQ%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=8ktRdNqZkrdshs9mVLUHog%3d%3d&AuctionId=9GE8t0sI%2foK33Z5i383jUQ%3d%3d)**
+
+**Current Price:** $4.00
+
+**Retail Price:** ~~$139.99~~ (Save 97%)
+
+📍 **Pickup:** ! /  Lot - 97
+
+**Source:** capital_city
+
+
+---
+
+### VASAGLE Siren Collection - Buffet Cabinet, Farmhouse Coffee Bar Cabinet with 2 Drawers, Adjustable Shelves, 4 Doors, Sideboard, 15.8 x 55.1 x 31.5 Inches, Taupe Brown ULSC541TA01S
+
+🆕 NEW ⭐ 100% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=kz3sXYYo5uS4pRFo6c9gXg%3d%3d&AuctionId=9GE8t0sI%2foK33Z5i383jUQ%3d%3d)**
 
 **Current Price:** $3.00
 
-**Retail Price:** ~~$109.99~~ (Save 97%)
+**Retail Price:** ~~$159.99~~ (Save 98%)
 
-📍 **Pickup:** ! /  Lot - 108
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 100
 
 **Source:** capital_city
 
 
 ---
 
-### Glacier Bay 24.375 in x 25 in. Rectangular Glass Frameless Tri-View Surface Mount Medicine Cabinet with Mirror
+### Garvee 71" Storage Cabinet with Locking Doors, Tall Metal Cabinet 4 Adjustable Shelves & Leveling Feet | Heavy-Duty Organizer for Pantry, Garage, Bedroom, Office, Craft Room
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=PH7LmE8QSaMY5WQYJhqk3A%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=jLNVxv261hD5x48PUxVpPg%3d%3d&AuctionId=9GE8t0sI%2foK33Z5i383jUQ%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$119.99~~ (Save 99%)
+**Retail Price:** ~~$279.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 110
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-**Source:** capital_city
-
-
----
-
-### Glacier Bay 24-3/16 in. W x 24 in. H Framed Surface-Mount Tri-View Bathroom Medicine Cabinet with Mirror, White
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=bF8M3UBGJTSQiPxQIz%2fepA%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$109.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 109
+📍 **Pickup:** ! /  Lot - 125
 
 **Source:** capital_city
 
 
 ---
 
-### Hampton Bay Recessed Panel 21 in. W x 24 in. D x 34.5 in. H Assembled Base Kitchen Cabinet in Unfinished
+### Jalmer 65'' Sideboard By Gracie Oaks
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 98% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=XoCqIwyHhdNwPJsVUOtoBw%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$136.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 114
-
-**Source:** capital_city
-
-
----
-
-### Hampton Bay Courtland 36 in. W x 24 in. D x 34.5 in. H Assembled Shaker Base Kitchen Cabinet in Polar White
-
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Yv8tk2KNo8vKutdCe6vORg%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
-
-**Current Price:** $6.00
-
-**Retail Price:** ~~$274.99~~ (Save 97%)
-
-📍 **Pickup:** ! /  Lot - 126
-
-**Source:** capital_city
-
-
----
-
-### Avondale 24 in. W x 12 in. D x 30 in. H Ready to Assemble Plywood Shaker Wall Kitchen Cabinet in White Oak
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=JojavkAHj9znlrtIif7avw%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ih12yc1hi3xyMyb8mdFTdw%3d%3d&AuctionId=n%2fp%2b%2f69%2bE15f%2bVdLMZrN%2bg%3d%3d)**
 
 **Current Price:** $2.00
 
-**Retail Price:** ~~$311.99~~ (Save 99%)
+**Source:** capital_city
 
-📍 **Pickup:** ! /  Lot - 141
+
+---
+
+### Farmhouse Bathroom Vanity, Bathroom Vanity Cabinet with 3 Drawers & Sliding Barn Door, Small Bath Storage Vanity
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=yOeMDXbs3WhJvAyBJO5%2bKw%3d%3d&AuctionId=n%2fp%2b%2f69%2bE15f%2bVdLMZrN%2bg%3d%3d)**
+
+**Current Price:** $1.00
+
+📍 **Pickup:** according to your own ideas. Make your bathroom cleaner
 
 **Source:** capital_city
 
 
 ---
 
-### Avondale 15 in. W x 24 in. D x 34.5 in. H Ready to Assemble Plywood Shaker Base Kitchen Cabinet in White Oak
+### Modern 39.4'' Floating Bathroom vanity With Sink , Wall Mounted Bathroom Cabinet
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=MDPZJk%2fljdMWIa4Qxooikw%3d%3d&AuctionId=kplpBd%2fuCppewknuGrWlpA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=DxMBN1s5tZZAFif5%2fb%2bt9g%3d%3d&AuctionId=H5T8KJIlM%2fdic1R7L6cvHQ%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $4.00
 
-**Retail Price:** ~~$309.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 142
+**Retail Price:** ~~$700.00~~ (Save 99%)
 
 **Source:** capital_city
 
 
 ---
 
-### Sauder Select Storage Cabinet/ Pantry cabinets, White finish
+### Piotrowski 55.1" W Solid and Manufactured Wood Sideboard By Ebern Designs
 
-🆕 NEW ⭐ 100% Match 🔥 73% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pD5%2bzR1uT43LXbqyZh06Yw%3d%3d&AuctionId=UDVLxe0NUSynU04l3lK1ZQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UmFJHajE69lDs%2fFp00dLhw%3d%3d&AuctionId=H5T8KJIlM%2fdic1R7L6cvHQ%3d%3d)**
 
-**Current Price:** $55.50
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$209.99~~ (Save 73%)
+**Source:** capital_city
 
-📍 **Pickup:** ! /  Lot - 37
+
+---
+
+### 24" Bathroom Vanity With Sink Wall Mounted Cabinet With 2 Fluted Drawers By Lumioca
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=TD3rqb52a%2fZm4epaQnzcaQ%3d%3d&AuctionId=3cv8JPDeQgiatlVuo%2bITtQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$605.26~~ (Save 99%)
+
+**Source:** capital_city
+
+
+---
+
+### Garvee Double Cat Litter Box Enclosure Furniture for 2 Cats – 2-Tier Modern Cabinet with Hidden Litter Boxes, Sisal Marking Posts, Dual Mats, Odor Control, Dog-Proof End Table – Grooved Door White
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iuoOxSirTrosVjEpyk8EqQ%3d%3d&AuctionId=zzlfUitDjg2%2f5393VllRkA%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$269.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 152
+
+**Source:** capital_city
+
+
+---
+
+### Feandrea Litter Robot Enclosure, Automatic Cat Litter Box Furniture with Charging Station, Adjustable Shelf, 39.4 x 26.8 x 31.5 Inches, Rustic Brown and Honey Brown UPCL052W201S
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Mk%2b9d9vngf7%2bHJCGPLB7IA%3d%3d&AuctionId=9GE8t0sI%2foK33Z5i383jUQ%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$169.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 34
+
+**Source:** capital_city
+
+
+---
+
+### ClosetMaid Mosaics 4 Pull-Out Shoe Storage Unit, Holds Up to 24 Pairs of Shoes, 40.29" H x 25.5" W x 15.9" D, Toasted Oak
+
+🆕 NEW ⭐ 95% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ipH166WbprHtZkf1%2fPytdg%3d%3d&AuctionId=9GE8t0sI%2foK33Z5i383jUQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 131
 
 **Source:** capital_city
 
@@ -433,23 +347,30 @@
 
 ### night stand
 
-📥 **Items Scraped:** 22 | ✅ **Matched:** 1
+📥 **Items Scraped:** 23 | ✅ **Matched:** 2
 
-*Sources: capital_city: 22*
+*Sources: capital_city: 23*
 
-### Huuger Nightstand with Charging Station, Side Table with Fabric Drawers, End Table with Open Shelf, Bedside Table with USB Ports and Outlets, Night Stand for Bedroom, Rustic Brown and Black
+### Led Fluted Nightstand, Smart Curved Night Stand with Charging Station Lighting, Wood End Table with 3 Drawers, Modern Side Table Storage Cabinet for Bedroom Office,(1, White)
 
-🆕 NEW ⭐ 100% Match 🔥 94% OFF
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2WwexZwXs7yeWOqG2u3SOg%3d%3d&AuctionId=UDVLxe0NUSynU04l3lK1ZQ%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=QYaJGZgM%2bpj6n3gw0ftTvQ%3d%3d&AuctionId=n%2fp%2b%2f69%2bE15f%2bVdLMZrN%2bg%3d%3d)**
 
-**Current Price:** $3.00
+**Current Price:** $2.00
 
-**Retail Price:** ~~$55.99~~ (Save 94%)
+**Source:** capital_city
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 38
+---
+
+### Fluted Nightstand with 3 Drawers, Charging Station for Bedroom | Bedsideb End Table with LED Lights and Human Body Sensor for Bedroom, Entryway, Smooth Metal, Wood Legs
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FwbTn763GMkvHooNCZ%2b8fw%3d%3d&AuctionId=n%2fp%2b%2f69%2bE15f%2bVdLMZrN%2bg%3d%3d)**
+
+**Current Price:** $2.00
 
 **Source:** capital_city
 
@@ -460,19 +381,47 @@
 
 ### bean bag
 
-📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
 *Sources: capital_city: 25*
 
-*No matches found for this search*
+### Standard Faux Leather Classic Bean Bag By Factory Direct Partners
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=r7lMqh7MsSVymAY%2bWykuJw%3d%3d&AuctionId=H%2blqdovoDT55KufLJjTtZg%3d%3d)**
+
+**Current Price:** No bids yet
+
+**Source:** capital_city
+
+
+---
 
 ---
 
 ### Drone
 
-📥 **Items Scraped:** 0 | ✅ **Matched:** 0
+📥 **Items Scraped:** 5 | ✅ **Matched:** 1
 
-*No matches found for this search*
+*Sources: capital_city: 5*
+
+### (140) HOVERAir X1 PROMAX Basic Combo Drone Set
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=9hLsEHbbXr1cCM2o0YpjLA%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=V71d5cMjuqEMg8YtNHCxMQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
+
+**Current Price:** $6.00
+
+**Retail Price:** ~~$1299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 2
+
+**Source:** capital_city
+
+
+---
 
 ---
 
