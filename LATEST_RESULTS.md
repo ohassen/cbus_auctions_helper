@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-08-11 06:58 AM EDT
+**Last Updated:** 2026-08-12 07:09 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 20 (Score ≥ 70)
-- **Items Seen Today:** 102
-- **Total Items Tracked (DB):** 9978
+- **Total Matches Found:** 19 (Score ≥ 70)
+- **Items Seen Today:** 93
+- **Total Items Tracked (DB):** 10051
 
 ---
 
@@ -20,337 +20,316 @@
 
 ### dresser
 
-📥 **Items Scraped:** 17 | ✅ **Matched:** 1
+📥 **Items Scraped:** 8 | ✅ **Matched:** 0
 
-*Sources: capital_city: 17*
+*Sources: capital_city: 8*
 
-### 6 Drawer Double Dresser for Bedroom, Modern Simply Chest of Drawers, Wood Storage Dresser with Anti-Tipping for Living Room Hallway Entryway, Nursy Black (15.3" D x 47.2" W x 32.3" H)
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=gsMwyQrnJkGrdQs%2bknDiCg%3d%3d&AuctionId=f3%2fr4H48bwmE6UkakV%2bS9w%3d%3d)**
-
-**Current Price:** No bids yet
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 23
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
 ### cabinet
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 18
+📥 **Items Scraped:** 25 | ✅ **Matched:** 18
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
-### Hampton Bay Leyton 36 in. W x 24 in. D x 96 in. H Ready To Assemble Plywood Slim Shaker Wide Pantry Kitchen Cabinet in White Oak
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iT6XViVLIFygKzhapmiPog%3d%3d&AuctionId=dysOqgKcLgSiJjN1dznfzg%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$630.00~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 104
-
-**Source:** capital_city
-
-
----
-
-### Hampton Bay 15 in. W x 24 in. D x 34.5 in. H Ready to Assemble Base Kitchen Cabinet in Unfinished with CLICKREADY Technology
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UaIOnZI2UteAjA%2b7BTCPYA%3d%3d&AuctionId=dysOqgKcLgSiJjN1dznfzg%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$103.00~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 111
-
-**Source:** capital_city
-
-
----
-
-### Hampton Bay 24 in. W x 21 in. D x 34.5 in. H Ready to Assemble Sink Base Bath Cabinet in Unfinished with CLICKREADY Technology
-
-🆕 NEW ⭐ 100% Match 🔥 96% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=LWGbbk4ARbiuHpj9xWtwEw%3d%3d&AuctionId=dysOqgKcLgSiJjN1dznfzg%3d%3d)**
-
-**Current Price:** $4.00
-
-**Retail Price:** ~~$124.00~~ (Save 96%)
-
-📍 **Pickup:** ! /  Lot - 112
-
-**Source:** capital_city
-
-
----
-
-### Hampton Bay 36 in. W x 24 in. D x 12 in. H Ready to Assemble Wall Bridge Kitchen Cabinet in Unfinished with CLICKREADY Technology
+### MT-VIKI 12U Server Cabinet Network Rack Vented Enclosure w/Moving Wheel, 0.8mm Thick Steel, 23.6‘’ Deep (600mm), for 19'' IT Equipment, Included 1pcs 12'' Depth Rack Shelf
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=AsgukSJYzw%2fG1SwfhHcv9g%3d%3d&AuctionId=dysOqgKcLgSiJjN1dznfzg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Aqng5jdW7Qy19ROwF8p3Ag%3d%3d&AuctionId=hygRz6zVU5ab1Vy71JcyrQ%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$103.00~~ (Save 99%)
+**Retail Price:** ~~$179.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 113
+📍 **Pickup:** ! /  Lot - 91
 
 **Source:** capital_city
 
 
 ---
 
-### Hampton Bay Recessed Panel 30 in. W x 12 in. D x 12 in. H Assembled Wall Bridge Kitchen Cabinet in Unfinished
+### Furnaza 48" W Wall Cabinets for Laundry Room with Adjustable Shelf | White Upper Kitchen Wall Mounted Cabinets With Two Shaker Doors for Bathroom,Garage,12"D x 22"H,Floating Hanging Storage
 
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Hsj7DsT4wfGa2TgaBR6BLg%3d%3d&AuctionId=dysOqgKcLgSiJjN1dznfzg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=u63Ttnz1S1Epl5L3S%2bjeMg%3d%3d&AuctionId=hygRz6zVU5ab1Vy71JcyrQ%3d%3d)**
 
 **Current Price:** $1.00
 
-**Retail Price:** ~~$83.98~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 133
-
-**Source:** capital_city
-
-
----
-
-### St. Tropez 15 in. x 15 in. x 60 in. Freestanding Linen Cabinet in Brown Oak by Swiss Madison
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=FSSChnoXkpeDg7J88C7MSA%3d%3d&AuctionId=dysOqgKcLgSiJjN1dznfzg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 145
-
-**Source:** capital_city
-
-
----
-
-### (41) Avondale 32 in. W x 32 in. D x 34.5 in. H Ready to Assemble Plywood Shaker Lazy Susan Corner Cabinet in Alpine White
-
-🆕 NEW ⭐ 100% Match 🔥 90% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Gm3ztB%2fmFOONOP3UiuOR3Q%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
-
-**Current Price:** $42.00
-
-**Retail Price:** ~~$457.99~~ (Save 90%)
-
-📍 **Pickup:** ! /  Lot - 10
-
-**Source:** capital_city
-
-
----
-
-### Courtland 24 in. W x 24 in. D x 34.5 in. H Assembled Shaker Drawer Base Kitchen Cabinet in Polar White
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=VyYoQwbl%2fB8xaOQuo1CbZw%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
-
-**Current Price:** $2.00
-
-**Retail Price:** ~~$354.99~~ (Save 99%)
+**Retail Price:** ~~$159.99~~ (Save 99%)
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 12
+📍 **Pickup:** ! /  Lot - 167
 
 **Source:** capital_city
 
 
 ---
 
-### Courtland 30 in. W x 24 in. D x 34.5 in. H Assembled Shaker Drawer Base Kitchen Cabinet in Polar White
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=D%2fiYyszenWb9Nl3EL8yDGw%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xJrCYtMY0wJsMhUYd1V6wQ%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$363.99~~ (Save 99%)
+**Retail Price:** ~~$299.99~~ (Save 99%)
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 14
+📍 **Pickup:** ! /  Lot - 236
 
 **Source:** capital_city
 
 
 ---
 
-### Courtland 24 in. W x 24 in. D x 34.5 in. H Assembled Shaker Drawer Base Kitchen Cabinet in Polar White
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Q8BNXtXRUy29SwUOT330ag%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=7TLLGsb8gmfsBL%2f58E7j5A%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
 
-**Current Price:** $2.00
+**Current Price:** $1.00
 
-**Retail Price:** ~~$354.99~~ (Save 99%)
+**Retail Price:** ~~$299.99~~ (Save 99%)
 
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 15
+📍 **Pickup:** ! /  Lot - 237
 
 **Source:** capital_city
 
 
 ---
 
-### 30 in. W X 26 in. H Rectangular Wood Composite Medicine Cabinet with Mirror
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=2YxlkMYkBa43V0i7%2bPtGXQ%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 32
-
-**Source:** capital_city
-
-
----
-
-### Avondale 30 in. W x 12 in. D x 36 in. H Ready to Assemble Plywood Shaker Wall Kitchen Cabinet in Alpine White
-
-🆕 NEW ⭐ 100% Match 🔥 89% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=pdxD1IiOIMYaEHJfonthSw%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
-
-**Current Price:** $31.00
-
-**Retail Price:** ~~$292.99~~ (Save 89%)
-
-📍 **Pickup:** ! /  Lot - 37
-
-**Source:** capital_city
-
-
----
-
-### Avondale 30 in. W x 12 in. D x 36 in. H Ready to Assemble Plywood Shaker Wall Kitchen Cabinet in Alpine White
-
-🆕 NEW ⭐ 100% Match 🔥 89% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2bqYyuFnVDWGb4MoYDxAbLA%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
-
-**Current Price:** $31.00
-
-**Retail Price:** ~~$292.99~~ (Save 89%)
-
-📍 **Pickup:** ! /  Lot - 38
-
-**Source:** capital_city
-
-
----
-
-### Avondale 32 in. W x 32 in. D x 34.5 in. H Ready to Assemble Plywood Shaker Lazy Susan Corner Cabinet in Alpine White
-
-🆕 NEW ⭐ 100% Match 🔥 95% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=TZ6jsbnoFbJAS42OB8HAGw%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
-
-**Current Price:** $21.00
-
-**Retail Price:** ~~$457.99~~ (Save 95%)
-
-📍 **Pickup:** ! /  Lot - 40
-
-**Source:** capital_city
-
-
----
-
-### Avondale 18 in. W x 24 in. D x 34.5 in. H Ready to Assemble Plywood Shaker Base Kitchen Cabinet in Alpine White
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
 
 🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=S1CF2lGrlFL6WvUu1WmA5g%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=xg4wIGxOJm1kmEivkC4UOg%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 238
+
+**Source:** capital_city
+
+
+---
+
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=SAZxRmTy0qrTCRpschsJ3g%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 255
+
+**Source:** capital_city
+
+
+---
+
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=0kDIY5%2bvrZGMs9TZvNt%2bZw%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 256
+
+**Source:** capital_city
+
+
+---
+
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=eo%2fPkWMQbtoaw%2feEBAzH5A%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$299.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 257
+
+**Source:** capital_city
+
+
+---
+
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=76qmWibhcRSxaQd0deCnUw%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
 
 **Current Price:** $3.00
 
-**Retail Price:** ~~$297.99~~ (Save 99%)
+**Retail Price:** ~~$299.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 43
+📍 **Pickup:** ! /  Lot - 298
 
 **Source:** capital_city
 
 
 ---
 
-### Avondale 12 in. W x 12 in. D x 36 in. H Ready to Assemble Plywood Shaker Wall Kitchen Cabinet in Alpine White
+### Lirago Solid Wood Natural 36 in. H Storage Cabinet with Adjustable Shelves
 
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Gg%2feaukAxBXCS49lVVRyLA%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=lGI934qXxWKiL7yISHUQXQ%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
 
 **Current Price:** $3.00
 
-**Retail Price:** ~~$210.99~~ (Save 98%)
+**Retail Price:** ~~$299.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 66
+📍 **Pickup:** ! /  Lot - 299
 
 **Source:** capital_city
 
 
 ---
 
-### Hampton 24 in. W x 21 in. D x 34.5 in. H Assembled Bath Sink Base Bathroom Cabinet in Satin White
+### VINGLI 31.5W Shoe Cabinet Modern with 3 Flip Drawers for Entryway/Slim Shoe Rack Storage Organizer/Hidden Shoe Shelf White with Oak Top
 
-🆕 NEW ⭐ 100% Match 🔥 97% OFF
+🆕 NEW ⭐ 100% Match 🔥 93% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ej%2fXHQLsabGeRmxz7UwWmg%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=8hoVnTrkZFjbiUmUcfN5NA%3d%3d&AuctionId=1HRf7Eel0TFqhpxo4mSxFg%3d%3d)**
+
+**Current Price:** $6.00
+
+**Retail Price:** ~~$89.99~~ (Save 93%)
+
+**Source:** capital_city
+
+
+---
+
+### Hampton Bay 30 in. W x 24 in. D x 34.5 in. H Ready to Assemble Sink Base Kitchen Cabinet in Unfinished with CLICKREADY Technology
+
+🆕 NEW ⭐ 98% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=%2fWaan5SOp4%2f4cSveT7hT0A%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $2.00
+
+**Retail Price:** ~~$145.00~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 291
+
+**Source:** capital_city
+
+
+---
+
+### Keter Unity XL Portable Outdoor Table with Stainless Steel Top for Kitchen Prep and Outdoor Storage Cabinet for Grilling Accessories, Dark Grey
+
+🆕 NEW ⭐ 95% Match 🔥 98% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=WcVEn%2bZplNobzEEGKpW%2bMQ%3d%3d&AuctionId=hygRz6zVU5ab1Vy71JcyrQ%3d%3d)**
+
+**Current Price:** $4.00
+
+**Retail Price:** ~~$269.99~~ (Save 98%)
+
+📍 **Pickup:** ! /  Lot - 20
+
+**Source:** capital_city
+
+
+---
+
+### (322) Glacier Bay Bannister 43 in. Single Sink Pearl Gray Freestanding Bath Vanity with Granite-Look Colorpoint White Cultured Marble Top
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=dJBeiz%2fqyyGy5dNET%2bdHNg%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
 
 **Current Price:** $5.00
 
-**Retail Price:** ~~$189.99~~ (Save 97%)
+**Retail Price:** ~~$649.99~~ (Save 99%)
 
-📍 **Pickup:** ! /  Lot - 79
+📍 **Pickup:** ! /  Lot - 5
 
 **Source:** capital_city
 
 
 ---
 
-### Avondale 18 in. W x 24 in. D x 34.5 in. H Ready to Assemble Plywood Shaker Trash Can Kitchen Cabinet in Alpine White
+### Hampton Bay 24 INCH VANITY SINK BASE
 
-🆕 NEW ⭐ 98% Match 🔥 89% OFF
+🆕 NEW ⭐ 95% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=BaFuPyQMxhBgIJrNIqOA7w%3d%3d&AuctionId=Fbqwi948vrNDMDVKMfYAAg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=lnzrcJbZNH1y9ANAwvWXMQ%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
 
-**Current Price:** $31.00
+**Current Price:** No bids yet
 
-**Retail Price:** ~~$281.99~~ (Save 89%)
+📍 **Pickup:** ! /  Lot - 230
 
-📍 **Pickup:** ! /  Lot - 44
+**Source:** capital_city
+
+
+---
+
+### Glacier Bay Bannister 43 in. Single Sink Pearl Gray Freestanding Bath Vanity with Granite-Look Colorpoint White Cultured Marble Top
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=G%2fjtVP7uGR%2fMpeUQpbW4LA%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$649.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 323
+
+**Source:** capital_city
+
+
+---
+
+### Glacier Bay Bannister 43 in. Single Sink Pearl Gray Freestanding Bath Vanity with Granite-Look Colorpoint White Cultured Marble Top
+
+🆕 NEW ⭐ 95% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=cP2cCFf9DtN%2fhZR%2frs9SWA%3d%3d&AuctionId=eMoGWQ%2fIaq6%2bke9aY1uY6w%3d%3d)**
+
+**Current Price:** $3.00
+
+**Retail Price:** ~~$649.99~~ (Save 99%)
+
+📍 **Pickup:** ! /  Lot - 324
+
+**Source:** capital_city
+
+
+---
+
+### VINGLI Outdoor Wood Storage Shed with Lockable Design, Extra Large Capacity Outside Cabinet Tool Shed with Shelves, Garden Sheds & Outdoor Storage Made with Waterproof roof for Garden, Yard, Lawn
+
+🆕 NEW ⭐ 95% Match 🔥 96% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=4tUAkBeYFaM3QltZ62304Q%3d%3d&AuctionId=1HRf7Eel0TFqhpxo4mSxFg%3d%3d)**
+
+**Current Price:** $9.00
+
+**Retail Price:** ~~$235.99~~ (Save 96%)
 
 **Source:** capital_city
 
@@ -361,9 +340,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 13 | ✅ **Matched:** 0
+📥 **Items Scraped:** 10 | ✅ **Matched:** 0
 
-*Sources: capital_city: 13*
+*Sources: capital_city: 10*
 
 *No matches found for this search*
 
@@ -371,38 +350,34 @@
 
 ### night stand
 
-📥 **Items Scraped:** 23 | ✅ **Matched:** 0
-
-*Sources: capital_city: 23*
-
-*No matches found for this search*
-
----
-
-### bean bag
-
 📥 **Items Scraped:** 25 | ✅ **Matched:** 1
 
 *Sources: capital_city: 25*
 
-### Hobestluk Large Bean Bag Chairs Sofa for Adults Giant BeanBag Couch Lounger | Ergonomic Design,Memory Foam,Washable Cover,Oversized Comfy Chaise Lounger Boneless Couch Living Room | Stripe Grey Large
+### VINGLI 15.7W x 22H Freestanding Nightstand with 1 Fluted Drawer Wood Bedside Table for Bedroom Oak
 
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
+🆕 NEW ⭐ 100% Match 🔥 95% OFF
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Ii4GAHb16veNwdcJAkQszw%3d%3d&AuctionId=fZg3xcQA5yMV21%2fJmdmWvw%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=BAohNpWXoATPDRM9XT6zlg%3d%3d&AuctionId=1HRf7Eel0TFqhpxo4mSxFg%3d%3d)**
 
-**Current Price:** $1.00
+**Current Price:** $2.00
 
-**Retail Price:** ~~$149.99~~ (Save 99%)
-
-**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
-
-📍 **Pickup:** ! /  Lot - 130
+**Retail Price:** ~~$39.99~~ (Save 95%)
 
 **Source:** capital_city
 
 
 ---
+
+---
+
+### bean bag
+
+📥 **Items Scraped:** 25 | ✅ **Matched:** 0
+
+*Sources: capital_city: 25*
+
+*No matches found for this search*
 
 ---
 
