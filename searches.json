@@ -9,7 +9,7 @@
 {
       "id": "search-002",
       "query": "cabinet",
-      "active": true,
+      "active": false,
       "created_at": "2025-01-01T00:00:00Z"
     },
 {
@@ -32,7 +32,7 @@
     },
 {
       "id": "search-006",
-      "query": "Drone",
+      "query": "kettlebell",
       "active": true,
       "created_at": "2025-01-01T00:00:00Z"
     }
