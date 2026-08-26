@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-08-25 06:39 AM EDT
+**Last Updated:** 2026-08-26 06:43 AM EDT
 
 ## 📋 Workflow Status
 
@@ -10,9 +10,9 @@
 
 ## 📊 Overall Statistics
 
-- **Total Matches Found:** 9 (Score ≥ 70)
-- **Items Seen Today:** 103
-- **Total Items Tracked (DB):** 10711
+- **Total Matches Found:** 6 (Score ≥ 70)
+- **Items Seen Today:** 99
+- **Total Items Tracked (DB):** 10765
 
 ---
 
@@ -20,85 +20,104 @@
 
 ### dresser
 
-📥 **Items Scraped:** 24 | ✅ **Matched:** 5
+📥 **Items Scraped:** 25 | ✅ **Matched:** 6
 
-*Sources: capital_city: 24*
+*Sources: capital_city: 25*
 
-### VASICAR 74.8" W Dresser for Bedroom, Wide TV Stand for 65, 75, 80 inch TV
-
-🆕 NEW ⭐ 100% Match 🔥 99% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=qDV1waXJFMwA3CTHU2pPYg%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$146.99~~ (Save 99%)
-
-📍 **Pickup:** ! /  Lot - 95
-
-**Source:** capital_city
-
-
----
-
-### WLIVE Tall Dresser for Bedroom, 9 Drawer Chest of Drawers, White
-
-🆕 NEW ⭐ 100% Match 🔥 98% OFF
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=THcOhQxLjKMBx2YJ%2fmFBRA%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d)**
-
-**Current Price:** $1.00
-
-**Retail Price:** ~~$69.99~~ (Save 98%)
-
-📍 **Pickup:** ! /  Lot - 116
-
-**Source:** capital_city
-
-
----
-
-### Jocoevol Black Tall 8 Drawer Dresser for Bedroom,Dressers & Chests of Drawers with Jewelry Storage,Wood Storage Dresser with Deep Drawers for Living Room Hallway Entryway(55.3" L*23.6" W*15.7")
+### VASAGLE 6-Drawer Dresser, Chest of Drawers, 46.9 x 15.8 x 30.7 Inches
 
 🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=3bf55CY6xGIrZAY8v2cvBg%3d%3d&AuctionId=c%2fBVGwlms7Xl0UkERh%2b0eg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=vnFf0vUCsQ27Vt9sS3VLLA%3d%3d&AuctionId=TEuuYlj41ekc5UudZz2NlQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 34
+
+**Source:** capital_city
+
+
+---
+
+### VASAGLE 6-Drawer Dresser, Chest of Drawers, 46.9 x 15.8 x 30.7 Inches
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=ReMIKDoAAr4iO6%2fsjeqtVQ%3d%3d&AuctionId=TEuuYlj41ekc5UudZz2NlQ%3d%3d)**
+
+**Current Price:** No bids yet
+
+📍 **Pickup:** ! /  Lot - 101
+
+**Source:** capital_city
+
+
+---
+
+### Garvee 7 Drawer Dresser for Bedroom, Wide Wood Chest of Drawers with Metal Handles, Large Storage Organizer for Living Room, Hallway
+
+🆕 NEW ⭐ 100% Match 🔥 99% OFF
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=UD65chYCZ3kAA7S1Dh5mYA%3d%3d&AuctionId=dmZm0SyOK8AhR3sSeqBXwg%3d%3d)**
+
+**Current Price:** $1.00
+
+**Retail Price:** ~~$409.99~~ (Save 99%)
+
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 126
+
+**Source:** capital_city
+
+
+---
+
+### Garvee 8-Drawer Modern Dresser with Fluted Panels & Golden Handles, Scratch-Resistant MDF, Spacious Storage, Anti-Tip, Black, Bedroom & Living Room
+
+🆕 NEW ⭐ 100% Match
+
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=Y54K7NzztxHTYq8gGtT1Uw%3d%3d&AuctionId=dmZm0SyOK8AhR3sSeqBXwg%3d%3d)**
 
 **Current Price:** No bids yet
 
 **Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
 
-📍 **Pickup:** ! /  Lot - 81
+📍 **Pickup:** ! /  Lot - 128
 
 **Source:** capital_city
 
 
 ---
 
-### WLIVE LED Dresser TV Stand for 55 Inch TV, 8 Drawers, Cream White
+### Storkcraft Kenton 5 Drawer Dresser, Pebble Gray
 
-🆕 NEW ⭐ 95% Match
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=SVSb%2bW7m1fQpl5V%2fXT0A8Q%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=6R9q6ZR2%2biK3lpo9l5MXFA%3d%3d&AuctionId=1c61NFR1%2bstneb2FVXK6rw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 60
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 52
 
 **Source:** capital_city
 
 
 ---
 
-### Garvee Baby Changing Table Dresser with 2 Drawers and Large Open Compartment Modern Diaper Changing Station
+### Jocoevol 4 Drawer Dresser for Bedroom, White Dresser Chest of Drawers - Large Wood Dressers TV Stand with Deep Drawers Dressers for Living Room, Hallway, Entryway - White
 
-⭐ 85% Match
+🆕 NEW ⭐ 100% Match
 
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=iLoDsI1yH2n0Ey1LRp3%2f7A%3d%3d&AuctionId=pzpuHMP6xO8yaSZPXFipYg%3d%3d)**
+**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=V5St73jevEoVrLliYm%2fHAA%3d%3d&AuctionId=1c61NFR1%2bstneb2FVXK6rw%3d%3d)**
 
 **Current Price:** No bids yet
 
-📍 **Pickup:** ! /  Lot - 12
+**Condition:** , COLOR, SIZE, OR CORRECTNESS. ITEM IS NON-REFUNDABLE.
+
+📍 **Pickup:** ! /  Lot - 94
 
 **Source:** capital_city
 
@@ -109,9 +128,9 @@
 
 ### projector
 
-📥 **Items Scraped:** 10 | ✅ **Matched:** 0
+📥 **Items Scraped:** 9 | ✅ **Matched:** 0
 
-*Sources: capital_city: 10*
+*Sources: capital_city: 9*
 
 *No matches found for this search*
 
@@ -119,9 +138,9 @@
 
 ### Garage Opener
 
-📥 **Items Scraped:** 14 | ✅ **Matched:** 0
+📥 **Items Scraped:** 11 | ✅ **Matched:** 0
 
-*Sources: capital_city: 14*
+*Sources: capital_city: 11*
 
 *No matches found for this search*
 
@@ -149,69 +168,11 @@
 
 ### kettlebell
 
-📥 **Items Scraped:** 6 | ✅ **Matched:** 4
+📥 **Items Scraped:** 5 | ✅ **Matched:** 0
 
-*Sources: capital_city: 6*
+*Sources: capital_city: 5*
 
-### Yes4All Powder Coated Cast Iron Kettlebell, Single 53lbs
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=a0zXaRC2%2bEIU6WLTVu4%2f3w%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 164
-
-**Source:** capital_city
-
-
----
-
-### Yes4All Powder Coated Cast Iron Kettlebell, Single 53lbs
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=DYcpihamhZI7vi2lA3iF5g%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 165
-
-**Source:** capital_city
-
-
----
-
-### Yes4All Powder Coated Cast Iron Kettlebell, Single 53lbs
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?pageNumber=WddRnDis30ojx01x46RicQ%3d%3d&pageSize=WddRnDis30ojx01x46RicQ%3d%3d&AuctionItemId=It%2fNpB6i9eXaSMWkDsc2Vw%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 166
-
-**Source:** capital_city
-
-
----
-
-### Yes4All Powder Coated Cast Iron Kettlebell, Single 53lbs
-
-🆕 NEW ⭐ 100% Match
-
-**[🔗 View Auction](https://capitalcityonlineauction.com/Public/Auction/AuctionItemDetail?AuctionItemId=mTKFepBZBoS%2bvLXVjSOARw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&AuctionId=BG2roAwYqmtvOlERx8SvTA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d)**
-
-**Current Price:** No bids yet
-
-📍 **Pickup:** ! /  Lot - 167
-
-**Source:** capital_city
-
-
----
+*No matches found for this search*
 
 ---
 
