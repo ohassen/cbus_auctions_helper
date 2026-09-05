@@ -1,4 +1,4 @@
-"""Claude semantic matching for auction items via OpenRouter."""
+"""LLM semantic matching for auction items via OpenRouter."""
 
 import asyncio
 import logging
@@ -8,7 +8,7 @@ from typing import Optional
 
 from openai import OpenAI
 
-from .database import AuctionItem, MatchMetadata
+from .database import AuctionItem
 
 logger = logging.getLogger(__name__)
 
@@ -22,16 +22,8 @@ class MatchResult:
     is_match: bool
 
 
-@dataclass
-class PriceLookupResult:
-    """Result from MSRP lookup."""
-    msrp: Optional[float]
-    source: str
-    confidence: str
-
-
 class SemanticMatcher:
-    """Claude-powered semantic matching for auction items via OpenRouter."""
+    """LLM-powered semantic matching for auction items via OpenRouter."""
 
     def __init__(
         self,
@@ -119,7 +111,7 @@ Respond with ONLY the JSON, no other text."""
 
         for attempt in range(max_retries):
             try:
-                # Call Claude via OpenRouter (synchronous SDK, but we'll run in executor)
+                # Call the model via OpenRouter (synchronous SDK, but we'll run in executor)
                 response = await asyncio.get_event_loop().run_in_executor(
                     None,
                     lambda: self.client.chat.completions.create(
@@ -176,67 +168,6 @@ Respond with ONLY the JSON, no other text."""
             confidence="low",
             is_match=False
         )
-
-    async def lookup_msrp(self, item: AuctionItem) -> PriceLookupResult:
-        """Look up MSRP for an item using Claude's web search."""
-
-        prompt = f"""I need to find the retail/MSRP price for this product:
-
-Title: {item.title}
-Description: {item.description[:500] if item.description else 'No description'}
-
-Please search for the retail price of this item or a very similar product.
-Provide your response in this EXACT JSON format:
-{{
-    "msrp": <price as number or null if not found>,
-    "source": "<where you found this price or 'estimated' if approximated>",
-    "confidence": "<high|medium|low>"
-}}
-
-If you cannot find an exact match, provide an estimate based on similar products.
-If you truly cannot determine a price, set msrp to null.
-
-Respond with ONLY the JSON, no other text."""
-
-        try:
-            response = await asyncio.get_event_loop().run_in_executor(
-                None,
-                lambda: self.client.chat.completions.create(
-                    model=self.model,
-                    max_tokens=300,
-                    messages=[{"role": "user", "content": prompt}]
-                )
-            )
-
-            response_text = response.choices[0].message.content.strip()
-
-            # Extract JSON
-            if "```" in response_text:
-                import re
-                json_match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", response_text, re.DOTALL)
-                if json_match:
-                    response_text = json_match.group(1)
-
-            import json
-            result = json.loads(response_text)
-
-            msrp = result.get("msrp")
-            if msrp is not None:
-                msrp = float(msrp)
-
-            return PriceLookupResult(
-                msrp=msrp,
-                source=result.get("source", "unknown"),
-                confidence=result.get("confidence", "low")
-            )
-
-        except Exception as e:
-            logger.error(f"Error looking up MSRP for {item.title[:50]}: {e}")
-            return PriceLookupResult(
-                msrp=None,
-                source=f"Error: {str(e)}",
-                confidence="low"
-            )
 
 
 async def process_items_batch(
