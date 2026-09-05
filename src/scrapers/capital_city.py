@@ -22,7 +22,7 @@ _KEY_TERM_CACHE = {}
 
 def extract_key_term(query: str) -> str:
     """
-    Use Claude to extract the key term (essence) from a search query.
+    Use an LLM to extract the key term (essence) from a search query.
 
     Examples:
         "office chair" -> "chair"
@@ -69,7 +69,7 @@ Query: "{query}"
 Respond with ONLY the search keyword (1-3 words max), nothing else."""
 
         response = client.chat.completions.create(
-            model="google/gemini-2.0-flash-001",
+            model="google/gemini-3.5-flash-lite",
             max_tokens=50,
             messages=[{"role": "user", "content": prompt}]
         )
@@ -83,12 +83,12 @@ Respond with ONLY the search keyword (1-3 words max), nothing else."""
         return key_term
 
     except Exception as e:
-        logger.warning(f"Error extracting key term with Claude: {e}, falling back to simple extraction")
+        logger.warning(f"Error extracting key term with LLM: {e}, falling back to simple extraction")
         return _fallback_key_term_extraction(query)
 
 
 def _fallback_key_term_extraction(query: str) -> str:
-    """Fallback key term extraction if Claude API fails."""
+    """Fallback key term extraction if the LLM API fails."""
     # Remove common filler words
     stop_words = {'with', 'and', 'or', 'the', 'a', 'an', 'for', 'in', 'on', 'of', 'manual', 'electric', 'automatic'}
     words = [w.lower() for w in query.split() if w.lower() not in stop_words]

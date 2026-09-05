@@ -168,7 +168,7 @@ def _build_markdown(
     else:
         md += "No active searches configured.\n\n"
 
-    md += f"\n*Powered by Claude AI semantic matching*\n"
+    md += f"\n*Powered by AI semantic matching*\n"
 
     return md
 
