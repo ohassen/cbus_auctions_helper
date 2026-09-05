@@ -36,7 +36,7 @@ class SemanticMatcher:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "google/gemini-3-flash-preview",
+        model: str = "google/gemini-3.5-flash-lite",
         relevance_threshold: int = 70
     ):
         self.api_key = api_key or os.getenv("OPEN_ROUTER_API_KEY")
