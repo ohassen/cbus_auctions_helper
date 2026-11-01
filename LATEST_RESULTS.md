@@ -1,6 +1,6 @@
 # 🏷️ Auction Monitor Results
 
-**Last Updated:** 2026-10-31 11:54 AM EDT
+**Last Updated:** 2026-11-01 11:52 AM EST
 
 ## 📋 Workflow Status
 
@@ -11,7 +11,7 @@
 ## 📊 Overall Statistics
 
 - **Total Matches Found:** 0 (Score ≥ 70)
-- **Items Seen Today:** 1
+- **Items Seen Today:** 0
 - **Total Items Tracked (DB):** 11021
 
 ---
@@ -44,9 +44,7 @@
 
 ### night stand
 
-📥 **Items Scraped:** 1 | ✅ **Matched:** 0
-
-*Sources: capital_city: 1*
+📥 **Items Scraped:** 0 | ✅ **Matched:** 0
 
 *No matches found for this search*
 
